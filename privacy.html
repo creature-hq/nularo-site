@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy · Nularo</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <a class="wordmark" href="/">Nularo</a>
+        <h1>Privacy Policy</h1>
+        <p class="updated">Last updated 27 July 2026</p>
+      </header>
+
+      <p class="lede">
+        Nularo is an app that reacts to how you slept and moved. To do that it reads
+        your Apple Health data. This page explains exactly what happens to it, in plain
+        language, with no gaps.
+      </p>
+
+      <div class="callout">
+        <p><strong>The short version.</strong></p>
+        <p>
+          Your Apple Health data is read on your phone and stays on your phone. We never
+          sell it, never give it to advertisers, never use it to target ads, and never
+          write anything back into Apple Health. The only health information that ever
+          leaves your device is a handful of numbers from a single night, sent once a
+          day so the creature can write you one sentence about it.
+        </p>
+      </div>
+
+      <h2>Who we are</h2>
+      <p>
+        Nularo is made by Sidewndr Studios ("we", "us"), a sole proprietorship based in
+        Pennsylvania, United States. You can reach a human at
+        <a href="mailto:sidewndrstudios@gmail.com">sidewndrstudios@gmail.com</a>.
+      </p>
+
+      <h2>Health data</h2>
+      <h3>What we read</h3>
+      <p>
+        With your permission, Nularo reads the following from Apple Health: sleep
+        analysis, steps, workouts, resting heart rate, and heart rate variability. We
+        request read access only. Nularo cannot write to Apple Health, cannot change
+        your Health records, and cannot see any other Health category.
+      </p>
+      <p>
+        You grant this permission in Apple's own dialog, and you can change or revoke it
+        at any time in the Health app under Sharing, or in iOS Settings under Privacy
+        and Security. If you revoke it, the creature simply stops knowing things and
+        says so.
+      </p>
+
+      <h3>Where it lives</h3>
+      <p>
+        Your Health data is processed on your device. Your history, your daily moods,
+        your baselines, and your Creature Age are all calculated on the phone. That raw
+        Health data is never uploaded to our servers, never included in a backup we
+        control, and never placed in iCloud by us.
+      </p>
+
+      <h3>The one thing that leaves</h3>
+      <p>
+        Once a day, to write your verdict, the app sends a small set of numbers to our
+        server, which passes them to Google's Gemini API to generate one sentence. That
+        request contains only:
+      </p>
+      <ul>
+        <li>a mood label (for example "wrecked")</li>
+        <li>minutes slept last night, and what time you went to bed</li>
+        <li>step count</li>
+        <li>resting heart rate, and your own rolling average resting heart rate</li>
+        <li>how many short nights you had in the last week</li>
+        <li>how many good days you have strung together</li>
+      </ul>
+      <p>
+        It contains no name, no date, no device identifier, and no history. The request
+        is signed in as you so that we can enforce a one-per-day limit and stop someone
+        abusing the endpoint, but the numbers themselves are not stored against your
+        account, and we keep only a per-day counter. Google does not use data sent
+        through the paid Gemini API to train its models.
+      </p>
+      <p>
+        If you are not signed in, or the request fails, the creature falls back to a
+        line we wrote ourselves and nothing leaves your device at all.
+      </p>
+
+      <h3>What we never do with it</h3>
+      <ul>
+        <li>We never sell your health data, to anyone, for any amount.</li>
+        <li>We never share it with data brokers.</li>
+        <li>We never use it for advertising, marketing, or targeting.</li>
+        <li>We never send it to an advertising SDK or an analytics SDK.</li>
+        <li>We never use it to make decisions about you outside the app.</li>
+      </ul>
+
+      <h2>Your account</h2>
+      <p>
+        Nularo uses Sign in with Apple or Google to create an account. Our
+        authentication provider, Supabase, stores your user ID and the email address
+        associated with that sign-in. If you use Apple's Hide My Email, we only ever see
+        the relay address Apple gives us, never your real one.
+      </p>
+      <p>An account exists for one reason: so your creature survives a new phone.</p>
+
+      <h2>What backs up when you are signed in</h2>
+      <p>While you are signed in, we store the following on our servers:</p>
+      <ul>
+        <li>your daily verdicts: the date, the mood label, and the line the creature said</li>
+        <li>
+          your journal entries: the evening date, mood, hydration, any note you typed, a
+          pledge target, and confessions you chose to record
+        </li>
+        <li>
+          your settings: your age, savagery preference, notification time, and whether
+          the egg has hatched
+        </li>
+      </ul>
+      <p>
+        Note the difference from raw Health data: what backs up is the creature's
+        interpretation and your own writing, not your Apple Health records. Every row is
+        locked to your user ID by database-level security, so no other user, signed in
+        or not, can read it.
+      </p>
+
+      <h2>Purchases</h2>
+      <p>
+        Subscriptions are sold and processed by Apple. We never see your card, your
+        billing address, or your Apple ID password. We use Superwall to display the
+        subscription screen and to confirm whether your subscription is active. Superwall
+        receives standard app and device information (such as device model, operating
+        system version, app version, locale, and a per-vendor identifier) along with
+        purchase events. It does not receive your health data.
+      </p>
+
+      <h2>Notifications</h2>
+      <p>
+        The morning verdict notification is scheduled and delivered locally by your
+        phone. Notification content is generated on the device. We do not run a push
+        server and we do not send your health data anywhere to produce a notification.
+      </p>
+
+      <h2>Analytics</h2>
+      <p>
+        Nularo does not currently include a third-party analytics or advertising SDK.
+        If we add product analytics in future, it will measure how the app is used
+        (screens opened, features tapped) and it will never carry health values or
+        anything you have written. We will update this page before that ships.
+      </p>
+
+      <h2>Children</h2>
+      <p>
+        Nularo is not directed at children under 13, and we do not knowingly collect
+        information from them. If you believe a child has created an account, email us
+        and we will delete it.
+      </p>
+
+      <h2>Your choices and your rights</h2>
+      <ul>
+        <li>
+          <strong>Stop sharing health data:</strong> revoke Nularo's access in the
+          Health app at any time. The app keeps working, with less to say.
+        </li>
+        <li>
+          <strong>Use the app without an account:</strong> sign out, and nothing backs
+          up. Your history stays on the phone.
+        </li>
+        <li>
+          <strong>Get a copy of your data, or delete it:</strong> email
+          <a href="mailto:sidewndrstudios@gmail.com">sidewndrstudios@gmail.com</a> from
+          the address on your account and we will export or permanently delete your
+          account and everything stored with it within 30 days.
+        </li>
+        <li>
+          <strong>Delete the app:</strong> removing Nularo removes everything held on
+          the device. Anything backed up is removed when you delete your account.
+        </li>
+      </ul>
+      <p>
+        Depending on where you live, you may have additional rights over your personal
+        information, including the right to access, correct, port, or delete it, and to
+        complain to your local data protection authority. Email us and we will help.
+      </p>
+
+      <h2>How long we keep things</h2>
+      <p>
+        Backed-up verdicts, journal entries, and settings are kept while your account
+        exists, because the entire point is a creature that remembers. Delete your
+        account and they go. Per-day roast counters are kept briefly for abuse
+        prevention.
+      </p>
+
+      <h2>Changes to this policy</h2>
+      <p>
+        If we change how any of this works, we will update this page and change the date
+        at the top. Material changes will be surfaced in the app.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Questions, deletion requests, or anything that reads wrong here:
+        <a href="mailto:sidewndrstudios@gmail.com">sidewndrstudios@gmail.com</a>.
+      </p>
+
+      <footer>
+        <p>
+          <a href="/terms.html">Terms of Service</a> · Nularo by Sidewndr Studios
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

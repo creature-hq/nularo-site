@@ -1,0 +1,134 @@
+/* Creature legal pages. Deliberately plain: these have to load fast, read
+   clearly, and survive Apple's reviewer opening them on a bad connection.
+   Brand colours only as accents, nothing that fights the text. */
+
+:root {
+  --canvas: #0a0710;
+  --light: #f4f1fa;
+  --muted: rgba(244, 241, 250, 0.62);
+  --faint: rgba(244, 241, 250, 0.38);
+  --ember: #ff7a45;
+  --rule: rgba(244, 241, 250, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0 24px 96px;
+  background: var(--canvas);
+  color: var(--light);
+  font-family: "Helvetica Neue", Helvetica, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+}
+
+.wrap {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 56px 0 32px;
+  border-bottom: 1px solid var(--rule);
+  margin-bottom: 40px;
+}
+
+.wordmark {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--ember);
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: 600;
+  margin: 24px 0 8px;
+}
+
+.updated {
+  font-size: 14px;
+  color: var(--faint);
+  margin: 0;
+}
+
+h2 {
+  font-size: 21px;
+  font-weight: 600;
+  margin: 44px 0 12px;
+}
+
+h3 {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 28px 0 8px;
+}
+
+p,
+li {
+  color: var(--muted);
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+strong {
+  color: var(--light);
+  font-weight: 600;
+}
+
+a {
+  color: var(--ember);
+}
+
+.lede {
+  font-size: 19px;
+  color: var(--light);
+}
+
+.callout {
+  border: 1px solid var(--rule);
+  border-left: 2px solid var(--ember);
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin: 28px 0;
+  background: rgba(244, 241, 250, 0.03);
+}
+
+.callout p:last-child {
+  margin-bottom: 0;
+}
+
+.callout p:first-child {
+  margin-top: 0;
+}
+
+footer {
+  margin-top: 64px;
+  padding-top: 28px;
+  border-top: 1px solid var(--rule);
+  font-size: 14px;
+  color: var(--faint);
+}
+
+footer a {
+  color: var(--muted);
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+  }
+  body {
+    font-size: 16px;
+  }
+}
