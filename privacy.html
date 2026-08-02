@@ -11,7 +11,7 @@
       <header>
         <a class="wordmark" href="/">Nularo</a>
         <h1>Privacy Policy</h1>
-        <p class="updated">Last updated 27 July 2026</p>
+        <p class="updated">Last updated 1 August 2026</p>
       </header>
 
       <p class="lede">
@@ -79,12 +79,29 @@
         It contains no name, no date, no device identifier, and no history. The request
         is signed in as you so that we can enforce a one-per-day limit and stop someone
         abusing the endpoint, but the numbers themselves are not stored against your
-        account, and we keep only a per-day counter. Google does not use data sent
-        through the paid Gemini API to train its models.
+        account, and we keep only a per-day counter.
+      </p>
+      <p>
+        We use the paid tier of Google's Gemini API for this, specifically because of
+        what that tier's own terms promise: Google does not use anything sent through the
+        paid API to improve or train its products, and it logs prompts and responses only
+        briefly, solely to detect abuse of the API, not for any other purpose. That is a
+        meaningfully different, more limited hand-off than sending data to a free
+        consumer AI product, and it is why we picked it.
       </p>
       <p>
         If you are not signed in, or the request fails, the creature falls back to a
         line we wrote ourselves and nothing leaves your device at all.
+      </p>
+      <p>
+        One more distinction worth being explicit about: this daily line is written by
+        an AI model, not a person. Nobody at Nularo reads it before it reaches you. An
+        automated check rejects anything that breaks our rules (advice, diagnosis,
+        comments about body or weight) and swaps in one of our own pre-written lines
+        instead, but the check is a set of rules, not a human reviewer, and the model can
+        still say something inaccurate or oddly phrased. Treat every line as entertainment
+        with a personality, the same way you would a caption a friend wrote, not as a
+        judgment issued by an authority.
       </p>
 
       <h3>What we never do with it</h3>
@@ -184,6 +201,50 @@
         complain to your local data protection authority. Email us and we will help.
       </p>
 
+      <h2>State-specific privacy rights (US)</h2>
+      <p>
+        A handful of US states, starting with Washington, now treat health-adjacent data
+        (sleep, heart data, and anything inferred from it, like a mood) as a protected
+        category with its own rules, separate from general privacy law. We built Nularo
+        the same way for every user, in every state, rather than give some users fewer
+        protections than others:
+      </p>
+      <ul>
+        <li>
+          <strong>Washington (My Health My Data Act):</strong> we keep a separate,
+          dedicated <a href="/health-data-notice.html">Consumer Health Data Privacy
+          Notice</a> covering exactly what health data we collect, who it goes to, and
+          how to exercise your rights over it. We give every user this notice and these
+          rights, not only Washington residents.
+        </li>
+        <li>
+          <strong>Nevada and Connecticut:</strong> both states have similar consumer
+          health data laws. The practices described on this page and the notice above
+          reflect them too, we did not build a separate version per state.
+        </li>
+        <li>
+          <strong>California (CCPA/CPRA):</strong> California treats health information as
+          "sensitive personal information." We do not sell or share it, and you can ask us
+          to limit its use, access it, correct it, or delete it at any time using the
+          contact below.
+        </li>
+      </ul>
+      <p>
+        We do not use geofencing (detecting when you are physically near a clinic,
+        hospital, or other health facility) for any purpose. We do not collect your
+        location at all.
+      </p>
+
+      <h2>If something goes wrong</h2>
+      <p>
+        If we ever discover a security breach involving your data, or that your data was
+        disclosed somewhere this policy does not describe, we will notify you without
+        unreasonable delay, and in any case within the timeframe the law requires, by
+        email and, where practical, an in-app notice. That notice will say what happened,
+        what was involved, and what we are doing about it. We would rather over-notify
+        than have you find out from someone else.
+      </p>
+
       <h2>How long we keep things</h2>
       <p>
         Backed-up verdicts, journal entries, and settings are kept while your account
@@ -206,7 +267,9 @@
 
       <footer>
         <p>
-          <a href="/terms.html">Terms of Service</a> · Nularo by Sidewndr Studios
+          <a href="/terms.html">Terms of Service</a> ·
+          <a href="/health-data-notice.html">Washington Consumer Health Data Notice</a> ·
+          Nularo by Sidewndr Studios
         </p>
       </footer>
     </div>
