@@ -5,7 +5,11 @@
    invented or eyeballed — see docs/02-design-system.md for the four laws
    this is built from: pure black canvas, gradients that traverse hue AND
    value, real frosted glass, deep and saturated (never milky). If a colour
-   in this file can't be traced back to theme.ts, it's a bug. */
+   in this file can't be traced back to theme.ts, it's a bug.
+
+   Layout convention (nav/footer as full-width bars, body copy in a
+   constrained reading column) is generic web practice, not sampled from
+   any one product. */
 
 :root {
   --canvas: #000000;
@@ -38,6 +42,10 @@
   --indicator: var(--ember-core);
 
   --font: "Helvetica Neue", -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+
+  /* two widths: bars go edge to edge, reading copy stays narrow */
+  --bar-width: 900px;
+  --read-width: 680px;
 }
 
 * {
@@ -57,6 +65,9 @@ body {
   line-height: 1.65;
   -webkit-text-size-adjust: 100%;
   position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* law 4 companion: real texture, never a flat colour field. one grain
@@ -73,25 +84,23 @@ body::before {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
 }
 
-.wrap {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 0 24px 120px;
-  position: relative;
+/* ── topbar — full width, edge to edge ──────────────────────────── */
+
+.topbar {
+  width: 100%;
+  border-bottom: 1px solid var(--hairline);
 }
 
-/* ── header / wordmark ───────────────────────────────────────────── */
-
-header.site {
-  padding: 64px 0 40px;
-  border-bottom: 1px solid var(--hairline);
-  margin-bottom: 48px;
+.topbar-inner {
+  max-width: var(--bar-width);
+  margin: 0 auto;
+  padding: 24px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .wordmark {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 5px;
@@ -100,22 +109,38 @@ header.site {
   text-decoration: none;
 }
 
-.wordmark .dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--ember-core);
-  box-shadow: 0 0 8px 1px var(--ember-core);
-  animation: pulse 2.6s ease-in-out infinite;
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: var(--text-mute);
+  text-decoration: none;
 }
 
-@keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.45; }
+.back:hover {
+  color: var(--ember-core);
+}
+
+/* ── main content ────────────────────────────────────────────────── */
+
+main {
+  flex: 1;
+}
+
+.wrap {
+  max-width: var(--read-width);
+  margin: 0 auto;
+  padding: 56px 24px 96px;
+  position: relative;
+}
+
+.doc-head {
+  margin-bottom: 40px;
 }
 
 h1 {
-  margin: 22px 0 8px;
+  margin: 0 0 8px;
   font-weight: 500;
   letter-spacing: -0.5px;
   font-size: clamp(30px, 6vw, 42px);
@@ -221,14 +246,14 @@ h3 {
 
 .hero {
   text-align: center;
-  padding: 8px 0 4px;
+  padding: 24px 0 8px;
 }
 
 .hero-art {
   position: relative;
-  width: 240px;
-  height: 240px;
-  margin: 4px auto 0;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
 }
 
 /* her halo — 10-15% opacity, tight radius, behind her only (law: when
@@ -236,14 +261,14 @@ h3 {
 .hero-art::before {
   content: "";
   position: absolute;
-  inset: -32%;
+  inset: -30%;
   background: radial-gradient(
     closest-side,
-    rgba(142, 123, 255, 0.28),
-    rgba(250, 111, 65, 0.14) 55%,
+    rgba(142, 123, 255, 0.26),
+    rgba(250, 111, 65, 0.13) 55%,
     transparent 72%
   );
-  filter: blur(28px);
+  filter: blur(30px);
 }
 
 .hero-art img {
@@ -256,7 +281,7 @@ h3 {
 .hero h1 {
   font-size: clamp(32px, 8vw, 54px);
   max-width: 620px;
-  margin: 26px auto 12px;
+  margin: 30px auto 12px;
 }
 
 .hero .lede {
@@ -273,51 +298,44 @@ h3 {
   margin: 12px 0 0;
 }
 
-/* ── the moods strip ────────────────────────────────────────────── */
+/* ── the info band (index) — legal + support side by side on desktop,
+   a full-width bar with the two-up content inside ─────────────────── */
 
-.moods {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  margin: 20px 0 8px;
-}
-
-.mood-card {
-  text-align: center;
-  padding: 14px 6px 16px;
-  border-radius: 18px;
-  background: linear-gradient(180deg, rgba(239, 237, 250, 0.05), rgba(239, 237, 250, 0));
-  box-shadow: inset 0 0 0 1px var(--hairline);
-}
-
-.mood-card img {
+.band {
   width: 100%;
-  max-width: 92px;
-  display: block;
-  margin: 0 auto 8px;
+  border-top: 1px solid var(--hairline);
+  margin-top: 32px;
 }
 
-.mood-card span {
-  display: block;
-  font-size: 10.5px;
-  letter-spacing: 0.5px;
-  color: var(--text-mute);
-  text-transform: uppercase;
+.band-inner {
+  max-width: var(--bar-width);
+  margin: 0 auto;
+  padding: 56px 24px;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 56px;
 }
 
-@media (max-width: 560px) {
-  .moods {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
+.band-inner h2 {
+  margin: 0 0 16px;
+  padding-top: 0;
+  border-top: none;
+}
+
+@media (max-width: 700px) {
+  .band-inner {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 40px 24px;
   }
 }
 
-/* ── legal / index link list ────────────────────────────────────── */
+/* ── legal link list ─────────────────────────────────────────────── */
 
 .legal-links {
   display: grid;
   gap: 10px;
-  margin: 18px 0 0;
+  margin: 0;
   list-style: none;
   padding: 0;
 }
@@ -348,26 +366,37 @@ h3 {
   flex-shrink: 0;
 }
 
-/* ── footer ──────────────────────────────────────────────────────── */
+/* ── footer — full width, edge to edge ──────────────────────────── */
 
-footer.site {
-  margin-top: 72px;
-  padding-top: 28px;
+.sitefoot {
+  width: 100%;
   border-top: 1px solid var(--hairline);
-  font-size: 13px;
-  color: var(--text-faint);
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px 14px;
 }
 
-footer.site a {
+.sitefoot-inner {
+  max-width: var(--bar-width);
+  margin: 0 auto;
+  padding: 28px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 20px;
+  font-size: 13px;
+  color: var(--text-faint);
+}
+
+.sitefoot-inner a {
   color: var(--text-mute);
+}
+
+.sitefoot-inner .spacer {
+  flex: 1;
 }
 
 @media (max-width: 480px) {
   h1 { font-size: 28px; }
   body { font-size: 16px; }
-  .wrap { padding: 0 20px 96px; }
-  .hero-art { width: 200px; height: 200px; }
+  .wrap { padding: 40px 20px 72px; }
+  .hero-art { width: 220px; height: 220px; }
+  .topbar-inner { padding: 18px 20px; }
 }
