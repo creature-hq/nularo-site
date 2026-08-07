@@ -242,6 +242,52 @@ h3 {
 .pane--rose { --tint: var(--rose-vivid); }
 .pane--ember { --tint: var(--ember-core); }
 
+/* ── tables — used for the subprocessor list. The wrapper scrolls, not
+   the page: a wide table must never push the body sideways on a
+   phone. ────────────────────────────────────────────────────────── */
+
+.table-scroll {
+  margin: 24px 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 520px;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+th {
+  text-align: left;
+  padding: 0 18px 10px 0;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: var(--ember-core);
+  border-bottom: 1px solid var(--hairline);
+  white-space: nowrap;
+}
+
+td {
+  padding: 14px 18px 14px 0;
+  vertical-align: top;
+  border-bottom: 1px solid var(--hairline);
+  color: rgba(239, 237, 250, 0.72);
+}
+
+td:first-child {
+  white-space: nowrap;
+  color: var(--text-light);
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
 /* ── hero (index only) ──────────────────────────────────────────── */
 
 .hero {

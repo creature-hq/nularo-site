@@ -18,7 +18,7 @@
     <div class="wrap">
       <header class="doc-head">
         <h1>Privacy Policy</h1>
-        <p class="updated">Last updated 1 August 2026</p>
+        <p class="updated">Last updated 7 August 2026</p>
       </header>
 
       <p class="lede">
@@ -32,9 +32,10 @@
         <p>
           Your Apple Health data is read on your phone and stays on your phone. We never
           sell it, never give it to advertisers, never use it to target ads, and never
-          write anything back into Apple Health. The only health information that ever
-          leaves your device is a handful of numbers from a single night, sent once a
-          day so the creature can write you one sentence about it.
+          write anything back into Apple Health. The only health information that can ever
+          leave your device is a handful of numbers from a single night, sent once a day so
+          the creature can write you one sentence about it, and that only happens if you
+          switch it on. Leave it off and nothing leaves at all.
         </p>
       </div>
 
@@ -68,11 +69,21 @@
         control, and never placed in iCloud by us.
       </p>
 
-      <h3>The one thing that leaves</h3>
+      <h3>The one thing that leaves, and only if you allow it</h3>
+      <div class="pane pane--ember">
+        <p>
+          <strong>This is off until you switch it on.</strong> When Nularo first asks to
+          read Apple Health, it asks you a second, separate question: may the daily verdict
+          be written by AI. If you do not turn that on, nothing described in this section
+          ever happens, no numbers leave your phone, and the creature writes from lines we
+          wrote by hand. You can switch it off again at any time under Settings, and the
+          next morning nothing is sent.
+        </p>
+      </div>
       <p>
-        Once a day, to write your verdict, the app sends a small set of numbers to our
-        server, which passes them to Google's Gemini API to generate one sentence. That
-        request contains only:
+        If you do allow it, then once a day, to write your verdict, the app sends a small
+        set of numbers to our server, which passes them to Google's Gemini API to generate
+        one sentence. That request contains only:
       </p>
       <ul>
         <li>a mood label (for example "wrecked")</li>
@@ -97,8 +108,9 @@
         consumer AI product, and it is why we picked it.
       </p>
       <p>
-        If you are not signed in, or the request fails, the creature falls back to a
-        line we wrote ourselves and nothing leaves your device at all.
+        If you have not switched this on, if you are not signed in, or if the request
+        fails for any reason, the creature falls back to a line we wrote ourselves and
+        nothing leaves your device at all.
       </p>
       <p>
         One more distinction worth being explicit about: this daily line is written by
@@ -159,6 +171,51 @@
         purchase events. It does not receive your health data.
       </p>
 
+      <h2>Everyone who touches your data</h2>
+      <p>
+        This is the complete list. There is no sixth company, no advertising network, and
+        no data broker anywhere in it. If we ever add one, this table changes before it
+        ships.
+      </p>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>Who</th>
+              <th>What they get</th>
+              <th>What for</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Apple</strong></td>
+              <td>Your purchase and subscription, your sign-in, and the Health data that never leaves your phone in the first place</td>
+              <td>Selling the subscription, Sign in with Apple, and being the operating system. We do not send Apple anything, it is already there.</td>
+            </tr>
+            <tr>
+              <td><strong>Supabase</strong></td>
+              <td>Your user ID and sign-in email, your daily verdicts, your journal entries, your settings</td>
+              <td>The account and the backup, so your creature survives a new phone. Hosted in the United States.</td>
+            </tr>
+            <tr>
+              <td><strong>Google (Gemini API)</strong></td>
+              <td>Only the numbers listed above, and only if you switched AI verdicts on. No name, no email, no date, no identifier, no history.</td>
+              <td>Writing one sentence each morning. Paid API tier, which means Google does not train on it.</td>
+            </tr>
+            <tr>
+              <td><strong>Superwall</strong></td>
+              <td>Device model, OS version, app version, locale, a per-vendor identifier, and whether a purchase happened</td>
+              <td>Showing the subscription screen and telling the app whether you are subscribed. Never receives health data.</td>
+            </tr>
+            <tr>
+              <td><strong>Google (Sign in with Google)</strong></td>
+              <td>The fact that you signed in, and the email on that account</td>
+              <td>Only if you choose Google instead of Apple to sign in.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       <h2>Notifications</h2>
       <p>
         The morning verdict notification is scheduled and delivered locally by your
@@ -188,6 +245,12 @@
           Health app at any time. The app keeps working, with less to say.
         </li>
         <li>
+          <strong>Stop the AI hand-off:</strong> in the app, go to Settings and switch off
+          "Let AI write my daily verdict." From the next morning, nothing about your nights
+          goes to Google, and the creature writes from our own lines. Switching it back on
+          is the same tap.
+        </li>
+        <li>
           <strong>Use the app without an account:</strong> sign out, and nothing backs
           up. Your history stays on the phone.
         </li>
@@ -211,6 +274,65 @@
         Depending on where you live, you may have additional rights over your personal
         information, including the right to access, correct, port, or delete it, and to
         complain to your local data protection authority. Email us and we will help.
+      </p>
+
+      <h2>If you are in the UK, the EU, or the EEA</h2>
+      <p>
+        Under the GDPR and the UK GDPR, Sidewndr Studios is the "controller" of the
+        personal data described on this page. Here is the part those laws require us to
+        spell out.
+      </p>
+
+      <h3>Why we are allowed to process it</h3>
+      <ul>
+        <li>
+          <strong>Your consent</strong> for anything to do with health. Reading Apple
+          Health happens only after you allow it in Apple's own dialog. Sending numbers to
+          Google's Gemini happens only after you separately switch that on. Health data is
+          a "special category" under Article 9, and explicit consent is the only basis we
+          rely on for it. You can withdraw either consent at any time, and withdrawing does
+          not make what happened before it unlawful.
+        </li>
+        <li>
+          <strong>Performing our contract with you</strong> for your account, your backup,
+          and your subscription. You asked for an app that remembers you, and these are
+          what that takes.
+        </li>
+        <li>
+          <strong>Our legitimate interests</strong> for keeping the service standing up:
+          the per-day counter that stops someone hammering the roast endpoint, and basic
+          security. We keep this narrow on purpose, and it never covers health data.
+        </li>
+      </ul>
+
+      <h3>Where it physically goes</h3>
+      <p>
+        We are based in the United States and so are our providers, so data about you is
+        processed there. For transfers out of the UK, the EU, and the EEA we rely on the
+        European Commission's Standard Contractual Clauses (and the UK Addendum) in our
+        agreements with Supabase and Google, plus the fact that the transfer is minimal by
+        design: the only health-derived thing that crosses a border is a handful of
+        unnamed numbers, and only if you turned that on.
+      </p>
+
+      <h3>Your rights</h3>
+      <p>
+        You can ask us to give you a copy of your data, correct it, delete it, hand it to
+        another service in a portable format, restrict what we do with it, or object to
+        it. You can withdraw consent whenever you like. We do not charge for any of this,
+        and we will answer within one month. Email
+        <a href="mailto:sidewndrstudios@gmail.com">sidewndrstudios@gmail.com</a> from the
+        address on your account.
+      </p>
+      <p>
+        If you think we have got it wrong, you can complain to your national data
+        protection authority (in the UK, the Information Commissioner's Office at
+        ico.org.uk). We would rather you told us first so we can fix it, but you do not
+        have to.
+      </p>
+      <p>
+        We have no establishment in the EU or the UK. If we appoint a representative under
+        Article 27, their details will appear here.
       </p>
 
       <h2>State-specific privacy rights (US)</h2>
@@ -285,6 +407,7 @@
         <a href="/privacy.html">Privacy Policy</a>
         <a href="/terms.html">Terms of Service</a>
         <a href="/health-data-notice.html">Consumer Health Data Privacy Notice</a>
+        <a href="/support.html">Support</a>
         <span class="spacer"></span>
         <span>Nularo by Sidewndr Studios</span>
       </div>
