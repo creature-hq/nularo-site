@@ -1,0 +1,9 @@
+{
+  "health-pets": {"name": "Health pets and gamified habits", "blurb": "Virtual pets, tamagotchis and games that run on the health data your iPhone already collects."},
+  "watch-sleep": {"name": "Apple Watch sleep", "blurb": "Sleep debt, Sleep Score, consistency and the sleep numbers your Apple Watch records, explained plainly."},
+  "recovery-scores": {"name": "Recovery, stress and HRV", "blurb": "HRV, resting heart rate, stress and readiness-style scores on Apple Watch, and what the numbers mean."},
+  "body-age": {"name": "Body age and biological age", "blurb": "Health Age, Whoop Age, fitness age and other ways apps turn your habits into an age."},
+  "alternatives": {"name": "Alternatives and comparisons", "blurb": "Honest comparisons of habit, sleep and self-care apps, including the ones we compete with."},
+  "bedtime-culture": {"name": "Bedtime culture", "blurb": "Revenge bedtime procrastination, sleepmaxxing, doomscrolling in bed and the rest of the internet's sleep vocabulary."},
+  "together-and-who": {"name": "Couples, friends and who it is for", "blurb": "Tracking sleep and habits with a partner or friends, and how it works for shift workers, students and night owls."}
+}

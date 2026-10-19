@@ -1,0 +1,12 @@
+# Nularo
+
+> Nularo is an iPhone app: a virtual creature that lives on your Apple Health data. It reads sleep, steps, workouts, resting heart rate and HRV automatically (no logging), reacts every morning with a blunt verdict on how you actually slept and moved, and computes a weekly Creature Age that rises when habits slip. App Store: https://apps.apple.com/us/app/nularo/id6792171696
+
+## Guides
+
+- [How to track sleep with a partner or friends on iPhone](https://nularo.com/guides/sleep-tracking-with-a-partner-or-friends/): Health Sharing in the iPhone Health app can share sleep with up to five people. Fitness sharing covers rings, not sleep. Here are the apps that fill the gap.
+- [Does Apple Watch track sleep debt? (And how to see yours)](https://nularo.com/guides/apple-watch-sleep-debt/): No. Apple Health has no sleep debt number. Here is how to work yours out from the Sleep chart in two minutes, and which apps calculate it for you.
+- [Does Apple Watch have a Body Battery? (The closest equivalents)](https://nularo.com/guides/apple-watch-body-battery/): No. Body Battery is Garmin's. Apple Watch Series 12 and Ultra 4 get a 0-10 Readiness score, and apps like Bevel and Athlytic add a battery-style gauge.
+- [Virtual pet apps that use Apple Health (2026)](https://nularo.com/guides/virtual-pet-apps-apple-health/): The virtual pet apps that really read Apple Health in 2026, grouped by what feeds the pet (steps, sleep or full health data) and whether you log by hand.
+- [Finch alternatives for adults (2026)](https://nularo.com/guides/finch-alternatives/): Finch is free, kind and very cute. If the cute or the daily check-ins are the problem, here are 7 alternatives, including apps that read Apple Health.
+- [Biological age apps for Apple Watch: what they measure](https://nularo.com/guides/biological-age-apps-apple-watch/): Apple's Health Age is announced but not out yet. What Whoop Age, Bevel, cardio fitness and other Apple Watch age scores actually measure, and what is free.

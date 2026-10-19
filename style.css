@@ -446,3 +446,299 @@ tbody tr:last-child td {
   .hero-art { width: 220px; height: 220px; }
   .topbar-inner { padding: 18px 20px; }
 }
+
+/* ── guides (added 2026-10-19) ───────────────────────────────────────
+   Everything below serves /guides/. Same tokens as the rest of the
+   file; nothing new is invented except layout. */
+
+.navlinks {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  font-size: 14px;
+}
+
+.navlinks a {
+  color: var(--text-mute);
+  text-decoration: none;
+}
+
+.navlinks a:hover {
+  color: var(--text-light);
+}
+
+.navlinks .nav-store {
+  color: var(--canvas);
+  background: var(--ember-core);
+  padding: 7px 14px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.navlinks .nav-store:hover {
+  color: var(--canvas);
+  background: var(--ember-hot);
+}
+
+.crumbs {
+  font-size: 13px;
+  color: var(--text-faint);
+  margin-bottom: 18px;
+}
+
+.crumbs a {
+  color: var(--text-mute);
+  text-decoration: none;
+}
+
+.guide h2 {
+  scroll-margin-top: 24px;
+}
+
+.guide p,
+.guide li {
+  color: rgba(239, 237, 250, 0.78);
+}
+
+.guide ol,
+.guide ul {
+  padding-left: 22px;
+}
+
+.tldr-label,
+.cta-head {
+  margin: 0 0 6px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: var(--ember-hot);
+}
+
+.cta-head {
+  font-size: 17px;
+  letter-spacing: -0.1px;
+  text-transform: none;
+  color: var(--text-light);
+}
+
+.cta {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+
+.cta-creature {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.cta-fine {
+  font-size: 12.5px;
+  color: var(--text-faint) !important;
+  margin: 10px 0 0 !important;
+}
+
+.store-btn {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 11px 20px;
+  border-radius: 999px;
+  background: var(--ember-core);
+  color: var(--canvas);
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.store-btn:hover {
+  background: var(--ember-hot);
+}
+
+.store-btn--small {
+  margin: 0;
+  padding: 8px 16px;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 480px) {
+  .cta {
+    flex-direction: column;
+    gap: 6px;
+  }
+  .cta-creature {
+    width: 72px;
+    height: 72px;
+  }
+}
+
+figure.screen {
+  margin: 32px auto;
+  max-width: 280px;
+  text-align: center;
+}
+
+figure.screen img {
+  width: 100%;
+  height: auto;
+  border-radius: 28px;
+  box-shadow: 0 0 0 1px var(--hairline), 0 20px 60px rgba(142, 123, 255, 0.18);
+}
+
+figure.screen figcaption {
+  margin-top: 12px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-faint);
+}
+
+.guide .table-scroll table {
+  min-width: 480px;
+}
+
+.faq details {
+  border-bottom: 1px solid var(--hairline);
+  padding: 14px 0;
+}
+
+.faq summary {
+  cursor: pointer;
+  color: var(--text-light);
+  font-weight: 600;
+}
+
+.faq details p {
+  margin: 10px 0 0;
+}
+
+.disclaimer {
+  margin-top: 40px;
+  font-size: 13px;
+  color: var(--text-faint) !important;
+}
+
+.related ul,
+.guide-list {
+  list-style: none;
+  padding: 0 !important;
+  display: grid;
+  gap: 10px;
+}
+
+.related a,
+.guide-list a {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 16px 18px;
+  border-radius: 16px;
+  text-decoration: none;
+  background: rgba(239, 237, 250, 0.03);
+  box-shadow: inset 0 0 0 1px var(--hairline);
+  transition: box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.related a:hover,
+.guide-list a:hover {
+  background: rgba(239, 237, 250, 0.06);
+  box-shadow: inset 0 0 0 1px rgba(250, 111, 65, 0.45);
+}
+
+.related a span,
+.guide-list a span {
+  color: var(--text-light);
+  font-size: 15.5px;
+}
+
+.related a small,
+.guide-list a small {
+  color: var(--text-faint);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.cluster {
+  margin-bottom: 12px;
+}
+
+.sticky-cta {
+  position: fixed;
+  left: 12px;
+  right: 12px;
+  bottom: 12px;
+  z-index: 50;
+  max-width: 640px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 18px;
+  background: rgba(13, 6, 15, 0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: inset 0 0 0 1px rgba(239, 237, 250, 0.08), 0 10px 40px rgba(0, 0, 0, 0.6);
+  font-size: 13.5px;
+  line-height: 1.35;
+  color: var(--text-light);
+}
+
+.sticky-cta[hidden] {
+  display: none;
+}
+
+.sticky-cta img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.sticky-cta span {
+  flex: 1;
+}
+
+.home-cta {
+  margin-top: 28px;
+}
+
+.home-guides {
+  max-width: var(--bar-width);
+  margin: 0 auto;
+  padding: 0 24px 24px;
+}
+
+.hero-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 28px;
+  padding: 10px 14px;
+  border-radius: 16px;
+  background: rgba(239, 237, 250, 0.03);
+  box-shadow: inset 0 0 0 1px var(--hairline);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--text-mute);
+}
+
+.hero-card:hover {
+  box-shadow: inset 0 0 0 1px rgba(250, 111, 65, 0.45);
+}
+
+.hero-card img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.hero-card-go {
+  flex-shrink: 0;
+  color: var(--ember-core);
+  font-weight: 600;
+}
