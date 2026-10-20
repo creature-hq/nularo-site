@@ -11,8 +11,10 @@ This file is the instruction set for the daily run. Read all of it every run.
 1. `git pull`. Read this file, `seo/backlog.json`, `seo/log.md`, and the list of
    existing guides in `guides/src/`.
 2. **Pick today's target.**
-   - Run `python3 tools/gsc_opportunities.py`. If it prints opportunities, they
-     win: a query with impressions and position deeper than 15 that no guide
+   - Read `seo/gsc-latest.json`. A GitHub Action refreshes it every morning
+     at 10:00 UTC from Search Console (this sandbox cannot reach Google, so do
+     not try to run `tools/gsc_opportunities.py` yourself). If its `pulled`
+     date is within the last 3 days and it lists opportunities, they win: a query with impressions and position deeper than 15 that no guide
      targets becomes today's new guide. A query on page 1 with CTR under 2% means
      the existing page's `seo_title` and `description` get rewritten instead (do
      that as well, it is cheap).

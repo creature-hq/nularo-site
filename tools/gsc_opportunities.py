@@ -11,7 +11,10 @@ Stdlib only. Credentials come from the environment, never from the repo
   GSC_CLIENT_ID, GSC_CLIENT_SECRET, GSC_REFRESH_TOKEN
       An OAuth refresh token with the webmasters.readonly scope, for the
       Google account that owns the nularo.com property.
-  GSC_SITE  (optional) defaults to sc-domain:nularo.com
+  GSC_SITE  (optional) defaults to https://nularo.com/
+
+Runs daily in GitHub Actions (.github/workflows/search-console.yml), since
+the guide-writing sandbox cannot reach Google.
 
 Writes seo/gsc-latest.json and prints the top opportunities. Exits 0 with
 a note when credentials are missing, so the daily agent falls back to the
@@ -27,7 +30,7 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SITE = os.environ.get("GSC_SITE", "sc-domain:nularo.com")
+SITE = os.environ.get("GSC_SITE") or "https://nularo.com/"
 
 
 def token():
@@ -91,7 +94,7 @@ def main():
             )
     opps.sort(key=lambda o: o["impressions"], reverse=True)
     out = ROOT / "seo" / "gsc-latest.json"
-    out.write_text(json.dumps({"range": [start.isoformat(), end.isoformat()], "opportunities": opps}, indent=2))
+    out.write_text(json.dumps({"pulled": dt.date.today().isoformat(), "range": [start.isoformat(), end.isoformat()], "opportunities": opps[:100]}, indent=2))
     for o in opps[:25]:
         print(f'{o["impressions"]:>6} imp  pos {o["position"]:>5}  ctr {o["ctr"]:.1%}  {o["query"]}  ->  {o["page"]}  [{o["action"]}]')
     print(f"{len(opps)} opportunities written to {out.relative_to(ROOT)}")

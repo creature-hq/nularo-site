@@ -1,0 +1,32 @@
+# Pulls Search Console data every morning, before the daily guide run
+# (12:00 UTC), and commits seo/gsc-latest.json for it to read. The guide
+# run happens in a sandbox that cannot reach Google, so this is the bridge.
+# Free: GitHub Actions minutes are unlimited on public repos.
+name: Search Console pull
+
+on:
+  schedule:
+    - cron: "0 10 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Find queries with impressions but no clicks
+        env:
+          GSC_CLIENT_ID: ${{ secrets.GSC_CLIENT_ID }}
+          GSC_CLIENT_SECRET: ${{ secrets.GSC_CLIENT_SECRET }}
+          GSC_REFRESH_TOKEN: ${{ secrets.GSC_REFRESH_TOKEN }}
+          GSC_SITE: ${{ secrets.GSC_SITE }}
+        run: python3 tools/gsc_opportunities.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add seo/gsc-latest.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Update Search Console opportunities" && git push)
