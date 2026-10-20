@@ -116,7 +116,9 @@
   "nularo_fit": 5,
   "angle": "INFERENCE: Gamified sleep apps compared (Pokemon Sleep, Sleepagotchi, Dreamstone, SleepTrail): rewards vs consequences; Nularo uses a creature whose mood reacts to your sleep.",
   "priority": 5,
-  "status": "todo"
+  "status": "done",
+  "guide": "gamified-sleep-tracker-apps",
+  "done": "2026-10-20"
  },
  {
   "keyword": "sleep debt app apple watch",
@@ -507,7 +509,9 @@
   "nularo_fit": 5,
   "angle": "INFERENCE: Merge with 'gamified sleep tracker' or make the app-only angle; cite the Tsukuba Pokemon Sleep observational study carefully.",
   "priority": 22,
-  "status": "todo"
+  "status": "done",
+  "guide": "gamified-sleep-tracker-apps",
+  "done": "2026-10-20"
  },
  {
   "keyword": "how to find sleep debt with apple watch",
