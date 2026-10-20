@@ -4,6 +4,7 @@
 
 ## Guides
 
+- [Apps that roast you: photos, money, weather and sleep](https://nularo.com/guides/apps-that-roast-you/): The apps that roast you, sorted by what they roast: your photo, your spending, your workouts, your music or your sleep. Plus the free way to do it.
 - [Gamified sleep tracker apps: rewards vs consequences](https://nularo.com/guides/gamified-sleep-tracker-apps/): Pokémon Sleep, SleepTown and Nularo turn sleep into a game in different ways. What each one measures, what it rewards, and how Apple Watch fits in.
 - [How to track sleep with a partner or friends on iPhone](https://nularo.com/guides/sleep-tracking-with-a-partner-or-friends/): Health Sharing in the iPhone Health app can share sleep with up to five people. Fitness sharing covers rings, not sleep. Here are the apps that fill the gap.
 - [Biological age apps for Apple Watch: what they measure](https://nularo.com/guides/biological-age-apps-apple-watch/): Apple's Health Age is announced but not out yet. What Whoop Age, Bevel, cardio fitness and other Apple Watch age scores actually measure, and what is free.

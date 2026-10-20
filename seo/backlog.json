@@ -212,7 +212,9 @@
   "nularo_fit": 5,
   "angle": "INFERENCE: Does Finch sync with Apple Health? Sources show no HealthKit integration (verify in-app before publishing); what to use if you want a pet that does.",
   "priority": 9,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-10-20",
+  "guide": "finch-alternatives"
  },
  {
   "keyword": "free biological age app",
@@ -257,7 +259,9 @@
   "nularo_fit": 5,
   "angle": "INFERENCE: Roundup of roast apps (language, budget, screen time, Carrot Fit era) and the one that roasts your sleep: Nularo's morning verdict.",
   "priority": 11,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-10-20",
+  "guide": "apps-that-roast-you"
  },
  {
   "keyword": "apple watch body battery equivalent",
@@ -1020,7 +1024,9 @@
   "nularo_fit": 3,
   "angle": "INFERENCE: Screen-time roast apps (Zario etc.); tie-in: late-night scrolling shows up in sleep data, which is what Nularo roasts.",
   "priority": 44,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-10-20",
+  "guide": "apps-that-roast-you"
  },
  {
   "keyword": "sleep debt app reddit",
