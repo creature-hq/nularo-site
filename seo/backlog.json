@@ -330,7 +330,9 @@
   "nularo_fit": 4,
   "angle": "INFERENCE: Self-care pets compared: Finch (manual goals) vs data-driven pets; Nularo for people who never remember to log.",
   "priority": 14,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-10-22",
+  "guide": "self-care-tamagotchi-apps"
  },
  {
   "keyword": "apple watch hrv always low",
@@ -1001,7 +1003,9 @@
   "nularo_fit": 3,
   "angle": "INFERENCE: Self-care pet roundup; be honest that Nularo is roast-y, not gentle, and suits people who find Finch too soft.",
   "priority": 43,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-10-22",
+  "guide": "self-care-tamagotchi-apps"
  },
  {
   "keyword": "app that roasts you for screen time",
