@@ -1,0 +1,37 @@
+# Publishes a guide the daily run could not push straight to main.
+# The cloud sandbox's push to main is sometimes refused (non-fast-forward
+# from its git proxy even when it is a fast-forward), so the run falls back
+# to a guide/<slug> branch. This merges that branch into main, rebuilds,
+# checks, pushes (which redeploys Pages) and deletes the branch.
+# Free: GitHub Actions minutes are unlimited on public repos.
+name: Publish guide branch
+
+on:
+  push:
+    branches: ["guide/**"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-guide
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Merge into main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git merge --no-edit "origin/${GITHUB_REF_NAME}"
+          python3 tools/build.py --check
+          git add -A
+          git diff --cached --quiet || git commit -m "Rebuild after merging ${GITHUB_REF_NAME}"
+          git push origin main
+          git push origin --delete "${GITHUB_REF_NAME}"

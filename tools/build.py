@@ -447,7 +447,7 @@ def check(guides):
 
 
 def main():
-    guides = sorted((parse(p) for p in SRC.glob("*.html")), key=lambda g: g["published"])
+    guides = sorted((parse(p) for p in sorted(SRC.glob("*.html"))), key=lambda g: g["published"])
     for g in guides:
         build_guide(g, guides)
     build_index(guides)
