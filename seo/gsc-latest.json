@@ -4,5 +4,93 @@
     "2026-09-22",
     "2026-10-20"
   ],
-  "opportunities": []
+  "totals": {
+    "impressions": 3,
+    "clicks": 0,
+    "queries": 0
+  },
+  "opportunities": [],
+  "pages": [
+    {
+      "page": "https://nularo.com/",
+      "impressions": 1,
+      "clicks": 0,
+      "position": 2
+    },
+    {
+      "page": "https://nularo.com/support.html",
+      "impressions": 1,
+      "clicks": 0,
+      "position": 4
+    },
+    {
+      "page": "https://nularo.com/terms.html",
+      "impressions": 1,
+      "clicks": 0,
+      "position": 8
+    }
+  ],
+  "queries": [],
+  "index": [
+    {
+      "url": "https://nularo.com/guides/",
+      "verdict": "PASS",
+      "coverage": "Submitted and indexed",
+      "last_crawl": "2026-10-20T14:32:10Z"
+    },
+    {
+      "url": "https://nularo.com/guides/apple-watch-body-battery/",
+      "verdict": "NEUTRAL",
+      "coverage": "Crawled - currently not indexed",
+      "last_crawl": "2026-10-20T08:22:06Z"
+    },
+    {
+      "url": "https://nularo.com/guides/apple-watch-sleep-debt/",
+      "verdict": "NEUTRAL",
+      "coverage": "Crawled - currently not indexed",
+      "last_crawl": "2026-10-20T07:21:44Z"
+    },
+    {
+      "url": "https://nularo.com/guides/biological-age-apps-apple-watch/",
+      "verdict": "NEUTRAL",
+      "coverage": "Crawled - currently not indexed",
+      "last_crawl": "2026-10-22T07:23:11Z"
+    },
+    {
+      "url": "https://nularo.com/guides/finch-alternatives/",
+      "verdict": "PASS",
+      "coverage": "Submitted and indexed",
+      "last_crawl": "2026-10-20T07:49:25Z"
+    },
+    {
+      "url": "https://nularo.com/guides/sleep-tracking-with-a-partner-or-friends/",
+      "verdict": "NEUTRAL",
+      "coverage": "Crawled - currently not indexed",
+      "last_crawl": "2026-10-20T11:40:39Z"
+    },
+    {
+      "url": "https://nularo.com/guides/virtual-pet-apps-apple-health/",
+      "verdict": "NEUTRAL",
+      "coverage": "URL is unknown to Google",
+      "last_crawl": null
+    },
+    {
+      "url": "https://nularo.com/guides/gamified-sleep-tracker-apps/",
+      "verdict": "NEUTRAL",
+      "coverage": "Crawled - currently not indexed",
+      "last_crawl": "2026-10-20T04:46:16Z"
+    },
+    {
+      "url": "https://nularo.com/guides/apps-that-roast-you/",
+      "verdict": "NEUTRAL",
+      "coverage": "URL is unknown to Google",
+      "last_crawl": null
+    },
+    {
+      "url": "https://nularo.com/guides/self-care-tamagotchi-apps/",
+      "verdict": "NEUTRAL",
+      "coverage": "URL is unknown to Google",
+      "last_crawl": null
+    }
+  ]
 }

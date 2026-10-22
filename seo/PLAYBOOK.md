@@ -10,16 +10,43 @@ This file is the instruction set for the daily run. Read all of it every run.
 
 1. `git pull`. Read this file, `seo/backlog.json`, `seo/log.md`, and the list of
    existing guides in `guides/src/`.
-2. **Pick today's target.**
-   - Read `seo/gsc-latest.json`. A GitHub Action refreshes it every morning
-     at 10:00 UTC from Search Console (this sandbox cannot reach Google, so do
-     not try to run `tools/gsc_opportunities.py` yourself). If its `pulled`
-     date is within the last 3 days and it lists opportunities, they win: a query with impressions and position deeper than 15 that no guide
-     targets becomes today's new guide. A query on page 1 with CTR under 2% means
-     the existing page's `seo_title` and `description` get rewritten instead (do
-     that as well, it is cheap).
-   - With no credentials or no opportunities, take the lowest `priority` number
-     in `seo/backlog.json` whose `status` is `todo`.
+2. **Pick today's target. This is Rasty's loop: "your site was showed 16,000
+   times for this keyword, but no clicks because you are like number 50", so
+   write the guide for that keyword.** A GitHub Action pulls Google data every
+   morning before this run (this sandbox cannot reach Google, so do not run
+   the tools yourself) into two files:
+   - `seo/gsc-latest.json` (Search Console, last 28 days): `totals`,
+     `opportunities` (5+ impressions and position deeper than 8 or CTR under 2%),
+     `pages` (busiest first), `queries` (everything Google showed us for) and
+     `index` (Google's verdict on each guide).
+   - `seo/keywords-latest.json` (Google Autocomplete, the free stand-in for
+     Rasty's Keyword Planner): `backlog_demand` (whether each todo keyword is
+     a phrase people actually type: Google only echoes it back if they do, and
+     a higher `suggestion_count` means more demand around it) and
+     `new_candidates` (long-tail phrases people type around our clusters that
+     are not in the backlog yet, most-seen first).
+
+   Pick in this order, and say in the log which rule picked it:
+   a. **Search Console opportunity** (if `pulled` is within 3 days). A query
+      with `action: "new guide"` (position deeper than 15) that no guide
+      targets becomes today's guide. For a page-1 query with CTR under 2%,
+      rewrite that page's `seo_title` and `description` to match the query
+      as well (cheap, do it on top of the new guide). Also scan `queries`: a
+      query that keeps showing up for a page that does not really answer it
+      is an opportunity even below 5 impressions.
+   b. **Backlog, demand-checked.** Otherwise take the lowest `priority`
+      number with `status: "todo"` whose entry in `backlog_demand` has
+      `exact_in_autocomplete: true`. Skip ones that are false (nobody types
+      that phrase; consider retargeting the item to the closest phrase in its
+      `suggestions` instead). If the keyword is not in `backlog_demand`
+      (it is checked 40 at a time), use it but say so in the log.
+   c. **Top up the backlog.** When fewer than 30 todo items are left, add
+      up to 10 of the best `new_candidates` to `seo/backlog.json` (same
+      fields as existing items; check the current results are weak, like
+      forums, Reddit and App Store listings, before adding). Hyper-niche beats
+      broad: a phrase that names a device, a demographic or a specific
+      situation ("for night shift workers", "for couples", "on Apple Watch")
+      is one a brand-new site can win.
    - Never write two guides for the same intent. If a guide already covers it,
      deepen that guide instead (add a section, update `updated`).
 3. **Research before writing.** Search the query. Read the top results. Note what
@@ -27,13 +54,21 @@ This file is the instruction set for the daily run. Read all of it every run.
    Community askers actually wanted. Check every iPhone/Apple Watch menu path
    against support.apple.com. If a fact cannot be verified, leave it out.
 4. **Write the guide** to `guides/src/<slug>.html` using the skeleton below.
-5. **Link it in.** Edit 2-4 existing guides (highest traffic first once Search
-   Console data exists, otherwise the same cluster's pillar) to add a natural
-   inline link with a descriptive anchor. Bump their `updated` date only if you
+5. **Link it in.** This is how Rasty gets new guides prioritized: "the internal
+   links from existing traffic point to the new guides." Edit 2-4 existing
+   guides to add a natural inline link with a descriptive anchor. Choose them
+   in this order: the busiest pages in `gsc-latest.json` `pages`; then guides
+   whose `index` verdict is `PASS` (Google already trusts them, so their links
+   get followed); then the same cluster's pillar. While any guide in `index`
+   is "Crawled - currently not indexed" or "URL is unknown to Google", also
+   make sure at least two indexed guides link to it (add one such link per
+   run, in a guide you are already editing). Bump `updated` dates only if you
    changed real content.
 6. `python3 tools/build.py --check`. Fix anything it reports.
 7. Mark the backlog item `done` with the date, append one line to `seo/log.md`
-   (date, slug, target query, why it was chosen, which pages now link to it).
+   (date, slug, target query, which rule picked it (a/b/c) and why, which pages
+   now link to it, and today's `totals` plus how many guides are indexed, so the
+   log doubles as the traffic history).
 8. Commit (`Add guide: <title>`) and push to `main`. GitHub Pages deploys in about
    a minute.
 

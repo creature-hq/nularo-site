@@ -1,12 +1,15 @@
-# Pulls Search Console data every morning, before the daily guide run
-# (12:00 UTC), and commits seo/gsc-latest.json for it to read. The guide
-# run happens in a sandbox that cannot reach Google, so this is the bridge.
+# Pulls Google data every morning, before the daily guide run (12:00 UTC),
+# and commits it for the run to read. The guide run happens in a sandbox
+# that cannot reach Google, so this is the bridge.
+#   seo/gsc-latest.json       Search Console: opportunities, pages, queries, index status
+#   seo/keywords-latest.json  Google Autocomplete: backlog demand, new long-tail candidates
+# Scheduled at 06:00 UTC because GitHub often starts cron jobs hours late.
 # Free: GitHub Actions minutes are unlimited on public repos.
 name: Search Console pull
 
 on:
   schedule:
-    - cron: "0 10 * * *"
+    - cron: "0 6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -17,16 +20,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Find queries with impressions but no clicks
+      - name: Search Console opportunities, pages and index status
         env:
           GSC_CLIENT_ID: ${{ secrets.GSC_CLIENT_ID }}
           GSC_CLIENT_SECRET: ${{ secrets.GSC_CLIENT_SECRET }}
           GSC_REFRESH_TOKEN: ${{ secrets.GSC_REFRESH_TOKEN }}
           GSC_SITE: ${{ secrets.GSC_SITE }}
         run: python3 tools/gsc_opportunities.py
+      - name: Keyword demand from Google Autocomplete
+        run: python3 tools/keyword_signals.py
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add seo/gsc-latest.json 2>/dev/null || true
-          git diff --cached --quiet || (git commit -m "Update Search Console opportunities" && git push)
+          git add seo/gsc-latest.json seo/keywords-latest.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Update Search Console and keyword data" && git pull --rebase -q && git push)
