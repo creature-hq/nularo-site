@@ -4,6 +4,7 @@
 
 ## Guides
 
+- [Why is my Apple Watch HRV always low? (What the number means)](https://nularo.com/guides/apple-watch-hrv-always-low/): Apple Watch reports HRV as SDNN from spot readings, so it is not on the same scale as Whoop or Oura. Compare it with your own trend, not other people's.
 - [Tamagotchi apps for self care: which pets forgive a bad week](https://nularo.com/guides/self-care-tamagotchi-apps/): Finch, Kinder World, Quabble, Urso, Pengu, Palli and Nularo compared by what feeds the pet, what happens when you skip a day, and what it costs.
 - [Apps that roast you, sorted by what they roast](https://nularo.com/guides/apps-that-roast-you/): Most roast apps take a selfie and sell a weekly subscription. These roast what you actually did instead: your music, your runs, your weather, your sleep.
 - [Gamified sleep tracker apps: rewards vs consequences](https://nularo.com/guides/gamified-sleep-tracker-apps/): Pokémon Sleep, SleepTown and Nularo turn sleep into a game in different ways. What each one measures, what it rewards, and how Apple Watch fits in.

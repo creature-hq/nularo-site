@@ -355,7 +355,9 @@
   "nularo_fit": 3,
   "angle": "INFERENCE: Apple reports SDNN (not rMSSD) and samples sporadically, so numbers look low vs Oura/Whoop; compare to your own baseline, which is exactly how Nularo's mood works.",
   "priority": 15,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-10-23",
+  "guide": "apple-watch-hrv-always-low"
  },
  {
   "keyword": "virtual pet app for adults",
