@@ -1,5 +1,5 @@
 {
-  "pulled": "2026-10-22",
+  "pulled": "2026-10-23",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
     {
@@ -128,16 +128,16 @@
       "priority": 37,
       "exact_in_autocomplete": true,
       "rank": 1,
-      "suggestion_count": 9,
+      "suggestion_count": 8,
       "suggestions": [
         "how to see apple health age",
-        "how to get apple health age",
         "how to check apple watch age",
         "how to check my apple watch age",
         "how to check apple watch battery age",
         "how to change apple health age",
         "how to see health age on apple watch",
-        "apple health app age"
+        "apple health app age",
+        "can i see apple health on mac"
       ]
     },
     {
@@ -199,13 +199,14 @@
       "priority": 42,
       "exact_in_autocomplete": true,
       "rank": 1,
-      "suggestion_count": 5,
+      "suggestion_count": 6,
       "suggestions": [
         "habit tracker with pet",
         "habit tracker app with pet",
         "habit tracker peter mckinnon",
         "habit app pet",
-        "how to stop dogs hunting animals"
+        "how to stop dogs hunting animals",
+        "is spending time with pets a hobby"
       ]
     },
     {
@@ -226,10 +227,9 @@
       "priority": 45,
       "exact_in_autocomplete": true,
       "rank": 1,
-      "suggestion_count": 2,
+      "suggestion_count": 1,
       "suggestions": [
-        "sleep debt app reddit",
-        "how to cancel deep sleep app"
+        "sleep debt app reddit"
       ]
     },
     {
@@ -262,9 +262,10 @@
       "priority": 48,
       "exact_in_autocomplete": true,
       "rank": 1,
-      "suggestion_count": 2,
+      "suggestion_count": 3,
       "suggestions": [
         "apple watch time in bed less than time asleep",
+        "time in bed vs time asleep apple",
         "how to set sleep time on apple watch"
       ]
     },
@@ -302,11 +303,10 @@
       "priority": 51,
       "exact_in_autocomplete": true,
       "rank": 1,
-      "suggestion_count": 3,
+      "suggestion_count": 2,
       "suggestions": [
         "apple sleep score vs autosleep",
-        "auto sleep vs apple sleep",
-        "is apple sleep app accurate"
+        "auto sleep vs apple sleep"
       ]
     },
     {
@@ -456,11 +456,12 @@
       "priority": 63,
       "exact_in_autocomplete": true,
       "rank": 1,
-      "suggestion_count": 4,
+      "suggestion_count": 5,
       "suggestions": [
         "accountability buddy app free",
         "accountability partner app free",
         "accountability partner app free reddit",
+        "apps for weight loss accountability",
         "is there an accountability app"
       ]
     },
@@ -482,12 +483,11 @@
       "priority": 65,
       "exact_in_autocomplete": true,
       "rank": 1,
-      "suggestion_count": 6,
+      "suggestion_count": 5,
       "suggestions": [
         "apple watch sleep animal",
         "how apple watch measure sleep",
         "how does my apple watch measure sleep",
-        "where is sleep analysis on apple watch",
         "how does the apple watch detect sleep",
         "is there a sleep app on my apple watch"
       ]
@@ -578,6 +578,12 @@
       "best_rank": 2
     },
     {
+      "phrase": "apple health benefits for dogs",
+      "cluster": "health-pets",
+      "seen": 3,
+      "best_rank": 3
+    },
+    {
       "phrase": "does apple watch have resting heart rate",
       "cluster": "recovery-scores",
       "seen": 3,
@@ -632,7 +638,7 @@
       "best_rank": 1
     },
     {
-      "phrase": "tamagotchi app for iphone",
+      "phrase": "tamagotchi app for apple watch",
       "cluster": "health-pets",
       "seen": 2,
       "best_rank": 1
@@ -692,13 +698,13 @@
       "best_rank": 1
     },
     {
-      "phrase": "apple watch hrv app",
+      "phrase": "apple watch hrv vs recovery hrv",
       "cluster": "recovery-scores",
       "seen": 2,
       "best_rank": 1
     },
     {
-      "phrase": "apple watch hrv vs recovery hrv",
+      "phrase": "apple watch hrv app",
       "cluster": "recovery-scores",
       "seen": 2,
       "best_rank": 1
@@ -741,6 +747,12 @@
     },
     {
       "phrase": "body age vs real age",
+      "cluster": "body-age",
+      "seen": 2,
+      "best_rank": 1
+    },
+    {
+      "phrase": "body age apple watch",
       "cluster": "body-age",
       "seen": 2,
       "best_rank": 1
@@ -830,7 +842,7 @@
       "best_rank": 2
     },
     {
-      "phrase": "tamagotchi app for apple watch",
+      "phrase": "tamagotchi app for iphone",
       "cluster": "health-pets",
       "seen": 2,
       "best_rank": 2
@@ -850,12 +862,6 @@
     {
       "phrase": "sleep score apple watch vs garmin",
       "cluster": "watch-sleep",
-      "seen": 2,
-      "best_rank": 2
-    },
-    {
-      "phrase": "apple watch hrv vs garmin",
-      "cluster": "recovery-scores",
       "seen": 2,
       "best_rank": 2
     },
@@ -885,12 +891,6 @@
     },
     {
       "phrase": "athlytic app review",
-      "cluster": "alternatives",
-      "seen": 2,
-      "best_rank": 2
-    },
-    {
-      "phrase": "habitica app review",
       "cluster": "alternatives",
       "seen": 2,
       "best_rank": 2
