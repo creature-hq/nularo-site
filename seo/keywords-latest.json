@@ -1,18 +1,7 @@
 {
-  "pulled": "2026-10-23",
+  "pulled": "2026-10-24",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "apple watch hrv always low",
-      "priority": 15,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 2,
-      "suggestions": [
-        "apple watch hrv always low",
-        "is apple watch hrv accurate"
-      ]
-    },
     {
       "keyword": "sleep app for night shift workers",
       "priority": 17,
@@ -531,6 +520,20 @@
         "does sleep score work with apple watch",
         "should you sleep elevated with sleep apnea",
         "no matter how many hours of sleep i get i always tired"
+      ]
+    },
+    {
+      "keyword": "apple sleep score always high",
+      "priority": 69,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 5,
+      "suggestions": [
+        "apple sleep score always high",
+        "apple watch sleep score always high",
+        "how to get a good sleep score",
+        "is sleep score accurate",
+        "what is a good sleep score"
       ]
     }
   ],
