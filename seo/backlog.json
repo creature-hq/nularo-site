@@ -403,7 +403,9 @@
   "nularo_fit": 4,
   "angle": "INFERENCE: Night-shift sleep apps (ShiftSleep, Riseo) and how Apple Watch handles day sleep; Nularo's personal 14-day baseline. Non-medical.",
   "priority": 17,
-  "status": "todo"
+  "status": "done",
+  "guide": "sleep-app-for-night-shift-workers",
+  "done": "2026-10-24"
  },
  {
   "keyword": "apple watch whoop age",
@@ -447,7 +449,9 @@
   "nularo_fit": 4,
   "angle": "INFERENCE: How the bedtime-consistency component behaves for day sleepers and rotating shifts; tips for setting schedules; Nularo baseline is personal so day sleep is not punished vs a fixed clock (verify before publishing).",
   "priority": 19,
-  "status": "todo"
+  "status": "done",
+  "guide": "sleep-app-for-night-shift-workers",
+  "done": "2026-10-24"
  },
  {
   "keyword": "tamagotchi app for fitness",

@@ -4,6 +4,7 @@
 
 ## Guides
 
+- [Sleep apps for night shift workers on iPhone and Apple Watch](https://nularo.com/guides/sleep-app-for-night-shift-workers/): Apple Watch records day sleep if you give it a schedule. Here is how to set one up for nights or rotating shifts, and which apps are built for shift work.
 - [Why is my Apple Watch HRV always low? (What the number means)](https://nularo.com/guides/apple-watch-hrv-always-low/): Apple Watch reports HRV as SDNN from spot readings, so it is not on the same scale as Whoop or Oura. Compare it with your own trend, not other people's.
 - [Tamagotchi apps for self care: which pets forgive a bad week](https://nularo.com/guides/self-care-tamagotchi-apps/): Finch, Kinder World, Quabble, Urso, Pengu, Palli and Nularo compared by what feeds the pet, what happens when you skip a day, and what it costs.
 - [Apps that roast you, sorted by what they roast](https://nularo.com/guides/apps-that-roast-you/): Most roast apps take a selfie and sell a weekly subscription. These roast what you actually did instead: your music, your runs, your weather, your sleep.
