@@ -1,23 +1,7 @@
 {
-  "pulled": "2026-10-24",
+  "pulled": "2026-10-25",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "sleep app for night shift workers",
-      "priority": 17,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 7,
-      "suggestions": [
-        "sleep app for night shift workers",
-        "best sleep app for night shift workers",
-        "sleep tracker app for night shift workers",
-        "sleep app for shift workers",
-        "sleep for night shift workers",
-        "how do night shift workers sleep",
-        "what time do night shift workers sleep"
-      ]
-    },
     {
       "keyword": "apple watch whoop age",
       "priority": 18,
@@ -30,19 +14,6 @@
         "can you get whoop on apple watch",
         "why whoop over apple watch",
         "can i wear apple watch and whoop"
-      ]
-    },
-    {
-      "keyword": "apple sleep score for night shift workers",
-      "priority": 19,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 4,
-      "suggestions": [
-        "apple sleep score for night shift workers",
-        "what time do night shift workers sleep",
-        "how do night shift workers sleep",
-        "does iphone night shift help sleep"
       ]
     },
     {
@@ -534,6 +505,33 @@
         "how to get a good sleep score",
         "is sleep score accurate",
         "what is a good sleep score"
+      ]
+    },
+    {
+      "keyword": "apple sleep score doesn't make sense",
+      "priority": 70,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 4,
+      "suggestions": [
+        "apple sleep score doesn't make sense",
+        "sleep score not working",
+        "is sleep score accurate",
+        "how accurate is apple sleep"
+      ]
+    },
+    {
+      "keyword": "apple watch app that tells your mood",
+      "priority": 71,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 5,
+      "suggestions": [
+        "apple watch app that tells your mood",
+        "mood apps for apple watch",
+        "can apple watch detect anxiety",
+        "does apple watch track anxiety",
+        "is there a stress app for apple watch"
       ]
     }
   ],
