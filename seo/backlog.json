@@ -427,7 +427,9 @@
   "nularo_fit": 5,
   "angle": "INFERENCE: Can Apple Watch give you a Whoop Age? Options: Apple Health Age (new), Bevel, Nularo Creature Age (free reveal, per-habit breakdown).",
   "priority": 18,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-10-25",
+  "guide": "biological-age-apps-apple-watch"
  },
  {
   "keyword": "apple sleep score for night shift workers",
@@ -715,7 +717,9 @@
   "nularo_fit": 4,
   "angle": "INFERENCE: Apps that score your night (Apple Sleep Score, AutoSleep, SleepMaxx, Nularo's Sleep score + verdict); explain how each grades.",
   "priority": 30,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-10-25",
+  "guide": "apps-that-rate-your-sleep"
  },
  {
   "keyword": "sleep consistency app",
@@ -898,7 +902,9 @@
   "nularo_fit": 5,
   "angle": "INFERENCE: For Apple Watch owners who want Whoop Age without a Whoop: options and how each computes age.",
   "priority": 38,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-10-25",
+  "guide": "biological-age-apps-apple-watch"
  },
  {
   "keyword": "fitness age apple watch",
