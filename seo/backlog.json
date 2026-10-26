@@ -741,7 +741,9 @@
   "nularo_fit": 5,
   "angle": "INFERENCE: Apps that score consistency (Apple Sleep Score, SleepStack, Twilight, Whoop, Nularo) and how each defines it.",
   "priority": 31,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-10-26",
+  "guide": "sleep-consistency-apps"
  },
  {
   "keyword": "bevel app biological age",
@@ -1106,7 +1108,9 @@
   "nularo_fit": 5,
   "angle": "INFERENCE: Where bedtime consistency lives in Apple's Sleep Score (30 of 100 points, last 13 nights); Nularo's bedtime consistency + Bedtime Pledge as the accountability layer.",
   "priority": 47,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-10-26",
+  "guide": "sleep-consistency-apps"
  },
  {
   "keyword": "apple watch time in bed less than time asleep",
