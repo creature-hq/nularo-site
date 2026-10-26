@@ -1,31 +1,7 @@
 {
-  "pulled": "2026-10-25",
+  "pulled": "2026-10-26",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "apple watch whoop age",
-      "priority": 18,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 5,
-      "suggestions": [
-        "apple watch whoop age",
-        "does whoop work with apple watch",
-        "can you get whoop on apple watch",
-        "why whoop over apple watch",
-        "can i wear apple watch and whoop"
-      ]
-    },
-    {
-      "keyword": "app that rates your sleep",
-      "priority": 30,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 1,
-      "suggestions": [
-        "app that rates your sleep"
-      ]
-    },
     {
       "keyword": "sleep consistency app",
       "priority": 31,
@@ -98,20 +74,6 @@
         "how to see health age on apple watch",
         "apple health app age",
         "can i see apple health on mac"
-      ]
-    },
-    {
-      "keyword": "whoop age for apple watch",
-      "priority": 38,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 5,
-      "suggestions": [
-        "whoop age for apple watch",
-        "does whoop work with apple watch",
-        "does whoop have an apple watch app",
-        "can you wear a whoop and apple watch",
-        "is there a whoop app for apple watch"
       ]
     },
     {
@@ -532,6 +494,46 @@
         "can apple watch detect anxiety",
         "does apple watch track anxiety",
         "is there a stress app for apple watch"
+      ]
+    },
+    {
+      "keyword": "whoop age alternative",
+      "priority": 72,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 5,
+      "suggestions": [
+        "whoop age alternative",
+        "whoop app alternative",
+        "is whoop good for seniors",
+        "what is similar to whoop",
+        "whoop band alternatives"
+      ]
+    },
+    {
+      "keyword": "pokemon sleep alternative",
+      "priority": 73,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 4,
+      "suggestions": [
+        "pokemon sleep alternative",
+        "is it better to paralyze or sleep pokemon",
+        "what is the best sleep move in pokemon",
+        "can you paralyze and sleep a pokemon"
+      ]
+    },
+    {
+      "keyword": "gen z sleepmaxxing",
+      "priority": 74,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 4,
+      "suggestions": [
+        "gen z sleepmaxxing",
+        "gen z details",
+        "gen z sayings",
+        "what does z in gen z mean"
       ]
     }
   ],

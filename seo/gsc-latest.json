@@ -1,8 +1,8 @@
 {
-  "pulled": "2026-10-25",
+  "pulled": "2026-10-26",
   "range": [
-    "2026-09-25",
-    "2026-10-23"
+    "2026-09-26",
+    "2026-10-24"
   ],
   "totals": {
     "impressions": 20,
@@ -53,6 +53,12 @@
       "last_crawl": "2026-10-20T14:32:10Z"
     },
     {
+      "url": "https://nularo.com/guides/how-we-write/",
+      "verdict": "NEUTRAL",
+      "coverage": "URL is unknown to Google",
+      "last_crawl": null
+    },
+    {
       "url": "https://nularo.com/guides/apple-watch-body-battery/",
       "verdict": "NEUTRAL",
       "coverage": "Crawled - currently not indexed",
@@ -84,9 +90,9 @@
     },
     {
       "url": "https://nularo.com/guides/virtual-pet-apps-apple-health/",
-      "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google",
-      "last_crawl": null
+      "verdict": "PASS",
+      "coverage": "Submitted and indexed",
+      "last_crawl": "2026-10-26T01:27:42Z"
     },
     {
       "url": "https://nularo.com/guides/gamified-sleep-tracker-apps/",
@@ -96,15 +102,15 @@
     },
     {
       "url": "https://nularo.com/guides/apps-that-roast-you/",
-      "verdict": "NEUTRAL",
-      "coverage": "Discovered - currently not indexed",
-      "last_crawl": null
+      "verdict": "PASS",
+      "coverage": "Submitted and indexed",
+      "last_crawl": "2026-10-26T01:29:57Z"
     },
     {
       "url": "https://nularo.com/guides/self-care-tamagotchi-apps/",
-      "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google",
-      "last_crawl": null
+      "verdict": "PASS",
+      "coverage": "Submitted and indexed",
+      "last_crawl": "2026-10-26T01:27:42Z"
     },
     {
       "url": "https://nularo.com/guides/apple-watch-hrv-always-low/",
@@ -114,9 +120,15 @@
     },
     {
       "url": "https://nularo.com/guides/sleep-app-for-night-shift-workers/",
-      "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google",
-      "last_crawl": null
+      "verdict": "PASS",
+      "coverage": "Submitted and indexed",
+      "last_crawl": "2026-10-26T01:29:56Z"
+    },
+    {
+      "url": "https://nularo.com/guides/apps-that-rate-your-sleep/",
+      "verdict": "PASS",
+      "coverage": "Submitted and indexed",
+      "last_crawl": "2026-10-26T01:29:30Z"
     }
   ]
 }
