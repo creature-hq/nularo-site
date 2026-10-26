@@ -34,6 +34,7 @@ import json
 import os
 import re
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -66,6 +67,23 @@ def post(access, url, body):
     )
     with urllib.request.urlopen(req) as r:
         return json.load(r)
+
+
+def resubmit_sitemap(access):
+    """Resubmit the sitemap so Google rereads it the morning a guide ships.
+    Google dropped the anonymous sitemap ping in 2023; this is the API way."""
+    site = urllib.parse.quote(SITE, safe="")
+    feed = urllib.parse.quote(SITE.rstrip("/") + "/sitemap.xml", safe="")
+    req = urllib.request.Request(
+        f"https://www.googleapis.com/webmasters/v3/sites/{site}/sitemaps/{feed}",
+        method="PUT",
+        headers={"Authorization": f"Bearer {access}"},
+    )
+    try:
+        urllib.request.urlopen(req).read()
+        print("sitemap resubmitted")
+    except urllib.error.HTTPError as e:
+        print(f"sitemap resubmit failed: {e.code}")
 
 
 def query(access, body):
@@ -104,6 +122,7 @@ def main():
     end = dt.date.today() - dt.timedelta(days=2)  # GSC data lags ~2 days
     start = end - dt.timedelta(days=28)
     access = token()
+    resubmit_sitemap(access)
     window = {"startDate": start.isoformat(), "endDate": end.isoformat(), "dataState": "all"}
 
     rows = query(access, {**window, "dimensions": ["query", "page"], "rowLimit": 5000})

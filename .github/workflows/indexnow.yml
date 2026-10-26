@@ -1,0 +1,29 @@
+# Pings IndexNow (Bing, Yandex and friends) with the pages each push to main
+# changed, so a new guide is known to Bing within minutes instead of weeks.
+# Pushes made by other workflows do not trigger this one, so
+# publish-guide.yml pings for the guides it merges itself.
+# Free: GitHub Actions minutes are unlimited on public repos.
+name: IndexNow ping
+
+on:
+  push:
+    branches: [main]
+    paths: ["guides/**", "index.html", "*.html"]
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Wait for Pages to deploy
+        run: sleep 90
+      - name: Ping changed pages
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ github.event.before }}" = "0000000000000000000000000000000000000000" ]; then
+            python3 tools/indexnow.py --all
+          else
+            python3 tools/indexnow.py --since "${{ github.event.before }}"
+          fi

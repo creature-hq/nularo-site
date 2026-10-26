@@ -2,9 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://nularo.com/</loc><lastmod>2026-10-25</lastmod></url>
   <url><loc>https://nularo.com/guides/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://nularo.com/guides/how-we-write/</loc></url>
   <url><loc>https://nularo.com/support.html</loc></url>
   <url><loc>https://nularo.com/privacy.html</loc></url>
   <url><loc>https://nularo.com/terms.html</loc></url>
+  <url><loc>https://nularo.com/health-data-notice.html</loc></url>
   <url><loc>https://nularo.com/guides/apple-watch-body-battery/</loc><lastmod>2026-10-19</lastmod></url>
   <url><loc>https://nularo.com/guides/apple-watch-sleep-debt/</loc><lastmod>2026-10-19</lastmod></url>
   <url><loc>https://nularo.com/guides/biological-age-apps-apple-watch/</loc><lastmod>2026-10-19</lastmod></url>

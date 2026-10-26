@@ -29,9 +29,16 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          before=$(git rev-parse HEAD)
+          echo "BEFORE=$before" >> "$GITHUB_ENV"
           git merge --no-edit "origin/${GITHUB_REF_NAME}"
           python3 tools/build.py --check
           git add -A
           git diff --cached --quiet || git commit -m "Rebuild after merging ${GITHUB_REF_NAME}"
           git push origin main
           git push origin --delete "${GITHUB_REF_NAME}"
+      - name: Ping IndexNow
+        # pushes made with GITHUB_TOKEN do not trigger indexnow.yml, so ping here
+        run: |
+          sleep 90
+          python3 tools/indexnow.py --since "$BEFORE" || true
