@@ -64,7 +64,10 @@ This file is the instruction set for the daily run. Read all of it every run.
    make sure at least two indexed guides link to it (add one such link per
    run, in a guide you are already editing). Bump `updated` dates only if you
    changed real content.
-6. `python3 tools/build.py --check`. Fix anything it reports.
+6. `python3 tools/build.py --check`. Fix anything it reports. The build also links every
+   new guide from the homepage and from the "New guides" footer on every guide
+   page, and pushes to main ping IndexNow, so step 5's inline links are the
+   only linking you do by hand. The slug `how-we-write` is reserved.
 7. Mark the backlog item `done` with the date, append one line to `seo/log.md`
    (date, slug, target query, which rule picked it (a/b/c) and why, which pages
    now link to it, and today's `totals` plus how many guides are indexed, so the
