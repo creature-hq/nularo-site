@@ -765,7 +765,10 @@
   "nularo_fit": 4,
   "angle": "INFERENCE: How Bevel's biological age works and what tier it sits in (sources conflict, verify), vs Creature Age's free reveal.",
   "priority": 32,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-10-27",
+  "guide": "biological-age-apps-apple-watch",
+  "note": "covered by existing guide (Bevel Biological Age section and table); skipped to avoid a duplicate-intent page"
  },
  {
   "keyword": "finch self care pet alternative",
@@ -836,7 +839,10 @@
   "nularo_fit": 5,
   "angle": "INFERENCE: Explain the bedtime component (how 'usual bedtime' is set, why one late night costs points) and how to see it; Bedtime Pledge as a nudge.",
   "priority": 35,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-10-27",
+  "guide": "sleep-consistency-apps",
+  "note": "covered by existing guide (Sleep Score bedtime consistency, 30 points over 13 nights); skipped to avoid a duplicate-intent page"
  },
  {
   "keyword": "apple watch stress app free",
@@ -859,7 +865,9 @@
   "nularo_fit": 3,
   "angle": "INFERENCE: Free stress apps roundup; Nularo as paid option bundled with sleep and energy.",
   "priority": 36,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-10-27",
+  "guide": "apple-watch-stress-app-free"
  },
  {
   "keyword": "how to see apple health age",
