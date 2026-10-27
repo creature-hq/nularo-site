@@ -1,18 +1,7 @@
 {
-  "pulled": "2026-10-26",
+  "pulled": "2026-10-27",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "sleep consistency app",
-      "priority": 31,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 2,
-      "suggestions": [
-        "sleep consistency app",
-        "how do sleep quality apps work"
-      ]
-    },
     {
       "keyword": "bevel app biological age",
       "priority": 32,
@@ -170,14 +159,6 @@
         "how to find sleep debt on whoop",
         "how to find sleep debt on oura"
       ]
-    },
-    {
-      "keyword": "how to check sleep consistency apple watch",
-      "priority": 47,
-      "exact_in_autocomplete": false,
-      "rank": null,
-      "suggestion_count": 0,
-      "suggestions": []
     },
     {
       "keyword": "apple watch time in bed less than time asleep",
@@ -534,6 +515,34 @@
         "gen z details",
         "gen z sayings",
         "what does z in gen z mean"
+      ]
+    },
+    {
+      "keyword": "bed rotting app",
+      "priority": 75,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 3,
+      "suggestions": [
+        "bed rotting app",
+        "stop bed rotting app",
+        "bed rot challenge application"
+      ]
+    },
+    {
+      "keyword": "apple watch night shift sleep",
+      "priority": 76,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 7,
+      "suggestions": [
+        "apple watch night shift sleep",
+        "apple watch sleep tracking night shift",
+        "apple watch sleep score night shift",
+        "does apple watch have night shift",
+        "what time do night shift workers sleep",
+        "does apple night shift work",
+        "night shift sleep before or after"
       ]
     }
   ],

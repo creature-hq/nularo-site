@@ -1,11 +1,11 @@
 {
-  "pulled": "2026-10-26",
+  "pulled": "2026-10-27",
   "range": [
-    "2026-09-26",
-    "2026-10-24"
+    "2026-09-27",
+    "2026-10-25"
   ],
   "totals": {
-    "impressions": 20,
+    "impressions": 21,
     "clicks": 0,
     "queries": 1
   },
@@ -34,6 +34,12 @@
       "impressions": 4,
       "clicks": 0,
       "position": 8.8
+    },
+    {
+      "page": "https://nularo.com/guides/self-care-tamagotchi-apps/",
+      "impressions": 1,
+      "clicks": 0,
+      "position": 11
     }
   ],
   "queries": [
@@ -55,7 +61,7 @@
     {
       "url": "https://nularo.com/guides/how-we-write/",
       "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "last_crawl": null
     },
     {
@@ -115,7 +121,7 @@
     {
       "url": "https://nularo.com/guides/apple-watch-hrv-always-low/",
       "verdict": "NEUTRAL",
-      "coverage": "Discovered - currently not indexed",
+      "coverage": "URL is unknown to Google",
       "last_crawl": null
     },
     {
@@ -129,6 +135,12 @@
       "verdict": "PASS",
       "coverage": "Submitted and indexed",
       "last_crawl": "2026-10-26T01:29:30Z"
+    },
+    {
+      "url": "https://nularo.com/guides/sleep-consistency-apps/",
+      "verdict": "NEUTRAL",
+      "coverage": "URL is unknown to Google",
+      "last_crawl": null
     }
   ]
 }
