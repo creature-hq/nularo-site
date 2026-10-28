@@ -1,68 +1,22 @@
 {
-  "pulled": "2026-10-27",
+  "pulled": "2026-10-28",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "bevel app biological age",
-      "priority": 32,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 4,
-      "suggestions": [
-        "bevel app biological age",
-        "biological age chronological age",
-        "biological age vs chronological age test",
-        "face app age"
-      ]
-    },
-    {
-      "keyword": "apple sleep score bedtime",
-      "priority": 35,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 8,
-      "suggestions": [
-        "apple sleep score bedtime",
-        "apple sleep score bedtime reddit",
-        "apple sleep score bedtime average",
-        "apple watch sleep score bedtime",
-        "apple health sleep score bedtime",
-        "apple sleep score change bedtime",
-        "apple sleep score expected bedtime",
-        "how does apple sleep score determine average bedtime"
-      ]
-    },
-    {
-      "keyword": "apple watch stress app free",
-      "priority": 36,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 7,
-      "suggestions": [
-        "apple watch stress app free",
-        "apple watch stress monitor app free",
-        "best apple watch stress app free",
-        "stress level app for apple watch free",
-        "is there a stress app for apple watch",
-        "app to measure stress level apple watch",
-        "anxiety apps for apple watch"
-      ]
-    },
     {
       "keyword": "how to see apple health age",
       "priority": 37,
       "exact_in_autocomplete": true,
       "rank": 1,
-      "suggestion_count": 8,
+      "suggestion_count": 10,
       "suggestions": [
         "how to see apple health age",
+        "how to check apple health age",
+        "how to see apple watch age",
+        "how to see apple watch health age",
         "how to check apple watch age",
         "how to check my apple watch age",
         "how to check apple watch battery age",
-        "how to change apple health age",
-        "how to see health age on apple watch",
-        "apple health app age",
-        "can i see apple health on mac"
+        "how to change apple health age"
       ]
     },
     {
@@ -113,9 +67,9 @@
       "suggestion_count": 6,
       "suggestions": [
         "habit tracker with pet",
+        "habit app with pet",
         "habit tracker app with pet",
         "habit tracker peter mckinnon",
-        "habit app pet",
         "how to stop dogs hunting animals",
         "is spending time with pets a hobby"
       ]
@@ -359,11 +313,10 @@
       "priority": 63,
       "exact_in_autocomplete": true,
       "rank": 1,
-      "suggestion_count": 5,
+      "suggestion_count": 4,
       "suggestions": [
         "accountability buddy app free",
         "accountability partner app free",
-        "accountability partner app free reddit",
         "apps for weight loss accountability",
         "is there an accountability app"
       ]
@@ -544,6 +497,44 @@
         "does apple night shift work",
         "night shift sleep before or after"
       ]
+    },
+    {
+      "keyword": "best sleep debt app",
+      "priority": 77,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 6,
+      "suggestions": [
+        "best sleep debt app",
+        "best free sleep debt app",
+        "best app to track sleep debt",
+        "how to put apps to deep sleep",
+        "can you pay sleep debt",
+        "apps for deep sleep"
+      ]
+    },
+    {
+      "keyword": "tamagotchi style app for apple watch",
+      "priority": 78,
+      "exact_in_autocomplete": false,
+      "rank": null,
+      "suggestion_count": 0,
+      "suggestions": []
+    },
+    {
+      "keyword": "mostly core sleep apple watch",
+      "priority": 79,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 6,
+      "suggestions": [
+        "mostly core sleep apple watch",
+        "is apple watch sleep accurate",
+        "which apple watch band is best for sleeping",
+        "does apple watch track sleep accurately",
+        "how accurate is apple watch deep sleep",
+        "does apple watch help with sleep"
+      ]
     }
   ],
   "new_candidates": [
@@ -560,12 +551,6 @@
       "best_rank": 2
     },
     {
-      "phrase": "finch app alternative reddit",
-      "cluster": "alternatives",
-      "seen": 4,
-      "best_rank": 2
-    },
-    {
       "phrase": "is there a tamagotchi app",
       "cluster": "health-pets",
       "seen": 3,
@@ -578,22 +563,16 @@
       "best_rank": 2
     },
     {
+      "phrase": "finch app alternative reddit",
+      "cluster": "alternatives",
+      "seen": 3,
+      "best_rank": 2
+    },
+    {
       "phrase": "does sleep cycle app work for couples",
       "cluster": "together-and-who",
       "seen": 3,
       "best_rank": 2
-    },
-    {
-      "phrase": "do college students sleep",
-      "cluster": "together-and-who",
-      "seen": 3,
-      "best_rank": 2
-    },
-    {
-      "phrase": "apple health benefits for dogs",
-      "cluster": "health-pets",
-      "seen": 3,
-      "best_rank": 3
     },
     {
       "phrase": "does apple watch have resting heart rate",
@@ -824,6 +803,12 @@
       "best_rank": 1
     },
     {
+      "phrase": "sleep tracker for couples",
+      "cluster": "together-and-who",
+      "seen": 2,
+      "best_rank": 1
+    },
+    {
       "phrase": "share sleep data apple watch",
       "cluster": "together-and-who",
       "seen": 2,
@@ -836,7 +821,7 @@
       "best_rank": 1
     },
     {
-      "phrase": "college students sleeping in cars",
+      "phrase": "college student sleeping a lot",
       "cluster": "together-and-who",
       "seen": 2,
       "best_rank": 1
@@ -903,6 +888,12 @@
     },
     {
       "phrase": "athlytic app review",
+      "cluster": "alternatives",
+      "seen": 2,
+      "best_rank": 2
+    },
+    {
+      "phrase": "habitica app review",
       "cluster": "alternatives",
       "seen": 2,
       "best_rank": 2

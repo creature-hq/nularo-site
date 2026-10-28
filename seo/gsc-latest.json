@@ -1,16 +1,22 @@
 {
-  "pulled": "2026-10-27",
+  "pulled": "2026-10-28",
   "range": [
-    "2026-09-27",
-    "2026-10-25"
+    "2026-09-28",
+    "2026-10-26"
   ],
   "totals": {
-    "impressions": 21,
-    "clicks": 0,
+    "impressions": 27,
+    "clicks": 1,
     "queries": 1
   },
   "opportunities": [],
   "pages": [
+    {
+      "page": "https://nularo.com/guides/apps-that-rate-your-sleep/",
+      "impressions": 2,
+      "clicks": 1,
+      "position": 5.5
+    },
     {
       "page": "https://nularo.com/",
       "impressions": 6,
@@ -36,10 +42,16 @@
       "position": 8.8
     },
     {
-      "page": "https://nularo.com/guides/self-care-tamagotchi-apps/",
-      "impressions": 1,
+      "page": "https://nularo.com/guides/sleep-app-for-night-shift-workers/",
+      "impressions": 3,
       "clicks": 0,
-      "position": 11
+      "position": 7
+    },
+    {
+      "page": "https://nularo.com/guides/self-care-tamagotchi-apps/",
+      "impressions": 2,
+      "clicks": 0,
+      "position": 35.5
     }
   ],
   "queries": [
@@ -61,7 +73,7 @@
     {
       "url": "https://nularo.com/guides/how-we-write/",
       "verdict": "NEUTRAL",
-      "coverage": "Discovered - currently not indexed",
+      "coverage": "URL is unknown to Google",
       "last_crawl": null
     },
     {
@@ -121,7 +133,7 @@
     {
       "url": "https://nularo.com/guides/apple-watch-hrv-always-low/",
       "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "last_crawl": null
     },
     {
@@ -139,7 +151,13 @@
     {
       "url": "https://nularo.com/guides/sleep-consistency-apps/",
       "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
+      "last_crawl": null
+    },
+    {
+      "url": "https://nularo.com/guides/apple-watch-stress-app-free/",
+      "verdict": "NEUTRAL",
+      "coverage": "Discovered - currently not indexed",
       "last_crawl": null
     }
   ]
