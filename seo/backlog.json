@@ -890,7 +890,9 @@
   "nularo_fit": 3,
   "angle": "INFERENCE: Steps + requirements (iOS 27.2, Watch, US English at launch); fallback options if you do not see it yet.",
   "priority": 37,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-10-28",
+  "guide": "how-to-see-apple-health-age"
  },
  {
   "keyword": "whoop age for apple watch",
