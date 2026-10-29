@@ -1,11 +1,11 @@
 {
-  "pulled": "2026-10-28",
+  "pulled": "2026-10-29",
   "range": [
-    "2026-09-28",
-    "2026-10-26"
+    "2026-09-29",
+    "2026-10-27"
   ],
   "totals": {
-    "impressions": 27,
+    "impressions": 41,
     "clicks": 1,
     "queries": 1
   },
@@ -13,9 +13,21 @@
   "pages": [
     {
       "page": "https://nularo.com/guides/apps-that-rate-your-sleep/",
-      "impressions": 2,
+      "impressions": 3,
       "clicks": 1,
-      "position": 5.5
+      "position": 4
+    },
+    {
+      "page": "https://nularo.com/guides/self-care-tamagotchi-apps/",
+      "impressions": 7,
+      "clicks": 0,
+      "position": 15.9
+    },
+    {
+      "page": "https://nularo.com/guides/sleep-app-for-night-shift-workers/",
+      "impressions": 7,
+      "clicks": 0,
+      "position": 6.9
     },
     {
       "page": "https://nularo.com/",
@@ -42,16 +54,16 @@
       "position": 8.8
     },
     {
-      "page": "https://nularo.com/guides/sleep-app-for-night-shift-workers/",
+      "page": "https://nularo.com/guides/finch-alternatives/",
       "impressions": 3,
       "clicks": 0,
-      "position": 7
+      "position": 8
     },
     {
-      "page": "https://nularo.com/guides/self-care-tamagotchi-apps/",
-      "impressions": 2,
+      "page": "https://nularo.com/guides/apps-that-roast-you/",
+      "impressions": 1,
       "clicks": 0,
-      "position": 35.5
+      "position": 9
     }
   ],
   "queries": [
@@ -156,6 +168,12 @@
     },
     {
       "url": "https://nularo.com/guides/apple-watch-stress-app-free/",
+      "verdict": "NEUTRAL",
+      "coverage": "Discovered - currently not indexed",
+      "last_crawl": null
+    },
+    {
+      "url": "https://nularo.com/guides/how-to-see-apple-health-age/",
       "verdict": "NEUTRAL",
       "coverage": "Discovered - currently not indexed",
       "last_crawl": null

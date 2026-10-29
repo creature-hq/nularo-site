@@ -1,24 +1,7 @@
 {
-  "pulled": "2026-10-28",
+  "pulled": "2026-10-29",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "how to see apple health age",
-      "priority": 37,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 10,
-      "suggestions": [
-        "how to see apple health age",
-        "how to check apple health age",
-        "how to see apple watch age",
-        "how to see apple watch health age",
-        "how to check apple watch age",
-        "how to check my apple watch age",
-        "how to check apple watch battery age",
-        "how to change apple health age"
-      ]
-    },
     {
       "keyword": "fitness age apple watch",
       "priority": 39,
@@ -263,9 +246,10 @@
       "priority": 59,
       "exact_in_autocomplete": true,
       "rank": 1,
-      "suggestion_count": 1,
+      "suggestion_count": 2,
       "suggestions": [
-        "sleepmaxxing app"
+        "sleepmaxxing app",
+        "sombr sleepmaxxing app"
       ]
     },
     {
@@ -534,6 +518,20 @@
         "does apple watch track sleep accurately",
         "how accurate is apple watch deep sleep",
         "does apple watch help with sleep"
+      ]
+    },
+    {
+      "keyword": "readiness score apple watch series 10",
+      "priority": 80,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 5,
+      "suggestions": [
+        "readiness score apple watch series 10",
+        "does apple watch series 10 have readiness score",
+        "apple watch readiness score",
+        "recovery score apple watch",
+        "apple watch is slow to respond"
       ]
     }
   ],
