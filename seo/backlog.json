@@ -938,7 +938,9 @@
   "nularo_fit": 3,
   "angle": "INFERENCE: Apple shows Cardio Fitness (VO2 max) not a fitness age; how to convert / which apps show one; Creature Age as the sleep+movement take.",
   "priority": 39,
-  "status": "todo"
+  "status": "done",
+  "guide": "apple-watch-fitness-age",
+  "done": "2026-10-29"
  },
  {
   "keyword": "bevel alternative free",
