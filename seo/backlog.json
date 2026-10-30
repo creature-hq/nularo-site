@@ -962,7 +962,9 @@
   "nularo_fit": 3,
   "angle": "INFERENCE: Free options first; be clear Nularo is paid with free Creature Age reveal.",
   "priority": 40,
-  "status": "todo"
+  "status": "done",
+  "date": "2026-10-30",
+  "guide": "bevel-alternative-free"
  },
  {
   "keyword": "virtual pet pedometer app",
