@@ -1,24 +1,7 @@
 {
-  "pulled": "2026-10-29",
+  "pulled": "2026-10-30",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "fitness age apple watch",
-      "priority": 39,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 10,
-      "suggestions": [
-        "fitness age apple watch",
-        "fitness age apple watch where to find",
-        "fitness age calculator apple watch",
-        "my fitness age apple watch",
-        "cardio fitness age apple watch",
-        "check fitness age apple watch",
-        "garmin fitness age apple watch",
-        "fitness age app for apple watch"
-      ]
-    },
     {
       "keyword": "bevel alternative free",
       "priority": 40,
@@ -533,6 +516,14 @@
         "recovery score apple watch",
         "apple watch is slow to respond"
       ]
+    },
+    {
+      "keyword": "apple health age vs whoop age",
+      "priority": 81,
+      "exact_in_autocomplete": false,
+      "rank": null,
+      "suggestion_count": 0,
+      "suggestions": []
     }
   ],
   "new_candidates": [

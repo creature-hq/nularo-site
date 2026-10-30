@@ -1,13 +1,13 @@
 {
-  "pulled": "2026-10-29",
+  "pulled": "2026-10-30",
   "range": [
-    "2026-09-29",
-    "2026-10-27"
+    "2026-09-30",
+    "2026-10-28"
   ],
   "totals": {
-    "impressions": 41,
+    "impressions": 45,
     "clicks": 1,
-    "queries": 1
+    "queries": 2
   },
   "opportunities": [],
   "pages": [
@@ -19,15 +19,15 @@
     },
     {
       "page": "https://nularo.com/guides/self-care-tamagotchi-apps/",
-      "impressions": 7,
+      "impressions": 9,
       "clicks": 0,
-      "position": 15.9
+      "position": 14
     },
     {
       "page": "https://nularo.com/guides/sleep-app-for-night-shift-workers/",
-      "impressions": 7,
+      "impressions": 9,
       "clicks": 0,
-      "position": 6.9
+      "position": 6.6
     },
     {
       "page": "https://nularo.com/",
@@ -73,6 +73,13 @@
       "impressions": 3,
       "clicks": 0,
       "position": 51.3
+    },
+    {
+      "query": "self care tamagotchi app",
+      "page": "https://nularo.com/guides/self-care-tamagotchi-apps/",
+      "impressions": 1,
+      "clicks": 0,
+      "position": 9
     }
   ],
   "index": [
@@ -85,7 +92,7 @@
     {
       "url": "https://nularo.com/guides/how-we-write/",
       "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "last_crawl": null
     },
     {
@@ -145,7 +152,7 @@
     {
       "url": "https://nularo.com/guides/apple-watch-hrv-always-low/",
       "verdict": "NEUTRAL",
-      "coverage": "Discovered - currently not indexed",
+      "coverage": "URL is unknown to Google",
       "last_crawl": null
     },
     {
@@ -163,19 +170,25 @@
     {
       "url": "https://nularo.com/guides/sleep-consistency-apps/",
       "verdict": "NEUTRAL",
-      "coverage": "Discovered - currently not indexed",
+      "coverage": "URL is unknown to Google",
       "last_crawl": null
     },
     {
       "url": "https://nularo.com/guides/apple-watch-stress-app-free/",
       "verdict": "NEUTRAL",
-      "coverage": "Discovered - currently not indexed",
+      "coverage": "URL is unknown to Google",
       "last_crawl": null
     },
     {
       "url": "https://nularo.com/guides/how-to-see-apple-health-age/",
       "verdict": "NEUTRAL",
       "coverage": "Discovered - currently not indexed",
+      "last_crawl": null
+    },
+    {
+      "url": "https://nularo.com/guides/apple-watch-fitness-age/",
+      "verdict": "NEUTRAL",
+      "coverage": "URL is unknown to Google",
       "last_crawl": null
     }
   ]
