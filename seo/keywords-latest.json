@@ -1,19 +1,7 @@
 {
-  "pulled": "2026-10-30",
+  "pulled": "2026-10-31",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "bevel alternative free",
-      "priority": 40,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 3,
-      "suggestions": [
-        "bevel alternative free",
-        "bevel free alternative reddit",
-        "bereal app free alternative"
-      ]
-    },
     {
       "keyword": "virtual pet pedometer app",
       "priority": 41,
@@ -524,6 +512,18 @@
       "rank": null,
       "suggestion_count": 0,
       "suggestions": []
+    },
+    {
+      "keyword": "pace of aging apple watch",
+      "priority": 82,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 3,
+      "suggestions": [
+        "pace of aging apple watch",
+        "how is pace measured on apple watch",
+        "is apple watch good for seniors"
+      ]
     }
   ],
   "new_candidates": [

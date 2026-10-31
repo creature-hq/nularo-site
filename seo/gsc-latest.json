@@ -1,11 +1,11 @@
 {
-  "pulled": "2026-10-30",
+  "pulled": "2026-10-31",
   "range": [
-    "2026-09-30",
-    "2026-10-28"
+    "2026-10-01",
+    "2026-10-29"
   ],
   "totals": {
-    "impressions": 45,
+    "impressions": 46,
     "clicks": 1,
     "queries": 2
   },
@@ -18,16 +18,16 @@
       "position": 4
     },
     {
+      "page": "https://nularo.com/guides/sleep-app-for-night-shift-workers/",
+      "impressions": 10,
+      "clicks": 0,
+      "position": 6.9
+    },
+    {
       "page": "https://nularo.com/guides/self-care-tamagotchi-apps/",
       "impressions": 9,
       "clicks": 0,
       "position": 14
-    },
-    {
-      "page": "https://nularo.com/guides/sleep-app-for-night-shift-workers/",
-      "impressions": 9,
-      "clicks": 0,
-      "position": 6.6
     },
     {
       "page": "https://nularo.com/",
@@ -152,7 +152,7 @@
     {
       "url": "https://nularo.com/guides/apple-watch-hrv-always-low/",
       "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "last_crawl": null
     },
     {
@@ -170,13 +170,13 @@
     {
       "url": "https://nularo.com/guides/sleep-consistency-apps/",
       "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "last_crawl": null
     },
     {
       "url": "https://nularo.com/guides/apple-watch-stress-app-free/",
       "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "last_crawl": null
     },
     {
@@ -188,7 +188,13 @@
     {
       "url": "https://nularo.com/guides/apple-watch-fitness-age/",
       "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
+      "last_crawl": null
+    },
+    {
+      "url": "https://nularo.com/guides/bevel-alternative-free/",
+      "verdict": "NEUTRAL",
+      "coverage": "Discovered - currently not indexed",
       "last_crawl": null
     }
   ]
