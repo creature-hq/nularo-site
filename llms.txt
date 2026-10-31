@@ -4,6 +4,7 @@
 
 ## Guides
 
+- [Apple Watch time in bed: why it is missing or shorter than sleep](https://nularo.com/guides/apple-watch-time-in-bed/): Apple stopped recording Time in Bed on watchOS 11 and iOS 18. Here is why old nights can show less time in bed than asleep, and what to check instead.
 - [Free Bevel alternatives: what you can replace without paying](https://nularo.com/guides/bevel-alternative-free/): Bevel's tracking is still free. Pro ($99.99/yr) adds AI, Biological Age and Health Records, and Apple or cheaper apps cover most of that for free.
 - [Fitness age on Apple Watch: where to find it and how to read it](https://nularo.com/guides/apple-watch-fitness-age/): Apple Watch has no fitness age screen, but Cardio Fitness gives you the VO2 max to work one out. Where to find it, how to read it, and why it may run old.
 - [How to see Apple Health Age (and why it is not there yet)](https://nularo.com/guides/how-to-see-apple-health-age/): You cannot see Apple's Health Age yet. iOS 27.2 shipped on October 26, 2026 without the new Health app. What it needs, and what to check meanwhile.

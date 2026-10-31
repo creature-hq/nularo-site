@@ -987,7 +987,10 @@
   "nularo_fit": 3,
   "angle": "INFERENCE: Step-pet roundup (HealthMon, Belly, Peggy Cat, DigiBuddy); Nularo mention is secondary since it is not step-only.",
   "priority": 41,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-10-31",
+  "guide": "virtual-pet-apps-apple-health",
+  "note": "covered by existing guide (its \"Pets that eat steps\" section: Nomi, Poki, Belly, DigiBuddy); skipped to avoid a duplicate-intent page"
  },
  {
   "keyword": "habit tracker with pet",
@@ -1009,7 +1012,10 @@
   "nularo_fit": 3,
   "angle": "INFERENCE: Habit trackers with a pet (Habbie, HabitYou, Finch) split into manual check-off vs auto-tracked; Nularo for auto-tracked sleep/movement habits.",
   "priority": 42,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-10-31",
+  "guide": "self-care-tamagotchi-apps",
+  "note": "covered by existing guides (self-care-tamagotchi-apps compares habit pets like Finch; finch-alternatives covers Habitica); skipped to avoid a duplicate-intent page"
  },
  {
   "keyword": "self care virtual pet app",
@@ -1056,7 +1062,10 @@
   "nularo_fit": 3,
   "angle": "INFERENCE: Screen-time roast apps (Zario etc.); tie-in: late-night scrolling shows up in sleep data, which is what Nularo roasts.",
   "priority": 44,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-10-31",
+  "guide": "apps-that-roast-you",
+  "note": "covered by existing guide (screen time roast section and FAQ); skipped to avoid a duplicate-intent page"
  },
  {
   "keyword": "sleep debt app reddit",
@@ -1078,7 +1087,10 @@
   "nularo_fit": 4,
   "angle": "INFERENCE: Reddit-framed version: what people actually use (AutoSleep, Rise, Oura) and gaps; Nularo for Apple Watch users who want it automatic.",
   "priority": 45,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-10-31",
+  "guide": "apple-watch-sleep-debt",
+  "note": "covered by existing guide (Apps that calculate sleep debt from Apple Health); skipped to avoid a duplicate-intent page"
  },
  {
   "keyword": "how to calculate sleep debt",
@@ -1100,7 +1112,10 @@
   "nularo_fit": 4,
   "angle": "INFERENCE: Formula explainer with worked example; non-medical; soft CTA to auto-calc in Nularo.",
   "priority": 46,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-10-31",
+  "guide": "apple-watch-sleep-debt",
+  "note": "covered by existing guide (How to work out your sleep debt, with worked example); skipped to avoid a duplicate-intent page"
  },
  {
   "keyword": "how to check sleep consistency apple watch",
@@ -1147,7 +1162,9 @@
   "nularo_fit": 3,
   "angle": "INFERENCE: Why the numbers conflict (iPhone vs Watch sources, inBed samples dropped in watchOS 11 per Apple dev forums); how to check Data Sources.",
   "priority": 48,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-10-31",
+  "guide": "apple-watch-time-in-bed"
  },
  {
   "keyword": "apple watch time in bed not showing",
@@ -1169,7 +1186,9 @@
   "nularo_fit": 3,
   "angle": "INFERENCE: Explain Apple stopped recording inBed samples on watchOS 11/iOS 18 (Apple dev forum answer); what to look at instead.",
   "priority": 49,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-10-31",
+  "guide": "apple-watch-time-in-bed"
  },
  {
   "keyword": "apple watch sleep graph explained",
