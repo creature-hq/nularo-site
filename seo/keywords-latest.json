@@ -1,114 +1,7 @@
 {
-  "pulled": "2026-10-31",
+  "pulled": "2026-11-01",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "virtual pet pedometer app",
-      "priority": 41,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 2,
-      "suggestions": [
-        "virtual pet pedometer app",
-        "is pedometer app free"
-      ]
-    },
-    {
-      "keyword": "habit tracker with pet",
-      "priority": 42,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 6,
-      "suggestions": [
-        "habit tracker with pet",
-        "habit app with pet",
-        "habit tracker app with pet",
-        "habit tracker peter mckinnon",
-        "how to stop dogs hunting animals",
-        "is spending time with pets a hobby"
-      ]
-    },
-    {
-      "keyword": "app that roasts you for screen time",
-      "priority": 44,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 4,
-      "suggestions": [
-        "app that roasts you for screen time",
-        "what is an appropriate screen time",
-        "apps that help with screen time",
-        "app to calculate screen time"
-      ]
-    },
-    {
-      "keyword": "sleep debt app reddit",
-      "priority": 45,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 1,
-      "suggestions": [
-        "sleep debt app reddit"
-      ]
-    },
-    {
-      "keyword": "how to calculate sleep debt",
-      "priority": 46,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 10,
-      "suggestions": [
-        "how to calculate sleep debt",
-        "how to measure sleep debt",
-        "how to figure out sleep debt",
-        "how to find sleep debt on oura ring",
-        "how to find sleep debt with apple watch",
-        "how to find sleep debt",
-        "how to find sleep debt on whoop",
-        "how to find sleep debt on oura"
-      ]
-    },
-    {
-      "keyword": "apple watch time in bed less than time asleep",
-      "priority": 48,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 3,
-      "suggestions": [
-        "apple watch time in bed less than time asleep",
-        "time in bed vs time asleep apple",
-        "how to set sleep time on apple watch"
-      ]
-    },
-    {
-      "keyword": "apple watch time in bed not showing",
-      "priority": 49,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 6,
-      "suggestions": [
-        "apple watch time in bed not showing",
-        "apple watch time in bed not working",
-        "apple watch time not showing",
-        "apple watch clock not showing",
-        "apple watch sleep not showing time in bed",
-        "why is my apple watch not showing my sleep"
-      ]
-    },
-    {
-      "keyword": "apple watch sleep graph explained",
-      "priority": 50,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 5,
-      "suggestions": [
-        "apple watch sleep graph explained",
-        "how to read the sleep graph on apple watch",
-        "how does sleep data work on apple watch",
-        "how does sleep function work on apple watch",
-        "how does apple watch sleep tracking work"
-      ]
-    },
     {
       "keyword": "apple sleep score vs autosleep",
       "priority": 51,
@@ -524,6 +417,117 @@
         "how is pace measured on apple watch",
         "is apple watch good for seniors"
       ]
+    },
+    {
+      "keyword": "bevel alternatives apple watch",
+      "priority": 83,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 2,
+      "suggestions": [
+        "bevel alternatives apple watch",
+        "alternative apple watch faces"
+      ]
+    },
+    {
+      "keyword": "adhd sleep tracker",
+      "priority": 84,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 8,
+      "suggestions": [
+        "adhd sleep tracker",
+        "adhd fitness tracker",
+        "adhd activity tracker",
+        "adhd sleep app",
+        "adhd sleep hours",
+        "adhd sleep schedule",
+        "adhd sleep issues",
+        "adhd sleep tips"
+      ]
+    },
+    {
+      "keyword": "why does gen z sleep so late",
+      "priority": 85,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 3,
+      "suggestions": [
+        "why does gen z sleep so late",
+        "why is the letter z associated with sleep",
+        "are gen z soft"
+      ]
+    },
+    {
+      "keyword": "readiness score apple watch series 11",
+      "priority": 86,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 6,
+      "suggestions": [
+        "readiness score apple watch series 11",
+        "readiness score apple watch 11",
+        "does apple watch series 11 have readiness score",
+        "will apple watch series 11 get readiness score",
+        "will apple watch series 11 have readiness score",
+        "apple watch readiness score"
+      ]
+    },
+    {
+      "keyword": "does apple watch track stress",
+      "priority": 87,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 10,
+      "suggestions": [
+        "does apple watch track stress",
+        "does apple watch track stress levels",
+        "does apple watch track stress like oura ring",
+        "does apple watch track stress and recovery",
+        "does apple watch track stress and sleep",
+        "does apple watch track stress like garmin",
+        "does apple watch track stress like whoop",
+        "do apple watch track stress"
+      ]
+    },
+    {
+      "keyword": "apple health age",
+      "priority": 88,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 10,
+      "suggestions": [
+        "apple health age",
+        "apple health age feature",
+        "apple health age calculator",
+        "apple health age release date",
+        "apple health age score",
+        "apple health age limit",
+        "apple health age where to find",
+        "apple health age reddit"
+      ]
+    },
+    {
+      "keyword": "revenge bedtime procrastination app",
+      "priority": 89,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 5,
+      "suggestions": [
+        "revenge bedtime procrastination app",
+        "how to get rid of revenge bedtime procrastination",
+        "how to stop revenge bedtime procrastination",
+        "how to help revenge bedtime procrastination",
+        "revenge bedtime procrastination definition"
+      ]
+    },
+    {
+      "keyword": "adhd gamify life app",
+      "priority": 90,
+      "exact_in_autocomplete": false,
+      "rank": null,
+      "suggestion_count": 0,
+      "suggestions": []
     }
   ],
   "new_candidates": [
