@@ -1210,7 +1210,9 @@
   "nularo_fit": 3,
   "angle": "INFERENCE: Annotated walkthrough of the Sleep chart (stages, awake blocks, schedule); visuals-heavy.",
   "priority": 50,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-11-01",
+  "guide": "apple-watch-sleep-graph-explained"
  },
  {
   "keyword": "apple sleep score vs autosleep",

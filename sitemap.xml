@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://nularo.com/</loc><lastmod>2026-10-31</lastmod></url>
-  <url><loc>https://nularo.com/guides/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://nularo.com/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://nularo.com/guides/</loc><lastmod>2026-11-01</lastmod></url>
   <url><loc>https://nularo.com/guides/how-we-write/</loc></url>
   <url><loc>https://nularo.com/support.html</loc></url>
   <url><loc>https://nularo.com/privacy.html</loc></url>
@@ -25,4 +25,5 @@
   <url><loc>https://nularo.com/guides/apple-watch-fitness-age/</loc><lastmod>2026-10-29</lastmod></url>
   <url><loc>https://nularo.com/guides/bevel-alternative-free/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://nularo.com/guides/apple-watch-time-in-bed/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://nularo.com/guides/apple-watch-sleep-graph-explained/</loc><lastmod>2026-11-01</lastmod></url>
 </urlset>
