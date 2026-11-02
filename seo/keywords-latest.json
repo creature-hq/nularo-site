@@ -1,18 +1,7 @@
 {
-  "pulled": "2026-11-01",
+  "pulled": "2026-11-02",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "apple sleep score vs autosleep",
-      "priority": 51,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 2,
-      "suggestions": [
-        "apple sleep score vs autosleep",
-        "auto sleep vs apple sleep"
-      ]
-    },
     {
       "keyword": "does apple watch have recovery score",
       "priority": 52,
@@ -528,6 +517,20 @@
       "rank": null,
       "suggestion_count": 0,
       "suggestions": []
+    },
+    {
+      "keyword": "low sleep score apple watch reddit",
+      "priority": 91,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 5,
+      "suggestions": [
+        "low sleep score apple watch reddit",
+        "apple watch sleep score",
+        "does sleep score work with apple watch",
+        "how accurate is apple watch deep sleep",
+        "does apple watch give sleep score"
+      ]
     }
   ],
   "new_candidates": [
