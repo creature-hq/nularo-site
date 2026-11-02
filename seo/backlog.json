@@ -1234,7 +1234,9 @@
   "nularo_fit": 3,
   "angle": "INFERENCE: Apple native score vs AutoSleep's metrics; who each suits; mention Nularo as the fun layer, not a replacement for analysis.",
   "priority": 51,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-11-02",
+  "guide": "apple-sleep-score-vs-autosleep"
  },
  {
   "keyword": "does apple watch have recovery score",
