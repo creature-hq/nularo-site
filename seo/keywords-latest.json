@@ -1,21 +1,7 @@
 {
-  "pulled": "2026-11-02",
+  "pulled": "2026-11-03",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "does apple watch have recovery score",
-      "priority": 52,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 5,
-      "suggestions": [
-        "does apple watch have recovery score",
-        "does.apple.watch show recovery score",
-        "apple watch recovery score",
-        "does apple watch track recovery",
-        "does apple watch show recovery"
-      ]
-    },
     {
       "keyword": "apple watch hrv during sleep",
       "priority": 53,
@@ -452,10 +438,9 @@
       "priority": 86,
       "exact_in_autocomplete": true,
       "rank": 1,
-      "suggestion_count": 6,
+      "suggestion_count": 5,
       "suggestions": [
         "readiness score apple watch series 11",
-        "readiness score apple watch 11",
         "does apple watch series 11 have readiness score",
         "will apple watch series 11 get readiness score",
         "will apple watch series 11 have readiness score",
@@ -530,6 +515,16 @@
         "does sleep score work with apple watch",
         "how accurate is apple watch deep sleep",
         "does apple watch give sleep score"
+      ]
+    },
+    {
+      "keyword": "how to share apple watch data with friends",
+      "priority": 92,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 1,
+      "suggestions": [
+        "how to share apple watch data with friends"
       ]
     }
   ],
