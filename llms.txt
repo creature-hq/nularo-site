@@ -4,6 +4,7 @@
 
 ## Guides
 
+- [Does Apple Watch have a recovery score? Three things called recovery](https://nularo.com/guides/does-apple-watch-have-recovery-score/): Only Series 12 and Ultra 4 get one: Readiness, a 0-10 score. Every watch since watchOS 9 has Cardio Recovery, which is a heart rate drop, not a score.
 - [Apple Sleep Score vs AutoSleep: what each one grades](https://nularo.com/guides/apple-sleep-score-vs-autosleep/): Apple's free Sleep Score grades duration, bedtime and interruptions. AutoSleep's $9.99 Sleep Rating grades you against goals you set. Which to keep.
 - [Apple Watch sleep graph explained: stages, gaps and views](https://nularo.com/guides/apple-watch-sleep-graph-explained/): How to read the Apple Watch sleep graph in Health: what Awake, REM, Core and Deep mean, why the night steps up and down, and which parts to trust.
 - [Apple Watch time in bed: why it is missing or shorter than sleep](https://nularo.com/guides/apple-watch-time-in-bed/): Apple stopped recording Time in Bed on watchOS 11 and iOS 18. Here is why old nights can show less time in bed than asleep, and what to check instead.
