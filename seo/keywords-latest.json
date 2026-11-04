@@ -1,21 +1,7 @@
 {
-  "pulled": "2026-11-03",
+  "pulled": "2026-11-04",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "apple watch hrv during sleep",
-      "priority": 53,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 5,
-      "suggestions": [
-        "apple watch hrv during sleep",
-        "does apple watch track hrv during sleep",
-        "apple watch hrv sleep",
-        "what is a good hrv while sleeping",
-        "normal hrv during sleep"
-      ]
-    },
     {
       "keyword": "does resting heart rate include sleep apple watch",
       "priority": 54,
@@ -525,6 +511,16 @@
       "suggestion_count": 1,
       "suggestions": [
         "how to share apple watch data with friends"
+      ]
+    },
+    {
+      "keyword": "sleepmaxxing reddit",
+      "priority": 93,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 1,
+      "suggestions": [
+        "sleepmaxxing reddit"
       ]
     }
   ],

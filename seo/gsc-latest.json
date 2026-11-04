@@ -1,11 +1,11 @@
 {
-  "pulled": "2026-11-03",
+  "pulled": "2026-11-04",
   "range": [
-    "2026-10-04",
-    "2026-11-01"
+    "2026-10-05",
+    "2026-11-02"
   ],
   "totals": {
-    "impressions": 67,
+    "impressions": 70,
     "clicks": 2,
     "queries": 2
   },
@@ -25,15 +25,15 @@
     },
     {
       "page": "https://nularo.com/guides/self-care-tamagotchi-apps/",
-      "impressions": 16,
+      "impressions": 17,
       "clicks": 0,
-      "position": 11.5
+      "position": 11.4
     },
     {
       "page": "https://nularo.com/guides/sleep-app-for-night-shift-workers/",
-      "impressions": 14,
+      "impressions": 15,
       "clicks": 0,
-      "position": 6.6
+      "position": 6.9
     },
     {
       "page": "https://nularo.com/guides/",
@@ -49,9 +49,9 @@
     },
     {
       "page": "https://nularo.com/support.html",
-      "impressions": 4,
+      "impressions": 5,
       "clicks": 0,
-      "position": 5.2
+      "position": 6.2
     },
     {
       "page": "https://nularo.com/terms.html",
@@ -77,7 +77,7 @@
     {
       "query": "self care tamagotchi app",
       "page": "https://nularo.com/guides/self-care-tamagotchi-apps/",
-      "impressions": 2,
+      "impressions": 3,
       "clicks": 0,
       "position": 10
     }
@@ -92,7 +92,7 @@
     {
       "url": "https://nularo.com/guides/how-we-write/",
       "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "last_crawl": null
     },
     {
@@ -152,7 +152,7 @@
     {
       "url": "https://nularo.com/guides/apple-watch-hrv-always-low/",
       "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "last_crawl": null
     },
     {
@@ -194,7 +194,7 @@
     {
       "url": "https://nularo.com/guides/bevel-alternative-free/",
       "verdict": "NEUTRAL",
-      "coverage": "Discovered - currently not indexed",
+      "coverage": "URL is unknown to Google",
       "last_crawl": null
     },
     {
@@ -218,7 +218,13 @@
     {
       "url": "https://nularo.com/guides/does-apple-watch-have-recovery-score/",
       "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
+      "last_crawl": null
+    },
+    {
+      "url": "https://nularo.com/guides/apple-watch-hrv-during-sleep/",
+      "verdict": "NEUTRAL",
+      "coverage": "Discovered - currently not indexed",
       "last_crawl": null
     }
   ]
