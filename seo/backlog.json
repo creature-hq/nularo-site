@@ -1283,7 +1283,9 @@
   "nularo_fit": 3,
   "angle": "INFERENCE: When the Watch samples HRV overnight and why readings vary; baseline-over-time framing; non-medical.",
   "priority": 53,
-  "status": "todo"
+  "status": "done",
+  "date": "2026-11-04",
+  "guide": "apple-watch-hrv-during-sleep"
  },
  {
   "keyword": "does resting heart rate include sleep apple watch",
