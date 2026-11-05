@@ -1,20 +1,7 @@
 {
-  "pulled": "2026-11-04",
+  "pulled": "2026-11-05",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "does resting heart rate include sleep apple watch",
-      "priority": 54,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 4,
-      "suggestions": [
-        "does resting heart rate include sleep apple watch",
-        "does apple watch measure heart rate while sleeping",
-        "does apple watch track heart rate during sleep",
-        "does apple watch have resting heart rate"
-      ]
-    },
     {
       "keyword": "apple health age reddit",
       "priority": 55,
@@ -50,10 +37,11 @@
       "priority": 57,
       "exact_in_autocomplete": true,
       "rank": 1,
-      "suggestion_count": 2,
+      "suggestion_count": 3,
       "suggestions": [
         "does apple watch calculate biological age",
-        "can apple watch calculate biological age"
+        "can apple watch calculate biological age",
+        "does apple watch calculate your biological.age"
       ]
     },
     {
@@ -122,11 +110,10 @@
       "priority": 63,
       "exact_in_autocomplete": true,
       "rank": 1,
-      "suggestion_count": 4,
+      "suggestion_count": 3,
       "suggestions": [
         "accountability buddy app free",
         "accountability partner app free",
-        "apps for weight loss accountability",
         "is there an accountability app"
       ]
     },
@@ -161,11 +148,11 @@
       "keyword": "sleep debt calculator app",
       "priority": 66,
       "exact_in_autocomplete": true,
-      "rank": 1,
+      "rank": 2,
       "suggestion_count": 6,
       "suggestions": [
-        "sleep debt calculator app",
         "sleep debt calculator app free",
+        "sleep debt calculator app",
         "sleep debt formula",
         "how to calculate sleep debt",
         "how to catch up on sleep debt",
@@ -447,7 +434,7 @@
         "does apple watch track stress and sleep",
         "does apple watch track stress like garmin",
         "does apple watch track stress like whoop",
-        "do apple watch track stress"
+        "do apple watches track stress levels"
       ]
     },
     {
@@ -459,11 +446,11 @@
       "suggestions": [
         "apple health age",
         "apple health age feature",
-        "apple health age calculator",
-        "apple health age release date",
+        "apple health age test",
         "apple health age score",
-        "apple health age limit",
         "apple health age where to find",
+        "apple health age release date",
+        "apple health age calculator",
         "apple health age reddit"
       ]
     },
@@ -522,6 +509,23 @@
       "suggestions": [
         "sleepmaxxing reddit"
       ]
+    },
+    {
+      "keyword": "how to get 100 sleep score apple watch",
+      "priority": 94,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 8,
+      "suggestions": [
+        "how to get 100 sleep score apple watch",
+        "how hard is it to get 100 sleep score apple watch",
+        "is it possible to get 100 sleep score apple watch",
+        "how rare is 100 sleep score apple watch",
+        "how to get sleep score on apple watch",
+        "apple watch sleep score",
+        "does apple watch give sleep score",
+        "how to get 100 sleep score on fitbit"
+      ]
     }
   ],
   "new_candidates": [
@@ -538,6 +542,12 @@
       "best_rank": 2
     },
     {
+      "phrase": "finch app alternative reddit",
+      "cluster": "alternatives",
+      "seen": 4,
+      "best_rank": 2
+    },
+    {
       "phrase": "is there a tamagotchi app",
       "cluster": "health-pets",
       "seen": 3,
@@ -546,18 +556,6 @@
     {
       "phrase": "finch app review",
       "cluster": "alternatives",
-      "seen": 3,
-      "best_rank": 2
-    },
-    {
-      "phrase": "finch app alternative reddit",
-      "cluster": "alternatives",
-      "seen": 3,
-      "best_rank": 2
-    },
-    {
-      "phrase": "does sleep cycle app work for couples",
-      "cluster": "together-and-who",
       "seen": 3,
       "best_rank": 2
     },
@@ -584,12 +582,6 @@
       "cluster": "together-and-who",
       "seen": 3,
       "best_rank": 4
-    },
-    {
-      "phrase": "revenge bedtime procrastination definition",
-      "cluster": "bedtime-culture",
-      "seen": 3,
-      "best_rank": 5
     },
     {
       "phrase": "does sleep score work with apple watch",
@@ -635,12 +627,6 @@
     },
     {
       "phrase": "sleep debt reddit",
-      "cluster": "watch-sleep",
-      "seen": 2,
-      "best_rank": 1
-    },
-    {
-      "phrase": "sleep debt app",
       "cluster": "watch-sleep",
       "seen": 2,
       "best_rank": 1
@@ -748,12 +734,6 @@
       "best_rank": 1
     },
     {
-      "phrase": "bevel app for fitbit air",
-      "cluster": "alternatives",
-      "seen": 2,
-      "best_rank": 1
-    },
-    {
       "phrase": "bevel app reddit",
       "cluster": "alternatives",
       "seen": 2,
@@ -838,18 +818,6 @@
       "best_rank": 2
     },
     {
-      "phrase": "sleep score apple watch where to see",
-      "cluster": "watch-sleep",
-      "seen": 2,
-      "best_rank": 2
-    },
-    {
-      "phrase": "sleep score apple watch vs garmin",
-      "cluster": "watch-sleep",
-      "seen": 2,
-      "best_rank": 2
-    },
-    {
       "phrase": "apple watch readiness score",
       "cluster": "recovery-scores",
       "seen": 2,
@@ -862,13 +830,7 @@
       "best_rank": 2
     },
     {
-      "phrase": "body age vs biological age",
-      "cluster": "body-age",
-      "seen": 2,
-      "best_rank": 2
-    },
-    {
-      "phrase": "athlytic vs whoop",
+      "phrase": "finch app vs fabulous app",
       "cluster": "alternatives",
       "seen": 2,
       "best_rank": 2
@@ -880,10 +842,52 @@
       "best_rank": 2
     },
     {
+      "phrase": "athlytic vs whoop",
+      "cluster": "alternatives",
+      "seen": 2,
+      "best_rank": 2
+    },
+    {
       "phrase": "habitica app review",
       "cluster": "alternatives",
       "seen": 2,
       "best_rank": 2
+    },
+    {
+      "phrase": "how to stop doomscrolling at night reddit",
+      "cluster": "bedtime-culture",
+      "seen": 2,
+      "best_rank": 2
+    },
+    {
+      "phrase": "share garmin sleep data with apple health",
+      "cluster": "together-and-who",
+      "seen": 2,
+      "best_rank": 2
+    },
+    {
+      "phrase": "college students sleeping in cars",
+      "cluster": "together-and-who",
+      "seen": 2,
+      "best_rank": 2
+    },
+    {
+      "phrase": "do college students sleep",
+      "cluster": "together-and-who",
+      "seen": 2,
+      "best_rank": 2
+    },
+    {
+      "phrase": "apple watch petite wrist",
+      "cluster": "health-pets",
+      "seen": 2,
+      "best_rank": 3
+    },
+    {
+      "phrase": "best apple watch pet app",
+      "cluster": "health-pets",
+      "seen": 2,
+      "best_rank": 3
     }
   ]
 }
