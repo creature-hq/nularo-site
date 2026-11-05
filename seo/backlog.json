@@ -1307,7 +1307,9 @@
   "nularo_fit": 3,
   "angle": "INFERENCE: Apple's definition excludes sleep vs Garmin/Oura/Whoop measuring during sleep; why your numbers differ across devices.",
   "priority": 54,
-  "status": "todo"
+  "status": "done",
+  "date": "2026-11-05",
+  "guide": "does-apple-watch-resting-heart-rate-include-sleep"
  },
  {
   "keyword": "apple health age reddit",
