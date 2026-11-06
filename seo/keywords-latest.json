@@ -1,59 +1,7 @@
 {
-  "pulled": "2026-11-05",
+  "pulled": "2026-11-06",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "apple health age reddit",
-      "priority": 55,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 4,
-      "suggestions": [
-        "apple health age reddit",
-        "apple health age limit",
-        "apple health app age",
-        "when can i apply for apple health"
-      ]
-    },
-    {
-      "keyword": "biological age apple watch",
-      "priority": 56,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 10,
-      "suggestions": [
-        "biological age apple watch",
-        "bio age apple watch",
-        "biological age calculator apple watch",
-        "biological age test apple watch",
-        "bio age feature apple watch",
-        "my bio age apple watch",
-        "biological age app for apple watch",
-        "how to check biological age on apple watch"
-      ]
-    },
-    {
-      "keyword": "does apple watch calculate biological age",
-      "priority": 57,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 3,
-      "suggestions": [
-        "does apple watch calculate biological age",
-        "can apple watch calculate biological age",
-        "does apple watch calculate your biological.age"
-      ]
-    },
-    {
-      "keyword": "pengu app alternative",
-      "priority": 58,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 1,
-      "suggestions": [
-        "pengu app alternative"
-      ]
-    },
     {
       "keyword": "sleepmaxxing app",
       "priority": 59,
@@ -91,18 +39,6 @@
         "how to calculate jet lag",
         "social jet lag symptoms",
         "jet lag formula"
-      ]
-    },
-    {
-      "keyword": "long distance virtual pet app",
-      "priority": 62,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 3,
-      "suggestions": [
-        "long distance virtual pet app",
-        "virtual pet apps",
-        "virtual pet app for adults"
       ]
     },
     {
@@ -525,6 +461,75 @@
         "apple watch sleep score",
         "does apple watch give sleep score",
         "how to get 100 sleep score on fitbit"
+      ]
+    },
+    {
+      "keyword": "sleep score apple watch vs oura",
+      "priority": 95,
+      "exact_in_autocomplete": true,
+      "rank": 2,
+      "suggestion_count": 5,
+      "suggestions": [
+        "sleep score apple watch vs oura ring",
+        "sleep score apple watch vs oura",
+        "apple watch sleep score",
+        "oura ring vs apple watch vs fitbit",
+        "how accurate is apple watch deep sleep"
+      ]
+    },
+    {
+      "keyword": "hrv apple watch meaning",
+      "priority": 96,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 4,
+      "suggestions": [
+        "hrv apple watch meaning",
+        "recovery hrv apple watch meaning",
+        "what does apple watch hrv mean",
+        "what is hrv apple watch"
+      ]
+    },
+    {
+      "keyword": "apple watch app that is like whoop",
+      "priority": 97,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 8,
+      "suggestions": [
+        "apple watch app that is like whoop",
+        "apple watch app that works like whoop",
+        "best apple watch app like whoop",
+        "apple watch recovery app like whoop",
+        "apple watch health app like whoop",
+        "apple watch app to make it like whoop",
+        "does whoop have an apple watch app",
+        "can you use whoop app with apple watch"
+      ]
+    },
+    {
+      "keyword": "revenge bedtime procrastination adhd reddit",
+      "priority": 98,
+      "exact_in_autocomplete": false,
+      "rank": null,
+      "suggestion_count": 6,
+      "suggestions": [
+        "revenge sleep procrastination adhd reddit",
+        "is revenge bedtime procrastination a disorder",
+        "is revenge bedtime procrastination a mental illness",
+        "define revenge bedtime procrastination",
+        "what is revenge bedtime procrastination",
+        "how to get rid of revenge bedtime procrastination"
+      ]
+    },
+    {
+      "keyword": "sleepmaxxing routine",
+      "priority": 99,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 1,
+      "suggestions": [
+        "sleepmaxxing routine"
       ]
     }
   ],
