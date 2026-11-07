@@ -1,18 +1,7 @@
 {
-  "pulled": "2026-11-06",
+  "pulled": "2026-11-07",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "sleepmaxxing app",
-      "priority": 59,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 2,
-      "suggestions": [
-        "sleepmaxxing app",
-        "sombr sleepmaxxing app"
-      ]
-    },
     {
       "keyword": "doomscrolling before bed reddit",
       "priority": 60,
@@ -512,10 +501,9 @@
       "priority": 98,
       "exact_in_autocomplete": false,
       "rank": null,
-      "suggestion_count": 6,
+      "suggestion_count": 5,
       "suggestions": [
         "revenge sleep procrastination adhd reddit",
-        "is revenge bedtime procrastination a disorder",
         "is revenge bedtime procrastination a mental illness",
         "define revenge bedtime procrastination",
         "what is revenge bedtime procrastination",
@@ -530,6 +518,23 @@
       "suggestion_count": 1,
       "suggestions": [
         "sleepmaxxing routine"
+      ]
+    },
+    {
+      "keyword": "pokemon sleep without apple watch",
+      "priority": 100,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 10,
+      "suggestions": [
+        "pokemon sleep without apple watch",
+        "pokemon sleep no apple watch",
+        "pokemon sleep apple watch",
+        "pokemon sleep apple watch face",
+        "pokemon sleep apple watch app",
+        "pokemon sleep apple watch reddit",
+        "pokemon sleep apple watch not working",
+        "pokemon sleep apple watch se"
       ]
     }
   ],
