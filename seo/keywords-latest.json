@@ -1,20 +1,7 @@
 {
-  "pulled": "2026-11-08",
+  "pulled": "2026-11-09",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "how to calculate social jet lag",
-      "priority": 61,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 4,
-      "suggestions": [
-        "how to calculate social jet lag",
-        "how to calculate jet lag",
-        "social jet lag symptoms",
-        "jet lag formula"
-      ]
-    },
     {
       "keyword": "accountability buddy app free",
       "priority": 63,
@@ -356,8 +343,8 @@
       "suggestions": [
         "apple health age",
         "apple health age feature",
-        "apple health age score",
         "apple health age test",
+        "apple health age score",
         "apple health age where to find",
         "apple health age release date",
         "apple health age calculator",

@@ -1,11 +1,11 @@
 {
-  "pulled": "2026-11-08",
+  "pulled": "2026-11-09",
   "range": [
-    "2026-10-09",
-    "2026-11-06"
+    "2026-10-10",
+    "2026-11-07"
   ],
   "totals": {
-    "impressions": 94,
+    "impressions": 101,
     "clicks": 2,
     "queries": 3
   },
@@ -25,27 +25,27 @@
     },
     {
       "page": "https://nularo.com/guides/self-care-tamagotchi-apps/",
-      "impressions": 22,
+      "impressions": 23,
       "clicks": 0,
-      "position": 12.4
+      "position": 12.2
     },
     {
       "page": "https://nularo.com/guides/sleep-app-for-night-shift-workers/",
-      "impressions": 20,
+      "impressions": 23,
       "clicks": 0,
-      "position": 7.0
+      "position": 7.4
     },
     {
       "page": "https://nularo.com/guides/apps-that-roast-you/",
-      "impressions": 9,
+      "impressions": 10,
       "clicks": 0,
-      "position": 45.7
+      "position": 41.5
     },
     {
       "page": "https://nularo.com/support.html",
-      "impressions": 7,
+      "impressions": 8,
       "clicks": 0,
-      "position": 6.4
+      "position": 6.1
     },
     {
       "page": "https://nularo.com/guides/",
@@ -54,16 +54,16 @@
       "position": 27.7
     },
     {
+      "page": "https://nularo.com/guides/finch-alternatives/",
+      "impressions": 5,
+      "clicks": 0,
+      "position": 9.8
+    },
+    {
       "page": "https://nularo.com/terms.html",
       "impressions": 5,
       "clicks": 0,
       "position": 7.8
-    },
-    {
-      "page": "https://nularo.com/guides/finch-alternatives/",
-      "impressions": 4,
-      "clicks": 0,
-      "position": 8.8
     },
     {
       "page": "https://nularo.com/guides/virtual-pet-apps-apple-health/",
@@ -102,9 +102,9 @@
     {
       "query": "finch vs other smart home brands \u2013 which finch device is the best value overall?",
       "page": "https://nularo.com/guides/finch-alternatives/",
-      "impressions": 1,
+      "impressions": 2,
       "clicks": 0,
-      "position": 11
+      "position": 12.5
     }
   ],
   "index": [
@@ -207,7 +207,7 @@
     {
       "url": "https://nularo.com/guides/how-to-see-apple-health-age/",
       "verdict": "NEUTRAL",
-      "coverage": "Discovered - currently not indexed",
+      "coverage": "URL is unknown to Google",
       "last_crawl": null
     },
     {
@@ -231,13 +231,13 @@
     {
       "url": "https://nularo.com/guides/apple-watch-sleep-graph-explained/",
       "verdict": "NEUTRAL",
-      "coverage": "Discovered - currently not indexed",
+      "coverage": "URL is unknown to Google",
       "last_crawl": null
     },
     {
       "url": "https://nularo.com/guides/apple-sleep-score-vs-autosleep/",
       "verdict": "NEUTRAL",
-      "coverage": "Discovered - currently not indexed",
+      "coverage": "URL is unknown to Google",
       "last_crawl": null
     },
     {
@@ -249,19 +249,19 @@
     {
       "url": "https://nularo.com/guides/apple-watch-hrv-during-sleep/",
       "verdict": "NEUTRAL",
-      "coverage": "Discovered - currently not indexed",
+      "coverage": "URL is unknown to Google",
       "last_crawl": null
     },
     {
       "url": "https://nularo.com/guides/does-apple-watch-resting-heart-rate-include-sleep/",
       "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "last_crawl": null
     },
     {
       "url": "https://nularo.com/guides/pengu-app-alternatives/",
       "verdict": "NEUTRAL",
-      "coverage": "Discovered - currently not indexed",
+      "coverage": "URL is unknown to Google",
       "last_crawl": null
     },
     {
@@ -272,6 +272,12 @@
     },
     {
       "url": "https://nularo.com/guides/doomscrolling-before-bed/",
+      "verdict": "NEUTRAL",
+      "coverage": "Discovered - currently not indexed",
+      "last_crawl": null
+    },
+    {
+      "url": "https://nularo.com/guides/how-to-calculate-social-jet-lag/",
       "verdict": "NEUTRAL",
       "coverage": "Discovered - currently not indexed",
       "last_crawl": null
