@@ -1475,7 +1475,9 @@
   "nularo_fit": 4,
   "angle": "INFERENCE: Plain-English social jet lag formula (mid-sleep free days minus workdays) with a worked example and how to pull times from Apple Health; Nularo bedtime consistency as the auto version.",
   "priority": 61,
-  "status": "todo"
+  "status": "done",
+  "guide": "how-to-calculate-social-jet-lag",
+  "done": "2026-11-09"
  },
  {
   "keyword": "long distance virtual pet app",

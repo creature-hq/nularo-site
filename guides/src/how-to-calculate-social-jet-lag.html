@@ -1,0 +1,88 @@
+<!--meta
+{
+  "title": "How to calculate social jet lag from your own sleep data",
+  "seo_title": "How to Calculate Social Jet Lag (Formula and Example)",
+  "description": "Social jet lag is the gap between your mid-sleep on free days and on workdays. The formula, a worked example, and how to pull the times from Apple Health.",
+  "keyword": "how to calculate social jet lag",
+  "cluster": "bedtime-culture",
+  "published": "2026-11-09",
+  "updated": "2026-11-09",
+  "tldr": "Find the midpoint of your sleep on work nights and on free nights: sleep onset plus half your sleep duration. Social jet lag is the difference between the two, ignoring the sign. Asleep 11:40 PM to 6:50 AM on work nights gives a 3:15 AM midpoint; 1:10 AM to 9:40 AM on free nights gives 5:25 AM, so social jet lag is 2 hours 10 minutes. With an Apple Watch, get the times from Health, Browse, Sleep.",
+  "howto": [
+    "Pick a normal week. On iPhone, open Health, tap Browse, then Sleep. Tap D and swipe back to each night, noting when the first sleep block starts and the last one ends.",
+    "Split the nights: nights before a workday are work nights, nights before a day off are free nights. For a Monday to Friday job, Friday and Saturday are the free nights.",
+    "Average the times you fell asleep and woke up for each group. Write times after midnight as 24 plus the hour (1:10 AM becomes 25:10) so the average does not break.",
+    "For each group, add half the sleep duration to the time you fell asleep. That is your mid-sleep on workdays (MSW) and on free days (MSF).",
+    "Subtract one from the other and drop the minus sign. The result in hours and minutes is your social jet lag."
+  ],
+  "cta": "sleep",
+  "faq": [
+    {"q": "What is the formula for social jet lag?", "a": "Social jet lag (SJL) is the absolute difference between mid-sleep on free days (MSF) and mid-sleep on workdays (MSW): SJL = |MSF - MSW|. Mid-sleep is the time you fell asleep plus half of how long you slept. The formula comes from the Munich ChronoType Questionnaire, introduced in a 2006 paper by Wittmann, Dinich, Merrow and Roenneberg."},
+    {"q": "Should I use bedtime or the time I fell asleep?", "a": "The time you fell asleep. The questionnaire behind the formula asks separately when you get into bed and how long it takes to fall asleep, then uses sleep onset. An Apple Watch records sleep, not time in bed, so its first sleep block of the night is already the right number."},
+    {"q": "What is sleep-corrected social jet lag?", "a": "A 2017 version proposed by Konrad Jankowski. He argued the standard formula also counts workday sleep debt, because people who sleep longer on free days push their midpoint later. His fix compares sleep onset times (or wake times, in one case) instead of midpoints. In the usual case, where free nights are longer and start later, it gives a smaller number than the standard formula."},
+    {"q": "Can I calculate social jet lag if I work shifts?", "a": "Not with the standard formula, which assumes one fixed work pattern and free days in between. Researchers use a separate shift-work version of the questionnaire that calculates the gap for each type of shift. A single number from a rotating rota will mostly measure the rota."},
+    {"q": "Does Nularo calculate social jet lag?", "a": "No. Nularo reads your sleep from Apple Health and uses bedtime consistency as one input to its weekly Creature Age, but it does not split work nights from free nights or show a social jet lag figure. Use the method in this guide for that."}
+  ],
+  "related": ["sleep-consistency-apps", "apple-watch-sleep-graph-explained", "apple-watch-sleep-debt", "sleep-app-for-night-shift-workers"]
+}
+-->
+<p class="lede">You sleep 11:40 to 6:50 all week, then Friday turns into 1 AM to nearly 10. By Monday it feels like you flew in from somewhere. Researchers have a name for that, social jet lag, and a formula for it. Here is how to work out yours, by hand or from the sleep your Apple Watch already records.</p>
+
+<h2>The formula, in plain English</h2>
+<p>Social jet lag comes from chronobiology research led by Till Roenneberg in Munich. The 2006 paper that named it, by Wittmann, Dinich, Merrow and Roenneberg in <em>Chronobiology International</em>, described it as the discrepancy between work days and free days, a stand-in for the gap between social time and body time. The calculation uses the Munich ChronoType Questionnaire (MCTQ) and has three parts:</p>
+<ol>
+  <li><strong>Mid-sleep on workdays (MSW).</strong> The time you fall asleep before a workday, plus half of how long you sleep.</li>
+  <li><strong>Mid-sleep on free days (MSF).</strong> The same thing for nights before a day with no work.</li>
+  <li><strong>Social jet lag (SJL).</strong> The difference between them, with the minus sign dropped: SJL = |MSF &minus; MSW|.</li>
+</ol>
+<p>Why midpoints rather than bedtimes? Because a midpoint captures both ends of the night at once. Going to bed an hour later and waking an hour later shifts your midpoint by an hour. Going to bed an hour later but waking at the same time only moves it 30 minutes.</p>
+<p>Two details trip people up. First, it is the time you <em>fell asleep</em>, not when you got into bed. The questionnaire asks for both and how long it takes you to drift off, then uses sleep onset. Second, the night belongs to the day after it. For a Monday to Friday job, Friday and Saturday are free nights, and Sunday is a work night, because Monday is a workday.</p>
+<p>If you keep the sign, you get the "relative" version: a positive number means your free nights run later than your work nights, which is the usual direction.</p>
+
+<h2>A worked example</h2>
+<p>Take the week from the opening. Averages for each group:</p>
+<div class="table-scroll">
+<table>
+  <thead>
+    <tr><th></th><th>Fell asleep</th><th>Woke up</th><th>Slept</th><th>Mid-sleep</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Work nights (Sun to Thu)</td><td>11:40 PM</td><td>6:50 AM</td><td>7 h 10 min</td><td>3:15 AM</td></tr>
+    <tr><td>Free nights (Fri, Sat)</td><td>1:10 AM</td><td>9:40 AM</td><td>8 h 30 min</td><td>5:25 AM</td></tr>
+  </tbody>
+</table>
+</div>
+<p>Work nights: 11:40 PM plus half of 7 hours 10 minutes (3 hours 35 minutes) is 3:15 AM. Free nights: 1:10 AM plus half of 8 hours 30 minutes (4 hours 15 minutes) is 5:25 AM. The gap is <strong>2 hours 10 minutes</strong> of social jet lag. On a map, that is roughly a flight across two time zones, every weekend, and back again on Monday.</p>
+<p>The part that breaks most spreadsheets is midnight. Averaging 11:40 PM and 12:20 AM as clock times gives you noon. Write anything after midnight as 24 plus the hour (12:20 AM is 24:20, 1:10 AM is 25:10) and the math works. Do the same for wake times (6:50 AM is 30:50). Then mid-sleep is just the average of the two: (23:40 + 30:50) / 2 = 27:15, which is 3:15 AM.</p>
+<p>If you use Google Sheets or Excel, put sleep onset in A2 and wake time in B2 as times, and use <code>=MOD(A2 + MOD(B2 - A2, 1) / 2, 1)</code> for mid-sleep. The inner MOD handles a night that crosses midnight; the outer one wraps the answer back onto the clock. Format the cell as a time.</p>
+
+<h2>Getting the times from Apple Health</h2>
+<p>The questionnaire asks you to remember a typical week. If you sleep with an Apple Watch on, you have the real times instead, and better ones, because the watch records when you were asleep rather than when you think you were.</p>
+<p>On iPhone, open the Health app, tap Browse, then tap Sleep. Tap <strong>D</strong> to see one night as a timeline and swipe back through the week. The first sleep block is your sleep onset and the end of the last block is your wake time. For exact minutes, scroll down and tap Show All Data: it lists every sleep entry with its start and end time and the device or app that wrote it. Our guide to <a href="/guides/apple-watch-sleep-graph-explained/">reading the Apple Watch sleep graph</a> explains the stages and gaps you will see along the way.</p>
+<p>Three things to watch for:</p>
+<ul>
+  <li><strong>Awake time inside the night.</strong> Apple only records Awake between stretches of sleep, so a short Awake blink does not change your onset or wake time. Use the first and last sleep blocks.</li>
+  <li><strong>Time in bed is not the answer.</strong> Apple stopped recording In Bed on watchOS 11 and iOS 18, which is fine here, because the formula wants sleep onset anyway. More in <a href="/guides/apple-watch-time-in-bed/">why Apple Watch time in bed is missing</a>.</li>
+  <li><strong>Odd weeks.</strong> A trip, an illness or a newborn will skew it. Pick an ordinary week, or average two.</li>
+</ul>
+<p>The questionnaire's chronotype measure also leaves out people who wake to an alarm on free days, since an alarm on a day off is a social clock, not your own. The same logic works for you: if you set one on Saturday for a flight, drop that night.</p>
+
+<h2>What the number does not tell you</h2>
+<p>The standard formula has a known weakness. If you run short on sleep all week and sleep in on Saturday, your free-day midpoint moves later partly because you are catching up, not only because your body clock runs late. Konrad Jankowski made this argument in a 2017 paper in <em>Chronobiology International</em> and proposed a sleep-corrected version. In the common case, where you sleep longer on free nights and also fall asleep later, it compares the times you fell asleep instead of the midpoints. In the example above that gives 1 hour 30 minutes (11:40 PM against 1:10 AM) instead of 2 hours 10 minutes. The other 40 minutes is mostly the sleep-in.</p>
+<p>Social jet lag is also a different thing from the consistency score on your watch. Apple's Sleep Score gives 30 of its 100 points to bedtime consistency, which Apple says looks at when you fell asleep over the last 13 nights. It does not split work nights from free nights or look at wake time, so it cannot give you this number. Our guide to <a href="/guides/sleep-consistency-apps/">sleep consistency apps</a> compares how Apple, Whoop, Oura and others define consistency. And short nights are a separate tally, covered in <a href="/guides/apple-watch-sleep-debt/">working out your sleep debt</a>.</p>
+<p>If you work rotating shifts, the standard formula does not fit at all: there is no single "workday" pattern to compare against. Researchers use a separate shift-work version of the questionnaire that works out the gap for each kind of shift. Our guide to <a href="/guides/sleep-app-for-night-shift-workers/">sleep apps for night shift workers</a> covers setting up Apple's schedules for that life.</p>
+<p>In research, social jet lag has been associated with things like higher body mass index (a 2012 study by Roenneberg's group in <em>Current Biology</em>, using data from about 65,000 people in Europe). That is an association across a population, not a diagnosis of you. If your sleep worries you, talk to a doctor.</p>
+
+<h2>Where Nularo fits</h2>
+<p>Full disclosure: Nularo is our app, and it does not calculate social jet lag. It is closer to the Apple side of the last section. It reads Apple Health read-only (sleep, sleep stages, steps, active minutes, workouts, resting heart rate, HRV, respiratory rate and SpO2), and bedtime consistency is one of the habits in its Creature Age, recalculated weekly, with a breakdown of how many years each habit adds or takes off. A weekend that drifts two hours later shows up there as years on the consistency line, without you doing the math.</p>
+<!-- shot:age-tab -->
+<p>Each morning a verdict notification arrives, with the creature's mood (glowing, fine-but-judgy, wrecked or suspicious) set against your own 14-day baseline. There is a Bedtime Pledge for the evening, and a Weekly Report Card that is honest about Saturday. Creature Age is a rules-based, for-fun number built from public-health guidelines, not a medical measure, and it stays hidden until 7 days of data exist.</p>
+<p>The honest limitation: Nularo judges, it does not coach, and it will not hand you an SJL figure or split your week into work and free nights. It is iPhone only, it needs a watch on at night for good sleep data, and it is a subscription after onboarding: $39.99 a year with a 3-day free trial, or $9.99 a month. If you want the number, use the spreadsheet above.</p>
+<!-- cta:sleep -->
+
+<h2>Sources</h2>
+<ul>
+  <li><a href="https://support.apple.com/guide/iphone/view-your-sleep-history-iph72b370881/ios" rel="noopener">Apple Support: View your sleep history in Health on iPhone</a></li>
+  <li><a href="https://pubmed.ncbi.nlm.nih.gov/16687322/" rel="noopener">Wittmann, Dinich, Merrow and Roenneberg (2006), Chronobiology International: Social jetlag, misalignment of biological and social time</a></li>
+  <li><a href="https://pubmed.ncbi.nlm.nih.gov/28318321/" rel="noopener">Jankowski (2017), Chronobiology International: Social jet lag, sleep-corrected formula</a></li>
+</ul>
