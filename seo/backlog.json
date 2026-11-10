@@ -1523,7 +1523,9 @@
   "nularo_fit": 3,
   "angle": "INFERENCE: Accountability apps; Nularo duo + Bedtime Pledge for sleep accountability.",
   "priority": 63,
-  "status": "todo"
+  "status": "done",
+  "guide": "accountability-buddy-app-free",
+  "done": "2026-11-10"
  },
  {
   "keyword": "gamified fitness apps reddit",
