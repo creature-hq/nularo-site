@@ -1,19 +1,7 @@
 {
-  "pulled": "2026-11-09",
+  "pulled": "2026-11-10",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "accountability buddy app free",
-      "priority": 63,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 3,
-      "suggestions": [
-        "accountability buddy app free",
-        "accountability partner app free",
-        "is there an accountability app"
-      ]
-    },
     {
       "keyword": "gamified fitness apps reddit",
       "priority": 64,
@@ -343,8 +331,8 @@
       "suggestions": [
         "apple health age",
         "apple health age feature",
-        "apple health age test",
         "apple health age score",
+        "apple health age test",
         "apple health age where to find",
         "apple health age release date",
         "apple health age calculator",
