@@ -1,13 +1,13 @@
 {
-  "pulled": "2026-11-14",
+  "pulled": "2026-11-15",
   "range": [
-    "2026-10-15",
-    "2026-11-12"
+    "2026-10-16",
+    "2026-11-13"
   ],
   "totals": {
-    "impressions": 157,
+    "impressions": 161,
     "clicks": 5,
-    "queries": 8
+    "queries": 11
   },
   "opportunities": [],
   "pages": [
@@ -19,33 +19,33 @@
     },
     {
       "page": "https://nularo.com/",
-      "impressions": 19,
+      "impressions": 20,
       "clicks": 1,
-      "position": 3
+      "position": 3.3
     },
     {
       "page": "https://nularo.com/guides/apps-that-rate-your-sleep/",
       "impressions": 8,
       "clicks": 1,
-      "position": 3.5
+      "position": 3
     },
     {
       "page": "https://nularo.com/guides/sleep-app-for-night-shift-workers/",
-      "impressions": 33,
+      "impressions": 34,
       "clicks": 0,
-      "position": 7.1
+      "position": 7.4
     },
     {
       "page": "https://nularo.com/guides/apps-that-roast-you/",
       "impressions": 16,
       "clicks": 0,
-      "position": 27.3
+      "position": 27.1
     },
     {
       "page": "https://nularo.com/guides/finch-alternatives/",
-      "impressions": 11,
+      "impressions": 12,
       "clicks": 0,
-      "position": 36.4
+      "position": 39.4
     },
     {
       "page": "https://nularo.com/guides/",
@@ -73,9 +73,9 @@
     },
     {
       "page": "https://nularo.com/health-data-notice.html",
-      "impressions": 1,
+      "impressions": 2,
       "clicks": 0,
-      "position": 7
+      "position": 32.5
     },
     {
       "page": "https://nularo.com/privacy.html",
@@ -114,6 +114,13 @@
       "position": 52
     },
     {
+      "query": "apple watch night shift",
+      "page": "https://nularo.com/guides/sleep-app-for-night-shift-workers/",
+      "impressions": 1,
+      "clicks": 0,
+      "position": 18
+    },
+    {
       "query": "apps like finch",
       "page": "https://nularo.com/guides/finch-alternatives/",
       "impressions": 1,
@@ -128,11 +135,25 @@
       "position": 59
     },
     {
+      "query": "apps like finch self care",
+      "page": "https://nularo.com/guides/finch-alternatives/",
+      "impressions": 1,
+      "clicks": 0,
+      "position": 73
+    },
+    {
       "query": "finch alternatives",
       "page": "https://nularo.com/guides/finch-alternatives/",
       "impressions": 1,
       "clicks": 0,
       "position": 68
+    },
+    {
+      "query": "nulara.de",
+      "page": "https://nularo.com/health-data-notice.html",
+      "impressions": 1,
+      "clicks": 0,
+      "position": 58
     },
     {
       "query": "what\u2019s the best smartwatch for someone who works night shifts and needs specific features?",
@@ -147,7 +168,7 @@
       "url": "https://nularo.com/guides/",
       "verdict": "PASS",
       "coverage": "Submitted and indexed",
-      "last_crawl": "2026-10-20T18:25:18Z"
+      "last_crawl": "2026-11-14T21:32:54Z"
     },
     {
       "url": "https://nularo.com/guides/how-we-write/",
@@ -201,13 +222,13 @@
       "url": "https://nularo.com/guides/apps-that-roast-you/",
       "verdict": "PASS",
       "coverage": "Submitted and indexed",
-      "last_crawl": "2026-10-26T01:29:57Z"
+      "last_crawl": "2026-11-15T04:09:02Z"
     },
     {
       "url": "https://nularo.com/guides/self-care-tamagotchi-apps/",
       "verdict": "PASS",
       "coverage": "Submitted and indexed",
-      "last_crawl": "2026-10-26T01:27:42Z"
+      "last_crawl": "2026-11-14T23:02:49Z"
     },
     {
       "url": "https://nularo.com/guides/apple-watch-hrv-always-low/",
@@ -225,7 +246,7 @@
       "url": "https://nularo.com/guides/apps-that-rate-your-sleep/",
       "verdict": "PASS",
       "coverage": "Submitted and indexed",
-      "last_crawl": "2026-10-26T01:29:30Z"
+      "last_crawl": "2026-11-14T20:48:18Z"
     },
     {
       "url": "https://nularo.com/guides/sleep-consistency-apps/",
@@ -235,9 +256,9 @@
     },
     {
       "url": "https://nularo.com/guides/apple-watch-stress-app-free/",
-      "verdict": "NEUTRAL",
-      "coverage": "Discovered - currently not indexed",
-      "last_crawl": null
+      "verdict": "PASS",
+      "coverage": "Submitted and indexed",
+      "last_crawl": "2026-11-15T02:43:20Z"
     },
     {
       "url": "https://nularo.com/guides/how-to-see-apple-health-age/",
@@ -253,9 +274,9 @@
     },
     {
       "url": "https://nularo.com/guides/bevel-alternative-free/",
-      "verdict": "NEUTRAL",
-      "coverage": "Discovered - currently not indexed",
-      "last_crawl": null
+      "verdict": "PASS",
+      "coverage": "Submitted and indexed",
+      "last_crawl": "2026-11-14T22:42:10Z"
     },
     {
       "url": "https://nularo.com/guides/apple-watch-time-in-bed/",
@@ -290,13 +311,13 @@
     {
       "url": "https://nularo.com/guides/does-apple-watch-resting-heart-rate-include-sleep/",
       "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "last_crawl": null
     },
     {
       "url": "https://nularo.com/guides/pengu-app-alternatives/",
       "verdict": "NEUTRAL",
-      "coverage": "URL is unknown to Google",
+      "coverage": "Discovered - currently not indexed",
       "last_crawl": null
     },
     {
@@ -313,9 +334,9 @@
     },
     {
       "url": "https://nularo.com/guides/how-to-calculate-social-jet-lag/",
-      "verdict": "NEUTRAL",
-      "coverage": "Discovered - currently not indexed",
-      "last_crawl": null
+      "verdict": "PASS",
+      "coverage": "Submitted and indexed",
+      "last_crawl": "2026-11-14T17:36:10Z"
     },
     {
       "url": "https://nularo.com/guides/accountability-buddy-app-free/",
