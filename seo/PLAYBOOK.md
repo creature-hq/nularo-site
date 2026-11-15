@@ -1,15 +1,45 @@
 # The Nularo guide engine
 
-One guide a day, written and published by Claude, aimed at a query a brand-new
-site can actually win. Copied from Rasty Turek's Vaultaire loop (Starter Story,
+Two guides a day, written and published by Claude, each aimed at a query a
+brand-new site can actually win. The cloud routine runs twice a day and each
+run writes ONE guide: the **morning slot** (run starts before 16:00 UTC) and the
+**evening slot** (run starts 16:00 UTC or later). See "Which slot am I" below. Copied from Rasty Turek's Vaultaire loop (Starter Story,
 Oct 2026; site teardown of vaultaire.app on 2026-10-19), adapted for Nularo.
 
-This file is the instruction set for the daily run. Read all of it every run.
+This file is the instruction set for every run. Read all of it every run.
 
-## The daily run, in order
+## Which slot am I
 
-1. `git pull`. Read this file, `seo/backlog.json`, `seo/log.md`, and the list of
-   existing guides in `guides/src/`.
+Check `date -u +%H`. The two slots pick targets differently so the site grows
+from both data and real people:
+
+- **Morning slot (data):** step 2 rules a, then b, then c. If it is Monday,
+  do the weekly review (step 0) first.
+- **Evening slot (people):** step 2 rule t (trending) first, then rule r
+  (Reddit questions), and only if neither finds a winnable target, fall back to
+  a, b, c. If the morning run already published today (check `seo/log.md`),
+  never pick the same intent or the same cluster's very next backlog item twice.
+
+## The run, in order
+
+0. **Weekly review (Monday morning slot only). This is the feedback loop that
+   makes the engine improve over time.** Before picking today's target:
+   - From `seo/gsc-latest.json` `pages`: any guide with 20+ impressions and
+     0 clicks gets a sharper `seo_title` and `description` (match the queries
+     it actually shows for in `queries`). Any guide at position 8 to 20 gets one
+     deeper section that answers what the top results answer and it does not.
+   - If `seo/link-report.md` (weekly broken-link check) lists broken external
+     links, fix or remove them.
+   - Update `seo/learnings.md`: for each cluster and each pick rule (a, b, c,
+     t, r), how many guides, total impressions and clicks, and which guides
+     earned anything. Write 3 short lines at the top: what is working, what is
+     not, and what the next week will do more of (for example "Reddit-picked
+     guides get 3x the impressions of backlog guides, so the evening slot keeps
+     rule r first"). Later runs read the top of this file in step 1 and lean
+     their picks toward what is working.
+   - Commit these edits together with the day's guide.
+1. `git pull`. Read this file, `seo/backlog.json`, `seo/log.md`, the top of
+   `seo/learnings.md`, and the list of existing guides in `guides/src/`.
 2. **Pick today's target. This is Rasty's loop: "your site was showed 16,000
    times for this keyword, but no clicks because you are like number 50", so
    write the guide for that keyword.** A GitHub Action pulls Google data every
@@ -47,6 +77,30 @@ This file is the instruction set for the daily run. Read all of it every run.
       broad: a phrase that names a device, a demographic or a specific
       situation ("for night shift workers", "for couples", "on Apple Watch")
       is one a brand-new site can win.
+   t. **Trending (evening slot first).** Search news and social from the last
+      7 days for our clusters: Apple Health, Apple Watch and watchOS/iOS
+      updates, sleep and habit trends (the way "sleepmaxxing" took off), virtual
+      pet and companion apps, and competitors (Finch, Pengu, Bevel, Whoop,
+      Oura). Use WebSearch with words like "this week", the month and year, and
+      `site:reddit.com` for the last week. A topic wins if people are clearly
+      asking about it right now, it fits a cluster, and the current results are
+      thin or outdated (old iOS menus, news posts with no how-to). New releases
+      win fastest: the first good how-to after an Apple update often ranks
+      before big sites write one. Only claims you can verify, as always.
+   r. **Reddit questions (evening slot second).** Reddit is where people talk
+      about these topics all day. Search `site:reddit.com` for each cluster's
+      seed terms (r/AppleWatch, r/sleep, r/applehealth, r/getdisciplined,
+      r/selfimprovement, r/ios and similar) and look for the question asked
+      over and over in separate threads (3+ threads asking the same thing in
+      different words is the signal). Write the guide that answers it fully.
+      Add the exact phrasing people use as the `keyword`, and add the other
+      repeat questions you find to `seo/backlog.json` with `"source": "reddit"`
+      so later runs can use them. Never quote or name Reddit users.
+   - Free tools beat articles when the query is a calculation ("calculator",
+     "how to calculate", "how much sleep debt do I have"). If you find one, you
+     may build a small tool page instead of a plain guide: the same guide
+     skeleton plus a plain HTML/JS calculator in the body (no external
+     scripts, no data sent anywhere), with the math shown below it and sourced.
    - Never write two guides for the same intent. If a guide already covers it,
      deepen that guide instead (add a section, update `updated`).
 3. **Research before writing.** Search the query. Read the top results. Note what
@@ -69,14 +123,16 @@ This file is the instruction set for the daily run. Read all of it every run.
    page, and pushes to main ping IndexNow, so step 5's inline links are the
    only linking you do by hand. The slug `how-we-write` is reserved.
 7. Mark the backlog item `done` with the date, append one line to `seo/log.md`
-   (date, slug, target query, which rule picked it (a/b/c) and why, which pages
+   (date, slot (morning/evening), slug, target query, which rule picked it
+   (a/b/c/t/r) and why, which pages
    now link to it, and today's `totals` plus how many guides are indexed, so the
    log doubles as the traffic history).
 8. Commit (`Add guide: <title>`) and push to `main`. GitHub Pages deploys in about
    a minute.
 
-One guide per day. Not five. Rasty's point was that Google rewards a steady
-trickle of good pages over a flood.
+Two guides per day (one per slot). Not five. Rasty's point was that Google
+rewards a steady trickle of good pages over a flood, so quality stays the bar:
+every guide has to be better than what ranks today.
 
 ## The guide skeleton (Vaultaire's Era 2 template)
 
