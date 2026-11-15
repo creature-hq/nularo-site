@@ -1,0 +1,97 @@
+<!--meta
+{
+  "title": "Why your Apple Watch Sleep Score is always high",
+  "seo_title": "Apple Sleep Score Always High? Why It Says 90 (2026)",
+  "description": "Apple's Sleep Score only counts duration, bedtime consistency and interruptions, and the watch rarely catches quiet wake time. Here is why it runs high.",
+  "keyword": "apple sleep score always high",
+  "cluster": "watch-sleep",
+  "published": "2026-11-15",
+  "updated": "2026-11-15",
+  "tldr": "Apple's Sleep Score is built from three things only: sleep duration (50 points), bedtime consistency against your last 13 nights (30) and interruptions (20). A long night at your usual time earns up to 80 points before interruptions count at all. Sleep stages are not one of the three parts, and in Apple's own validation the watch scored about a quarter of real wake time as sleep. To see where your points went, open Health, tap Browse, tap Sleep, tap the score, then the info icon.",
+  "howto": [
+    "Open the Health app on iPhone, tap Browse (Search on some versions), then tap Sleep.",
+    "Tap last night's Sleep Score, then tap the info icon to see how Apple calculates it.",
+    "Compare the score with the band Apple puts it in: Very Low 0-40, Low 41-60, OK 61-80, High 81-95, Very High 96 and above.",
+    "Scroll down in Sleep and tap Show All Data to check that only your Apple Watch wrote last night's sleep.",
+    "On the watch, open the Sleep app and turn the Digital Crown to see recent scores next to the night's stages."
+  ],
+  "cta": "sleep",
+  "faq": [
+    {"q": "Why is my Apple Watch Sleep Score always high?", "a": "Because it rewards three things most regular sleepers already do: sleeping a long time (50 points), falling asleep near your usual time over the last 13 nights (30) and not waking much (20). It does not score how much deep or REM sleep you got, and the watch tends to count quiet wake time as sleep, which helps both duration and interruptions."},
+    {"q": "Did Apple change the Sleep Score because it was too generous?", "a": "It changed the labels, not the math. With watchOS 26.2 in December 2025, Apple raised the band cutoffs, so a 70 that used to read High now reads OK, and renamed Excellent to Very High. Apple said the way the watch captures and calculates the score did not change."},
+    {"q": "Do sleep stages count toward the Apple Sleep Score?", "a": "Apple's support page lists only sleep duration, bedtime consistency and interruptions. Time in REM, Core or Deep is not one of the three parts. You can still see your stages in the Health app, but a night light on deep sleep will not cost you points on its own."},
+    {"q": "I get a high Sleep Score but I am still tired. Is something wrong?", "a": "The score measures timing and length, not how rested you feel, so the two can disagree. This page cannot tell you why you are tired. If you feel exhausted most days despite long, regular nights, talk to a doctor."},
+    {"q": "Does Nularo give a sleep score that is less generous?", "a": "Nularo gives a Sleep Score and a morning verdict measured against your own 14-day baseline, using sleep, sleep stages, resting heart rate and HRV from Apple Health. It is a for-fun app that judges rather than coaches, and it is not a medical measurement either."}
+  ],
+  "related": ["apps-that-rate-your-sleep", "apple-sleep-score-vs-autosleep", "apple-watch-sleep-graph-explained", "does-apple-watch-have-recovery-score"]
+}
+-->
+<p class="lede">You slept badly. You know you did. You woke at 3am, lay there for what felt like an hour, and dragged yourself up at seven. Then your Apple Watch hands you an 88 and calls it High. Again. Here is why the number runs high, and what it can and cannot see.</p>
+
+<h2>What the Sleep Score actually counts</h2>
+<p>Apple publishes the recipe, and it is shorter than most people assume. Every night gets a score from 0 to 100, built from three parts:</p>
+<ul>
+  <li><strong>Sleep duration, 50 points.</strong> How long the watch thinks you were asleep.</li>
+  <li><strong>Bedtime consistency, 30 points.</strong> When you fell asleep compared with your last 13 nights.</li>
+  <li><strong>Interruptions, 20 points.</strong> How often you woke during the night and for how long.</li>
+</ul>
+<p>That is the whole list. Do the arithmetic and the reason for the high scores is right there. A long night that started around your usual time can collect up to 80 points before interruptions are counted at all. Wake up a few times and you lose part of a 20-point slice, not the score.</p>
+<p>Two things are missing from the recipe that people expect to find in it:</p>
+<ul>
+  <li><strong>Sleep stages.</strong> REM, Core and Deep are shown in the Health app, but they are not one of the three scored parts. A night that looks thin on deep sleep in the <a href="/guides/apple-watch-sleep-graph-explained/">Apple Watch sleep graph</a> does not lose points for that alone.</li>
+  <li><strong>A fixed ideal bedtime.</strong> Consistency is measured against your own recent nights. If you fall asleep at 1:30am every night, you are consistent, and the score pays you for it. Our guide to <a href="/guides/sleep-consistency-apps/">sleep consistency apps</a> covers how other apps define regularity differently.</li>
+</ul>
+<p>The score needs watchOS 26 or later on an Apple Watch Series 6 or later, SE (2nd generation) or later, or any Ultra, and Apple says you need to wear the watch to sleep for at least an hour to get one.</p>
+
+<h2>Why the watch misses the time you lay awake</h2>
+<p>The second reason is the sensor, not the formula. Apple published a validation paper for its sleep stages (updated October 2025), comparing the watch with lab sleep studies. In its validation set, the watch correctly identified 97.9% of sleep as sleep. Its specificity, the share of real wake time it correctly called wake, was 75.0%.</p>
+<p>Read the second number again. Roughly a quarter of the time you were actually awake got scored as asleep. Wrist sensors work mainly from motion and heart rate, and lying still with your eyes open in the dark looks a lot like sleep from your wrist. So the 3am hour you remember can shrink to a few minutes of Awake, or vanish.</p>
+<p>That pushes the score up twice. The missed wake time is added to your duration, which is worth 50 points, and it is not counted as an interruption, which is worth 20. The two biggest levers both move in your favour on exactly the nights you felt worst.</p>
+<p>There is one more gap. Apple's HealthKit documentation says Apple Watch only records Awake entries that fall between two sleep entries. Lying awake before you first drift off, or scrolling in bed after your alarm, is not counted as Awake at all. Apple also stopped recording time in bed on watchOS 11, so nothing measures the time it takes you to fall asleep. Our guide to <a href="/guides/apple-watch-time-in-bed/">Apple Watch time in bed</a> explains that change.</p>
+
+<h2>Apple changed the labels, not the math</h2>
+<p>If the score felt even more generous last year, you were not imagining it. Plenty of people complained that it handed out High too easily, and in watchOS 26.2, released in December 2025, Apple moved the bands:</p>
+<div class="table-scroll">
+<table>
+<thead>
+<tr><th>Band</th><th>Before watchOS 26.2</th><th>Since watchOS 26.2</th></tr>
+</thead>
+<tbody>
+<tr><td>Very Low</td><td>0-29</td><td>0-40</td></tr>
+<tr><td>Low</td><td>30-49</td><td>41-60</td></tr>
+<tr><td>OK</td><td>50-69</td><td>61-80</td></tr>
+<tr><td>High</td><td>70-89</td><td>81-95</td></tr>
+<tr><td>Very High (was Excellent)</td><td>90-100</td><td>96 and above</td></tr>
+</tbody>
+</table>
+</div>
+<p>So a 72 that used to say High now says OK. What did not change is the number itself. Apple said the update did not change how the watch captures and calculates the score; the new cutoffs came from data in the Apple Heart and Movement Study. If your scores sit in the 80s and 90s, the bands are now stricter, but the inputs are the same.</p>
+<p>That gives you a practical way to read it: treat anything in OK as a real dip, not a pass. And treat the label as a summary of timing and length, not a verdict on how restful the night was.</p>
+
+<h2>How to see where your points went</h2>
+<p>When a score does not match the night you had, check the inputs before you trust the number.</p>
+<ol>
+  <li>Open the Health app on your iPhone, tap Browse (Search on some versions), then tap Sleep.</li>
+  <li>Tap last night's Sleep Score, then tap the info icon. Apple shows how the score is put together.</li>
+  <li>Look at the stage chart for that night. Long unbroken stretches on a night you remember tossing around are the wake time the watch missed.</li>
+  <li>Scroll down and tap Show All Data. If a second app also wrote sleep for that night, the duration can be inflated by overlapping entries. Data Sources &amp; Access, one level up, lets you put Apple Watch first or stop an app writing sleep.</li>
+  <li>On the watch, open the Sleep app and turn the Digital Crown to see recent scores alongside each night.</li>
+</ol>
+<p>If the score is high because you slept long at a regular time, it is doing its job. It just is not measuring the thing you are asking it about. For a second opinion that does weigh your stages and heart data, our comparison of <a href="/guides/apps-that-rate-your-sleep/">apps that rate your sleep</a> lines up the main options, and <a href="/guides/apple-sleep-score-vs-autosleep/">Apple Sleep Score vs AutoSleep</a> goes through what each one counts.</p>
+<p>The other overnight numbers live elsewhere. The Vitals app on Apple Watch shows overnight heart rate, respiratory rate, blood oxygen, wrist temperature and sleep duration. On Apple Watch Series 12 and Ultra 4, watchOS 27 adds a separate Readiness score; see <a href="/guides/does-apple-watch-have-recovery-score/">does Apple Watch have a recovery score</a>. And HRV is its own story, covered in <a href="/guides/apple-watch-hrv-during-sleep/">Apple Watch HRV during sleep</a>.</p>
+<p>A high score and a tired morning are not a contradiction the watch can settle. If you feel exhausted most days despite long, regular nights, that is a conversation for a doctor, not for a settings menu.</p>
+
+<h2>Where Nularo fits</h2>
+<p>Full disclosure: Nularo is our app. It does not replace Apple's score, and it is not more accurate than your watch, because it reads the same data. What it does differently is what it compares you with.</p>
+<p>Nularo reads Apple Health read-only: sleep and sleep stages, steps, active minutes, workouts, resting heart rate, HRV, respiratory rate and SpO2. Each morning it sends one verdict notification and gives you Sleep, Stress and Energy scores, set against your own 14-day baseline rather than a fixed scale. A creature takes one of four moods (glowing, fine-but-judgy, wrecked or suspicious), so a night that was long but rough by your own heart data can still earn a judgy face instead of a High. The Overview tab also keeps a sleep debt running, which Apple does not add up; the manual version is in <a href="/guides/apple-watch-sleep-debt/">Apple Watch sleep debt</a>.</p>
+<!-- shot:overview -->
+<p>The honest limitation: Nularo sees what your watch recorded, nothing more. If the watch scored your 3am wake-up as sleep, Nularo gets the same minutes. It is iPhone only, it reports the morning after rather than in real time, and it judges rather than coaches. It is a subscription: $39.99 a year with a 3-day free trial, or $9.99 a month.</p>
+<!-- cta:sleep -->
+
+<h2>Sources</h2>
+<ul>
+  <li><a href="https://support.apple.com/guide/watch/view-your-sleep-score-apded441a669/watchos" rel="noopener">Apple Support: View your sleep score on Apple Watch</a></li>
+  <li><a href="https://support.apple.com/en-us/108906" rel="noopener">Apple Support: Track your sleep on Apple Watch and use Sleep on iPhone</a></li>
+  <li><a href="https://www.apple.com/health/pdf/Estimating_Sleep_Stages_from_Apple_Watch_Oct_2025.pdf" rel="noopener">Apple: Estimating Sleep Stages from Apple Watch (October 2025, PDF)</a></li>
+  <li><a href="https://9to5mac.com/2025/11/04/watchos-26-2-sleep-score-changes-apple-watch/" rel="noopener">9to5Mac: watchOS 26.2 makes a big change to Sleep Score</a></li>
+</ul>

@@ -1636,7 +1636,10 @@
   "nularo_fit": 4,
   "angle": "INFERENCE: Why Apple's score can be high on a rough night (duration/bedtime/interruptions only, stage estimates); non-medical; Nularo judges vs YOUR 14-day baseline incl. HRV/RHR.",
   "priority": 68,
-  "status": "todo"
+  "status": "done",
+  "guide": "apple-sleep-score-always-high",
+  "done": "2026-11-15",
+  "note": "covered by apple-sleep-score-always-high (same intent)"
  },
  {
   "keyword": "apple sleep score always high",
@@ -1658,7 +1661,9 @@
   "nularo_fit": 4,
   "angle": "INFERENCE: Score is relative to your own habits and duration-weighted; explain tiers and why it saturates; contrast with a baseline-relative verdict.",
   "priority": 69,
-  "status": "todo"
+  "status": "done",
+  "guide": "apple-sleep-score-always-high",
+  "done": "2026-11-15"
  },
  {
   "keyword": "apple sleep score doesn't make sense",
@@ -1680,7 +1685,10 @@
   "nularo_fit": 4,
   "angle": "INFERENCE: Decode a confusing score using the 50/30/20 breakdown; show three example nights.",
   "priority": 70,
-  "status": "todo"
+  "status": "done",
+  "guide": "apple-sleep-score-always-high",
+  "done": "2026-11-15",
+  "note": "covered by apple-sleep-score-always-high (same intent)"
  },
  {
   "keyword": "apple watch app that tells your mood",
@@ -2342,5 +2350,18 @@
   "angle": "INFERENCE: How Pokemon Sleep tracks via phone vs smartwatch link; small Nularo mention (needs Health data).",
   "priority": 100,
   "status": "todo"
+ },
+ {
+  "keyword": "is apple watch sleep score accurate",
+  "cluster": "watch-sleep",
+  "intent": "explainer",
+  "evidence": "VERIFIED: 'is sleep score accurate' and 'how accurate is apple sleep' are Google autocomplete suggestions for backlog #69/#70; the same doubt recurs in Apple Community and MacRumors forum threads (Reddit not reachable from the sandbox search)",
+  "serp_top": [],
+  "difficulty": "INFERENCE: med; generic Sleep Score explainers rank",
+  "nularo_fit": 3,
+  "angle": "INFERENCE: Apple's Oct 2025 validation paper numbers vs independent studies; keep distinct from apple-sleep-score-always-high (why it runs high) by focusing on stage accuracy.",
+  "priority": 101,
+  "status": "todo",
+  "source": "forums"
  }
 ]
