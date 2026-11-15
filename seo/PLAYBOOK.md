@@ -88,7 +88,17 @@ from both data and real people:
       win fastest: the first good how-to after an Apple update often ranks
       before big sites write one. Only claims you can verify, as always.
    r. **Reddit questions (evening slot second).** Reddit is where people talk
-      about these topics all day. Search `site:reddit.com` for each cluster's
+      about these topics all day. Start with `seo/reddit-latest.json`, pulled
+      daily at 15:00 UTC by a GitHub Action from 10 subreddits (r/AppleWatch,
+      r/sleep, r/ouraring, r/whoop, r/finch, r/nightshift, r/getdisciplined and
+      more): `themes` are word pairs shared by 3+ separate question titles
+      (the "asked over and over" signal, with example titles), `questions` are
+      the topic-matching questions of the last 7 days, most discussed first,
+      with links and an excerpt. Read the threads behind a promising theme
+      (full network access is on) before deciding. Skip themes that are
+      medical (waking at 3am, insomnia) unless the guide can stay a pure
+      "what the metric is and where to find it" explainer. As a backup, search
+      `site:reddit.com` for each cluster's
       seed terms (r/AppleWatch, r/sleep, r/applehealth, r/getdisciplined,
       r/selfimprovement, r/ios and similar) and look for the question asked
       over and over in separate threads (3+ threads asking the same thing in
