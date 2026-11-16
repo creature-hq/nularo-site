@@ -1,20 +1,7 @@
 {
-  "pulled": "2026-11-15",
+  "pulled": "2026-11-16",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "gamified fitness apps reddit",
-      "priority": 64,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 4,
-      "suggestions": [
-        "gamified fitness apps reddit",
-        "gamified gym app reddit",
-        "gamified health apps",
-        "what is a gamified app"
-      ]
-    },
     {
       "keyword": "apple watch sleep animal",
       "priority": 65,
@@ -53,48 +40,6 @@
       "suggestions": [
         "sleep regularity score",
         "what is sleep regularity"
-      ]
-    },
-    {
-      "keyword": "high sleep score but still tired apple watch",
-      "priority": 68,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 6,
-      "suggestions": [
-        "high sleep score but still tired apple watch",
-        "apple watch sleep score",
-        "does sleep apnea make you sleep more",
-        "does sleep score work with apple watch",
-        "should you sleep elevated with sleep apnea",
-        "no matter how many hours of sleep i get i always tired"
-      ]
-    },
-    {
-      "keyword": "apple sleep score always high",
-      "priority": 69,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 5,
-      "suggestions": [
-        "apple sleep score always high",
-        "apple watch sleep score always high",
-        "how to get a good sleep score",
-        "is sleep score accurate",
-        "what is a good sleep score"
-      ]
-    },
-    {
-      "keyword": "apple sleep score doesn't make sense",
-      "priority": 70,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 4,
-      "suggestions": [
-        "apple sleep score doesn't make sense",
-        "sleep score not working",
-        "is sleep score accurate",
-        "how accurate is apple sleep"
       ]
     },
     {
@@ -161,22 +106,6 @@
         "bed rotting app",
         "stop bed rotting app",
         "bed rot challenge application"
-      ]
-    },
-    {
-      "keyword": "apple watch night shift sleep",
-      "priority": 76,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 7,
-      "suggestions": [
-        "apple watch night shift sleep",
-        "apple watch sleep tracking night shift",
-        "apple watch sleep score night shift",
-        "does apple watch have night shift",
-        "what time do night shift workers sleep",
-        "does apple night shift work",
-        "night shift sleep before or after"
       ]
     },
     {
@@ -495,6 +424,23 @@
         "pokemon sleep apple watch reddit",
         "pokemon sleep apple watch not working",
         "pokemon sleep apple watch se"
+      ]
+    },
+    {
+      "keyword": "is apple watch sleep score accurate",
+      "priority": 101,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 10,
+      "suggestions": [
+        "is apple watch sleep score accurate",
+        "is apple watch sleep score accurate reddit",
+        "is apple watch sleep score reliable",
+        "is apple watch 11 sleep score accurate",
+        "apple watch sleep score is not accurate",
+        "which sleep score is more accurate - garmin or apple watch",
+        "how accurate is my apple watch sleep score",
+        "is apple watch sleep accurate"
       ]
     }
   ],
