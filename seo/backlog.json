@@ -2156,7 +2156,10 @@
   "nularo_fit": 4,
   "angle": "INFERENCE: The common reasons people report (late bedtime vs usual, wake-ups, short night) and how to read the breakdown.",
   "priority": 91,
-  "status": "todo"
+  "status": "done",
+  "guide": "how-to-get-100-sleep-score-apple-watch",
+  "done": "2026-11-16",
+  "note": "covered by how-to-get-100-sleep-score-apple-watch (find which of the three parts is low)"
  },
  {
   "keyword": "how to share apple watch data with friends",
@@ -2222,7 +2225,9 @@
   "nularo_fit": 3,
   "angle": "INFERENCE: What a perfect score requires per Apple's components; playful tone; Nularo creature 'glowing' as the equivalent flex.",
   "priority": 94,
-  "status": "todo"
+  "status": "done",
+  "guide": "how-to-get-100-sleep-score-apple-watch",
+  "done": "2026-11-16"
  },
  {
   "keyword": "sleep score apple watch vs oura",
@@ -2369,5 +2374,18 @@
   "priority": 101,
   "status": "todo",
   "source": "forums"
+ },
+ {
+  "keyword": "apple watch alarm after hours of sleep",
+  "cluster": "watch-sleep",
+  "intent": "how-to",
+  "evidence": "VERIFIED: r/ouraring thread 'Can we have an alarm based on sleep hours?' (2026-11-13, 35 comments) asks for an alarm that rings after a set amount of sleep; not yet checked in autocomplete",
+  "serp_top": [],
+  "difficulty": "INFERENCE: unknown, check SERP",
+  "nularo_fit": 2,
+  "angle": "INFERENCE: Whether Apple's Sleep schedule alarm or any Apple Health app can wake you after N hours asleep rather than at a clock time; Apple path first.",
+  "priority": 102,
+  "status": "todo",
+  "source": "reddit"
  }
 ]
