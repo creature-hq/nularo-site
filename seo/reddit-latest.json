@@ -1,16 +1,16 @@
 {
- "pulled": "2026-11-15",
+ "pulled": "2026-11-16",
  "window_days": 7,
  "source": "Arctic Shift Reddit archive (reddit.com blocks unauthenticated reads)",
  "posts_scanned": {
-  "AppleWatch": 340,
-  "AppleWatchFitness": 84,
-  "sleep": 303,
-  "whoop": 168,
-  "ouraring": 276,
-  "finch": 347,
-  "nightshift": 141,
-  "getdisciplined": 269,
+  "AppleWatch": 322,
+  "AppleWatchFitness": 79,
+  "sleep": 311,
+  "whoop": 166,
+  "ouraring": 274,
+  "finch": 344,
+  "nightshift": 146,
+  "getdisciplined": 262,
   "selfimprovement": 500,
   "iphone": 500
  },
@@ -20,40 +20,16 @@
    "posts": 9,
    "examples": [
     "Can we have an alarm based on sleep hours?",
+    "What do you guys do when you get 1-4 hours of sleep?",
     "can’t back to sleep after 4-6 hours and so sleepy",
     "Why do I feel better on 6 hours of sleep than 8 and half?",
-    "76yo with 4-5 hours of sleep, is it normal ?",
-    "Obsessed and crying over sleep hours. How do I stop this hyperfixation ?",
-    "Even after having 8 hours of sleep with sleep score of 83, i feel i need another sleep in afternoon. Does this mean i am a naturally a bi-phasic sleeper?"
-   ]
-  },
-  {
-   "words": "apple watch",
-   "posts": 8,
-   "examples": [
-    "Whoop vs Apple Watch Ultra ?",
-    "Brand new Apple Watch. Is your scroll wheel lacking tension too?",
-    "Do you ever line Apple Watch / Health data up with labs or what you eat",
-    "Has anyone else’s Apple Watch ever shown a singular anomalous super low blood oxygen reading?",
-    "Why can't my Apple Watch track my sleep",
-    "Is there any way to wake up iPhone's screen using Apple Watch?"
-   ]
-  },
-  {
-   "words": "oura ring",
-   "posts": 7,
-   "examples": [
-    "Does anyone actually like their oura ring??",
-    "How do I find a Oura Ring expert who can review and testify about my Oura Ring data?",
-    "ULTA NOW CARRYING OURA RING??",
-    "Is it normal to already be on my 3rd Oura Ring 4 in less than 2 years?",
-    "Anyone go from Oura Gen 3 to Ring 5? Same size?",
-    "Is Oura ring 4 or any smart ring worth it?"
+    "I have been getting average 5-6 hours of sleep since 15 and after 2 years 3 months after I turned 17 I got 7-8 hours every night and I’m 18 now how much permanent damage have I done be brutally honest?",
+    "76yo with 4-5 hours of sleep, is it normal ?"
    ]
   },
   {
    "words": "night shift",
-   "posts": 7,
+   "posts": 9,
    "examples": [
     "Must have items for night shift?",
     "I have never had a night shift, do yall get dinner breaks?",
@@ -64,15 +40,39 @@
    ]
   },
   {
+   "words": "oura ring",
+   "posts": 8,
+   "examples": [
+    "Does anyone actually like their oura ring??",
+    "How do I find a Oura Ring expert who can review and testify about my Oura Ring data?",
+    "ULTA NOW CARRYING OURA RING??",
+    "Is it normal to already be on my 3rd Oura Ring 4 in less than 2 years?",
+    "Anyone go from Oura Gen 3 to Ring 5? Same size?",
+    "Nurse with oura ring?"
+   ]
+  },
+  {
+   "words": "schedule sleep",
+   "posts": 8,
+   "examples": [
+    "how do i fix my sleep schedule safety as someone who’s been nocturnal for 3 years?",
+    "Weird sleep schedule?",
+    "How to fall asleep with this sleep schedule?",
+    "How to fix severely fucked sleep schedule?",
+    "My Sleep Schedule Is Completely messed Up. How Can I Fix It?",
+    "how messed up is my sleep schedule? (and how do i fix it)"
+   ]
+  },
+  {
    "words": "asleep fall",
    "posts": 7,
    "examples": [
-    "I’m a student building an under-pillow speaker for people who fall asleep to podcasts. Would you use this?",
     "How do people literally fall asleep outside of bed?",
     "Does checking the time during the night make it harder for you to fall back asleep?",
     "I fall asleep with sound and basically can't sleep without it. Recently (and not so recently) people in my house have been loud and slamming doors. Is there a solution for that?",
     "Is there any way that I could improve the speed at which I fall asleep?",
-    "Keep waking up at 3am to pee and can’t fall back asleep. How do I break this cycle?"
+    "How to fall asleep with this sleep schedule?",
+    "Sudden gasps for air as I’m about to fall asleep over and over keeping me up?"
    ]
   },
   {
@@ -81,22 +81,22 @@
    "examples": [
     "can’t back to sleep after 4-6 hours and so sleepy",
     "Can never get back to sleep after waking for toilet",
+    "I have been getting average 5-6 hours of sleep since 15 and after 2 years 3 months after I turned 17 I got 7-8 hours every night and I’m 18 now how much permanent damage have I done be brutally honest?",
     "Sleep is now terrible after living a \"healthier\" lifestyle?",
     "Even after having 8 hours of sleep with sleep score of 83, i feel i need another sleep in afternoon. Does this mean i am a naturally a bi-phasic sleeper?",
-    "I have been getting average 5-6 hours of sleep since 15 and after 2 years 3 months after I turned 17 I got 7-8 hours every night and I’m 18 now how much permanent damage have I done be brutally honest?",
     "Because of anxiety and OCD, I have been getting average 5-6 hours of sleep since 15 and after 2 years 3 months after I turned 17 I got 7-8 hours every night and I’m 18 now how much permanent damage have I done be brutally honest?"
    ]
   },
   {
-   "words": "schedule sleep",
+   "words": "feel like",
    "posts": 6,
    "examples": [
-    "Weird sleep schedule?",
-    "how do i fix my sleep schedule safety as someone who’s been nocturnal for 3 years?",
-    "How to fix severely fucked sleep schedule?",
-    "how messed up is my sleep schedule? (and how do i fix it)",
-    "New job, new sleep schedule. Advice?",
-    "How do I fix my ever failing sleep schedule"
+    "Does anyone else feel like working nights completely breaks your sense of reality?🫠",
+    "Folks who’ve been wearing oura for 1+y: do you sometimes feel like you trust your sleep score more than your own sensations?",
+    "I’m 25 and feel like I’m wasting my potential because I just can’t stop procrastinating. How do I get out of this?",
+    "Why does waking up feel like the hardest part of my sleep?",
+    "Do you ever feel like you're wasting your potential, even when you're trying to improve?",
+    "I keep waking up at like 1:00 am cuz I feel guilt and anxiety, what should I do?"
    ]
   },
   {
@@ -106,59 +106,40 @@
     "Can’t get a sleep score above 90",
     "Folks who’ve been wearing oura for 1+y: do you sometimes feel like you trust your sleep score more than your own sensations?",
     "Even after having 8 hours of sleep with sleep score of 83, i feel i need another sleep in afternoon. Does this mean i am a naturally a bi-phasic sleeper?",
-    "Anyone else sleep for almost 8 hours and still get a low sleep score?",
-    "Sleep score bug?"
+    "Sleep score bug?",
+    "Anyone else sleep for almost 8 hours and still get a low sleep score?"
    ]
   },
   {
-   "words": "feel like",
+   "words": "apple watch",
    "posts": 5,
    "examples": [
-    "Does anyone else feel like working nights completely breaks your sense of reality?🫠",
-    "Folks who’ve been wearing oura for 1+y: do you sometimes feel like you trust your sleep score more than your own sensations?",
-    "I’m 25 and feel like I’m wasting my potential because I just can’t stop procrastinating. How do I get out of this?",
-    "Why does waking up feel like the hardest part of my sleep?",
-    "I keep waking up at like 1:00 am cuz I feel guilt and anxiety, what should I do?"
+    "Whoop vs Apple Watch Ultra ?",
+    "Is there any way to wake up iPhone's screen using Apple Watch?",
+    "Why can't my Apple Watch track my sleep",
+    "Random contacts and/or account on Apple Watch Snapchat?",
+    "Should I switch from Apple Watch to a WHOOP or Garmin?"
    ]
   },
   {
-   "words": "can't sleep",
-   "posts": 4,
+   "words": "every night",
+   "posts": 5,
    "examples": [
-    "Does anyone else wake up between 2:30 and 3:30 a.m and can't go back too sleep for the life of them ? And what has helped to go back too sleep",
-    "What am I doing wrong? I sleep well, but I can't get out of bed for a long time.",
-    "I fall asleep with sound and basically can't sleep without it. Recently (and not so recently) people in my house have been loud and slamming doors. Is there a solution for that?",
-    "I can't get deep sleep unless I wake up multiple times during the night. Has anyone experienced this?"
+    "I have been getting average 5-6 hours of sleep since 15 and after 2 years 3 months after I turned 17 I got 7-8 hours every night and I’m 18 now how much permanent damage have I done be brutally honest?",
+    "What does it mean to have nightmares almost every night?",
+    "Why do i have sleep paralysis every night?",
+    "Has anyone else experienced trouble staying asleep and having vivid dreams every night?",
+    "Because of anxiety and OCD, I have been getting average 5-6 hours of sleep since 15 and after 2 years 3 months after I turned 17 I got 7-8 hours every night and I’m 18 now how much permanent damage have I done be brutally honest?"
    ]
   },
   {
-   "words": "back sleep",
+   "words": "hours night",
    "posts": 4,
    "examples": [
-    "Does anyone else wake up between 2:30 and 3:30 a.m and can't go back too sleep for the life of them ? And what has helped to go back too sleep",
-    "can’t back to sleep after 4-6 hours and so sleepy",
-    "Can never get back to sleep after waking for toilet",
-    "Is waking up and going back to sleep bad for you?"
-   ]
-  },
-  {
-   "words": "break cycle",
-   "posts": 4,
-   "examples": [
-    "I keep quitting good habits after missing just one day. How do I break the all-or-nothing cycle?",
-    "Getting too addicted to Reddit roleplay, and it’s starting to affect my sleep and daily routine. How do I break this cycle?",
-    "I keep experiencing intense anxiety whenever I become emotionally invested in someone. How do I break this cycle?",
-    "Keep waking up at 3am to pee and can’t fall back asleep. How do I break this cycle?"
-   ]
-  },
-  {
-   "words": "people who",
-   "posts": 4,
-   "examples": [
-    "I’m a student building an under-pillow speaker for people who fall asleep to podcasts. Would you use this?",
-    "How to create boundaries with people who unintentionally impede my progress",
-    "What is it with this habit of acting dumb in front of people who already think we're dumb?",
-    "Has anyone actually overcome these patterns? Looking for advice from people who have been through this."
+    "What difference have you noticed from sleeping 5-6 hours a night to 7 hours or more?",
+    "I have been getting average 5-6 hours of sleep since 15 and after 2 years 3 months after I turned 17 I got 7-8 hours every night and I’m 18 now how much permanent damage have I done be brutally honest?",
+    "I've slept around 7 hours a night for five years but never wake up feeling refreshed. What could be causing it?",
+    "Because of anxiety and OCD, I have been getting average 5-6 hours of sleep since 15 and after 2 years 3 months after I turned 17 I got 7-8 hours every night and I’m 18 now how much permanent damage have I done be brutally honest?"
    ]
   },
   {
@@ -166,8 +147,8 @@
    "posts": 4,
    "examples": [
     "can’t back to sleep after 4-6 hours and so sleepy",
-    "Even after having 8 hours of sleep with sleep score of 83, i feel i need another sleep in afternoon. Does this mean i am a naturally a bi-phasic sleeper?",
     "I have been getting average 5-6 hours of sleep since 15 and after 2 years 3 months after I turned 17 I got 7-8 hours every night and I’m 18 now how much permanent damage have I done be brutally honest?",
+    "Even after having 8 hours of sleep with sleep score of 83, i feel i need another sleep in afternoon. Does this mean i am a naturally a bi-phasic sleeper?",
     "Because of anxiety and OCD, I have been getting average 5-6 hours of sleep since 15 and after 2 years 3 months after I turned 17 I got 7-8 hours every night and I’m 18 now how much permanent damage have I done be brutally honest?"
    ]
   },
@@ -175,10 +156,40 @@
    "words": "during night",
    "posts": 4,
    "examples": [
+    "Sleeping during the day and waking up at night, is it bad?",
     "Does checking the time during the night make it harder for you to fall back asleep?",
     "I can't get deep sleep unless I wake up multiple times during the night. Has anyone experienced this?",
-    "Sleeping during the day and waking up at night, is it bad?",
     "Tips for staying awake during night shift?😭"
+   ]
+  },
+  {
+   "words": "help sleep",
+   "posts": 4,
+   "examples": [
+    "What can I do to help me sleep better???",
+    "Can I get back to not needing anything to help me sleep?",
+    "Why does music help us sleep? Does music help you sleep?",
+    "Does cbt I help with sleep anxiety?"
+   ]
+  },
+  {
+   "words": "more than",
+   "posts": 4,
+   "examples": [
+    "Does duration of sleep matter more than what time you go to bed?",
+    "Folks who’ve been wearing oura for 1+y: do you sometimes feel like you trust your sleep score more than your own sensations?",
+    "Major signs after sleeping more than usual?",
+    "We have more health data than ever. But are we actually learning anything?"
+   ]
+  },
+  {
+   "words": "heart rate",
+   "posts": 4,
+   "examples": [
+    "Elevated resting heart rate for 2 weeks after a minor strain notification. Anyone else?",
+    "Why is the same resting heart rate gauged differently day by day?",
+    "What does consistent elevated heart rate during sleep mean?",
+    "Where is the Daytime Heart Rate \"trend\" data by day/week/month/year?"
    ]
   },
   {
@@ -192,23 +203,43 @@
    ]
   },
   {
+   "words": "night sleep",
+   "posts": 4,
+   "examples": [
+    "Does anyone else does tactical sleeping? Like stay up all night so they can choose to sleep on the boring classes in school or sleep in the afternoon instead of hanging out with family? Asking for a friend",
+    "Why do i have sleep paralysis every night?",
+    "How long can you nap when you’re sick without it impacting the way you sleep at night?",
+    "How do people keep their sleep masks on all night?"
+   ]
+  },
+  {
    "words": "sleep years",
    "posts": 4,
    "examples": [
     "5 years of unrefreshing sleep, snoring, dry mouth and brain fog – could I have an undiagnosed sleep disorder?",
-    "5 years of unrefreshing sleep, snoring, dry mouth and brain fog – could I have an undiagnosed sleep disorder?",
     "I have been getting average 5-6 hours of sleep since 15 and after 2 years 3 months after I turned 17 I got 7-8 hours every night and I’m 18 now how much permanent damage have I done be brutally honest?",
+    "5 years of unrefreshing sleep, snoring, dry mouth and brain fog – could I have an undiagnosed sleep disorder?",
     "Because of anxiety and OCD, I have been getting average 5-6 hours of sleep since 15 and after 2 years 3 months after I turned 17 I got 7-8 hours every night and I’m 18 now how much permanent damage have I done be brutally honest?"
    ]
   },
   {
-   "words": "paralysis sleep",
+   "words": "getting sleep",
    "posts": 4,
    "examples": [
-    "Was this a Hypnagogic Hallucination or Sleep Paralysis?",
-    "Could this be sleep paralysis?",
-    "Strange sleep scores, nightmare? Sleep paralysis?",
-    "What happens if you experience sleep paralysis while wearing a sleep mask?"
+    "I have been getting average 5-6 hours of sleep since 15 and after 2 years 3 months after I turned 17 I got 7-8 hours every night and I’m 18 now how much permanent damage have I done be brutally honest?",
+    "is it considered sleep if i can wake up anytime from my dream and know i'm dreaming, but just let my dreams' events go however it wants with as little thought as possible in hopes i'm getting actual sleep",
+    "Am I getting bad sleep?",
+    "Because of anxiety and OCD, I have been getting average 5-6 hours of sleep since 15 and after 2 years 3 months after I turned 17 I got 7-8 hours every night and I’m 18 now how much permanent damage have I done be brutally honest?"
+   ]
+  },
+  {
+   "words": "major signs",
+   "posts": 4,
+   "examples": [
+    "Major signs after sleeping more than usual?",
+    "Major signs??",
+    "Major signs of strain vs Stress?",
+    "Major Signs of Strain vs Stress?"
    ]
   },
   {
@@ -219,35 +250,6 @@
     "Hello guys im contemplating on whether ill buy fitness air or whoop peak 5.0 , maybe you guys can suggest? Mainly use it for sleep tracking and recovery and everyday insights",
     "Use a sleep tracker or glucose monitor? Share your app experience with Berkeley students (U.S., 18+)",
     "Use a sleep tracker or glucose monitor? Share your app experience with Berkeley students (U.S., 18+)"
-   ]
-  },
-  {
-   "words": "getting sleep",
-   "posts": 4,
-   "examples": [
-    "is it considered sleep if i can wake up anytime from my dream and know i'm dreaming, but just let my dreams' events go however it wants with as little thought as possible in hopes i'm getting actual sleep",
-    "Am I getting bad sleep?",
-    "I have been getting average 5-6 hours of sleep since 15 and after 2 years 3 months after I turned 17 I got 7-8 hours every night and I’m 18 now how much permanent damage have I done be brutally honest?",
-    "Because of anxiety and OCD, I have been getting average 5-6 hours of sleep since 15 and after 2 years 3 months after I turned 17 I got 7-8 hours every night and I’m 18 now how much permanent damage have I done be brutally honest?"
-   ]
-  },
-  {
-   "words": "every night",
-   "posts": 4,
-   "examples": [
-    "What does it mean to have nightmares almost every night?",
-    "Has anyone else experienced trouble staying asleep and having vivid dreams every night?",
-    "I have been getting average 5-6 hours of sleep since 15 and after 2 years 3 months after I turned 17 I got 7-8 hours every night and I’m 18 now how much permanent damage have I done be brutally honest?",
-    "Because of anxiety and OCD, I have been getting average 5-6 hours of sleep since 15 and after 2 years 3 months after I turned 17 I got 7-8 hours every night and I’m 18 now how much permanent damage have I done be brutally honest?"
-   ]
-  },
-  {
-   "words": "back fall",
-   "posts": 3,
-   "examples": [
-    "How do I get my brain back and fall into a routine?",
-    "Does checking the time during the night make it harder for you to fall back asleep?",
-    "Keep waking up at 3am to pee and can’t fall back asleep. How do I break this cycle?"
    ]
   },
   {
@@ -278,12 +280,30 @@
    ]
   },
   {
-   "words": "max vo2",
+   "words": "day week",
    "posts": 3,
    "examples": [
-    "Is this a real VO2 max?",
-    "Does your VO2 max estimate actually change how you train, or is it just a number you glance at?",
-    "Max VO2 is going down?"
+    "Question of the week: When is your last caffeine of the day?",
+    "Mentioning a day of the week when creating goal will auto set it for that day?",
+    "Where is the Daytime Heart Rate \"trend\" data by day/week/month/year?"
+   ]
+  },
+  {
+   "words": "back sleep",
+   "posts": 3,
+   "examples": [
+    "can’t back to sleep after 4-6 hours and so sleepy",
+    "Can never get back to sleep after waking for toilet",
+    "Is waking up and going back to sleep bad for you?"
+   ]
+  },
+  {
+   "words": "sleeping waking",
+   "posts": 3,
+   "examples": [
+    "Sleeping during the day and waking up at night, is it bad?",
+    "Is it ok to shift your sleeping/waking up time 1hr every 3 days until desired schedule is reached or should I just stay awake whole day and do the reset overnight? What worked for you?",
+    "Is it ok to shift your sleeping/waking up time 1hr every 3 days until desired schedule is reached or should I just stay awake whole day and do the reset overnight? What worked for you?"
    ]
   },
   {
@@ -293,6 +313,15 @@
     "Is it normal to already be on my 3rd Oura Ring 4 in less than 2 years?",
     "Oura 5 less sensitive than 4?",
     "Would Oura have handled this better than Withings?"
+   ]
+  },
+  {
+   "words": "sleep track",
+   "posts": 3,
+   "examples": [
+    "How to track daytime sleep",
+    "Why can't my Apple Watch track my sleep",
+    "Anyone work 3rd shift? How does it track your sleep?"
    ]
   },
   {
@@ -311,15 +340,6 @@
     "How do you guys actually wake up at 4 or 5 AM without falling back asleep? Need genuine tips.",
     "Stuck in an almost-asleep state but not falling asleep?",
     "I felt myself being physically dragged across my bed while falling asleep - has anyone experienced this?"
-   ]
-  },
-  {
-   "words": "asleep back",
-   "posts": 3,
-   "examples": [
-    "How do you guys actually wake up at 4 or 5 AM without falling back asleep? Need genuine tips.",
-    "Does checking the time during the night make it harder for you to fall back asleep?",
-    "Keep waking up at 3am to pee and can’t fall back asleep. How do I break this cycle?"
    ]
   },
   {
@@ -350,39 +370,21 @@
    ]
   },
   {
+   "words": "better than",
+   "posts": 3,
+   "examples": [
+    "Why do I feel better on 6 hours of sleep than 8 and half?",
+    "Would a LOTR-inspired ring cover be better than a limited-edition smart ring?",
+    "Would Oura have handled this better than Withings?"
+   ]
+  },
+  {
    "words": "sleep than",
    "posts": 3,
    "examples": [
     "Why do I feel better on 6 hours of sleep than 8 and half?",
     "Does duration of sleep matter more than what time you go to bed?",
     "Folks who’ve been wearing oura for 1+y: do you sometimes feel like you trust your sleep score more than your own sensations?"
-   ]
-  },
-  {
-   "words": "more than",
-   "posts": 3,
-   "examples": [
-    "Does duration of sleep matter more than what time you go to bed?",
-    "Folks who’ve been wearing oura for 1+y: do you sometimes feel like you trust your sleep score more than your own sensations?",
-    "We have more health data than ever. But are we actually learning anything?"
-   ]
-  },
-  {
-   "words": "blood oxygen",
-   "posts": 3,
-   "examples": [
-    "Is this blood oxygen reading concerning?",
-    "Has anyone else’s Apple Watch ever shown a singular anomalous super low blood oxygen reading?",
-    "Has the low blood oxygen readings issue been resolved yet?"
-   ]
-  },
-  {
-   "words": "heart rate",
-   "posts": 3,
-   "examples": [
-    "Elevated resting heart rate for 2 weeks after a minor strain notification. Anyone else?",
-    "Why is the same resting heart rate gauged differently day by day?",
-    "What does consistent elevated heart rate during sleep mean?"
    ]
   },
   {
@@ -395,12 +397,12 @@
    ]
   },
   {
-   "words": "data health",
+   "words": "procrastinating stop",
    "posts": 3,
    "examples": [
-    "Do you ever line Apple Watch / Health data up with labs or what you eat",
-    "We have more health data than ever. But are we actually learning anything?",
-    "Do you know where your Apple Health Data goes? Survey for uni!"
+    "I’m 25 and feel like I’m wasting my potential because I just can’t stop procrastinating. How do I get out of this?",
+    "How to stop procrastinating and start caring more?",
+    "How do i stop procrastinating before it ultimately cause end of my career and future opportunities?"
    ]
   },
   {
@@ -417,8 +419,8 @@
   {
    "title": "How do I actually improve my brain? (Brainmaxxing)",
    "subreddit": "selfimprovement",
-   "comments": 166,
-   "score": 1125,
+   "comments": 185,
+   "score": 1472,
    "date": "2026-11-14",
    "url": "https://www.reddit.com/comments/1xwa1f5",
    "excerpt": "I want to develop habits that make me mentally sharper and smarter over time. I'm talking about improving critical thinking, analytical skills, memory, observation, focus, problem-solving, and the ability to understand things deeply. What daily habits do you guys recommend? Readi"
@@ -436,7 +438,7 @@
    "title": "How much tree is too much tree?",
    "subreddit": "finch",
    "comments": 51,
-   "score": 595,
+   "score": 609,
    "date": "2026-11-14",
    "url": "https://www.reddit.com/comments/1xvrxmz",
    "excerpt": "Note: I took out the jungle tree floor lamp 😂 Side note: I can't bring myself to use the forest burrow window because it has snow on it and I am **not** ready for that yet. Anyone else? Where I live it rarely ever snows in November but I'm sure there's a mix of you from places wh"
@@ -469,6 +471,15 @@
    "excerpt": "I work in healthcare and it seems like a lot of facilities these days are no longer doing a night shift differential, compared to when I started in healthcare 10 years ago. Seems weird to me considering how hard it is on our bodies, health, and social life. Like is it just me or "
   },
   {
+   "title": "How do I set up my Finch for these?",
+   "subreddit": "finch",
+   "comments": 70,
+   "score": 268,
+   "date": "2026-11-15",
+   "url": "https://www.reddit.com/comments/1xx7k87",
+   "excerpt": "Hi! I bought Finch because of these advertisements, but now that I have the app I can’t seem to find how to set it up to include these? Do they not come preprogrammed?"
+  },
+  {
    "title": "When is Oura going to make the connection?",
    "subreddit": "ouraring",
    "comments": 141,
@@ -487,22 +498,22 @@
    "excerpt": "Is the combo totally random, or is there a link between Christmas and pineapples I don't know about? Don't get me wrong, I love it! I'm just wondering if there's context I'm missing. Also, be honest, is the yellow too obnoxious? 😆"
   },
   {
-   "title": "How do you wake up at 6AM?",
-   "subreddit": "getdisciplined",
-   "comments": 166,
-   "score": 89,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xs6ddc",
-   "excerpt": "Hi Reddit! I’m trying to master the discipline of waking up at 6AM and so far, I’ve done abysmally. I WANT to wake up early before work so I can work on my passion projects (I’m a romance novelist!) before my day gets really started. I work a high-stress job from 8-5 that leaves "
+   "title": "Any other solo night shifters?",
+   "subreddit": "Nightshift",
+   "comments": 83,
+   "score": 172,
+   "date": "2026-11-16",
+   "url": "https://www.reddit.com/comments/1xxiglw",
+   "excerpt": "How many of you are the only person working nights at your company? This is what a typical shift looks like where I work."
   },
   {
-   "title": "Does anyone else wake up between 2:30 and 3:30 a.m and can't go back too sleep for the life of them ? And what has helped to go back too sleep",
-   "subreddit": "sleep",
-   "comments": 89,
-   "score": 147,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xredu5",
-   "excerpt": ""
+   "title": "What makes people want to do Nightshift?",
+   "subreddit": "Nightshift",
+   "comments": 175,
+   "score": 49,
+   "date": "2026-11-15",
+   "url": "https://www.reddit.com/comments/1xwnlga",
+   "excerpt": "It’s only 9:30pm and I’m over it. I just try and hide and get on my phone to doom scroll at this point. How do people do this for years!?"
   },
   {
    "title": "Can we have an alarm based on sleep hours?",
@@ -521,15 +532,6 @@
    "date": "2026-11-13",
    "url": "https://www.reddit.com/comments/1xv3ncl",
    "excerpt": "I reinstalled finch after months of not having it, I’ve been using it for about three weeks now and I swore the last time I had it there was a section that logged everything your finch found. Was there a reason this was removed or is this is a mandela effect situation where it ne"
-  },
-  {
-   "title": "What makes people want to do Nightshift?",
-   "subreddit": "Nightshift",
-   "comments": 138,
-   "score": 37,
-   "date": "2026-11-15",
-   "url": "https://www.reddit.com/comments/1xwnlga",
-   "excerpt": "It’s only 9:30pm and I’m over it. I just try and hide and get on my phone to doom scroll at this point. How do people do this for years!?"
   },
   {
    "title": "Battery leak? Buyer beware",
@@ -557,15 +559,6 @@
    "date": "2026-11-10",
    "url": "https://www.reddit.com/comments/1xsbh2m",
    "excerpt": "I took this around 1 am Saturday night and just got out of bed at 6 pm on Sunday night. I’m genuinely confused how such a low THC content knocked me out for so long. Any ideas?"
-  },
-  {
-   "title": "Please share your autumn/early winter rooms? I need inspo!",
-   "subreddit": "finch",
-   "comments": 59,
-   "score": 85,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xrm0ff",
-   "excerpt": "I have a pretty good autumn/winter collection, but totally lacking inspiration and nothing seems to quite go together as cohesively as I'd like. Cannot wait to fill out this month's event collection - it's my favourite event so far! Pleeease share your autumn/early winter treehou"
   },
   {
    "title": "How do you actually get out of fight or flight mode and regulate your nervous system (I can't with the influencer reels)?",
@@ -613,6 +606,24 @@
    "excerpt": "Context warning: sexual assault This summer I was drugged, help captive for my that 24 hours, and r@ped repeatedly during my captivity. I was drugged so I don’t remember any of it, except the beginning before I lost consciousness and the end when I came to and was able to get awa"
   },
   {
+   "title": "Room visits?!??",
+   "subreddit": "Nightshift",
+   "comments": 39,
+   "score": 67,
+   "date": "2026-11-15",
+   "url": "https://www.reddit.com/comments/1xwucv2",
+   "excerpt": "Oh my gosh I wanna hide in the back office the rest of my shift 😭😭 I’m night auditor at a hotel, a guest was walking outside and when he walked by the front desk he mentioned he can’t sleep so he’s going outside to smoke and see if that helps. I said, “I’m the opposite, I’m falli"
+  },
+  {
+   "title": "Brown's not usually my first choice... how'd I do?",
+   "subreddit": "finch",
+   "comments": 12,
+   "score": 88,
+   "date": "2026-11-16",
+   "url": "https://www.reddit.com/comments/1xy0ujl",
+   "excerpt": "Brown is *rarely* my first choice, tbh, but the \"brown/green with orange accents\" thing has a nice, cohesive, comfortably woodsy look to it, I think. Questions, thoughts, concerns? (Hopefully not concerns, as I'm fairly certain I haven't committed any fashion or design crimes)"
+  },
+  {
    "title": "What small thing helps you when depressed?",
    "subreddit": "finch",
    "comments": 35,
@@ -622,49 +633,22 @@
    "excerpt": "Already tried several things of the first aid kit, but it creeps back in. It's heavier as normal today. Maybe I'm coming down with something, I don't know. But putting my birb into this scene (inspired by the black movie post I saw), kinda helped to distance myself from it a bit."
   },
   {
-   "title": "I love WHOOP, but I genuinely hate the subscription model. I’ve been going back and forth between WHOOP and alternatives for months. Can anyone help me make a decision?",
-   "subreddit": "whoop",
-   "comments": 61,
-   "score": 35,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xs35qa",
-   "excerpt": "I’ve been using WHOOP for around two years, and I genuinely love the product. The app, the overall experience, the sleep tracking, HRV, resting heart rate, recovery, strain and especially the continuous stress monitoring — it’s all very well put together. The problem is the subsc"
-  },
-  {
-   "title": "Did anyone else who likes specific times notice this?",
+   "title": "What to do when there is no sun?",
    "subreddit": "finch",
-   "comments": 12,
-   "score": 83,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xrehk4",
-   "excerpt": "People have probably figured this out already, but I've been off Finch from a bit and came back halloween night. Only 1 of these actually has a reminder on it. Using the \"scheduling tool\" goal and the drag and drop method, I can schedule every goal at any time and not have to put"
+   "comments": 35,
+   "score": 58,
+   "date": "2026-11-15",
+   "url": "https://www.reddit.com/comments/1xx4mvv",
+   "excerpt": "It will be more sunny than not here all throughout fall and winter. Today it is overcast, and there will be days of rain. Should I just leave it unfinished? I hate that because I like to get everything done. Should I skip and note there wasn't sun? Just check it off because I wou"
   },
   {
-   "title": "new deer micropet? 🩵 🦌",
-   "subreddit": "finch",
-   "comments": 33,
-   "score": 56,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xrmsx3",
-   "excerpt": "is it possible the newest pet attached to this month’s theme could be blue like in the video preview? 🤩"
-  },
-  {
-   "title": "How do you develop emotional resilience without becoming emotionally detached?",
-   "subreddit": "selfimprovement",
-   "comments": 38,
-   "score": 51,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xrnk4c",
-   "excerpt": "Help a girl out. I'm so tired of being like this. 😭 For example, how do you deal with embarrassing moments or unexpected inconveniences and simply move on with your day without constantly replaying them in your head? How do you stop overthinking or anticipating negative situation"
-  },
-  {
-   "title": "Thinking of getting a Whoop during black Friday but this subreddit is basically sayings its terrible? Any better alternatives?",
-   "subreddit": "whoop",
-   "comments": 70,
-   "score": 17,
-   "date": "2026-11-08",
-   "url": "https://www.reddit.com/comments/1xrcsel",
-   "excerpt": "Black Friday is coming up and I really wanted to focus on my health. I have an old apple watch which I barely wear (probably because I constantly forget to put it on). So I thought, if I get the Whoop I don't have to take it off and it will be comfortable while I sleep. I definit"
+   "title": "Must have items for night shift?",
+   "subreddit": "Nightshift",
+   "comments": 74,
+   "score": 14,
+   "date": "2026-11-15",
+   "url": "https://www.reddit.com/comments/1xwjii5",
+   "excerpt": "Just getting back into nightshift want to hear everyone’s MUST HAVES."
   },
   {
    "title": "Do you prefer to dress your birb as a human or an animal? 🐿️🤷🏼‍♂️",
@@ -694,15 +678,6 @@
    "excerpt": "I'm a 24 year old female. I have two issues I would like to get your advice on: 1. I'm ashamed to admit it. I've been using chatgpt since April to talk about life instead of journalling. I've now stopped using chatgpt. And I spend way too much time on my phone scrolling on YouTub"
   },
   {
-   "title": "Must have items for night shift?",
-   "subreddit": "Nightshift",
-   "comments": 66,
-   "score": 14,
-   "date": "2026-11-15",
-   "url": "https://www.reddit.com/comments/1xwjii5",
-   "excerpt": "Just getting back into nightshift want to hear everyone’s MUST HAVES."
-  },
-  {
    "title": "On my 3rd out of 5. How’s everyone doing?",
    "subreddit": "Nightshift",
    "comments": 50,
@@ -712,6 +687,15 @@
    "excerpt": "On my 3rd shift of the week. Starting to get those headaches that come when you are sleep deprived. Had a week off last week so I’m readjusting to my nights again. Anywaysss, what’s up? It’s a slow night"
   },
   {
+   "title": "How's your handwriting? ✒️",
+   "subreddit": "finch",
+   "comments": 31,
+   "score": 47,
+   "date": "2026-11-14",
+   "url": "https://www.reddit.com/comments/1xw47y6",
+   "excerpt": "Today's question: what's your handwriting like? The first is when I'm intentionally making it look nicer, second is my average for writing anything down :) What has influenced your handwriting? For me, it was a third grade teacher who wrote 8's as two circles, not one curved line"
+  },
+  {
    "title": "Um.....guys should I be worried.....do i need to call an exorcist for my birds child?",
    "subreddit": "finch",
    "comments": 8,
@@ -719,24 +703,6 @@
    "date": "2026-11-11",
    "url": "https://www.reddit.com/comments/1xtxaev",
    "excerpt": ""
-  },
-  {
-   "title": "How's your handwriting? ✒️",
-   "subreddit": "finch",
-   "comments": 30,
-   "score": 46,
-   "date": "2026-11-14",
-   "url": "https://www.reddit.com/comments/1xw47y6",
-   "excerpt": "Today's question: what's your handwriting like? The first is when I'm intentionally making it look nicer, second is my average for writing anything down :) What has influenced your handwriting? For me, it was a third grade teacher who wrote 8's as two circles, not one curved line"
-  },
-  {
-   "title": "Number of friends in your tree?",
-   "subreddit": "finch",
-   "comments": 44,
-   "score": 32,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xs1uxy",
-   "excerpt": "How many friends does everyone have in their tree? I only have four (but they're real-life friends and family) and it feels like a lot to keep up with! Also, despite the user name, I am middle aged woman 😜❤️😂 Thanks everyone"
   },
   {
    "title": "Update: Is this a vibe?",
@@ -775,31 +741,31 @@
    "excerpt": "I saw a video a while back about romanticizing your life by no longer refusing to use something because it’s special, but to make every day special and use your fine China, eat the chocolate bar you bought, wear your expensive perfume, etc. & that’s just how I live now! most like"
   },
   {
-   "title": "Does anyone else basically lose their first day off after a stretch of nights?",
-   "subreddit": "Nightshift",
-   "comments": 19,
-   "score": 44,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xrvzyo",
-   "excerpt": "I work 12s and usually do two nights plus one day shift each week, and after the night shifts I swear my “day off” is mostly sleeping, waking up confused at 4pm, eating something random, and trying to convince my body that we’re supposed to be normal again lol. I’ve tried staying"
-  },
-  {
    "title": "I have never had a night shift, do yall get dinner breaks?",
    "subreddit": "Nightshift",
-   "comments": 51,
+   "comments": 55,
    "score": 9,
    "date": "2026-11-14",
    "url": "https://www.reddit.com/comments/1xwdmy5",
    "excerpt": "Question is self explanatory"
   },
   {
-   "title": "Is becoming better version of yourself worth it?",
-   "subreddit": "selfimprovement",
-   "comments": 42,
-   "score": 18,
-   "date": "2026-11-10",
-   "url": "https://www.reddit.com/comments/1xsdxbv",
-   "excerpt": "I wanna change myself and become better but in order to do that I have to take many hardship like being consistent everyday, removing old habits and sometimes I think does it even matter becoming better and how?"
+   "title": "What location is the most fall feeling?",
+   "subreddit": "finch",
+   "comments": 20,
+   "score": 38,
+   "date": "2026-11-14",
+   "url": "https://www.reddit.com/comments/1xwbmd5",
+   "excerpt": "Hello! My birb is wanting an immersive autumnal location. Is there one any of you suggest? I live in USA in a state with all four seasons and like my birb to experience them when I do. My birb can take a flight to a place (or multiple!) that match all the other seasons, but we ha"
+  },
+  {
+   "title": "So... what DO dinosaurs eat? (wrong answers only 😆)",
+   "subreddit": "finch",
+   "comments": 33,
+   "score": 25,
+   "date": "2026-11-14",
+   "url": "https://www.reddit.com/comments/1xw72t8",
+   "excerpt": "Since LittleDude and Guest™ seem pretty keen to discuss the topic! I think LittleDude is suggesting..... porridge? Maybe?? Boooooring. We gotta think of something better to tell them. 🤔"
   },
   {
    "title": "Does anyone else struggle with wearing earplugs all night?",
@@ -829,15 +795,6 @@
    "excerpt": "Years ago my dad told me: \"You will only be as successful tomorrow as what you accomplish today. If you do nothing today, what do you honestly expect from tomorrow?\" I still hear that in my head every single day. And I still live by it. It has saved me more times than I can count"
   },
   {
-   "title": "So... what DO dinosaurs eat? (wrong answers only 😆)",
-   "subreddit": "finch",
-   "comments": 32,
-   "score": 24,
-   "date": "2026-11-14",
-   "url": "https://www.reddit.com/comments/1xw72t8",
-   "excerpt": "Since LittleDude and Guest™ seem pretty keen to discuss the topic! I think LittleDude is suggesting..... porridge? Maybe?? Boooooring. We gotta think of something better to tell them. 🤔"
-  },
-  {
    "title": "i have alot of work pending, clients keep calling me, my own business is at peak but i just waste my whole day gaming and doom scrolling reels, how do i lock in??",
    "subreddit": "getdisciplined",
    "comments": 33,
@@ -845,15 +802,6 @@
    "date": "2026-11-11",
    "url": "https://www.reddit.com/comments/1xtji48",
    "excerpt": "bro i dont know whats wrong with me i do clients work and i have my own businesses too and right now everything is at peak, like alot of work is pending, clients keep calling me asking where is the work buddy, and the funny thing is i know if i just sit one night and lock in i ca"
-  },
-  {
-   "title": "What location is the most fall feeling?",
-   "subreddit": "finch",
-   "comments": 18,
-   "score": 37,
-   "date": "2026-11-14",
-   "url": "https://www.reddit.com/comments/1xwbmd5",
-   "excerpt": "Hello! My birb is wanting an immersive autumnal location. Is there one any of you suggest? I live in USA in a state with all four seasons and like my birb to experience them when I do. My birb can take a flight to a place (or multiple!) that match all the other seasons, but we ha"
   },
   {
    "title": "Will finch ever incorporate AI?",
@@ -874,15 +822,6 @@
    "excerpt": ""
   },
   {
-   "title": "Room visits?!??",
-   "subreddit": "Nightshift",
-   "comments": 25,
-   "score": 29,
-   "date": "2026-11-15",
-   "url": "https://www.reddit.com/comments/1xwucv2",
-   "excerpt": "Oh my gosh I wanna hide in the back office the rest of my shift 😭😭 I’m night auditor at a hotel, a guest was walking outside and when he walked by the front desk he mentioned he can’t sleep so he’s going outside to smoke and see if that helps. I said, “I’m the opposite, I’m falli"
-  },
-  {
    "title": "How many people have scheduled vacations this month?",
    "subreddit": "Nightshift",
    "comments": 40,
@@ -890,6 +829,15 @@
    "date": "2026-11-12",
    "url": "https://www.reddit.com/comments/1xudr0s",
    "excerpt": "Although unconfirmed, I have a strong suspicion some have scheduled vacations around the release of gta6. Something that happened some years back was a guy had unapologetically told coworkers he was taking a vacation to play Skyrim or something and the gossip spread around. Fast "
+  },
+  {
+   "title": "New friend's gifts!?",
+   "subreddit": "finch",
+   "comments": 4,
+   "score": 49,
+   "date": "2026-11-16",
+   "url": "https://www.reddit.com/comments/1xxe51j",
+   "excerpt": "Okay so, a new friend recently added me and I added them too. I opened the app a minute ago to find Kiwi had sent me 5 different gifts!! Four different finch plushies, and I knowww those aren't cheap! I just wanted to say thank you to Kiwi for all the finches and kindness 🫂 it me"
   },
   {
    "title": "Another long night head. Keep me entertained again Let’s hear your CRAZY experiences on night shift?",
@@ -901,13 +849,13 @@
    "excerpt": "What do you dofor work and What have you experienced? The more wild the better!"
   },
   {
-   "title": "What to do when there is no sun?",
+   "title": "Can you guess what my favorite color is?",
    "subreddit": "finch",
-   "comments": 26,
-   "score": 24,
+   "comments": 13,
+   "score": 38,
    "date": "2026-11-15",
-   "url": "https://www.reddit.com/comments/1xx4mvv",
-   "excerpt": "It will be more sunny than not here all throughout fall and winter. Today it is overcast, and there will be days of rain. Should I just leave it unfinished? I hate that because I like to get everything done. Should I skip and note there wasn't sun? Just check it off because I wou"
+   "url": "https://www.reddit.com/comments/1xx1uyx",
+   "excerpt": ""
   },
   {
    "title": "Anyone want to be a goal buddy?",
@@ -955,6 +903,15 @@
    "excerpt": "Every once and a while a friend will send me “Nice” vibes or even comment on our differences in question responses (not pictured) and I have no idea how they do that as I can’t see an option for either. Anyone have any ideas? Anyone else see other people doing this and not able t"
   },
   {
+   "title": "Can’t do this no more",
+   "subreddit": "Nightshift",
+   "comments": 30,
+   "score": 16,
+   "date": "2026-11-15",
+   "url": "https://www.reddit.com/comments/1xwmr8m",
+   "excerpt": "Might not be the best place to post this since it’s full of nocturnal people but fuck it. Basically I’ve been working night shifts for 7 years and I can’t do it anymore. I turned 23 earlier this year and I just had the realization that I have basically regressed mentally because "
+  },
+  {
    "title": "Can’t sleep without Benadryl.",
    "subreddit": "sleep",
    "comments": 42,
@@ -973,13 +930,13 @@
    "excerpt": "I want to gift some penguin masks, slippers and sweaters to a friend, but it's saying these aren't coming back.. did it say this last year? It doesn't say holiday exclusive, so I'm wondering. I really want to gift them out lol. Anyone know???"
   },
   {
-   "title": "Chests no longer shuffle?",
-   "subreddit": "finch",
-   "comments": 24,
-   "score": 21,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xrxtyt",
-   "excerpt": "Has anyone else noticed that their event chests don't shuffle anymore? It used to be that if I got an item I didn't want in a mystery chest, I'd close the app and come back the next day and it would (usually) be a different item. Part way through October that seemed to change — t"
+   "title": "What do you guys do when you get 1-4 hours of sleep?",
+   "subreddit": "sleep",
+   "comments": 27,
+   "score": 16,
+   "date": "2026-11-16",
+   "url": "https://www.reddit.com/comments/1xxwfht",
+   "excerpt": "And NO, coffee does NOT work."
   },
   {
    "title": "Question of the week: When is your last caffeine of the day?",
@@ -1054,15 +1011,6 @@
    "excerpt": "I’ve been on nights again for about a year now. I’m getting tired of watching tv and playing video games. What do you do to stay entertained? I’d like to do stuff in the garage but my family’s sleeping so I can’t make a bunch of noise"
   },
   {
-   "title": "I keep quitting good habits after missing just one day. How do I break the all-or-nothing cycle?",
-   "subreddit": "getdisciplined",
-   "comments": 26,
-   "score": 9,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xs3tf9",
-   "excerpt": "**What I’m trying to do:** Build three simple habits — a 20-minute walk, reading 10 pages, and going to bed before midnight. **What happens:** I start strong. I usually do all three for 6–10 days straight and feel great about it. Then one day something gets in the way: a late wor"
-  },
-  {
    "title": "How do you start trusting yourself again after breaking too many promises to yourself?",
    "subreddit": "selfimprovement",
    "comments": 21,
@@ -1081,13 +1029,13 @@
    "excerpt": "Hey everyone, I accidentally deleted some very important photos from my iPhone 11 (64GB), and they’re now permanently deleted from the Recently Deleted folder too. I have: iCloud Photos turned OFF. No iCloud backup. No computer backup. Is there ANY way to recover these photos? Re"
   },
   {
-   "title": "I’m a student building an under-pillow speaker for people who fall asleep to podcasts. Would you use this?",
+   "title": "What difference have you noticed from sleeping 5-6 hours a night to 7 hours or more?",
    "subreddit": "sleep",
-   "comments": 22,
-   "score": 12,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xricgo",
-   "excerpt": "I always fall asleep listening to something, but earbuds hurt on my side and my partner hates the phone speaker. So I’m designing Dozr: a slim pad that goes under your normal pillow, plays through bone conduction so only you hear it, and fades out when you fall asleep. It’s still"
+   "comments": 10,
+   "score": 24,
+   "date": "2026-11-16",
+   "url": "https://www.reddit.com/comments/1xxhvue",
+   "excerpt": "I’m currently getting 5-6 hours a sleep a night. I’ve been like this for the past few years.what are some noticeable improvements you noticed the more sleep you get? I’m hoping sleeping more will help with my erection problems"
   },
   {
    "title": "So how's everyone doing today?",
@@ -1135,6 +1083,15 @@
    "excerpt": "I am desperately trying to find an accountability system that will actually work for me long-term. I’ve tried so many different approaches already: my friends - they care too much and don’t push back hard enough on my creative or daily excuses strangers online - I always end up d"
   },
   {
+   "title": "How is everyone using their ring to make actual life changes?",
+   "subreddit": "ouraring",
+   "comments": 25,
+   "score": 6,
+   "date": "2026-11-15",
+   "url": "https://www.reddit.com/comments/1xwk27n",
+   "excerpt": "What the header says. Feel like the ring is only valuable if you take action on the data it presents to you. I’ve had mine for about a year and the novelty is starting to wear off. Mostly care about number of steps per day with it since I work a sedentary job and the sleep, thoug"
+  },
+  {
    "title": "Upgrades For More Decor Locations?",
    "subreddit": "finch",
    "comments": 10,
@@ -1151,6 +1108,24 @@
    "date": "2026-11-12",
    "url": "https://www.reddit.com/comments/1xuko6t",
    "excerpt": "I'm feeling frustrated with mine and am wondering why I bother: * Every luteal phase it thinks I'm dying * Has completely missed major illnesses * When I feel stressed and awful, it thinks I'm \"restored.\" * When I'm happy and having a nice time, it thinks I'm stressed. * It repor"
+  },
+  {
+   "title": "What made you choose Whoop over the competition? Curious to see what everyone’s reason was to use Whoop.",
+   "subreddit": "whoop",
+   "comments": 22,
+   "score": 7,
+   "date": "2026-11-16",
+   "url": "https://www.reddit.com/comments/1xxcgdv",
+   "excerpt": "I’m new to using Whoop. However, I am digging it so far compared to my Fitbit Air. My Fitbit air can’t even compare to the Whoop. Wow, I’m shocked with the results in a good way, even though the price is premium.. trying out the 30 day free trial and will see if I’ll continue wit"
+  },
+  {
+   "title": "Adjust Adventure Energizing?",
+   "subreddit": "finch",
+   "comments": 11,
+   "score": 18,
+   "date": "2026-11-14",
+   "url": "https://www.reddit.com/comments/1xw9pto",
+   "excerpt": "Hi everyone! I'm pretty sure this setting/feature doesn't exist, but I wanted to ask just to double check. I would really like to be able to change the amount of energy it takes to energize my birb to start her adventure. I feel like 35 points is too little for the amount of dail"
   },
   {
    "title": "Unable to claim plus items?",
@@ -1171,6 +1146,15 @@
    "excerpt": "Thank you so much to a lot of generous birbs in this community. I made myself and Sage a very unexpected room that I guess signifies my personalities and interests in a way that's very affirming for me but also unexpected!! Most of these things were gifted to me or drom giveaways"
   },
   {
+   "title": "If you got pregnant while using oura, do you know what CD you got this warning?",
+   "subreddit": "ouraring",
+   "comments": 28,
+   "score": 0,
+   "date": "2026-11-16",
+   "url": "https://www.reddit.com/comments/1xxp6mu",
+   "excerpt": "Because I've been trying to have another baby for so long. I'm too scared to think this is actually it I know I have no way of knowing until a pregnancy test but... I'm really hopeful! I got this on CD28!"
+  },
+  {
    "title": "Any positive stories from FedEx Oura delivery?",
    "subreddit": "ouraring",
    "comments": 28,
@@ -1180,13 +1164,22 @@
    "excerpt": "My ring is set to arrive tomorrow from FedEx, and I just now am seeing all the horror stories about delivery. Anyone here have success stories of an Oura delivery from FedEx? On top of that, it is impossible for me to be home during the stated delivery time. (It’s arriving two da"
   },
   {
-   "title": "Finch Friends- Is inactivity normal?",
-   "subreddit": "finch",
-   "comments": 14,
-   "score": 14,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xs2468",
-   "excerpt": "Silly question. Ive been on Finch for almost 90 days (Yay!). At one point, I had 3 trees full of friends. I have lost a couple, and seems like another trees worth has some inactivity (like their last activity was about 3+ weeks ago). Is this normal? Also, what do you do in these "
+   "title": "how do I stop worrying about sleep?",
+   "subreddit": "sleep",
+   "comments": 16,
+   "score": 11,
+   "date": "2026-11-15",
+   "url": "https://www.reddit.com/comments/1xx08kq",
+   "excerpt": "this is very weird to talk about but i feel like most of the time sleeping is like a \"task\". like not brushing teeth or just in general eating it feels like a mission. I worry every night i won't be able to fall asleep or tell myself whenever night comes that i should sleep NOW. "
+  },
+  {
+   "title": "can’t back to sleep after 4-6 hours and so sleepy",
+   "subreddit": "sleep",
+   "comments": 16,
+   "score": 11,
+   "date": "2026-11-15",
+   "url": "https://www.reddit.com/comments/1xwnw0h",
+   "excerpt": "I’m a 24-year-old I go to the gym around four times a week, and I’m currently focused on building muscle and improving my physical fitness. I also spend time working on my online business, which involves selling makeup and skincare products. I’ve been experiencing sleep disturban"
   },
   {
    "title": "Should I wear my Oura on my cruise?",
@@ -1216,31 +1209,13 @@
    "excerpt": "Interesting development that makes sense I think"
   },
   {
-   "title": "Can you guess what my favorite color is?",
+   "title": "Are we gonna get these color variations for the normal, non-Halloween app icon?",
    "subreddit": "finch",
-   "comments": 8,
-   "score": 19,
+   "comments": 4,
+   "score": 23,
    "date": "2026-11-15",
-   "url": "https://www.reddit.com/comments/1xx1uyx",
-   "excerpt": ""
-  },
-  {
-   "title": "Adjust Adventure Energizing?",
-   "subreddit": "finch",
-   "comments": 10,
-   "score": 17,
-   "date": "2026-11-14",
-   "url": "https://www.reddit.com/comments/1xw9pto",
-   "excerpt": "Hi everyone! I'm pretty sure this setting/feature doesn't exist, but I wanted to ask just to double check. I would really like to be able to change the amount of energy it takes to energize my birb to start her adventure. I feel like 35 points is too little for the amount of dail"
-  },
-  {
-   "title": "Can’t do this no more",
-   "subreddit": "Nightshift",
-   "comments": 18,
-   "score": 9,
-   "date": "2026-11-15",
-   "url": "https://www.reddit.com/comments/1xwmr8m",
-   "excerpt": "Might not be the best place to post this since it’s full of nocturnal people but fuck it. Basically I’ve been working night shifts for 7 years and I can’t do it anymore. I turned 23 earlier this year and I just had the realization that I have basically regressed mentally because "
+   "url": "https://www.reddit.com/comments/1xwwre5",
+   "excerpt": "Halloween’s over, and I don’t really celebrate it anyway….it’d be cool to represent my finch’s colors without having to have perpetual spooky month"
   },
   {
    "title": "Is this a real VO2 max?",
@@ -1261,6 +1236,15 @@
    "excerpt": "For the last couple weeks, my recoveries have been absolutely abysmal. But I’ve had zero changes to my diet or behaviors, regular hydration, same vitamin regimen, no abnormal stress in my work or personal life, and I’ve felt perfectly healthy since a mild cold about five weeks ag"
   },
   {
+   "title": "my birb is soo cutee what do you guys think of my design?",
+   "subreddit": "finch",
+   "comments": 4,
+   "score": 22,
+   "date": "2026-11-14",
+   "url": "https://www.reddit.com/comments/1xvuxv0",
+   "excerpt": ""
+  },
+  {
    "title": "Are we done getting the Halloween event items?",
    "subreddit": "finch",
    "comments": 19,
@@ -1268,6 +1252,15 @@
    "date": "2026-11-12",
    "url": "https://www.reddit.com/comments/1xum4gl",
    "excerpt": "I was getting quite a few at first but now I’m seeing nothing. Are we done getting them?"
+  },
+  {
+   "title": "Sleeping during the day and waking up at night, is it bad?",
+   "subreddit": "sleep",
+   "comments": 16,
+   "score": 9,
+   "date": "2026-11-15",
+   "url": "https://www.reddit.com/comments/1xx8v1s",
+   "excerpt": "Im aware that its obviously kind of bad for most people but i have autism and during the daytime theres alot of noise and people, as im making this post its 23:33 and im eating breakfast its super quiet and i love it, but yeah if living during the night prevents me from overstimu"
   },
   {
    "title": "Is it normal to already be on my 3rd Oura Ring 4 in less than 2 years?",
@@ -1279,15 +1272,6 @@
    "excerpt": "I got my first Oura Ring 4 around early February 2025, and I’m already on my third ring due to replacements. Here’s my timeline: \\* Early February 2025: Got my original Oura Ring 4. \\* October 30, 2025: First replacement ring shipped (after about 9 months). \\* October 20, 2026: S"
   },
   {
-   "title": "my birb is soo cutee what do you guys think of my design?",
-   "subreddit": "finch",
-   "comments": 4,
-   "score": 21,
-   "date": "2026-11-14",
-   "url": "https://www.reddit.com/comments/1xvuxv0",
-   "excerpt": ""
-  },
-  {
    "title": "Should I stick to my plan?",
    "subreddit": "finch",
    "comments": 4,
@@ -1297,22 +1281,13 @@
    "excerpt": "First photo is the plan I made for my Moroccan room, and the second is what I actually have so far. Should I stick with the plan or leave it as is? Or do something totally different??? (Bonus third photo of my Gertie dressed for Marrakesh 🥰)"
   },
   {
-   "title": "Does anyone have similar problems with their skin breaking out and feeling like a scar where the scanner part of the whoop is?",
-   "subreddit": "whoop",
-   "comments": 17,
-   "score": 7,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xrftuh",
-   "excerpt": ""
-  },
-  {
-   "title": "How is everyone using their ring to make actual life changes?",
-   "subreddit": "ouraring",
-   "comments": 17,
-   "score": 7,
-   "date": "2026-11-15",
-   "url": "https://www.reddit.com/comments/1xwk27n",
-   "excerpt": "What the header says. Feel like the ring is only valuable if you take action on the data it presents to you. I’ve had mine for about a year and the novelty is starting to wear off. Mostly care about number of steps per day with it since I work a sedentary job and the sleep, thoug"
+   "title": "Does coffee mess with your sleep?",
+   "subreddit": "sleep",
+   "comments": 20,
+   "score": 4,
+   "date": "2026-11-16",
+   "url": "https://www.reddit.com/comments/1xxkzeo",
+   "excerpt": "For me coffee is a absolute no go. Even if I drink it at 9 am, it still messes with my sleep at night. And every time I drink it, my heart starts pounding, it feels like I’m dying. In Traditional Chinese Medicine, coffee doesn’t just stimulate the mind; it’s also harsh on the sto"
   },
   {
    "title": "Who’s chopping onions??",
@@ -1322,6 +1297,15 @@
    "date": "2026-11-10",
    "url": "https://www.reddit.com/comments/1xsdt45",
    "excerpt": ""
+  },
+  {
+   "title": "Tips for night shift?",
+   "subreddit": "Nightshift",
+   "comments": 20,
+   "score": 4,
+   "date": "2026-11-14",
+   "url": "https://www.reddit.com/comments/1xw9l8z",
+   "excerpt": "This winter will be my first experience working night shifts as a snowmaker, and I’m really excited about it, but also a little concerned about how to handle the night schedule. For those of you who have been doing this for a while: how do you manage to stay healthy, get enough s"
   },
   {
    "title": "Why can't the Series 11 get the new Readiness app?",
@@ -1360,6 +1344,15 @@
    "excerpt": "I’m currently 8 DPO and have seen a SIGNIFICANT change across all of my metrics: sleep (57 today when usually mid 70s lowest), readiness (25 today which is by far the lowest ever), temp (+1.9 today, but I was sleeping on a heating pad due to achy feeling yesterday and have woken "
   },
   {
+   "title": "Where should my birbs travel next?",
+   "subreddit": "finch",
+   "comments": 13,
+   "score": 10,
+   "date": "2026-11-15",
+   "url": "https://www.reddit.com/comments/1xwk7zv",
+   "excerpt": "Hi guys! My birb Chessy and I would love some travel destinations to go to next. We've been on the app for a little over two years, and have 100% of 14 locations and are splitting time between two more. We have completed the finchie forest, Alps, Sydney, NYC, London, Rome, Edinbu"
+  },
+  {
    "title": "Finch has a Ms. Cobel wig now?",
    "subreddit": "finch",
    "comments": 4,
@@ -1387,13 +1380,13 @@
    "excerpt": "Now that it's getting cold I keep going back and forth. Under the jacket I can't see pace without yanking the sleeve up every few minutes, on top of it my wrist freezes and the first part of the run looks like nonsense on the heart rate graph. Gloves make the screen pretty useles"
   },
   {
-   "title": "Tips for night shift?",
-   "subreddit": "Nightshift",
-   "comments": 18,
-   "score": 4,
-   "date": "2026-11-14",
-   "url": "https://www.reddit.com/comments/1xw9l8z",
-   "excerpt": "This winter will be my first experience working night shifts as a snowmaker, and I’m really excited about it, but also a little concerned about how to handle the night schedule. For those of you who have been doing this for a while: how do you manage to stay healthy, get enough s"
+   "title": "Anyone else getting really annoyed with WHOOP Coach?",
+   "subreddit": "whoop",
+   "comments": 19,
+   "score": 3,
+   "date": "2026-11-16",
+   "url": "https://www.reddit.com/comments/1xxi4gb",
+   "excerpt": "Is it just me, or does WHOOP Coach seem to constantly tell you that you’re not doing enough? I work out 5–6 days a week, including cardio and strength training. Yet it seems like no matter what you do, the Coach always finds something you should have done more of. Higher Strain, "
   },
   {
    "title": "Date ideas for couples who both work nightshift?",
@@ -1403,6 +1396,24 @@
    "date": "2026-11-13",
    "url": "https://www.reddit.com/comments/1xv28jg",
    "excerpt": "Hi! Wondering if any of y'all have romantic lovers who work nightshift do dates. We both work 10:00 pm - 7:00 am and ususally sleep from 2:00 pm - 9:30 pm. We're finding it a little bit hard to do dates because it's after work and we're exhausted (naturally). And most of the time"
+  },
+  {
+   "title": "Reasons for low HRV and higher HR affecting readiness?",
+   "subreddit": "ouraring",
+   "comments": 19,
+   "score": 2,
+   "date": "2026-11-15",
+   "url": "https://www.reddit.com/comments/1xwu22s",
+   "excerpt": "My sleep scores are always in the 90s, but readiness is always lower (lower 80s/high 70s) due to higher HR and low HRV (usually between 20s-low 30s). HR takes a while to reach its low point, often not until after 3AM. Despite the great sleep score with 25-30% rem most nights, and"
+  },
+  {
+   "title": "Locations?",
+   "subreddit": "finch",
+   "comments": 14,
+   "score": 7,
+   "date": "2026-11-15",
+   "url": "https://www.reddit.com/comments/1xwrxtp",
+   "excerpt": "Heys! Just wondering, does everyone 100% the locations or finish once you’ve got all the discoveries? I like to 100% which is just my pedantic nature."
   },
   {
    "title": "Mentioning a day of the week when creating goal will auto set it for that day?",
@@ -1432,15 +1443,6 @@
    "excerpt": "So I just got this random update that now includes whoop humans. Seems like they’re taking the Instagram stories approach. It was automatically publishing to like a feed my very specific personal data like the exact route I ran with an image of the map. No clear directions on how"
   },
   {
-   "title": "Where should my birbs travel next?",
-   "subreddit": "finch",
-   "comments": 12,
-   "score": 8,
-   "date": "2026-11-15",
-   "url": "https://www.reddit.com/comments/1xwk7zv",
-   "excerpt": "Hi guys! My birb Chessy and I would love some travel destinations to go to next. We've been on the app for a little over two years, and have 100% of 14 locations and are splitting time between two more. We have completed the finchie forest, Alps, Sydney, NYC, London, Rome, Edinbu"
-  },
-  {
    "title": "Anyone want a free finch? (As an Australian I’m deeply offended)",
    "subreddit": "finch",
    "comments": 3,
@@ -1468,15 +1470,6 @@
    "excerpt": "I wear my Apple Watch to bed and I’ve never gotten a sleep score above 90. I didn’t even realize the scale went above 90 until recently. Has anyone else experienced this?"
   },
   {
-   "title": "Does your VO2 max estimate actually change how you train, or is it just a number you glance at?",
-   "subreddit": "AppleWatchFitness",
-   "comments": 16,
-   "score": 3,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xrxbx9",
-   "excerpt": "I check mine maybe once a month and the only thing I really do with it is feel a bit smug when it ticks up after a few weeks of easy runs. It has never changed what I do on a given day though. Wondering if anyone uses it more seriously, like as a sign a training block is working "
-  },
-  {
    "title": "What can I do to help me sleep better???",
    "subreddit": "sleep",
    "comments": 15,
@@ -1493,6 +1486,15 @@
    "date": "2026-11-11",
    "url": "https://www.reddit.com/comments/1xtcraj",
    "excerpt": "Im quite a light sleeper and my new uni flat has building works going on in the floor below and it wakes me up all the time as well as all the city noise in the evening and early morning. I use foam earplugs right now but I still constantly wake up to then noise, is there anythin"
+  },
+  {
+   "title": "Is this blood oxygen reading concerning?",
+   "subreddit": "whoop",
+   "comments": 17,
+   "score": 2,
+   "date": "2026-11-15",
+   "url": "https://www.reddit.com/comments/1xww51w",
+   "excerpt": "I’ve had whoop for over 4 years and never had it this low or “low” at all… Checked a finger reader and read 99%. I know obviously the finger is a better tool, but should I be concerned about waking up to a 89% reading?"
   },
   {
    "title": "Why is auto nap detection still not a thing yet?",
@@ -1522,42 +1524,6 @@
    "excerpt": "chatgpt says i shouldnt touch 170+ heart rate? context: i returned to gym after 10 months and did 40 mins of cardio 5-10% inclined and 4.0 speed guide me pls first time fitness tracker user - bought it week ago"
   },
   {
-   "title": "Is my RHR normal?",
-   "subreddit": "whoop",
-   "comments": 19,
-   "score": 0,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xry3p1",
-   "excerpt": "I feel fine. No symptoms. I’m not a super athlete. Lift weights few times a week, and cardio here and there."
-  },
-  {
-   "title": "Reasons for low HRV and higher HR affecting readiness?",
-   "subreddit": "ouraring",
-   "comments": 18,
-   "score": 1,
-   "date": "2026-11-15",
-   "url": "https://www.reddit.com/comments/1xwu22s",
-   "excerpt": "My sleep scores are always in the 90s, but readiness is always lower (lower 80s/high 70s) due to higher HR and low HRV (usually between 20s-low 30s). HR takes a while to reach its low point, often not until after 3AM. Despite the great sleep score with 25-30% rem most nights, and"
-  },
-  {
-   "title": "How does your ring interpret sex? I usually get period of high stress or yardwork.",
-   "subreddit": "ouraring",
-   "comments": 17,
-   "score": 2,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xrh0lu",
-   "excerpt": ""
-  },
-  {
-   "title": "Locations?",
-   "subreddit": "finch",
-   "comments": 13,
-   "score": 6,
-   "date": "2026-11-15",
-   "url": "https://www.reddit.com/comments/1xwrxtp",
-   "excerpt": "Heys! Just wondering, does everyone 100% the locations or finish once you’ve got all the discoveries? I like to 100% which is just my pedantic nature."
-  },
-  {
    "title": "How do you guys actually wake up at 4 or 5 AM without falling back asleep? Need genuine tips.",
    "subreddit": "getdisciplined",
    "comments": 14,
@@ -1585,6 +1551,24 @@
    "excerpt": "Hey everyone! I’ve been working hard on improving my fitness and overall health over the past year, and I’m pretty happy with my progress so far. My current WHOOP Age is **38.5 (4 years younger than my actual age)**, with a Pace of Aging of -0.1x. I’ve attached a few screenshots "
   },
   {
+   "title": "Has anyone else been charged for a free trial (through finch’s site instead of an App Store) and/or had difficulties getting a hold of customer service?",
+   "subreddit": "finch",
+   "comments": 4,
+   "score": 14,
+   "date": "2026-11-15",
+   "url": "https://www.reddit.com/comments/1xwml6d",
+   "excerpt": "Hey everyone! I came across the advertised 7-day free trial for Finch Plus and signed up directly through Finch’s website using Cash App, rather than subscribing through Apple’s App Store. Shortly before what I understood to be the end of my trial, I checked my account and discov"
+  },
+  {
+   "title": "How do you actually trick your brain into sleeping when the sun is blasting through the curtains?",
+   "subreddit": "Nightshift",
+   "comments": 15,
+   "score": 3,
+   "date": "2026-11-16",
+   "url": "https://www.reddit.com/comments/1xxp2zj",
+   "excerpt": "I have been on graves for almost two years now and my body still acts like going to bed at 9 AM is a personal insult. I have blackout curtains, a fan running on high, and a white noise machine, yet I still wake up at noon wide awake like I just drank a pot of coffee. Then 2 PM hi"
+  },
+  {
    "title": "PCT hospital night shift?",
    "subreddit": "Nightshift",
    "comments": 14,
@@ -1601,6 +1585,15 @@
    "date": "2026-11-12",
    "url": "https://www.reddit.com/comments/1xulhg2",
    "excerpt": "I'm 28, divorced, father of 3. I'm honestly getting frustrated with myself. I feel like I have so much potential and could be doing significantly better in life, but I can't seem to get out of my own way. I grew up in a pretty unstable household, raised by a single father who str"
+  },
+  {
+   "title": "How to not choose “easy”",
+   "subreddit": "selfimprovement",
+   "comments": 12,
+   "score": 6,
+   "date": "2026-11-15",
+   "url": "https://www.reddit.com/comments/1xwkguv",
+   "excerpt": "I think of myself as mentally weak and tend to always choose what’s “easiest” or the least effort slash stressful of options. How can I break myself of this?"
   },
   {
    "title": "Whoop vs Apple Watch Ultra ?",
@@ -1621,13 +1614,13 @@
    "excerpt": "I wear mine fairly loose most of the time because it gets annoying otherwise, then forget to tighten it before a run and end up with weird heart rate spikes in the first few minutes. Some days I remember and slide it a bit higher up the arm too. Curious what everyone else does. D"
   },
   {
-   "title": "Is it over for me",
+   "title": "Does checking the time during the night make it harder for you to fall back asleep?",
    "subreddit": "sleep",
    "comments": 14,
    "score": 3,
-   "date": "2026-11-15",
-   "url": "https://www.reddit.com/comments/1xwqv2u",
-   "excerpt": "I’m gonna make this short. I’m 14 years old and for the past year or two I’ve struggled with sleep deprivation. My issue with sleeping early stemmed from the need to be on my phone late at night due to my dopamine addiction. Ever since I started getting less sleep I’ve felt very "
+   "date": "2026-11-14",
+   "url": "https://www.reddit.com/comments/1xw2gjv",
+   "excerpt": "Once you know it's 3:40, it's easy to start doing the maths on how much sleep is left. But not checking means you don't know whether the alarm is five minutes away or five hours away. For anyone who's tried turning the clock around or keeping the phone out of reach, did it change"
   },
   {
    "title": "Guys whats better whoop vs fitbir air?",
@@ -1675,6 +1668,15 @@
    "excerpt": "After 4 years, it may be time for me to finally give up my Oura ring and try the Garmin venu 4. My primary reason for getting Oura was because of the natural cycles integration, but now there's so many more options. My secondary use for Oura has been sleep tracking, but since I d"
   },
   {
+   "title": "Release?",
+   "subreddit": "finch",
+   "comments": 9,
+   "score": 8,
+   "date": "2026-11-15",
+   "url": "https://www.reddit.com/comments/1xwnkc2",
+   "excerpt": "I just discovered the place where you name your micropet...and at the bottom it says 'release micropet'. What does that do? (I didn't want to click it in case it ran away, lol."
+  },
+  {
    "title": "Anyone else gained a really unhealthy obsession with doing a watch ecg every hour?",
    "subreddit": "AppleWatch",
    "comments": 16,
@@ -1682,33 +1684,6 @@
    "date": "2026-11-10",
    "url": "https://www.reddit.com/comments/1xspqr8",
    "excerpt": "I must say, I love my watch but I check the health features way too much. Almost obsessively. In the last few months I’ve done nearly 500 ECGs. I’m obsessed with my sleep metrics and every health marker. I almost feel like it’s making me anxious anticipating getting good readings"
-  },
-  {
-   "title": "how do I stop worrying about sleep?",
-   "subreddit": "sleep",
-   "comments": 9,
-   "score": 7,
-   "date": "2026-11-15",
-   "url": "https://www.reddit.com/comments/1xx08kq",
-   "excerpt": "this is very weird to talk about but i feel like most of the time sleeping is like a \"task\". like not brushing teeth or just in general eating it feels like a mission. I worry every night i won't be able to fall asleep or tell myself whenever night comes that i should sleep NOW. "
-  },
-  {
-   "title": "can’t back to sleep after 4-6 hours and so sleepy",
-   "subreddit": "sleep",
-   "comments": 7,
-   "score": 9,
-   "date": "2026-11-15",
-   "url": "https://www.reddit.com/comments/1xwnw0h",
-   "excerpt": "I’m a 24-year-old I go to the gym around four times a week, and I’m currently focused on building muscle and improving my physical fitness. I also spend time working on my online business, which involves selling makeup and skincare products. I’ve been experiencing sleep disturban"
-  },
-  {
-   "title": "Does checking the time during the night make it harder for you to fall back asleep?",
-   "subreddit": "sleep",
-   "comments": 13,
-   "score": 3,
-   "date": "2026-11-14",
-   "url": "https://www.reddit.com/comments/1xw2gjv",
-   "excerpt": "Once you know it's 3:40, it's easy to start doing the maths on how much sleep is left. But not checking means you don't know whether the alarm is five minutes away or five hours away. For anyone who's tried turning the clock around or keeping the phone out of reach, did it change"
   },
   {
    "title": "Why do I feel better on 6 hours of sleep than 8 and half?",
@@ -1736,15 +1711,6 @@
    "date": "2026-11-13",
    "url": "https://www.reddit.com/comments/1xvcsju",
    "excerpt": "=saaSsmos waS"
-  },
-  {
-   "title": "Which one is lying ?",
-   "subreddit": "whoop",
-   "comments": 16,
-   "score": 0,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xrjcob",
-   "excerpt": "Garmin D2mach RHR 66 WHOOP 71 Next month my whoop expiring and want to know if i keep or no ? Thank u"
   },
   {
    "title": "App has a bug?",
@@ -1792,6 +1758,15 @@
    "excerpt": "I’m the most athletic I’ve ever been. I do strength training 5 times a week. I do zone 2 cardio (incline walk) every single day. I just added 3 cardio days where I do zone 3/4 cardio (running/swimming). My diet is also really good. High protein, low carbs, optimal calories. My ma"
   },
   {
+   "title": "Is it over for me",
+   "subreddit": "sleep",
+   "comments": 14,
+   "score": 1,
+   "date": "2026-11-15",
+   "url": "https://www.reddit.com/comments/1xwqv2u",
+   "excerpt": "I’m gonna make this short. I’m 14 years old and for the past year or two I’ve struggled with sleep deprivation. My issue with sleeping early stemmed from the need to be on my phone late at night due to my dopamine addiction. Ever since I started getting less sleep I’ve felt very "
+  },
+  {
    "title": "Can being sleep deprived cause erection problems?",
    "subreddit": "sleep",
    "comments": 6,
@@ -1810,22 +1785,13 @@
    "excerpt": "Anyone else struggle with this? My bladder has always been terrible and I'm costantly up early hours for the toilet. But can never get back to sleep, been the same for years. Just want to be able to have a lay in and not have to get up."
   },
   {
-   "title": "How to become a more flexible sleeper",
-   "subreddit": "sleep",
+   "title": "HELP! Has anyone had ALL of their friends disappear before? Not just a friend flew away. ALL trees empty suddenly? Any way to fix it?",
+   "subreddit": "finch",
    "comments": 10,
    "score": 5,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xrr7tk",
-   "excerpt": "Overall I sleep pretty well, but I really wish I wasn’t so dependent on my rhythm. Here’s an example: my usual sleep schedule is 11-7. If I keep that consistently I can sleep through the night most nights and feel good most days. This past weekend I had a great time socially on F"
-  },
-  {
-   "title": "Has anyone else been charged for a free trial (through finch’s site instead of an App Store) and/or had difficulties getting a hold of customer service?",
-   "subreddit": "finch",
-   "comments": 3,
-   "score": 12,
-   "date": "2026-11-15",
-   "url": "https://www.reddit.com/comments/1xwml6d",
-   "excerpt": "Hey everyone! I came across the advertised 7-day free trial for Finch Plus and signed up directly through Finch’s website using Cash App, rather than subscribing through Apple’s App Store. Shortly before what I understood to be the end of my trial, I checked my account and discov"
+   "date": "2026-11-16",
+   "url": "https://www.reddit.com/comments/1xy1918",
+   "excerpt": ""
   },
   {
    "title": "Does the app prompt people to send vibes?",
@@ -1835,24 +1801,6 @@
    "date": "2026-11-12",
    "url": "https://www.reddit.com/comments/1xu0txc",
    "excerpt": "I’m curious, does the app ever tell people they should send hello or other vibes to their tree friend? I’d like to know if one of my tree friends is thinking of me and wanting to send vibe, or if they’re just doing it bec the app recommends it. Thanks!"
-  },
-  {
-   "title": "If I “release” pets will they go back into the mix of what I can get?",
-   "subreddit": "finch",
-   "comments": 14,
-   "score": 1,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xrucaq",
-   "excerpt": "If I give them away will they come back? Out of 16 (mainly blobs & robots) I’ve hatched only 3 regular animals, which I prefer. So I don’t want to release them if they are just coming back. (Luckily I do have 6 little animals I really like from a very sweet Finch friend) Blobs (I"
-  },
-  {
-   "title": "Can't remember who sent me gratitude notes...",
-   "subreddit": "finch",
-   "comments": 1,
-   "score": 14,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xrt2c6",
-   "excerpt": "So I've received some gratitude notes so far, and I had been thinking of sending some back sometime this month when I'm less busy, but unfortunately I had forgotten which of my Tree Friends had sent the first one... Might there be any way to see which of your friends had sent you"
   },
   {
    "title": "Does anyone else feel like working nights completely breaks your sense of reality?🫠",
@@ -1873,24 +1821,6 @@
    "excerpt": "Hey guys... (a little about me :- I am 23 old guy, currently pursuing my degree. Due to some family and personal issues, I started my degree a little late) Lately, I've been struggling with procrastination, and it's getting frustrating. I don't feel like studying. I spend hours g"
   },
   {
-   "title": "How to not choose “easy”",
-   "subreddit": "selfimprovement",
-   "comments": 9,
-   "score": 6,
-   "date": "2026-11-15",
-   "url": "https://www.reddit.com/comments/1xwkguv",
-   "excerpt": "I think of myself as mentally weak and tend to always choose what’s “easiest” or the least effort slash stressful of options. How can I break myself of this?"
-  },
-  {
-   "title": "Brand new Apple Watch. Is your scroll wheel lacking tension too?",
-   "subreddit": "AppleWatch",
-   "comments": 9,
-   "score": 5,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xrhcwz",
-   "excerpt": "So I bought a new Apple Watch, newest model. The last one I had was about 8 years ago. The scroll wheel button on the side has no tension or grip, it feels super cheap and scrolling doesn’t feel nice. I can also wobble it (very slightly) and it just feels bad to use. Functionally"
-  },
-  {
    "title": "Does duration of sleep matter more than what time you go to bed?",
    "subreddit": "sleep",
    "comments": 11,
@@ -1898,15 +1828,6 @@
    "date": "2026-11-10",
    "url": "https://www.reddit.com/comments/1xsnss5",
    "excerpt": "What I'm trying to ask is, if I were to go to bed everyday at 8pm vs going to bed everyday at midnight, is there a difference in sleep quality even if I still get those 7-8 hours of sleep?"
-  },
-  {
-   "title": "Is this blood oxygen reading concerning?",
-   "subreddit": "whoop",
-   "comments": 14,
-   "score": 0,
-   "date": "2026-11-15",
-   "url": "https://www.reddit.com/comments/1xww51w",
-   "excerpt": "I’ve had whoop for over 4 years and never had it this low or “low” at all… Checked a finger reader and read 99%. I know obviously the finger is a better tool, but should I be concerned about waking up to a 89% reading?"
   },
   {
    "title": "How Oura calculates stress? I am at loss!",
@@ -1954,6 +1875,15 @@
    "excerpt": ""
   },
   {
+   "title": "Am I training too hard? HRV taking hit",
+   "subreddit": "whoop",
+   "comments": 12,
+   "score": 1,
+   "date": "2026-11-14",
+   "url": "https://www.reddit.com/comments/1xw42kn",
+   "excerpt": "HRV slowly dropping and unsure if I'm training too hard lately or just time of year spending less time outside in sun as it's colder here in Ohio and less to do outside. HRV was over 100 for a week during vacation in September and back on the grind now running 3 times a week with"
+  },
+  {
    "title": "How to reduce whoop age?",
    "subreddit": "whoop",
    "comments": 12,
@@ -1961,15 +1891,6 @@
    "date": "2026-11-10",
    "url": "https://www.reddit.com/comments/1xsiwd5",
    "excerpt": "I've had whoop for a year now but my VO2 max and Strength training numbers are contributing to increased age. How does whoop calculate the strength training numbers? Do you need to manually add any strength training exercises that you do? Also Is bringing down one's weight the be"
-  },
-  {
-   "title": "WHOOP didn’t track my nap. Is this normal?",
-   "subreddit": "whoop",
-   "comments": 12,
-   "score": 1,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xrzlq8",
-   "excerpt": "I’m new to WHOOP and have been using it for about a week. Today, I took a nap for around 1.5 hours, but WHOOP didn’t track it. I’m not exactly sure when I fell asleep or woke up. Is this normal? Does WHOOP sometimes fail to detect naps?"
   },
   {
    "title": "No slept debt if I didn’t sleep??",
@@ -1988,15 +1909,6 @@
    "date": "2026-11-11",
    "url": "https://www.reddit.com/comments/1xt3b6e",
    "excerpt": ""
-  },
-  {
-   "title": "Release?",
-   "subreddit": "finch",
-   "comments": 8,
-   "score": 5,
-   "date": "2026-11-15",
-   "url": "https://www.reddit.com/comments/1xwnkc2",
-   "excerpt": "I just discovered the place where you name your micropet...and at the bottom it says 'release micropet'. What does that do? (I didn't want to click it in case it ran away, lol."
   },
   {
    "title": "can I turn off just the question notifications?",
@@ -2044,13 +1956,13 @@
    "excerpt": "M22 literally life been fucked whole 2026, had an shoulder injury no workout get fat too too much pornography as to escape life,daily doing doom scrolling not studying even a single bit idk how's this year even came to end no financial support no friends how can i really comeback"
   },
   {
-   "title": "Do you ever line Apple Watch / Health data up with labs or what you eat",
-   "subreddit": "AppleWatch",
-   "comments": 11,
-   "score": 1,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xrzliy",
-   "excerpt": "I get a lot out of Apple Watch and the Health app for activity, sleep, and heart data. Bloodwork and what I eat or take still live in other places though, so if I want to see whether a change over a month showed up in Health or in labs, I end up screenshotting graphs, opening PDF"
+   "title": "What sleep medications actually work without causing insatiable hunger or weight gain?",
+   "subreddit": "sleep",
+   "comments": 9,
+   "score": 3,
+   "date": "2026-11-15",
+   "url": "https://www.reddit.com/comments/1xx3ws7",
+   "excerpt": "I’ve been struggling with insomnia for a while and I’m trying to find a sleep medication that actually works without causing extreme hunger or weight gain. Mirtazapine 7.5 mg has honestly been one of the best medications I’ve tried for sleep. It helps me sleep through the night, "
   },
   {
    "title": "Mirtazapine 7.5 mg is AMAZING for sleep, but the insatiable hunger is unreal. 😭 Anyone switched to doxepin?",
@@ -2069,15 +1981,6 @@
    "date": "2026-11-10",
    "url": "https://www.reddit.com/comments/1xstx15",
    "excerpt": "i have tried every hour. 8-9-10-11. (i usually try to sleep around 11-12) always the same result. i always oversleep with melatonin. i recently had to open the blinds and stop pitch darkness sleeping because i was sometimes oversleeping 2 hours with alarm blaring. whats your expe"
-  },
-  {
-   "title": "What actually works?",
-   "subreddit": "sleep",
-   "comments": 11,
-   "score": 1,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xs07cy",
-   "excerpt": "What have been the most impactful things to actually improve your sleep overtime, not just a short-term fix. I see many post about supplements, but they don’t usually fix the root cause. What has worked best for your sleep and how did you change your behaviours to make it sustain"
   },
   {
    "title": "why is oura using so much of my phone's battery? especially compared to the Garmin app lol...",
@@ -2134,13 +2037,13 @@
    "excerpt": "Hey so I recently started working it's a remote job so the whole working hours are from 5-6 hours currently I work in 4-10 kind of zone and deal with local clients the pay is moderate but the work is kind of stressful nothing over the top. My company also provide another shift th"
   },
   {
-   "title": "Getting too addicted to Reddit roleplay, and it’s starting to affect my sleep and daily routine. How do I break this cycle?",
+   "title": "How to stop procrastinating and start caring more?",
    "subreddit": "getdisciplined",
-   "comments": 12,
-   "score": 0,
-   "date": "2026-11-15",
-   "url": "https://www.reddit.com/comments/1xwll80",
-   "excerpt": "Over the past few weeks, I’ve noticed that I’m spending an unhealthy amount of time on Reddit, particularly in roleplay communities. It usually starts with checking a few posts or getting into a conversation with someone. Before I realise it, hours have passed. Sometimes I end up"
+   "comments": 7,
+   "score": 5,
+   "date": "2026-11-16",
+   "url": "https://www.reddit.com/comments/1xxiwtj",
+   "excerpt": "I have a problem with procrastinating loads with simple tasks, leaving it to the deadlines and trying to finish it just before, not being organised, not being punctual e.t.c all the classic bad problems. I think it’s been exacerbated by the fact that I was that traditional gifted"
   },
   {
    "title": "Starting small with your health: how do you build a habit that actually lasts?",
@@ -2150,6 +2053,15 @@
    "date": "2026-11-13",
    "url": "https://www.reddit.com/comments/1xva0m0",
    "excerpt": "If you want to take care of your body and mind but feel overwhelmed, start smaller than you think you need to. Try a ten-minute walk after a meal, a fixed bedtime you can keep most nights, and a short check-in with yourself each evening about how you are feeling. Pair each habit "
+  },
+  {
+   "title": "how do i fix my sleep schedule safety as someone who’s been nocturnal for 3 years?",
+   "subreddit": "sleep",
+   "comments": 7,
+   "score": 4,
+   "date": "2026-11-15",
+   "url": "https://www.reddit.com/comments/1xwluql",
+   "excerpt": "i’ve been nocturnal for three years and it’s gotten so bad to the point where i sleep at like 10am/12pm and wake up around 7pm/8pm. No matter how much i’ve tried to fix my sleep schedule, I would always go right back to being nocturnal after 2-3 successful times, never consistent"
   },
   {
    "title": "Is it ok to shift your sleeping/waking up time 1hr every 3 days until desired schedule is reached or should I just stay awake whole day and do the reset overnight? What worked for you?",
@@ -2170,13 +2082,13 @@
    "excerpt": "I’ve recently been extremely sleepy so I’ve been going to bed at around 8-9pm. I wake up at 2-3-4-5 am every day hours before my alarm. Even with this much sleep I’m still tired 24/7. It can be as early as noon and a comfortable seat will have me fighting sleep. I usually wake up"
   },
   {
-   "title": "Why is it so easy to get into a bad schedule and so hard to escape it",
-   "subreddit": "sleep",
-   "comments": 7,
-   "score": 4,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xrv40t",
-   "excerpt": "I am fucked right now. Im going to bed at 4pm and waking up at 9-11pm. I entered this schedule the thursday before last. It just happened in one day, i didnt sleep all thursday. Tried to stay up till the start of my 4pm lecture on friday, failed, slept from 1pm-4:30, saturday i s"
+   "title": "Short Battery Life Already?",
+   "subreddit": "ouraring",
+   "comments": 9,
+   "score": 2,
+   "date": "2026-11-15",
+   "url": "https://www.reddit.com/comments/1xx5bxt",
+   "excerpt": "My friend convinced me to get an oura ring for a while back as I’ve been eyeing it for its features and long battery life (up to 4-5 days before needing a charge). I’ve only had my ring for just under 1 1/2 years, but it’s reached a point where I’m only getting essentially a day’"
   },
   {
    "title": "Oura 5 size 11 inner diameter (mm)?",
@@ -2188,22 +2100,13 @@
    "excerpt": "Wondering if anyone with a size 11 Oura 5 ring would be able to measure the inner diameter for me? My bf wears this size and i have been looking to get him a ring (for the other hand ;) ) but it’s hard to be sneaky about taking it to measure when he wears it 24/7 lol. Have looked"
   },
   {
-   "title": "Are we gonna get these color variations for the normal, non-Halloween app icon?",
-   "subreddit": "finch",
-   "comments": 2,
-   "score": 9,
-   "date": "2026-11-15",
-   "url": "https://www.reddit.com/comments/1xwwre5",
-   "excerpt": "Halloween’s over, and I don’t really celebrate it anyway….it’d be cool to represent my finch’s colors without having to have perpetual spooky month"
-  },
-  {
-   "title": "How do you start moving past an overarching dopamine/stimulation addiction that isn’t just bad habit(s)?",
+   "title": "Getting too addicted to Reddit roleplay, and it’s starting to affect my sleep and daily routine. How do I break this cycle?",
    "subreddit": "getdisciplined",
-   "comments": 5,
-   "score": 6,
-   "date": "2026-11-09",
-   "url": "https://www.reddit.com/comments/1xrfjq7",
-   "excerpt": "24M here. Person with solid disposable income and life experience for my age, kind of losing my mind in the post-grad life after 2+ years. I'm doing okay, saving some money despite my indulgences, and putting myself out there sometimes. But I see neither my career or current city"
+   "comments": 11,
+   "score": 0,
+   "date": "2026-11-15",
+   "url": "https://www.reddit.com/comments/1xwll80",
+   "excerpt": "Over the past few weeks, I’ve noticed that I’m spending an unhealthy amount of time on Reddit, particularly in roleplay communities. It usually starts with checking a few posts or getting into a conversation with someone. Before I realise it, hours have passed. Sometimes I end up"
   },
   {
    "title": "How do I, just start? I know what to change, how to change it, but I want comfort",
@@ -2213,6 +2116,105 @@
    "date": "2026-11-13",
    "url": "https://www.reddit.com/comments/1xutg6r",
    "excerpt": "I know change starts with just starting. But I want to get stoned and scroll on my phone, in my bed with a cozy blanket. I’ll start tomorrow, but tomorrow doesn’t happen. If I start today, well that cozy blanket tomorrow is going to be amazing. If I’ve been doing it, one day got "
+  },
+  {
+   "title": "I keep experiencing intense anxiety whenever I become emotionally invested in someone. How do I break this cycle?",
+   "subreddit": "selfimprovement",
+   "comments": 7,
+   "score": 4,
+   "date": "2026-11-12",
+   "url": "https://www.reddit.com/comments/1xu6h3c",
+   "excerpt": "I’m 19M, and I’ve noticed a recurring pattern in my romantic experiences that I’m genuinely getting tired of. Whenever I start liking someone, especially when we begin talking consistently, I tend to become emotionally invested rather quickly. At first, everything feels exciting."
+  },
+  {
+   "title": "Is there anyway to fix these blank complications",
+   "subreddit": "AppleWatch",
+   "comments": 6,
+   "score": 4,
+   "date": "2026-11-11",
+   "url": "https://www.reddit.com/comments/1xt6m9s",
+   "excerpt": "I finally decided to change the default complications to the 3 apps I often click on the crown to find (runna and sleep cycle if helpful). But as you can see they are just blank, is the only solution to wait ? I can deal with it but would like some suggestions"
+  },
+  {
+   "title": "Any sleep tips/meds that I may have missed?",
+   "subreddit": "sleep",
+   "comments": 9,
+   "score": 1,
+   "date": "2026-11-15",
+   "url": "https://www.reddit.com/comments/1xwkp2s",
+   "excerpt": "Hey all, at this point i almost feel like ive tried everything to help with my sleep. I was on trazodone for a while in the past, didn't help much. Switched to clonidine and it sucked, then switched to doxepin and it actually seemed to help a bit. I'm still on that. I take 5mg of"
+  },
+  {
+   "title": "What am I doing wrong? I sleep well, but I can't get out of bed for a long time.",
+   "subreddit": "sleep",
+   "comments": 7,
+   "score": 3,
+   "date": "2026-11-12",
+   "url": "https://www.reddit.com/comments/1xuc1u2",
+   "excerpt": "This has been an issue for quite a while. At first, I thought it was because of the cold weather, but even nowadays I spend 1–2+ hours in bed after waking up. It's strange because it doesn't seem to be a matter of mindset. I've tried thinking about enjoyable things I'd do once I "
+  },
+  {
+   "title": "New noisy apartment - block noise or try and get used to it?",
+   "subreddit": "sleep",
+   "comments": 6,
+   "score": 4,
+   "date": "2026-11-11",
+   "url": "https://www.reddit.com/comments/1xtu683",
+   "excerpt": "Hey all, I moved into a new apartment almost 1.5 months ago and I'm still having some sleep issues with how noisy the apartment can get. My bedroom faces a busy street where a few major arterial roads meet and as such there's constant intermittent traffic throughout the night whi"
+  },
+  {
+   "title": "Why the gaps?",
+   "subreddit": "ouraring",
+   "comments": 9,
+   "score": 1,
+   "date": "2026-11-15",
+   "url": "https://www.reddit.com/comments/1xx031w",
+   "excerpt": "I know Oura explains some reasoning for the gaps, but I just downsized my ring so it’s snug, it’s clean, and I sleep pretty still all night. I’m on week 1 of my oura ring, what could be the cause of such huge gaps?"
+  },
+  {
+   "title": "What do we get from oura?",
+   "subreddit": "ouraring",
+   "comments": 10,
+   "score": 0,
+   "date": "2026-11-14",
+   "url": "https://www.reddit.com/comments/1xwfyij",
+   "excerpt": "I’ve had mine for 2 weeks now. as far as I can see it tells me if I’ve slept well or not, but I know that already. am I missing something?"
+  },
+  {
+   "title": "What do most people do?",
+   "subreddit": "ouraring",
+   "comments": 8,
+   "score": 2,
+   "date": "2026-11-14",
+   "url": "https://www.reddit.com/comments/1xw4mt1",
+   "excerpt": "Alot of options to record a workout - what are most people doing? AAD vs Live Activity vs Manually Add vs Other Wearable (Apple Health, etc)? I have been using Apple Watch during workouts which then writes to Oura, just wondering if this is the best way?"
+  },
+  {
+   "title": "Why is the same resting heart rate gauged differently day by day?",
+   "subreddit": "ouraring",
+   "comments": 7,
+   "score": 3,
+   "date": "2026-11-12",
+   "url": "https://www.reddit.com/comments/1xuda5j",
+   "excerpt": "Yesterday & today my rhr was the same overnight - but today my score got dinged more from it? Why is this?"
+  },
+  {
+   "title": "said i missed a day but i didnt?",
+   "subreddit": "finch",
+   "comments": 5,
+   "score": 5,
+   "date": "2026-11-13",
+   "url": "https://www.reddit.com/comments/1xv42pl",
+   "excerpt": "i log on today (before i go to bed) to log my activities, collect my gems + prizes, answer the daily question, and fill up the little notes jar like i always do. i’m greeted with the screen saying i broke my streak on wednesday but i saved it today (thursday)?? i knew i logged on"
+  },
+  {
+   "title": "Do we know if there’s a limit to how many notes you can add to the gratitude jar yet?",
+   "subreddit": "finch",
+   "comments": 1,
+   "score": 9,
+   "date": "2026-11-12",
+   "url": "https://www.reddit.com/comments/1xu21yf",
+   "excerpt": ""
   }
  ]
 }
