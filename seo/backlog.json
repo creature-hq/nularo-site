@@ -1547,7 +1547,10 @@
   "nularo_fit": 3,
   "angle": "INFERENCE: Gamified fitness apps people recommend; Nularo as the creature-based option.",
   "priority": 64,
-  "status": "todo"
+  "status": "done",
+  "guide": "gamified-fitness-apps",
+  "done": "2026-11-16",
+  "note": "cluster moved to health-pets (gamified habits seed)"
  },
  {
   "keyword": "apple watch sleep animal",
@@ -1820,7 +1823,10 @@
   "nularo_fit": 4,
   "angle": "INFERENCE: How to set Sleep schedules/Focus for day sleep, whether daytime sleep counts, how scores treat it.",
   "priority": 76,
-  "status": "todo"
+  "status": "done",
+  "guide": "sleep-app-for-night-shift-workers",
+  "done": "2026-11-16",
+  "note": "covered by sleep-app-for-night-shift-workers (same intent); its seo_title and description retargeted to \"apple watch night shift\" in the 2026-11-16 weekly review"
  },
  {
   "keyword": "best sleep debt app",
