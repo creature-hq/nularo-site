@@ -4,6 +4,7 @@
 
 ## Guides
 
+- [Is there a Samsung-style sleep animal on Apple Watch?](https://nularo.com/guides/apple-watch-sleep-animal/): Apple Watch has no sleep animal, but its Sleep Score uses the same three measures as Samsung's eight animals. How to work out yours from Apple's data.
 - [Gamified fitness apps people actually stick with, by game type](https://nularo.com/guides/gamified-fitness-apps/): Apple's Fitness app already has awards and 7-day competitions for free. Then Zombies, Run!, Pikmin Bloom, Pokémon GO, Walkr and Habitica, sorted by game type.
 - [How to get a 100 Sleep Score on Apple Watch](https://nularo.com/guides/how-to-get-100-sleep-score-apple-watch/): A 100 needs full points for duration (50), bedtime consistency (30) and interruptions (20). How to see which part costs you, and why 90 is now only High.
 - [Why your Apple Watch Sleep Score is always high](https://nularo.com/guides/apple-sleep-score-always-high/): Apple's Sleep Score only counts duration, bedtime consistency and interruptions, and the watch rarely catches quiet wake time. Here is why it runs high.

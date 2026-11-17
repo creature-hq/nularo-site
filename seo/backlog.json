@@ -1573,7 +1573,9 @@
   "nularo_fit": 4,
   "angle": "INFERENCE: Samsung's Sleep Animals explained for Apple Watch switchers: Apple has no equivalent; a creature whose mood reflects your sleep is the closest thing.",
   "priority": 65,
-  "status": "todo"
+  "status": "done",
+  "guide": "apple-watch-sleep-animal",
+  "done": "2026-11-17"
  },
  {
   "keyword": "sleep debt calculator app",
