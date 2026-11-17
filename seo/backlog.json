@@ -2378,15 +2378,30 @@
   "source": "forums"
  },
  {
-  "keyword": "apple watch alarm after hours of sleep",
+  "keyword": "apple watch alarm after 8 hours of sleep",
   "cluster": "watch-sleep",
   "intent": "how-to",
-  "evidence": "VERIFIED: r/ouraring thread 'Can we have an alarm based on sleep hours?' (2026-11-13, 35 comments) asks for an alarm that rings after a set amount of sleep; not yet checked in autocomplete",
+  "evidence": "VERIFIED: r/ouraring thread 'Can we have an alarm based on sleep hours?' (2026-11-13, 35 comments) asks for an alarm that rings after a set amount of sleep; not yet checked in autocomplete | VERIFIED 2026-11-17: original phrase not exact in autocomplete, but 'apple watch alarm after 8 hours of sleep' is a Google suggestion; retargeted",
   "serp_top": [],
   "difficulty": "INFERENCE: unknown, check SERP",
   "nularo_fit": 2,
   "angle": "INFERENCE: Whether Apple's Sleep schedule alarm or any Apple Health app can wake you after N hours asleep rather than at a clock time; Apple path first.",
   "priority": 102,
+  "status": "done",
+  "source": "reddit",
+  "guide": "apple-watch-alarm-after-8-hours-of-sleep",
+  "done": "2026-11-17"
+ },
+ {
+  "keyword": "apple watch daytime heart rate trend",
+  "cluster": "recovery-scores",
+  "intent": "how-to",
+  "evidence": "VERIFIED: r/ouraring and r/AppleWatch questions this week ask where daily/weekly/monthly daytime heart rate trend data lives and why the same resting heart rate is judged differently day to day; not yet checked in autocomplete",
+  "serp_top": [],
+  "difficulty": "INFERENCE: unknown, check SERP",
+  "nularo_fit": 3,
+  "angle": "INFERENCE: Where Health shows heart rate ranges by D/W/M/Y vs resting heart rate, and the Trends section; Apple path first, no medical interpretation.",
+  "priority": 103,
   "status": "todo",
   "source": "reddit"
  }
