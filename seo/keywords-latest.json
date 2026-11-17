@@ -1,21 +1,7 @@
 {
-  "pulled": "2026-11-16",
+  "pulled": "2026-11-17",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "apple watch sleep animal",
-      "priority": 65,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 5,
-      "suggestions": [
-        "apple watch sleep animal",
-        "how apple watch measure sleep",
-        "how does my apple watch measure sleep",
-        "how does the apple watch detect sleep",
-        "is there a sleep app on my apple watch"
-      ]
-    },
     {
       "keyword": "sleep debt calculator app",
       "priority": 66,
@@ -291,20 +277,6 @@
       "suggestions": []
     },
     {
-      "keyword": "low sleep score apple watch reddit",
-      "priority": 91,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 5,
-      "suggestions": [
-        "low sleep score apple watch reddit",
-        "apple watch sleep score",
-        "does sleep score work with apple watch",
-        "how accurate is apple watch deep sleep",
-        "does apple watch give sleep score"
-      ]
-    },
-    {
       "keyword": "how to share apple watch data with friends",
       "priority": 92,
       "exact_in_autocomplete": true,
@@ -322,23 +294,6 @@
       "suggestion_count": 1,
       "suggestions": [
         "sleepmaxxing reddit"
-      ]
-    },
-    {
-      "keyword": "how to get 100 sleep score apple watch",
-      "priority": 94,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 8,
-      "suggestions": [
-        "how to get 100 sleep score apple watch",
-        "how hard is it to get 100 sleep score apple watch",
-        "is it possible to get 100 sleep score apple watch",
-        "how rare is 100 sleep score apple watch",
-        "how to get sleep score on apple watch",
-        "apple watch sleep score",
-        "does apple watch give sleep score",
-        "how to get 100 sleep score on fitbit"
       ]
     },
     {
@@ -441,6 +396,20 @@
         "which sleep score is more accurate - garmin or apple watch",
         "how accurate is my apple watch sleep score",
         "is apple watch sleep accurate"
+      ]
+    },
+    {
+      "keyword": "apple watch alarm after hours of sleep",
+      "priority": 102,
+      "exact_in_autocomplete": false,
+      "rank": null,
+      "suggestion_count": 5,
+      "suggestions": [
+        "apple watch alarm after 8 hours of sleep",
+        "how to turn sleep alarm off on apple watch",
+        "how to stop sleep alarm on apple watch",
+        "how to set sleep alarm on apple watch",
+        "do apple watch alarms wake you up"
       ]
     }
   ],
