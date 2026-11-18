@@ -38,20 +38,29 @@ or a new section in an existing B guide, never a new guide.
 **Search volume is a hard gate (founder's rule, 2026-11-18: "make sure the
 articles you write have search volume behind them").** `seo/demand.json`
 `us_3mo` holds Bing US searches over the last 3 months per keyword (Google
-is roughly 10 to 20 times Bing). A daily Action (`bing-demand.yml`, Bing
-Webmaster API) keeps it fresh for the backlog, the autocomplete candidates and
-anything in `seo/demand-queue.json`, and lists new phrases with real volume
-under `discovered`.
+is roughly 10 to 20 times Bing). It is refreshed by hand from Bing Webmaster
+Tools Keyword Research in Claude sessions on the founder's Mac (the founder
+chose not to add a Bing API key, so the `bing-demand.yml` Action skips). Each
+refresh measures the backlog, `seo/demand-queue.json` and new candidates.
 - The guide's target `keyword` (or the head term the page is built to rank
   for, named in the log) must have `us_3mo` of at least 10. No exceptions for
   t or r picks: a hot Reddit thread with no measured search demand is not a
   guide.
-- Prefer the highest-demand A/B keyword no guide covers yet. Check
-  `discovered` too: a high-volume phrase there that passes the download test
-  beats a lower one in the backlog (add it to the backlog when you use it).
+- Prefer the highest-demand A/B keyword no guide covers yet. Scan the whole
+  `us_3mo` list, not just the backlog: a high-volume phrase that passes the
+  download test and no guide covers beats a lower backlog item (add it to the
+  backlog when you use it).
 - If the keyword you want has never been measured, append it to
-  `seo/demand-queue.json` (a JSON list of strings), pick a measured one today,
-  and the Action will measure yours by tomorrow.
+  `seo/demand-queue.json` (a JSON list of strings) and pick a measured one
+  today. The next refresh measures it.
+- **When no measured target is left** (every A/B keyword with `us_3mo` 10+
+  is covered or done): do NOT write a new guide. Spend the run improving the
+  existing guide with the most impressions and the fewest clicks in
+  `gsc-latest.json` instead: sharpen its `seo_title` and `description` to the
+  queries it actually shows for, add the section the top results have and it
+  lacks, bump `updated`, and log it as `refresh (no measured targets left)`.
+  Also add a line to the top of `seo/learnings.md`: "Demand list exhausted on
+  <date>, needs a refresh", so the next Claude session refreshes it.
 - In `seo/log.md`, write the target's `us_3mo` number on every line.
 
 **Conversion rules for every guide (the reason we write them):**
