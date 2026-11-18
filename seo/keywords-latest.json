@@ -1,22 +1,7 @@
 {
-  "pulled": "2026-11-17",
+  "pulled": "2026-11-18",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "sleep debt calculator app",
-      "priority": 66,
-      "exact_in_autocomplete": true,
-      "rank": 2,
-      "suggestion_count": 6,
-      "suggestions": [
-        "sleep debt calculator app free",
-        "sleep debt calculator app",
-        "sleep debt formula",
-        "how to calculate sleep debt",
-        "how to catch up on sleep debt",
-        "how to pay your sleep debt"
-      ]
-    },
     {
       "keyword": "sleep regularity score",
       "priority": 67,
@@ -399,18 +384,12 @@
       ]
     },
     {
-      "keyword": "apple watch alarm after hours of sleep",
-      "priority": 102,
+      "keyword": "apple watch daytime heart rate trend",
+      "priority": 103,
       "exact_in_autocomplete": false,
       "rank": null,
-      "suggestion_count": 5,
-      "suggestions": [
-        "apple watch alarm after 8 hours of sleep",
-        "how to turn sleep alarm off on apple watch",
-        "how to stop sleep alarm on apple watch",
-        "how to set sleep alarm on apple watch",
-        "do apple watch alarms wake you up"
-      ]
+      "suggestion_count": 0,
+      "suggestions": []
     }
   ],
   "new_candidates": [
