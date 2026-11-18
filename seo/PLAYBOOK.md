@@ -8,6 +8,53 @@ Oct 2026; site teardown of vaultaire.app on 2026-10-19), adapted for Nularo.
 
 This file is the instruction set for every run. Read all of it every run.
 
+## The download test (added 2026-11-18, overrides every pick rule below)
+
+The founder's verdict on the first month: the guides read as random, and they
+bring almost no traffic and no downloads. Rasty's actual method was "pull in
+every keyword that points to the same thing as the app, but on the web": every
+guide answers a search where the person is looking for what Nularo does. Apple
+Watch trivia ("can Apple Watch wake you after 8 hours", "is there a Samsung
+sleep animal") gets a few curious readers who will never download a pet app.
+
+Before you write anything, classify the target query:
+
+- **A. App hunting.** The searcher wants an app: "app", "apps like", "best",
+  "alternative", "vs", "free", "for iPhone/Apple Watch", "for couples/students/
+  night shift". Examples: "finch alternatives", "virtual pet app for adults",
+  "sleep debt app", "habit tracker apple health", "bevel alternative".
+- **B. Nularo's job.** The searcher has the exact problem a Nularo feature
+  solves, so the app is the natural next step: sleep debt, sleep score,
+  biological/body/health age, bedtime procrastination, staying accountable,
+  sleep consistency, "make sleep tracking fun", getting judged/roasted.
+- **C. Metric trivia.** How a watch metric works, where a menu is, why a
+  number looks odd, with no app wish behind it.
+
+Only A and B get new guides. C is allowed only when Search Console already
+shows 20+ impressions for that exact query (rule a). Trending (t) and Reddit
+(r) picks must pass this test too: a Reddit theme that is C becomes a FAQ entry
+or a new section in an existing B guide, never a new guide.
+
+Then check demand in `seo/demand.json` (Bing US searches over 3 months for
+~270 candidates, pulled 2026-11-18 from Bing Webmaster Tools Keyword Research;
+Google volume is roughly 10 to 20 times Bing). Prefer the highest-demand A/B
+keyword that no guide covers yet. A keyword with 0 on Bing AND not exact in
+`seo/keywords-latest.json` autocomplete has no proven demand: skip it.
+
+**Conversion rules for every guide (the reason we write them):**
+- The `tldr` always ends with one honest sentence on what Nularo does for this
+  exact question (verified claims only). The build puts a "Try Nularo free"
+  button inside the Short answer box, because most readers stop there.
+- A guides (app hunting): Nularo is listed first or second, inside the first
+  third of the page, with its honest limitation and price (subscription,
+  $39.99/year with a 3-day free trial, or $9.99/month). Competitors stay fair.
+- B guides: the free/built-in answer still comes first, but Nularo comes in
+  by the middle of the page, not the last quarter. Use a `<!-- cta:KIND -->`
+  right after the section where Nularo is introduced; the build adds a
+  compact mid-article CTA automatically when the first one is in the back half.
+- Optional meta `"hero"`: a one-line pitch for the card above the Short
+  answer, matched to the query (default copy per `cta` kind otherwise).
+
 ## Which slot am I
 
 Check `date -u +%H`. The two slots pick targets differently so the site grows
@@ -16,8 +63,8 @@ from both data and real people:
 - **Morning slot (data):** step 2 rules a, then b, then c. If it is Monday,
   do the weekly review (step 0) first.
 - **Evening slot (people):** step 2 rule t (trending) first, then rule r
-  (Reddit questions), and only if neither finds a winnable target, fall back to
-  a, b, c. If the morning run already published today (check `seo/log.md`),
+  (Reddit questions), and only if neither finds a winnable target that passes
+  the download test (A or B), fall back to a, b, c. If the morning run already published today (check `seo/log.md`),
   never pick the same intent or the same cluster's very next backlog item twice.
 
 ## The run, in order
@@ -70,6 +117,9 @@ from both data and real people:
       that phrase; consider retargeting the item to the closest phrase in its
       `suggestions` instead). If the keyword is not in `backlog_demand`
       (it is checked 40 at a time), use it but say so in the log.
+      Items with `"source": "bing-demand-2026-11-18"` (priorities 1-12) already
+      have measured demand in `seo/demand.json`: take them first, in order,
+      without the autocomplete check. Their `angle` says what the page must do.
    c. **Top up the backlog.** When fewer than 30 todo items are left, add
       up to 10 of the best `new_candidates` to `seo/backlog.json` (same
       fields as existing items; check the current results are weak, like

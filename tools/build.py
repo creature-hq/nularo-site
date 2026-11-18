@@ -81,6 +81,17 @@ CTA_COPY = {
 }
 
 
+# One-line pitch for the card above the Short answer, matched to the guide's
+# cta kind. A guide can override it with a "hero" string in its meta.
+HERO_COPY = {
+    "default": "<strong>Nularo</strong> reads your Apple Health and turns it into a creature that reacts to how you really slept and moved.",
+    "age": "<strong>Nularo</strong> turns your Apple Health data into a Creature Age, and shows which habit is adding the years.",
+    "sleep": "<strong>Nularo</strong> reads last night from Apple Health and gives you one honest verdict every morning, sleep debt included.",
+    "pet": "<strong>Nularo</strong> is a virtual pet that runs on your real Apple Health data. Sleep badly and it looks wrecked.",
+    "habits": "<strong>Nularo</strong> tracks your sleep and movement from Apple Health automatically. Nothing to tick off.",
+}
+
+
 def store_url(ct):
     if PROVIDER_TOKEN:
         return f"https://apps.apple.com/app/apple-store/id{APP_ID}?pt={PROVIDER_TOKEN}&ct={ct}&mt=8"
@@ -134,6 +145,19 @@ def shot_block(name):
   <img src="/img/app/{name}.webp" alt="{esc(SHOTS[name])}" width="600" height="1230" loading="lazy" />
   <figcaption>{esc(SHOTS[name])}.</figcaption>
 </figure>"""
+
+
+def mid_cta(body, kind):
+    """Rasty's rule: a CTA wherever readers commonly stop. If the guide's own
+    first CTA sits in the back half, add a compact one before the third h2."""
+    first = body.find("<!-- cta")
+    if 0 <= first < len(body) * 0.5:
+        return body
+    heads = [m.start() for m in re.finditer(r"<h2[ >]", body)]
+    if len(heads) < 3:
+        return body
+    i = heads[2]
+    return body[:i] + f"<!-- cta:{kind} -->\n" + body[i:]
 
 
 def expand(body, slug):
@@ -245,7 +269,7 @@ def build_guide(g, all_guides):
     slug = g["slug"]
     url = f"{SITE}/guides/{slug}/"
     cluster = CLUSTERS[g["cluster"]]
-    body = expand(g["body"], slug)
+    body = expand(mid_cta(g["body"], g.get("cta", "default")), slug)
     minutes, words = read_minutes(body)
     g["words"] = words
 
@@ -275,13 +299,17 @@ def build_guide(g, all_guides):
 
     hero_card = f'''<a class="hero-card" href="{store_url(ct('gh', slug))}" data-cta="hero">
           <img src="/img/creature-glowing.webp" alt="" width="44" height="44" />
-          <span><strong>Nularo</strong> reads your Apple Health and turns it into a creature that reacts to how you really slept and moved.</span>
+          <span>{g.get('hero') or HERO_COPY.get(g.get('cta', 'default'), HERO_COPY['default'])}</span>
           <span class="hero-card-go">Get it</span>
         </a>'''
 
     tldr_html = ""
     if g.get("tldr"):
-        tldr_html = f'<div class="tldr pane pane--violet"><p class="tldr-label">Short answer</p><p>{g["tldr"]}</p></div>'
+        tldr_cta = (
+            f'<p class="tldr-cta"><a class="store-btn store-btn--small" href="{store_url(ct("gt", slug))}" data-cta="tldr">Try Nularo free</a>'
+            f'<span>iPhone. 3-day free trial on the annual plan.</span></p>'
+        )
+        tldr_html = f'<div class="tldr pane pane--violet"><p class="tldr-label">Short answer</p><p>{g["tldr"]}</p>{tldr_cta}</div>'
 
     ld = [
         {

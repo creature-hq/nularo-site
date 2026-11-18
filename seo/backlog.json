@@ -1,5 +1,173 @@
 [
  {
+  "keyword": "finch app review",
+  "cluster": "alternatives",
+  "intent": "review",
+  "evidence": "VERIFIED: finch app 2251, finch 6111, finch self care app 498, is finch app free (sampled SERP: habitbox.app, autonomous.ai, tallybirds.com on page 1) [Bing US 3-month searches in seo/demand.json (2026-11-18)]",
+  "serp_top": [],
+  "difficulty": "INFERENCE: check SERP in step 3",
+  "nularo_fit": 5,
+  "angle": "One honest review page for people searching the Finch brand: what Finch is, what is free vs Finch Plus (check current App Store price), who it suits, where it falls short (manual check-ins), then Nularo as the zero-logging option. Cover 'is finch app free' and 'how does finch work' as H2s and FAQ. Do not duplicate finch-alternatives; link both ways.",
+  "priority": 1,
+  "status": "todo",
+  "source": "bing-demand-2026-11-18",
+  "download_test": "A"
+ },
+ {
+  "keyword": "biological age calculator",
+  "cluster": "body-age",
+  "intent": "tool",
+  "evidence": "VERIFIED: biological age calculator 218, metabolic age 218, biological age 236, biological age test 108 [Bing US 3-month searches in seo/demand.json (2026-11-18)]",
+  "serp_top": [],
+  "difficulty": "INFERENCE: check SERP in step 3",
+  "nularo_fit": 5,
+  "angle": "Free tool page: a plain-JS rules-based 'habit age' estimate from sleep hours, bedtime consistency, steps, active minutes (inputs typed by the reader, nothing sent anywhere), clearly labelled for fun and not a medical test, math shown and sourced to public-health guidelines. Explain why real biological age tests (epigenetic clocks) differ. Then Nularo: Creature Age does this automatically every week from Apple Health.",
+  "priority": 2,
+  "status": "todo",
+  "source": "bing-demand-2026-11-18",
+  "download_test": "B"
+ },
+ {
+  "keyword": "whoop alternative for apple watch",
+  "cluster": "recovery-scores",
+  "intent": "listicle",
+  "evidence": "VERIFIED: whoop 34371, whoop app 288, whoop alternative 50 (SERP: big tech sites, no Apple-Watch-only answer) [Bing US 3-month searches in seo/demand.json (2026-11-18)]",
+  "serp_top": [],
+  "difficulty": "INFERENCE: check SERP in step 3",
+  "nularo_fit": 5,
+  "angle": "For Apple Watch owners who want Whoop-style recovery/strain without a strap or membership: Bevel, Athlytic, Training Today, Gentler Streak, Nularo. Check each current App Store price. Nularo early: Sleep/Stress/Energy scores from Apple Health.",
+  "priority": 3,
+  "status": "todo",
+  "source": "bing-demand-2026-11-18",
+  "download_test": "A"
+ },
+ {
+  "keyword": "habitica alternatives",
+  "cluster": "health-pets",
+  "intent": "listicle",
+  "evidence": "VERIFIED: habitica 2352 [Bing US 3-month searches in seo/demand.json (2026-11-18)]",
+  "serp_top": [],
+  "difficulty": "INFERENCE: check SERP in step 3",
+  "nularo_fit": 4,
+  "angle": "Gamified habit apps for people who quit Habitica because manual ticking got old: Finch, Forest, Streaks, Habitvs, Nularo (tracks sleep and movement automatically). Fair to Habitica's strengths.",
+  "priority": 4,
+  "status": "todo",
+  "source": "bing-demand-2026-11-18",
+  "download_test": "A"
+ },
+ {
+  "keyword": "how to track sleep on apple watch",
+  "cluster": "watch-sleep",
+  "intent": "how-to",
+  "evidence": "VERIFIED: how to track sleep on apple watch 2499, apple watch sleep tracking 135 [Bing US 3-month searches in seo/demand.json (2026-11-18)]",
+  "serp_top": [],
+  "difficulty": "INFERENCE: check SERP in step 3",
+  "nularo_fit": 4,
+  "angle": "Exact current watchOS/iOS steps (Sleep Focus, schedule, Track Sleep with Apple Watch, charging), checked against support.apple.com, plus where to read the data in Health. Then: what to do with the data, Nularo's morning verdict. High volume, Apple ranks too, so be the clearest and most current.",
+  "priority": 5,
+  "status": "todo",
+  "source": "bing-demand-2026-11-18",
+  "download_test": "B"
+ },
+ {
+  "keyword": "sleep cycle app alternatives",
+  "cluster": "alternatives",
+  "intent": "listicle",
+  "evidence": "VERIFIED: sleep cycle 1278, sleep cycle app 144 [Bing US 3-month searches in seo/demand.json (2026-11-18)]",
+  "serp_top": [],
+  "difficulty": "INFERENCE: check SERP in step 3",
+  "nularo_fit": 4,
+  "angle": "Sleep Cycle alternatives for iPhone + Apple Watch owners (mic-based vs watch-based tracking): AutoSleep, Pillow, Rise, Apple's own Sleep, Nularo. Check current prices.",
+  "priority": 6,
+  "status": "todo",
+  "source": "bing-demand-2026-11-18",
+  "download_test": "A"
+ },
+ {
+  "keyword": "pokemon sleep alternative",
+  "cluster": "health-pets",
+  "intent": "listicle",
+  "evidence": "VERIFIED: pokemon sleep 819 (also in old backlog) [Bing US 3-month searches in seo/demand.json (2026-11-18)]",
+  "serp_top": [],
+  "difficulty": "INFERENCE: check SERP in step 3",
+  "nularo_fit": 4,
+  "angle": "Cute 'sleep makes your creature happy' apps for people who like Pokemon Sleep but want Apple Watch data or no phone-on-pillow: Nularo, Pokemon Sleep itself (fair), others verified. Answer 'does Pokemon Sleep work with Apple Watch' in an H2 (verify).",
+  "priority": 7,
+  "status": "todo",
+  "source": "bing-demand-2026-11-18",
+  "download_test": "A"
+ },
+ {
+  "keyword": "rise app alternative",
+  "cluster": "alternatives",
+  "intent": "listicle",
+  "evidence": "VERIFIED: rise app 253, rise sleep app 148 [Bing US 3-month searches in seo/demand.json (2026-11-18)]",
+  "serp_top": [],
+  "difficulty": "INFERENCE: check SERP in step 3",
+  "nularo_fit": 4,
+  "angle": "Rise Science alternatives: what Rise does (sleep debt, energy schedule), its price, and cheaper or different options including Nularo's sleep debt + morning verdict.",
+  "priority": 8,
+  "status": "todo",
+  "source": "bing-demand-2026-11-18",
+  "download_test": "A"
+ },
+ {
+  "keyword": "revenge bedtime procrastination",
+  "cluster": "bedtime-culture",
+  "intent": "explainer",
+  "evidence": "VERIFIED: revenge bedtime procrastination 176 [Bing US 3-month searches in seo/demand.json (2026-11-18)]",
+  "serp_top": [],
+  "difficulty": "INFERENCE: check SERP in step 3",
+  "nularo_fit": 4,
+  "angle": "What it is (cite the original research), why it happens, non-medical ways people break it, then apps: Nularo's Bedtime Pledge and morning verdict. No medical advice. Replaces the old 'revenge bedtime procrastination app' item.",
+  "priority": 9,
+  "status": "todo",
+  "source": "bing-demand-2026-11-18",
+  "download_test": "B"
+ },
+ {
+  "keyword": "bevel app review",
+  "cluster": "alternatives",
+  "intent": "review",
+  "evidence": "VERIFIED: bevel 3054, bevel app 190 (SERP: autonomous.ai, healthappinsider.com on page 1) [Bing US 3-month searches in seo/demand.json (2026-11-18)]",
+  "serp_top": [],
+  "difficulty": "INFERENCE: check SERP in step 3",
+  "nularo_fit": 4,
+  "angle": "Honest review: what Bevel does, what is free vs Bevel Pro (check price), who it suits; link to bevel-alternative-free; Nularo as the playful option.",
+  "priority": 10,
+  "status": "todo",
+  "source": "bing-demand-2026-11-18",
+  "download_test": "A"
+ },
+ {
+  "keyword": "sleep calculator",
+  "cluster": "watch-sleep",
+  "intent": "tool",
+  "evidence": "VERIFIED: sleep calculator 2254, how much sleep do i need 231, sleep schedule 491 [Bing US 3-month searches in seo/demand.json (2026-11-18)]",
+  "serp_top": [],
+  "difficulty": "INFERENCE: check SERP in step 3",
+  "nularo_fit": 3,
+  "angle": "Tool page: bedtime/wake-time calculator (90-minute cycles labelled as a rule of thumb, sources), plus how much sleep adults need per CDC/AASM. Competitive (big calculator sites), so the angle is 'and then check it against what your Apple Watch actually recorded', with Nularo for the automatic version.",
+  "priority": 11,
+  "status": "todo",
+  "source": "bing-demand-2026-11-18",
+  "download_test": "B"
+ },
+ {
+  "keyword": "autosleep alternatives",
+  "cluster": "alternatives",
+  "intent": "listicle",
+  "evidence": "VERIFIED: autosleep 135 [Bing US 3-month searches in seo/demand.json (2026-11-18)]",
+  "serp_top": [],
+  "difficulty": "INFERENCE: check SERP in step 3",
+  "nularo_fit": 3,
+  "angle": "AutoSleep alternatives for people who find it too dense: Apple's own Sleep, Pillow, Sleep Cycle, Athlytic, Nularo. Link apple-sleep-score-vs-autosleep.",
+  "priority": 12,
+  "status": "todo",
+  "source": "bing-demand-2026-11-18",
+  "download_test": "A"
+ },
+ {
   "keyword": "virtual pet app that uses apple health",
   "cluster": "health-pets",
   "intent": "listicle",
@@ -17,7 +185,7 @@
   "difficulty": "low: VERIFIED Brave Search (includes reddit) top 8: 7 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 5,
   "angle": "INFERENCE: Roundup of pets that actually read HealthKit (Habitvs, Hatchiko, Belly, Poki, DigiBuddy) vs ones that only count steps; Nularo is the one that reads sleep + HRV + RHR with zero logging.",
-  "priority": 1,
+  "priority": 21,
   "status": "done",
   "guide": "virtual-pet-apps-apple-health",
   "done": "2026-10-19"
@@ -42,7 +210,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 10: 4 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 5,
   "angle": "INFERENCE: Answer: no native sleep debt in Apple Health (as of iOS 26/27 coverage); show how to estimate it manually from the Sleep chart and which apps compute it (Nularo shows sleep debt automatically).",
-  "priority": 2,
+  "priority": 22,
   "status": "done",
   "guide": "apple-watch-sleep-debt",
   "done": "2026-10-19"
@@ -65,7 +233,7 @@
   "difficulty": "low: VERIFIED Brave Search (includes reddit) top 8: 8 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: What Finch users ask for (less manual logging, less gentle), alternatives by type; Nularo for people who want the pet to know without being told.",
-  "priority": 3,
+  "priority": 23,
   "status": "done",
   "guide": "finch-alternatives",
   "done": "2026-10-19"
@@ -90,7 +258,7 @@
   "difficulty": "low: VERIFIED WebSearch top 10: 2 App Store listings, 2015 Droid Life/Fox News articles, a student design project, an MIT mailing-list post. INFERENCE: nothing current or dedicated, so low.",
   "nularo_fit": 5,
   "angle": "INFERENCE: Define the 'health tamagotchi' category (pet mood = your real data), list who does it and how each one gets data; Nularo is the zero-logging, sleep-first example.",
-  "priority": 4,
+  "priority": 24,
   "status": "done",
   "guide": "virtual-pet-apps-apple-health",
   "done": "2026-10-19"
@@ -115,7 +283,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 10: 5 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 5,
   "angle": "INFERENCE: Gamified sleep apps compared (Pokemon Sleep, Sleepagotchi, Dreamstone, SleepTrail): rewards vs consequences; Nularo uses a creature whose mood reacts to your sleep.",
-  "priority": 5,
+  "priority": 25,
   "status": "done",
   "guide": "gamified-sleep-tracker-apps",
   "done": "2026-10-20"
@@ -139,7 +307,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 6 weak (reddit/app-store/forums/indie), 1 authority (risescience.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 5,
   "angle": "INFERENCE: Sleep debt apps that read Apple Watch sleep (AutoSleep, Sleep Ledger, Sleep Debt Recovery, Nularo) and how each window is calculated.",
-  "priority": 6,
+  "priority": 26,
   "status": "done",
   "guide": "apple-watch-sleep-debt",
   "done": "2026-10-19"
@@ -162,7 +330,7 @@
   "difficulty": "low: VERIFIED Brave Search (includes reddit) top 8: 7 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Honest list of watch pets (WatchieBesti, Belly, Hatchiko, Pixel Paws, Poki); note Nularo is iPhone-only but reads Watch data via Health, so it fits people who want the pet on the phone.",
-  "priority": 7,
+  "priority": 27,
   "status": "done",
   "guide": "virtual-pet-apps-apple-health",
   "done": "2026-10-19"
@@ -187,7 +355,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 10: 7 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 5,
   "angle": "INFERENCE: Social sleep apps (Sleepover, Slumber, RankedSleep, Sleepee) vs Nularo duo mode (two creatures side by side).",
-  "priority": 8,
+  "priority": 28,
   "status": "done",
   "guide": "sleep-tracking-with-a-partner-or-friends",
   "done": "2026-10-19"
@@ -211,7 +379,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 3 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 5,
   "angle": "INFERENCE: Does Finch sync with Apple Health? Sources show no HealthKit integration (verify in-app before publishing); what to use if you want a pet that does.",
-  "priority": 9,
+  "priority": 29,
   "status": "done",
   "done": "2026-10-21",
   "guide": "finch-alternatives"
@@ -235,7 +403,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 5 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Free-ish bio age apps (VO2 Max Pro, My Bio Age, Gradual, Apple Health Age) and Nularo's free Creature Age reveal; flag paywalls honestly.",
-  "priority": 10,
+  "priority": 30,
   "status": "done",
   "guide": "biological-age-apps-apple-watch",
   "done": "2026-10-19"
@@ -258,7 +426,7 @@
   "difficulty": "low: VERIFIED WebSearch (queried as 'app that roasts you for bad sleep'): itch.io prototype, Product Hunt, regional app-review blogs, one Cult of Mac post; the tool reported no app that roasts your sleep. INFERENCE: low, the sleep-roast niche is empty.",
   "nularo_fit": 5,
   "angle": "INFERENCE: Roundup of roast apps (language, budget, screen time, Carrot Fit era) and the one that roasts your sleep: Nularo's morning verdict.",
-  "priority": 11,
+  "priority": 31,
   "status": "done",
   "done": "2026-10-21",
   "guide": "apps-that-roast-you"
@@ -282,7 +450,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 8 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Garmin Body Battery explained; Apple has no exact match (Readiness on S12 is closest); apps that build an energy gauge from HealthKit (Vigor, Body Battery, Bevel Energy Bank, Nularo Energy score).",
-  "priority": 12,
+  "priority": 32,
   "status": "done",
   "guide": "apple-watch-body-battery",
   "done": "2026-10-19"
@@ -306,7 +474,7 @@
   "difficulty": "low: VERIFIED WebSearch: datingnews.com/datingadvice.com PR-style pieces, Welltory help docs, TWiT app pick, Sleep.com help page. INFERENCE: low, no real comparison page.",
   "nularo_fit": 5,
   "angle": "INFERENCE: Couples sleep apps; Nularo duo mode for partners/accountability buddies; no relationship advice.",
-  "priority": 13,
+  "priority": 33,
   "status": "done",
   "guide": "sleep-tracking-with-a-partner-or-friends",
   "done": "2026-10-19"
@@ -329,7 +497,7 @@
   "difficulty": "low: VERIFIED Brave Search (includes reddit) top 8: 7 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Self-care pets compared: Finch (manual goals) vs data-driven pets; Nularo for people who never remember to log.",
-  "priority": 14,
+  "priority": 34,
   "status": "done",
   "done": "2026-10-22",
   "guide": "self-care-tamagotchi-apps"
@@ -354,7 +522,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 10: 6 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Apple reports SDNN (not rMSSD) and samples sporadically, so numbers look low vs Oura/Whoop; compare to your own baseline, which is exactly how Nularo's mood works.",
-  "priority": 15,
+  "priority": 35,
   "status": "done",
   "done": "2026-10-23",
   "guide": "apple-watch-hrv-always-low"
@@ -378,7 +546,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 6 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Adult-oriented virtual pets (no kiddie mini-games): Nularo's savage roasts and Creature Age are the adult hook.",
-  "priority": 16,
+  "priority": 36,
   "status": "done",
   "guide": "virtual-pet-apps-apple-health",
   "done": "2026-10-19"
@@ -402,7 +570,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 6 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Night-shift sleep apps (ShiftSleep, Riseo) and how Apple Watch handles day sleep; Nularo's personal 14-day baseline. Non-medical.",
-  "priority": 17,
+  "priority": 37,
   "status": "done",
   "guide": "sleep-app-for-night-shift-workers",
   "done": "2026-10-24"
@@ -426,7 +594,7 @@
   "difficulty": "med: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 1 weak (reddit/app-store/forums/indie), 2 authority (nbcnews.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 5,
   "angle": "INFERENCE: Can Apple Watch give you a Whoop Age? Options: Apple Health Age (new), Bevel, Nularo Creature Age (free reveal, per-habit breakdown).",
-  "priority": 18,
+  "priority": 38,
   "status": "done",
   "done": "2026-10-25",
   "guide": "biological-age-apps-apple-watch"
@@ -450,7 +618,7 @@
   "difficulty": "low: VERIFIED WebSearch: results confuse it with the iPhone Night Shift display feature (macerkopf, sleepreviewmag) or are generic Sleep Score explainers. INFERENCE: low, the shift-worker intent is unanswered.",
   "nularo_fit": 4,
   "angle": "INFERENCE: How the bedtime-consistency component behaves for day sleepers and rotating shifts; tips for setting schedules; Nularo baseline is personal so day sleep is not punished vs a fixed clock (verify before publishing).",
-  "priority": 19,
+  "priority": 39,
   "status": "done",
   "guide": "sleep-app-for-night-shift-workers",
   "done": "2026-10-24"
@@ -473,7 +641,7 @@
   "difficulty": "low: VERIFIED Brave Search (includes reddit) top 8: 5 weak (reddit/app-store/forums/indie), 1 authority (techcrunch.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Fitness tamagotchis (Tamawatchi, Fitness Pet, TameWatch) mostly eat steps; explain why sleep is the missing stat and where Nularo fits.",
-  "priority": 20,
+  "priority": 40,
   "status": "done",
   "guide": "virtual-pet-apps-apple-health",
   "done": "2026-10-19"
@@ -498,7 +666,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 10: 4 weak (reddit/app-store/forums/indie), 1 authority (techcrunch.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 5,
   "angle": "INFERENCE: Same page family as 'health tamagotchi app'; target as H2 or separate short page explaining manual (Finch) vs automatic (HealthKit) tamagotchis.",
-  "priority": 21,
+  "priority": 41,
   "status": "done",
   "guide": "virtual-pet-apps-apple-health",
   "done": "2026-10-19"
@@ -522,7 +690,7 @@
   "difficulty": "low: VERIFIED WebSearch: Dealroom, Tsukuba press release, GamesBeat funding news, academic theses. INFERENCE: no consumer roundup ranks, so low.",
   "nularo_fit": 5,
   "angle": "INFERENCE: Merge with 'gamified sleep tracker' or make the app-only angle; cite the Tsukuba Pokemon Sleep observational study carefully.",
-  "priority": 22,
+  "priority": 42,
   "status": "done",
   "guide": "gamified-sleep-tracker-apps",
   "done": "2026-10-20"
@@ -546,7 +714,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 5 weak (reddit/app-store/forums/indie), 1 authority (risescience.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 5,
   "angle": "INFERENCE: Step-by-step: pull 14 nights from Health > Sleep, subtract from your goal; or use an app that reads HealthKit (Nularo, AutoSleep, Sleep Ledger).",
-  "priority": 23,
+  "priority": 43,
   "status": "done",
   "guide": "apple-watch-sleep-debt",
   "done": "2026-10-19"
@@ -571,7 +739,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 10: 9 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 5,
   "angle": "INFERENCE: Same family; Health app screenshots walkthrough plus 'what sleep debt means' without medical claims.",
-  "priority": 24,
+  "priority": 44,
   "status": "done",
   "guide": "apple-watch-sleep-debt",
   "done": "2026-10-19"
@@ -595,7 +763,7 @@
   "difficulty": "low: VERIFIED WebSearch: same dating-site PR pieces + ctrl.blog + Welltory help. INFERENCE: low.",
   "nularo_fit": 5,
   "angle": "INFERENCE: Variant of above; same page.",
-  "priority": 25,
+  "priority": 45,
   "status": "done",
   "guide": "sleep-tracking-with-a-partner-or-friends",
   "done": "2026-10-19"
@@ -619,7 +787,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 6 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Short answer page feeding the 'equivalent' guide.",
-  "priority": 26,
+  "priority": 46,
   "status": "done",
   "guide": "apple-watch-body-battery",
   "done": "2026-10-19"
@@ -643,7 +811,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 6 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Same family as above, framed as 'best'; comparison table.",
-  "priority": 27,
+  "priority": 47,
   "status": "done",
   "guide": "biological-age-apps-apple-watch",
   "done": "2026-10-19"
@@ -666,7 +834,7 @@
   "difficulty": "low: VERIFIED Brave Search (includes reddit) top 8: 8 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Reddit-voice roundup: summarize what r/AppleWatch threads recommend, add the missing option (a pet driven by sleep, not steps).",
-  "priority": 28,
+  "priority": 48,
   "status": "done",
   "guide": "virtual-pet-apps-apple-health",
   "done": "2026-10-19"
@@ -691,7 +859,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 10: 9 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: List of pets fed by exercise/steps; position Nularo as the one that also judges recovery and sleep, not just movement.",
-  "priority": 29,
+  "priority": 49,
   "status": "done",
   "guide": "virtual-pet-apps-apple-health",
   "done": "2026-10-19"
@@ -716,7 +884,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 10: 9 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Apps that score your night (Apple Sleep Score, AutoSleep, SleepMaxx, Nularo's Sleep score + verdict); explain how each grades.",
-  "priority": 30,
+  "priority": 50,
   "status": "done",
   "done": "2026-10-25",
   "guide": "apps-that-rate-your-sleep"
@@ -740,7 +908,7 @@
   "difficulty": "med: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 4 weak (reddit/app-store/forums/indie), 2 authority (sleep.ai, support.apple.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 5,
   "angle": "INFERENCE: Apps that score consistency (Apple Sleep Score, SleepStack, Twilight, Whoop, Nularo) and how each defines it.",
-  "priority": 31,
+  "priority": 51,
   "status": "done",
   "done": "2026-10-26",
   "guide": "sleep-consistency-apps"
@@ -764,7 +932,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 5 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: How Bevel's biological age works and what tier it sits in (sources conflict, verify), vs Creature Age's free reveal.",
-  "priority": 32,
+  "priority": 52,
   "status": "done",
   "done": "2026-10-27",
   "guide": "biological-age-apps-apple-watch",
@@ -789,7 +957,7 @@
   "difficulty": "low: VERIFIED WebSearch (queried with 'reddit'): spam/parked pages, AppleVis comment, Finch FAQ on Notion, screensdesign. INFERENCE: low; also see Brave result for 'finch alternatives reddit' (7 of 8 reddit).",
   "nularo_fit": 4,
   "angle": "INFERENCE: Self-care pet alternatives table (Finch, Habitvs, Pengu, Widgetable, Nularo).",
-  "priority": 33,
+  "priority": 53,
   "status": "done",
   "guide": "finch-alternatives",
   "done": "2026-10-19"
@@ -814,7 +982,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 10: 9 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Couple pets (FurTwo, Pookie, Pengu, Widgetable) are care-the-pet; Nularo duo is two pets that reflect each person's real data.",
-  "priority": 34,
+  "priority": 54,
   "status": "done",
   "guide": "sleep-tracking-with-a-partner-or-friends",
   "done": "2026-10-19"
@@ -838,7 +1006,7 @@
   "difficulty": "med: VERIFIED WebSearch: Apple Watch User Guide, AppleInsider, The5KRunner breakdowns, Says.com. INFERENCE: med; Apple doc answers the basics but nobody explains the 'usual bedtime' penalty for real people.",
   "nularo_fit": 5,
   "angle": "INFERENCE: Explain the bedtime component (how 'usual bedtime' is set, why one late night costs points) and how to see it; Bedtime Pledge as a nudge.",
-  "priority": 35,
+  "priority": 55,
   "status": "done",
   "done": "2026-10-27",
   "guide": "sleep-consistency-apps",
@@ -864,7 +1032,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 10: 10 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Free stress apps roundup; Nularo as paid option bundled with sleep and energy.",
-  "priority": 36,
+  "priority": 56,
   "status": "done",
   "done": "2026-10-27",
   "guide": "apple-watch-stress-app-free"
@@ -889,7 +1057,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 10: 6 weak (reddit/app-store/forums/indie), 1 authority (iphonelife.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Steps + requirements (iOS 27.2, Watch, US English at launch); fallback options if you do not see it yet.",
-  "priority": 37,
+  "priority": 57,
   "status": "done",
   "done": "2026-10-28",
   "guide": "how-to-see-apple-health-age"
@@ -913,7 +1081,7 @@
   "difficulty": "med: VERIFIED WebSearch: Boston Globe, BGR, NBC Select, AOL Whoop-vs-Apple-Watch reviews. INFERENCE: med; big outlets rank but none answers 'how do I get a Whoop-style age on Apple Watch'.",
   "nularo_fit": 5,
   "angle": "INFERENCE: For Apple Watch owners who want Whoop Age without a Whoop: options and how each computes age.",
-  "priority": 38,
+  "priority": 58,
   "status": "done",
   "done": "2026-10-25",
   "guide": "biological-age-apps-apple-watch"
@@ -937,7 +1105,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 8 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Apple shows Cardio Fitness (VO2 max) not a fitness age; how to convert / which apps show one; Creature Age as the sleep+movement take.",
-  "priority": 39,
+  "priority": 59,
   "status": "done",
   "guide": "apple-watch-fitness-age",
   "done": "2026-10-29"
@@ -961,7 +1129,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 6 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Free options first; be clear Nularo is paid with free Creature Age reveal.",
-  "priority": 40,
+  "priority": 60,
   "status": "done",
   "date": "2026-10-30",
   "guide": "bevel-alternative-free"
@@ -986,7 +1154,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 10: 7 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Step-pet roundup (HealthMon, Belly, Peggy Cat, DigiBuddy); Nularo mention is secondary since it is not step-only.",
-  "priority": 41,
+  "priority": 61,
   "status": "done",
   "done": "2026-10-31",
   "guide": "virtual-pet-apps-apple-health",
@@ -1011,7 +1179,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 9 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Habit trackers with a pet (Habbie, HabitYou, Finch) split into manual check-off vs auto-tracked; Nularo for auto-tracked sleep/movement habits.",
-  "priority": 42,
+  "priority": 62,
   "status": "done",
   "done": "2026-10-31",
   "guide": "self-care-tamagotchi-apps",
@@ -1036,7 +1204,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 6 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Self-care pet roundup; be honest that Nularo is roast-y, not gentle, and suits people who find Finch too soft.",
-  "priority": 43,
+  "priority": 63,
   "status": "done",
   "done": "2026-10-22",
   "guide": "self-care-tamagotchi-apps"
@@ -1061,7 +1229,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 10: 6 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Screen-time roast apps (Zario etc.); tie-in: late-night scrolling shows up in sleep data, which is what Nularo roasts.",
-  "priority": 44,
+  "priority": 64,
   "status": "done",
   "done": "2026-10-31",
   "guide": "apps-that-roast-you",
@@ -1086,7 +1254,7 @@
   "difficulty": "med: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 6 weak (reddit/app-store/forums/indie), 2 authority (risescience.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Reddit-framed version: what people actually use (AutoSleep, Rise, Oura) and gaps; Nularo for Apple Watch users who want it automatic.",
-  "priority": 45,
+  "priority": 65,
   "status": "done",
   "done": "2026-10-31",
   "guide": "apple-watch-sleep-debt",
@@ -1111,7 +1279,7 @@
   "difficulty": "med: VERIFIED WebSearch: Pearson calculator pages, RISE help center, Lifestack, Wecovr. INFERENCE: med.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Formula explainer with worked example; non-medical; soft CTA to auto-calc in Nularo.",
-  "priority": 46,
+  "priority": 66,
   "status": "done",
   "done": "2026-10-31",
   "guide": "apple-watch-sleep-debt",
@@ -1136,7 +1304,7 @@
   "difficulty": "med: VERIFIED WebSearch: spam pages on calpoly.edu housing subdomain, taxheal, iPhone Life sleep-score tutorial, Apple Watch User Guide. INFERENCE: med (Apple's own doc partially answers it).",
   "nularo_fit": 5,
   "angle": "INFERENCE: Where bedtime consistency lives in Apple's Sleep Score (30 of 100 points, last 13 nights); Nularo's bedtime consistency + Bedtime Pledge as the accountability layer.",
-  "priority": 47,
+  "priority": 67,
   "status": "done",
   "done": "2026-10-26",
   "guide": "sleep-consistency-apps"
@@ -1161,7 +1329,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 10: 6 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Why the numbers conflict (iPhone vs Watch sources, inBed samples dropped in watchOS 11 per Apple dev forums); how to check Data Sources.",
-  "priority": 48,
+  "priority": 68,
   "status": "done",
   "done": "2026-10-31",
   "guide": "apple-watch-time-in-bed"
@@ -1185,7 +1353,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 4 weak (reddit/app-store/forums/indie), 1 authority (support.apple.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Explain Apple stopped recording inBed samples on watchOS 11/iOS 18 (Apple dev forum answer); what to look at instead.",
-  "priority": 49,
+  "priority": 69,
   "status": "done",
   "done": "2026-10-31",
   "guide": "apple-watch-time-in-bed"
@@ -1209,7 +1377,7 @@
   "difficulty": "low: VERIFIED WebSearch: Welltory help, MobiHealthNews (2020-era), spam pages on a university housing domain, Apple Community thread. INFERENCE: low.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Annotated walkthrough of the Sleep chart (stages, awake blocks, schedule); visuals-heavy.",
-  "priority": 50,
+  "priority": 70,
   "status": "done",
   "done": "2026-11-01",
   "guide": "apple-watch-sleep-graph-explained"
@@ -1233,7 +1401,7 @@
   "difficulty": "low: VERIFIED WebSearch: one MacRumors forum thread + several machine-generated spam pages. INFERENCE: low.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Apple native score vs AutoSleep's metrics; who each suits; mention Nularo as the fun layer, not a replacement for analysis.",
-  "priority": 51,
+  "priority": 71,
   "status": "done",
   "done": "2026-11-02",
   "guide": "apple-sleep-score-vs-autosleep"
@@ -1257,7 +1425,7 @@
   "difficulty": "med: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 3 weak (reddit/app-store/forums/indie), 2 authority (the5krunner.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Yes on Series 12/Ultra 4 (Readiness 0-10), no on older models; list apps that compute recovery from HealthKit.",
-  "priority": 52,
+  "priority": 72,
   "status": "done",
   "guide": "does-apple-watch-have-recovery-score",
   "done": "2026-11-03"
@@ -1282,7 +1450,7 @@
   "difficulty": "low: VERIFIED WebSearch: scraped/spam blogs, Terra blog, intervals.icu forum, ODU research recruitment, Marathon Handbook. INFERENCE: low.",
   "nularo_fit": 3,
   "angle": "INFERENCE: When the Watch samples HRV overnight and why readings vary; baseline-over-time framing; non-medical.",
-  "priority": 53,
+  "priority": 73,
   "status": "done",
   "date": "2026-11-04",
   "guide": "apple-watch-hrv-during-sleep"
@@ -1306,7 +1474,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 3 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Apple's definition excludes sleep vs Garmin/Oura/Whoop measuring during sleep; why your numbers differ across devices.",
-  "priority": 54,
+  "priority": 74,
   "status": "done",
   "date": "2026-11-05",
   "guide": "does-apple-watch-resting-heart-rate-include-sleep"
@@ -1330,7 +1498,7 @@
   "difficulty": "med: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 0 weak (reddit/app-store/forums/indie), 1 authority (t3.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Early-reaction roundup: why numbers surprise people, what moves it; transparent per-habit breakdown as Nularo's differentiator.",
-  "priority": 55,
+  "priority": 75,
   "status": "done",
   "done": "2026-11-06",
   "guide": "how-to-see-apple-health-age"
@@ -1354,7 +1522,7 @@
   "difficulty": "med: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 2 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Hub page: all the ways to get an 'age' number from Apple Watch data and what each one actually measures; non-medical.",
-  "priority": 56,
+  "priority": 76,
   "status": "done",
   "done": "2026-11-06",
   "guide": "biological-age-apps-apple-watch"
@@ -1378,7 +1546,7 @@
   "difficulty": "med: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 1 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Yes, now via Health Age (iOS 27.2) on supported setups; before that only third-party apps; explain estimates vs clinical tests.",
-  "priority": 57,
+  "priority": 77,
   "status": "done",
   "done": "2026-11-06",
   "guide": "biological-age-apps-apple-watch"
@@ -1402,7 +1570,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 4 weak (reddit/app-store/forums/indie), 1 authority (en.wikipedia.org). Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Pengu/Widgetable-style social pets vs health-driven pets; duo mode as Nularo's social angle.",
-  "priority": 58,
+  "priority": 78,
   "status": "done",
   "done": "2026-11-06",
   "guide": "pengu-app-alternatives"
@@ -1426,7 +1594,7 @@
   "difficulty": "med: VERIFIED WebSearch: Calm blog, Sleep Cycle, Khaleej Times, local TV sites, 3 App Store listings for apps named SleepMaxx. INFERENCE: med.",
   "nularo_fit": 4,
   "angle": "INFERENCE: What sleepmaxxing is, which parts are tracking vs products; an app that grades your sleep vs your own baseline without obsessing (note orthosomnia caution from Calm/Stanford quotes).",
-  "priority": 59,
+  "priority": 79,
   "status": "done",
   "done": "2026-11-07",
   "guide": "sleepmaxxing-apps"
@@ -1450,7 +1618,7 @@
   "difficulty": "low: VERIFIED WebSearch: mattress-brand blogs (Tuft & Needle, Mattress Miracle), Nuffield Health, small Substacks. INFERENCE: low-to-med; Google likely shows reddit threads (not testable here).",
   "nularo_fit": 3,
   "angle": "INFERENCE: Why it happens, app-based tactics; your sleep data shows the cost next morning (creature verdict).",
-  "priority": 60,
+  "priority": 80,
   "status": "done",
   "done": "2026-11-08",
   "guide": "doomscrolling-before-bed"
@@ -1474,7 +1642,7 @@
   "difficulty": "med: VERIFIED WebSearch: all R-package docs (CRAN mirrors, rOpenSci, rdrr.io). INFERENCE: no consumer explainer in this index, but Google likely surfaces Sleep Foundation-type pages for the head term, so med.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Plain-English social jet lag formula (mid-sleep free days minus workdays) with a worked example and how to pull times from Apple Health; Nularo bedtime consistency as the auto version.",
-  "priority": 61,
+  "priority": 81,
   "status": "done",
   "guide": "how-to-calculate-social-jet-lag",
   "done": "2026-11-09"
@@ -1498,7 +1666,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 3 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: LDR pets roundup; Nularo duo as health-accountability twist.",
-  "priority": 62,
+  "priority": 82,
   "status": "done",
   "done": "2026-11-06",
   "guide": "pengu-app-alternatives"
@@ -1522,7 +1690,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 4 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Accountability apps; Nularo duo + Bedtime Pledge for sleep accountability.",
-  "priority": 63,
+  "priority": 83,
   "status": "done",
   "guide": "accountability-buddy-app-free",
   "done": "2026-11-10"
@@ -1546,7 +1714,7 @@
   "difficulty": "low: VERIFIED WebSearch: spammy auto-generated pages, small marketing blogs, one Boise State paper. INFERENCE: low.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Gamified fitness apps people recommend; Nularo as the creature-based option.",
-  "priority": 64,
+  "priority": 84,
   "status": "done",
   "guide": "gamified-fitness-apps",
   "done": "2026-11-16",
@@ -1572,7 +1740,7 @@
   "difficulty": "med: VERIFIED WebSearch (queried 'Samsung sleep animal apple watch equivalent'): SlashGear, T3, Wareable, Samsung newsroom, all about Samsung; none answers the Apple side. INFERENCE: med; the Apple-switcher angle is open.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Samsung's Sleep Animals explained for Apple Watch switchers: Apple has no equivalent; a creature whose mood reflects your sleep is the closest thing.",
-  "priority": 65,
+  "priority": 85,
   "status": "done",
   "guide": "apple-watch-sleep-animal",
   "done": "2026-11-17"
@@ -1596,7 +1764,7 @@
   "difficulty": "med: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 2 weak (reddit/app-store/forums/indie), 2 authority (risescience.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Explain the simple formula (goal minus actual over a rolling window), embed a tiny calculator, then point to apps that do it automatically.",
-  "priority": 66,
+  "priority": 86,
   "status": "done",
   "done": "2026-11-18",
   "slug": "sleep-debt-calculator"
@@ -1620,7 +1788,7 @@
   "difficulty": "med: VERIFIED WebSearch: NCBI/PMC papers, Sleep Cycle, two Tom's Guide pieces. INFERENCE: med; research ranks but no 'which app shows SRI' page.",
   "nularo_fit": 4,
   "angle": "INFERENCE: What a sleep regularity score is (SRI concept in plain English), which apps show one; Nularo's bedtime consistency stat.",
-  "priority": 67,
+  "priority": 87,
   "status": "todo"
  },
  {
@@ -1642,7 +1810,7 @@
   "difficulty": "med: VERIFIED WebSearch: SlashGear, AppleInsider, 9to5Mac, iPhone Life generic Sleep Score explainers plus gori.me and geekchamp. INFERENCE: med; none is dedicated to this exact complaint.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Why Apple's score can be high on a rough night (duration/bedtime/interruptions only, stage estimates); non-medical; Nularo judges vs YOUR 14-day baseline incl. HRV/RHR.",
-  "priority": 68,
+  "priority": 88,
   "status": "done",
   "guide": "apple-sleep-score-always-high",
   "done": "2026-11-15",
@@ -1667,7 +1835,7 @@
   "difficulty": "med: VERIFIED WebSearch: Tom's Guide (habits piece, different intent), 9to5Mac, The5KRunner, AppleInsider. INFERENCE: med.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Score is relative to your own habits and duration-weighted; explain tiers and why it saturates; contrast with a baseline-relative verdict.",
-  "priority": 69,
+  "priority": 89,
   "status": "done",
   "guide": "apple-sleep-score-always-high",
   "done": "2026-11-15"
@@ -1691,7 +1859,7 @@
   "difficulty": "med: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 1 weak (reddit/app-store/forums/indie), 1 authority (macworld.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Decode a confusing score using the 50/30/20 breakdown; show three example nights.",
-  "priority": 70,
+  "priority": 90,
   "status": "done",
   "guide": "apple-sleep-score-always-high",
   "done": "2026-11-15",
@@ -1716,7 +1884,7 @@
   "difficulty": "med: VERIFIED WebSearch: two older iMore pieces, SlashGear State of Mind how-to, App Store listings. INFERENCE: med.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Apps that infer 'how you are doing' from HealthKit (State of Mind logging in Health, HRV-based apps, Nularo's creature mood which reflects your data, not your feelings).",
-  "priority": 71,
+  "priority": 91,
   "status": "todo"
  },
  {
@@ -1738,7 +1906,7 @@
   "difficulty": "med: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 2 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Broader alt list incl. non-Apple users; Nularo where relevant.",
-  "priority": 72,
+  "priority": 92,
   "status": "todo"
  },
  {
@@ -1760,8 +1928,9 @@
   "difficulty": "med: VERIFIED WebSearch (queried 'pokemon sleep alternative for apple watch'): AlternativeTo + gaming sites answering compatibility, not alternatives. INFERENCE: med.",
   "nularo_fit": 4,
   "angle": "INFERENCE: For people who like sleep-as-game but want Apple Health stats beyond sleep: Sleepagotchi, Dreamstone, Nularo.",
-  "priority": 73,
-  "status": "todo"
+  "priority": 93,
+  "status": "merged",
+  "merged_into": "pokemon sleep alternative (bing-demand item)"
  },
  {
   "keyword": "gen z sleepmaxxing",
@@ -1782,7 +1951,7 @@
   "difficulty": "med: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 0 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Gen Z angle on the trend; roast cards as the shareable Gen Z format.",
-  "priority": 74,
+  "priority": 94,
   "status": "todo"
  },
  {
@@ -1804,7 +1973,7 @@
   "difficulty": "low: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 3 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 2,
   "angle": "INFERENCE: Bed rotting explained; apps people use; Nularo fit is weak (movement roast). Low priority.",
-  "priority": 75,
+  "priority": 95,
   "status": "todo"
  },
  {
@@ -1826,7 +1995,7 @@
   "difficulty": "med: VERIFIED WebSearch: dominated by the hidden Night Shift DISPLAY mode (iPhone Life, MacRumors, Gadgets & Wearables); only one Apple Community thread about night-shift workers. INFERENCE: med with intent-ambiguity risk; title must say 'night shift workers'.",
   "nularo_fit": 4,
   "angle": "INFERENCE: How to set Sleep schedules/Focus for day sleep, whether daytime sleep counts, how scores treat it.",
-  "priority": 76,
+  "priority": 96,
   "status": "done",
   "guide": "sleep-app-for-night-shift-workers",
   "done": "2026-11-16",
@@ -1851,7 +2020,7 @@
   "difficulty": "high: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 1 weak (reddit/app-store/forums/indie), 6 authority (bustle.com, risescience.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 5,
   "angle": "INFERENCE: Comparison table of sleep debt apps (rolling window, needs Watch?, price); Nularo row honest about $39.99/yr.",
-  "priority": 77,
+  "priority": 97,
   "status": "todo"
  },
  {
@@ -1873,7 +2042,7 @@
   "difficulty": "med: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 1 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Apple Watch tamagotchis list; Nularo noted as iPhone app that uses Watch data.",
-  "priority": 78,
+  "priority": 98,
   "status": "todo"
  },
  {
@@ -1895,7 +2064,7 @@
   "difficulty": "med: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 0 weak (reddit/app-store/forums/indie), 2 authority (apple.com, tomsguide.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: What 'core' means in Apple's staging (light sleep), why most of a night is core; no medical claims; Nularo shows stages alongside the verdict.",
-  "priority": 79,
+  "priority": 99,
   "status": "todo"
  },
  {
@@ -1918,7 +2087,7 @@
   "difficulty": "high: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 10: 0 weak (reddit/app-store/forums/indie), 4 authority (androidauthority.com, digitaltrends.com, notebookcheck.net). Rating is INFERENCE from that mix.",
   "nularo_fit": 5,
   "angle": "INFERENCE: Apple's Readiness (Sept 2026) is Series 12 / Ultra 4 only; what Series 10 owners can use instead (Vitals, Sleep Score, third-party energy/recovery scores incl. Nularo's Energy score).",
-  "priority": 80,
+  "priority": 100,
   "status": "todo"
  },
  {
@@ -1940,7 +2109,7 @@
   "difficulty": "med: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 0 weak (reddit/app-store/forums/indie), 2 authority (bgr.com, t3.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Table: inputs, window, cost, hardware for Apple Health Age, Whoop Age, Bevel Bio Age, Nularo Creature Age.",
-  "priority": 81,
+  "priority": 101,
   "status": "todo"
  },
  {
@@ -1962,7 +2131,7 @@
   "difficulty": "med: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 2 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Whoop's Pace of Aging explained and why Apple Watch has no direct equivalent; Creature Age ages faster when you neglect yourself, which is the playful analog.",
-  "priority": 82,
+  "priority": 102,
   "status": "todo"
  },
  {
@@ -1984,8 +2153,9 @@
   "difficulty": "med: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 1 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Bevel alternatives (Athlytic, Gentler Streak, Edge, Nularo) by what you actually want: numbers vs motivation.",
-  "priority": 83,
-  "status": "todo"
+  "priority": 103,
+  "status": "merged",
+  "merged_into": "bevel app review (bing-demand item)"
  },
  {
   "keyword": "adhd sleep tracker",
@@ -2006,7 +2176,7 @@
   "difficulty": "med: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 1 weak (reddit/app-store/forums/indie), 1 authority (risescience.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Why zero-logging matters if logging is the habit that breaks; no medical claims; Nularo automatic tracking.",
-  "priority": 84,
+  "priority": 104,
   "status": "todo"
  },
  {
@@ -2028,7 +2198,7 @@
   "difficulty": "med: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 0 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Explanatory piece on chronotype shifts, screens, social jet lag (cite research carefully); soft creature CTA.",
-  "priority": 85,
+  "priority": 105,
   "status": "todo"
  },
  {
@@ -2050,7 +2220,7 @@
   "difficulty": "high: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 0 weak (reddit/app-store/forums/indie), 3 authority (techradar.com, the5krunner.com, tomsguide.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 5,
   "angle": "INFERENCE: Same as above for Series 11 owners who just missed the cutoff; explain why (new sensing hardware per Apple) and alternatives.",
-  "priority": 86,
+  "priority": 106,
   "status": "todo"
  },
  {
@@ -2072,7 +2242,7 @@
   "difficulty": "high: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 1 weak (reddit/app-store/forums/indie), 4 authority (9to5mac.com, bgr.com, tomsguide.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: No native stress score; what HRV can and cannot say (non-medical); apps that turn HRV/RHR into a stress score incl. Nularo's Stress score.",
-  "priority": 87,
+  "priority": 107,
   "status": "todo"
  },
  {
@@ -2094,7 +2264,7 @@
   "difficulty": "high: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 1 weak (reddit/app-store/forums/indie), 3 authority (iphonelife.com, t3.com, tomsguide.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: What Apple's Health Age (Longevity tab, iOS 27.2 beta, needs Apple Watch) uses (VO2 max, RHR, sleep, HRV, optional labs) and how it differs from rules-based ages like Nularo's Creature Age.",
-  "priority": 88,
+  "priority": 108,
   "status": "todo"
  },
  {
@@ -2116,8 +2286,9 @@
   "difficulty": "high: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 1 weak (reddit/app-store/forums/indie), 4 authority (link.healthline.com, risescience.com, sleep.ai). Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Explain the term (Daphne K. Lee), list app approaches (blockers, reminders, accountability); Nularo's Bedtime Pledge + next-morning check is a consequence-based nudge. No treatment claims.",
-  "priority": 89,
-  "status": "todo"
+  "priority": 109,
+  "status": "merged",
+  "merged_into": "revenge bedtime procrastination (bing-demand item)"
  },
  {
   "keyword": "adhd gamify life app",
@@ -2137,7 +2308,7 @@
   "difficulty": "med: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 8: 2 weak (reddit/app-store/forums/indie), 0 authority. Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Gamified life apps (Habitica, Finch, Nularo) and which ones require daily input; careful non-clinical framing.",
-  "priority": 90,
+  "priority": 110,
   "status": "todo"
  },
  {
@@ -2159,7 +2330,7 @@
   "difficulty": "high: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 0 weak (reddit/app-store/forums/indie), 5 authority (cultofmac.com, tomsguide.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: The common reasons people report (late bedtime vs usual, wake-ups, short night) and how to read the breakdown.",
-  "priority": 91,
+  "priority": 111,
   "status": "done",
   "guide": "how-to-get-100-sleep-score-apple-watch",
   "done": "2026-11-16",
@@ -2184,7 +2355,7 @@
   "difficulty": "high: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 1 weak (reddit/app-store/forums/indie), 5 authority (appleinsider.com, macworld.com, wareable.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 4,
   "angle": "INFERENCE: Native options (Activity sharing, Health Sharing) and limits (no sleep sharing with friends natively); apps that do it incl. Nularo duo.",
-  "priority": 92,
+  "priority": 112,
   "status": "todo"
  },
  {
@@ -2206,7 +2377,7 @@
   "difficulty": "high: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 1 weak (reddit/app-store/forums/indie), 3 authority (en.wikipedia.org, nationalgeographic.com, scotsman.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: What the community actually does; separate evidence-backed habits from product hype; tracking angle.",
-  "priority": 93,
+  "priority": 113,
   "status": "todo"
  },
  {
@@ -2228,7 +2399,7 @@
   "difficulty": "high: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 0 weak (reddit/app-store/forums/indie), 4 authority (app.iphonelife.com, iphonelife.com, macworld.com, tomsguide.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: What a perfect score requires per Apple's components; playful tone; Nularo creature 'glowing' as the equivalent flex.",
-  "priority": 94,
+  "priority": 114,
   "status": "done",
   "guide": "how-to-get-100-sleep-score-apple-watch",
   "done": "2026-11-16"
@@ -2252,7 +2423,7 @@
   "difficulty": "high: VERIFIED WebSearch: Tom's Guide dedicated week-long comparison, TechRadar test, Terra blog. INFERENCE: high.",
   "nularo_fit": 3,
   "angle": "INFERENCE: How each score is built (Apple 50/30/20 vs Oura contributors), why numbers disagree; Nularo as a third 'baseline vs you' read for Apple users without a ring.",
-  "priority": 95,
+  "priority": 115,
   "status": "todo"
  },
  {
@@ -2274,7 +2445,7 @@
   "difficulty": "high: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 1 weak (reddit/app-store/forums/indie), 3 authority (9to5mac.com, imore.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Plain-English HRV explainer for Apple Watch users; heavy competition so keep it as a hub-supporting page.",
-  "priority": 96,
+  "priority": 116,
   "status": "todo"
  },
  {
@@ -2297,7 +2468,7 @@
   "difficulty": "high: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 10: 0 weak (reddit/app-store/forums/indie), 4 authority (9to5mac.com, bgr.com, wareable.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Whoop-style apps for Apple Watch (Bevel, Athlytic, Gentler Streak, Nularo) by feature: recovery, strain, age.",
-  "priority": 97,
+  "priority": 117,
   "status": "todo"
  },
  {
@@ -2319,7 +2490,7 @@
   "difficulty": "high: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 1 weak (reddit/app-store/forums/indie), 4 authority (additudemag.com, ouraring.com, understood.org). Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Community-sourced patterns + non-medical habit tactics; careful wording; soft Nularo mention.",
-  "priority": 98,
+  "priority": 118,
   "status": "todo"
  },
  {
@@ -2341,7 +2512,7 @@
   "difficulty": "high: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 1 weak (reddit/app-store/forums/indie), 5 authority (blog.calm.com, calm.com, en.wikipedia.org, sleepcycle.com, ubiehealth.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 3,
   "angle": "INFERENCE: Routine guide focused on non-medical basics (consistency, light, screens) with how to see if it worked in Apple Health.",
-  "priority": 99,
+  "priority": 119,
   "status": "todo"
  },
  {
@@ -2363,7 +2534,7 @@
   "difficulty": "high: VERIFIED WebSearch tool (non-Google index; reddit.com never returned) top 9: 0 weak (reddit/app-store/forums/indie), 6 authority (9to5mac.com, dexerto.com, imore.com, primagames.com, techradar.com). Rating is INFERENCE from that mix.",
   "nularo_fit": 2,
   "angle": "INFERENCE: How Pokemon Sleep tracks via phone vs smartwatch link; small Nularo mention (needs Health data).",
-  "priority": 100,
+  "priority": 120,
   "status": "todo"
  },
  {
@@ -2375,7 +2546,7 @@
   "difficulty": "INFERENCE: med; generic Sleep Score explainers rank",
   "nularo_fit": 3,
   "angle": "INFERENCE: Apple's Oct 2025 validation paper numbers vs independent studies; keep distinct from apple-sleep-score-always-high (why it runs high) by focusing on stage accuracy.",
-  "priority": 101,
+  "priority": 121,
   "status": "todo",
   "source": "forums"
  },
@@ -2388,7 +2559,7 @@
   "difficulty": "INFERENCE: unknown, check SERP",
   "nularo_fit": 2,
   "angle": "INFERENCE: Whether Apple's Sleep schedule alarm or any Apple Health app can wake you after N hours asleep rather than at a clock time; Apple path first.",
-  "priority": 102,
+  "priority": 122,
   "status": "done",
   "source": "reddit",
   "guide": "apple-watch-alarm-after-8-hours-of-sleep",
@@ -2403,7 +2574,7 @@
   "difficulty": "INFERENCE: unknown, check SERP",
   "nularo_fit": 3,
   "angle": "INFERENCE: Where Health shows heart rate ranges by D/W/M/Y vs resting heart rate, and the Trends section; Apple path first, no medical interpretation.",
-  "priority": 103,
+  "priority": 123,
   "status": "todo",
   "source": "reddit"
  }
