@@ -1597,7 +1597,9 @@
   "nularo_fit": 4,
   "angle": "INFERENCE: Explain the simple formula (goal minus actual over a rolling window), embed a tiny calculator, then point to apps that do it automatically.",
   "priority": 66,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-11-18",
+  "slug": "sleep-debt-calculator"
  },
  {
   "keyword": "sleep regularity score",

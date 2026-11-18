@@ -822,3 +822,89 @@ figure.screen figcaption {
     grid-template-columns: 1fr;
   }
 }
+
+/* ── guide calculators (plain HTML/JS tool pages, nothing leaves the
+   page). Uses the same tokens as everything above. ─────────────── */
+
+.calc {
+  margin: 24px 0;
+  padding: 20px;
+  border: 1px solid var(--hairline);
+  border-radius: 16px;
+  background: var(--scrim);
+}
+
+.calc-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+  margin-bottom: 10px;
+}
+
+.calc-row > label:first-child,
+.calc-label {
+  flex: 0 0 170px;
+  color: var(--text-mute);
+  font-size: 15px;
+}
+
+.calc input[type="text"] {
+  width: 110px;
+  padding: 8px 10px;
+  font: inherit;
+  color: var(--text-light);
+  background: var(--canvas);
+  border: 1px solid var(--body-deep);
+  border-radius: 8px;
+}
+
+.calc input[type="text"]:focus {
+  outline: 2px solid var(--body-vivid);
+  outline-offset: 1px;
+}
+
+.calc-choice {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-light);
+}
+
+.calc-nights {
+  margin: 14px 0;
+}
+
+.calc-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 14px 0;
+}
+
+.calc button {
+  padding: 8px 14px;
+  font: inherit;
+  font-size: 14px;
+  color: var(--text-light);
+  background: var(--body-deep);
+  border: 1px solid var(--body-mid);
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.calc-out {
+  margin-top: 8px;
+  padding-top: 14px;
+  border-top: 1px solid var(--hairline);
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+.calc-out strong {
+  color: var(--ember-hot);
+}
+
+.calc-out small {
+  color: var(--text-mute);
+}

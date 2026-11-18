@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sleep Debt Calculator (Free, Uses Apple Health Numbers)</title>
+    <meta name="description" content="A free sleep debt calculator for 7 or 14 nights. Type in Time Asleep from Apple Health, see your debt two ways, and why apps give different numbers." />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+    <link rel="canonical" href="https://nularo.com/guides/sleep-debt-calculator/" />
+    <meta name="apple-itunes-app" content="app-id=6792171696" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="Nularo" />
+    <meta property="og:title" content="Sleep Debt Calculator (Free, Uses Apple Health Numbers)" />
+    <meta property="og:description" content="A free sleep debt calculator for 7 or 14 nights. Type in Time Asleep from Apple Health, see your debt two ways, and why apps give different numbers." />
+    <meta property="og:url" content="https://nularo.com/guides/sleep-debt-calculator/" />
+    <meta property="og:image" content="https://nularo.com/img/hero-glowing.webp" />
+    <meta property="og:image:alt" content="Nularo's creature, glowing" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="/style.css" />
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Sleep debt calculator for your Apple Watch sleep data", "description": "A free sleep debt calculator for 7 or 14 nights. Type in Time Asleep from Apple Health, see your debt two ways, and why apps give different numbers.", "datePublished": "2026-11-18", "dateModified": "2026-11-18", "mainEntityOfPage": "https://nularo.com/guides/sleep-debt-calculator/", "inLanguage": "en", "wordCount": 1695, "isPartOf": {"@type": "WebSite", "@id": "https://nularo.com/#website", "name": "Nularo", "url": "https://nularo.com/"}, "about": {"@type": "MobileApplication", "@id": "https://nularo.com/#app", "name": "Nularo"}, "image": "https://nularo.com/img/hero-glowing.webp", "author": {"@type": "Organization", "@id": "https://nularo.com/#org", "name": "Nularo", "url": "https://nularo.com/"}, "publisher": {"@type": "Organization", "@id": "https://nularo.com/#org", "name": "Nularo", "url": "https://nularo.com/", "logo": {"@type": "ImageObject", "url": "https://nularo.com/img/creature-glowing.webp"}}}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Guides", "item": "https://nularo.com/guides/"}, {"@type": "ListItem", "position": 2, "name": "Apple Watch sleep", "item": "https://nularo.com/guides/#watch-sleep"}, {"@type": "ListItem", "position": 3, "name": "Sleep debt calculator for your Apple Watch sleep data", "item": "https://nularo.com/guides/sleep-debt-calculator/"}]}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "HowTo", "name": "Sleep debt calculator for your Apple Watch sleep data", "step": [{"@type": "HowToStep", "position": 1, "text": "Find your Sleep Goal: in Health tap Browse, Sleep, Sleep again, scroll to Your Schedule, tap Full Schedule & Options and read Sleep Goal under Additional Details."}, {"@type": "HowToStep", "position": 2, "text": "On the same Sleep screen, tap the week tab and tap each night's column to read its Time Asleep. On Apple Watch, the Sleep app shows Time Asleep for the last 14 days if you turn the Digital Crown."}, {"@type": "HowToStep", "position": 3, "text": "Choose 7 or 14 nights in the calculator and type each night as hours and minutes, such as 6:40. Leave nights with no data blank."}, {"@type": "HowToStep", "position": 4, "text": "Read both results: net debt (long nights pay back short ones) and shortfall-only debt (only short nights count)."}]}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do you calculate sleep debt?", "acceptedAnswer": {"@type": "Answer", "text": "Multiply your nightly sleep goal by the number of nights you are counting, then subtract the sleep you actually got over those nights. With a 7 hour 30 minute goal and 43 hours 25 minutes of sleep over 6 nights, the debt is 45 hours minus 43 hours 25 minutes, or 1 hour 35 minutes."}}, {"@type": "Question", "name": "Should I count 7 nights or 14?", "acceptedAnswer": {"@type": "Answer", "text": "Either works if you stay consistent. Seven nights reacts quickly to a bad week. Fourteen nights is what Rise and Sleep Ledger use, so pick 14 if you want to compare against those apps. A longer window smooths out one bad night but also remembers it for longer."}}, {"@type": "Question", "name": "Does sleeping longer cancel sleep debt?", "acceptedAnswer": {"@type": "Answer", "text": "On paper, it depends on the method. A net calculation lets a long night subtract from the total, while a shortfall-only calculation ignores surplus nights. The calculator here shows both. Neither number says how you feel or anything about your health, and if your sleep worries you, talk to a doctor."}}, {"@type": "Question", "name": "Is there a sleep debt calculator app for Apple Watch?", "acceptedAnswer": {"@type": "Answer", "text": "Apple does not include one: the Health app and the watch's Sleep app show nightly Time Asleep and a Sleep Score, not a running debt. Apps that read Apple Health, such as AutoSleep, Rise, Athlytic and Sleep Ledger, add it up for you, each with its own window and method."}}, {"@type": "Question", "name": "Does Nularo calculate sleep debt?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, a 7-day figure on its Overview tab, worked out from the sleep in Apple Health with nothing to type in. It is iPhone only, it updates the morning after, and it judges the number rather than giving you a plan to pay it back."}}]}</script>
+  </head>
+  <body>
+    <nav class="topbar">
+      <div class="topbar-inner">
+        <a class="wordmark" href="/">Nularo</a>
+        <div class="navlinks">
+          <a href="/guides/">Guides</a>
+          <a class="nav-store" href="https://apps.apple.com/us/app/nularo/id6792171696" data-cta="nav">Get the app</a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <article class="wrap guide">
+        <nav class="crumbs"><a href="/guides/">Guides</a> <span>/</span> <a href="/guides/#watch-sleep">Apple Watch sleep</a></nav>
+        <header class="doc-head">
+          <h1>Sleep debt calculator for your Apple Watch sleep data</h1>
+          <p class="updated">Updated November 18, 2026 · 7 min read · <a href="/guides/how-we-write/">How we write these</a></p>
+        </header>
+        <a class="hero-card" href="https://apps.apple.com/us/app/nularo/id6792171696" data-cta="hero">
+          <img src="/img/creature-glowing.webp" alt="" width="44" height="44" />
+          <span><strong>Nularo</strong> reads your Apple Health and turns it into a creature that reacts to how you really slept and moved.</span>
+          <span class="hero-card-go">Get it</span>
+        </a>
+        <div class="tldr pane pane--violet"><p class="tldr-label">Short answer</p><p>Sleep debt is your sleep goal times the number of nights, minus the sleep you actually got. Get the numbers from the Health app on iPhone: tap Browse, Sleep, then Sleep again, tap the week tab and tap each night's column for Time Asleep. Your Sleep Goal is under Your Schedule, Full Schedule & Options, Additional Details. Type them into the calculator below. Skip nights with no data rather than entering zero, and note that letting long nights cancel short ones gives a smaller number.</p></div>
+<p class="lede">You had a rough week, you can feel it, and you want a number. Apple Health gives you each night's Time Asleep but never adds them up. The calculator below does, in about a minute, using the figures your Apple Watch already recorded. Nothing you type leaves this page.</p>
+
+<h2>Work out your sleep debt</h2>
+<p>Type your sleep goal, choose how many nights to count, then enter each night's sleep as hours and minutes (6:40, or 6h40, or 6.5 for six and a half hours). Leave a night blank if there is no data for it. The next section shows where each number lives in the Health app.</p>
+<form class="calc" id="sd-calc" onsubmit="return false">
+  <div class="calc-row">
+    <label for="sd-goal">Sleep goal per night</label>
+    <input id="sd-goal" type="text" inputmode="decimal" value="8:00" autocomplete="off" />
+  </div>
+  <div class="calc-row">
+    <span class="calc-label">Nights to count</span>
+    <label class="calc-choice"><input type="radio" name="sd-n" value="7" checked /> 7</label>
+    <label class="calc-choice"><input type="radio" name="sd-n" value="14" /> 14</label>
+  </div>
+  <div class="calc-nights" id="sd-nights"></div>
+  <div class="calc-buttons">
+    <button type="button" id="sd-example">Fill in the example</button>
+    <button type="button" id="sd-clear">Clear nights</button>
+  </div>
+  <div class="calc-out" id="sd-out" aria-live="polite">Enter at least one night to see your sleep debt.</div>
+</form>
+<script>
+(function () {
+  var box = document.getElementById("sd-nights"), out = document.getElementById("sd-out");
+  var goal = document.getElementById("sd-goal");
+  function parse(s) {
+    s = (s || "").trim().toLowerCase().replace(/min|m$/g, "");
+    if (!s) return null;
+    var m = s.match(/^(\d{1,2})\s*[:h]\s*(\d{0,2})$/);
+    if (m) { var mm = +(m[2] || 0); return mm < 60 && +m[1] <= 24 ? +m[1] * 60 + mm : NaN; }
+    var d = parseFloat(s.replace(",", "."));
+    return /^\d{1,2}([.,]\d+)?$/.test(s) && d <= 24 ? Math.round(d * 60) : NaN;
+  }
+  function fmt(min) { var h = Math.floor(min / 60), m = Math.round(min % 60); return h + " h " + (m < 10 ? "0" : "") + m + " min"; }
+  function nights() { return +document.querySelector('input[name="sd-n"]:checked').value; }
+  function rows() {
+    var keep = [].map.call(box.querySelectorAll("input"), function (i) { return i.value; });
+    box.innerHTML = "";
+    for (var i = 0; i < nights(); i++) {
+      var id = "sd-night-" + i, lab = i === 0 ? "Last night" : (i + 1) + " nights ago";
+      box.insertAdjacentHTML("beforeend", '<div class="calc-row"><label for="' + id + '">' + lab + '</label><input id="' + id + '" type="text" inputmode="decimal" placeholder="h:mm" autocomplete="off" value="' + (keep[i] || "") + '" /></div>');
+    }
+    calc();
+  }
+  function calc() {
+    var g = parse(goal.value);
+    if (g === null || isNaN(g) || g === 0) { out.textContent = "Enter a sleep goal, such as 8:00."; return; }
+    var total = 0, n = 0, skipped = 0, short = 0, bad = 0;
+    [].forEach.call(box.querySelectorAll("input"), function (i) {
+      var v = parse(i.value);
+      if (v === null) { skipped++; return; }
+      if (isNaN(v)) { bad++; return; }
+      total += v; n++; if (v < g) short += g - v;
+    });
+    if (bad) { out.textContent = "One night is not a time this calculator can read. Use 6:40, 6h40 or 6.5."; return; }
+    if (!n) { out.textContent = "Enter at least one night to see your sleep debt."; return; }
+    var net = g * n - total;
+    out.innerHTML = "<strong>Net sleep debt: " + (net > 0 ? fmt(net) : "none (" + fmt(-net) + " ahead)") + "</strong><br>Counting only short nights: " + fmt(short) +
+      "<br><small>Goal " + n + " &times; " + fmt(g) + " = " + fmt(g * n) + ". Slept " + fmt(total) + ", an average of " + fmt(total / n) + " a night. " +
+      n + " night" + (n > 1 ? "s" : "") + " counted" + (skipped ? ", " + skipped + " blank skipped" : "") + ".</small>";
+  }
+  document.getElementById("sd-example").onclick = function () {
+    goal.value = "7:30";
+    document.querySelector('input[name="sd-n"][value="7"]').checked = true;
+    box.innerHTML = ""; rows();
+    ["6:40", "7:05", "6:15", "7:50", "6:55", "8:40", ""].forEach(function (v, i) { document.getElementById("sd-night-" + i).value = v; });
+    calc();
+  };
+  document.getElementById("sd-clear").onclick = function () { [].forEach.call(box.querySelectorAll("input"), function (i) { i.value = ""; }); calc(); };
+  document.getElementById("sd-calc").addEventListener("input", function (e) { if (e.target.name === "sd-n") rows(); else calc(); });
+  rows();
+})();
+</script>
+<p>The calculator runs entirely in your browser. There is no account, no tracking of what you type and nothing saved when you close the page.</p>
+
+<h2>Where to find each number in Apple Health</h2>
+<p>You need two things: your sleep goal and how long you slept each night. Both are in the Health app on iPhone, and the watch can show the nightly figures too.</p>
+<p><strong>Your sleep goal.</strong> Open Health, tap Browse, tap Sleep, then tap Sleep again. Scroll to Your Schedule, tap Full Schedule &amp; Options, and look under Additional Details for Sleep Goal. If you never set one, pick a reference point. The CDC lists 7 or more hours a night for adults aged 18 to 60. That is a general guideline, not your personal need.</p>
+<p><strong>Each night's sleep.</strong> On the same Sleep screen (Browse, Sleep, Sleep), tap the week tab at the top of the chart and tap each night's column. The figure you want is Time Asleep, the sleep the watch recorded, not the span from bedtime to alarm. Swipe the chart left to go back a week if you are counting 14 nights. Our guide to <a href="/guides/apple-watch-sleep-graph-explained/">reading the Apple Watch sleep graph</a> explains the stages and Awake gaps you will see on each night.</p>
+<p><strong>On the watch.</strong> Open the Sleep app on Apple Watch and turn the Digital Crown. Apple says it shows Time Asleep, sleep stages and sleep duration for the last 14 days, which is exactly the window the 14-night mode needs.</p>
+<p>Two things to check before you trust the result:</p>
+<ul>
+  <li><strong>Nights the watch missed.</strong> Apple asks for at least 30% charge at bedtime with Sleep Tracking turned on, and at least an hour of wear. A night on the charger shows no data. Leave it blank so the calculator skips it, because entering 0 adds a whole night's goal to your debt.</li>
+  <li><strong>Daytime sleep.</strong> If you sleep after night shifts, check that those sleeps landed in Health at all. The guide to <a href="/guides/sleep-app-for-night-shift-workers/">Apple Watch for night shift workers</a> covers schedules for that. And if you are looking for the old In Bed figure, Apple stopped recording it; see <a href="/guides/apple-watch-time-in-bed/">why time in bed is missing</a>.</li>
+</ul>
+
+<h2>The math, shown</h2>
+<p>The formula every calculator uses is the same at its core: sleep goal times the nights counted, minus the sleep you got. Here is the example the button fills in, with a 7 hour 30 minute goal:</p>
+<div class="table-scroll">
+<table>
+  <thead><tr><th>Night</th><th>Time Asleep</th><th>Against 7 h 30 min</th></tr></thead>
+  <tbody>
+    <tr><td>Last night</td><td>6 h 40 min</td><td>50 min short</td></tr>
+    <tr><td>2 nights ago</td><td>7 h 05 min</td><td>25 min short</td></tr>
+    <tr><td>3 nights ago</td><td>6 h 15 min</td><td>1 h 15 min short</td></tr>
+    <tr><td>4 nights ago</td><td>7 h 50 min</td><td>20 min over</td></tr>
+    <tr><td>5 nights ago</td><td>6 h 55 min</td><td>35 min short</td></tr>
+    <tr><td>6 nights ago</td><td>8 h 40 min</td><td>1 h 10 min over</td></tr>
+    <tr><td>7 nights ago</td><td>no data</td><td>skipped</td></tr>
+  </tbody>
+</table>
+</div>
+<p>Six nights add up to 43 hours 25 minutes. Six times 7 hours 30 minutes is 45 hours. <strong>Net debt: 1 hour 35 minutes.</strong></p>
+<p>Now count only the short nights and ignore the two long ones: 50 + 25 + 75 + 35 minutes is <strong>3 hours 5 minutes</strong>. Same week, nearly double the number. Calculators differ on this. Rise's own calculator says sleep beyond your need pays some of the total down, and Omni's weekly version subtracts the whole week's sleep, so a long night lowers it too. The calculator above shows both so you can see how much of your week a single sleep-in is covering.</p>
+<p>And the blank night matters most. Count it as zero and the debt jumps to 9 hours 5 minutes (7 times 7 hours 30 minutes is 52 hours 30 minutes, minus 43 hours 25 minutes). A watch on the charger is not a night without sleep.</p>
+<p>Social jet lag is a different sum: it compares when you sleep on work nights and free nights, not how much. That one is in <a href="/guides/how-to-calculate-social-jet-lag/">how to calculate social jet lag</a>.</p>
+
+<h2>Why sleep debt apps give you a different number</h2>
+<p>If you already use an app and its number does not match yours, it is usually the window, the target or the weighting, not an error. From each app's own App Store listing or website:</p>
+<ul>
+  <li><strong>Rise</strong> totals the gap over the last 14 nights against a personal sleep need it estimates for you, rather than a fixed goal. Rise says last night counts for 15% of the total and the 13 nights before it make up the other 85%, with recent nights weighted more.</li>
+  <li><strong>Sleep Ledger: Debt Tracker</strong> uses a 14-day rolling window from your Apple Health sleep, and its listing says the debt is quality-weighted: it uses Apple Watch sleep stages (Deep, REM, Core), so two nights of the same length can count differently.</li>
+  <li><strong>AutoSleep</strong> shows a sleep bank balance next to Time Asleep. It is a one-time $9.99 purchase with no subscription.</li>
+  <li><strong>Athlytic</strong> lists sleep debt in its sleep section and uses it, with recovery and exertion, to set a nightly sleep target and bedtime.</li>
+</ul>
+<p>So the same Apple Health data can give four different totals. Pick one method and watch its direction over time, rather than comparing one app's number against another's. Prices and what each app needs are in our guide to <a href="/guides/apple-watch-sleep-debt/">whether Apple Watch tracks sleep debt</a>. Apple's own Sleep Score is not a debt at all: it rates one night out of 100, which is why a good score can sit on top of a bad week; see <a href="/guides/how-to-get-100-sleep-score-apple-watch/">what a 100 Sleep Score takes</a>.</p>
+<p>None of these numbers is a diagnosis. A sleep debt figure says how far your recorded sleep fell from a target you chose. If your sleep worries you, talk to a doctor.</p>
+
+<h2>Where Nularo fits</h2>
+<p>Full disclosure: Nularo is our app. It does this sum for you every morning without the typing. It reads your sleep from Apple Health (read-only) and shows a 7-day sleep debt on its Overview tab, next to last night's bedtime, wake time and sleep quality. In the screenshot it reads DEBT 7D, 2h 24m.</p>
+<figure class="screen">
+  <img src="/img/app/overview.webp" alt="Nularo&#x27;s Overview tab: last night&#x27;s sleep, sleep debt, stress, energy, resting heart rate and HRV" width="600" height="1230" loading="lazy" />
+  <figcaption>Nularo&#x27;s Overview tab: last night&#x27;s sleep, sleep debt, stress, energy, resting heart rate and HRV.</figcaption>
+</figure>
+<p>The number comes with an opinion. A creature lives on your Health data, and its mood (glowing, fine-but-judgy, wrecked or suspicious) is set against your own 14-day baseline, with a morning verdict notification written from last night's real numbers. There is a Bedtime Pledge in the evening and a Weekly Report Card at the end of the week.</p>
+<p>The honest limitation: it judges, it does not coach, so you get the debt and a raised eyebrow, not a plan for paying it back. It uses a fixed 7-day window, so it will not match a 14-night app. It is iPhone only, it needs a watch on at night for good sleep data, and it updates the morning after rather than in real time. It is a subscription after onboarding: $39.99 a year with a 3-day free trial, or $9.99 a month. If you only want the number once, the calculator above is free.</p>
+<aside class="cta pane pane--ember">
+  <img class="cta-creature" src="/img/creature-judgy.webp" alt="" width="96" height="96" loading="lazy" />
+  <div>
+    <p class="cta-head">Get a morning verdict on last night</p>
+    <p>Nularo reads your sleep from Apple Health and delivers one honest, slightly rude verdict every morning. No logging, no pep talks.</p>
+    <a class="store-btn" href="https://apps.apple.com/us/app/nularo/id6792171696" data-cta="inline-sleep">Get Nularo on the App Store</a>
+    <p class="cta-fine">iPhone. Annual plan starts with a 3-day free trial.</p>
+  </div>
+</aside>
+
+<h2>Sources</h2>
+<ul>
+  <li><a href="https://support.apple.com/guide/iphone/view-your-sleep-history-iph72b370881/ios" rel="noopener">Apple Support: View your sleep history in Health on iPhone</a></li>
+  <li><a href="https://support.apple.com/guide/iphone/edit-sleep-schedules-iph304a683a0/ios" rel="noopener">Apple Support: Edit sleep schedules in Health on iPhone (Sleep Goal)</a></li>
+  <li><a href="https://support.apple.com/en-us/108906" rel="noopener">Apple Support: Track your sleep on Apple Watch and use Sleep on iPhone</a></li>
+  <li><a href="https://www.cdc.gov/sleep/about/index.html" rel="noopener">CDC: About Sleep (recommended hours by age)</a></li>
+  <li><a href="https://www.risescience.com/blog/sleep-debt-calculator" rel="noopener">Rise Science: Sleep debt calculator (14-night method)</a></li>
+</ul>
+
+        <h2>Try Nularo</h2>
+<aside class="cta pane pane--ember">
+  <img class="cta-creature" src="/img/creature-judgy.webp" alt="" width="96" height="96" loading="lazy" />
+  <div>
+    <p class="cta-head">Get a morning verdict on last night</p>
+    <p>Nularo reads your sleep from Apple Health and delivers one honest, slightly rude verdict every morning. No logging, no pep talks.</p>
+    <a class="store-btn" href="https://apps.apple.com/us/app/nularo/id6792171696" data-cta="end-sleep">Get Nularo on the App Store</a>
+    <p class="cta-fine">iPhone. Annual plan starts with a 3-day free trial.</p>
+  </div>
+</aside>
+<h2 id="faq">Frequently asked questions</h2>
+<div class="faq">
+<details><summary>How do you calculate sleep debt?</summary><p>Multiply your nightly sleep goal by the number of nights you are counting, then subtract the sleep you actually got over those nights. With a 7 hour 30 minute goal and 43 hours 25 minutes of sleep over 6 nights, the debt is 45 hours minus 43 hours 25 minutes, or 1 hour 35 minutes.</p></details>
+<details><summary>Should I count 7 nights or 14?</summary><p>Either works if you stay consistent. Seven nights reacts quickly to a bad week. Fourteen nights is what Rise and Sleep Ledger use, so pick 14 if you want to compare against those apps. A longer window smooths out one bad night but also remembers it for longer.</p></details>
+<details><summary>Does sleeping longer cancel sleep debt?</summary><p>On paper, it depends on the method. A net calculation lets a long night subtract from the total, while a shortfall-only calculation ignores surplus nights. The calculator here shows both. Neither number says how you feel or anything about your health, and if your sleep worries you, talk to a doctor.</p></details>
+<details><summary>Is there a sleep debt calculator app for Apple Watch?</summary><p>Apple does not include one: the Health app and the watch's Sleep app show nightly Time Asleep and a Sleep Score, not a running debt. Apps that read Apple Health, such as AutoSleep, Rise, Athlytic and Sleep Ledger, add it up for you, each with its own window and method.</p></details>
+<details><summary>Does Nularo calculate sleep debt?</summary><p>Yes, a 7-day figure on its Overview tab, worked out from the sleep in Apple Health with nothing to type in. It is iPhone only, it updates the morning after, and it judges the number rather than giving you a plan to pay it back.</p></details>
+</div>
+        <p class="disclaimer">Nularo is an entertainment and wellness app, not a medical device. Nothing on this page is medical advice. If something about your sleep or heart worries you, talk to a doctor.</p>
+
+        <section class="related">
+          <h2>Keep reading</h2>
+          <ul>
+<li><a href="/guides/apple-watch-sleep-debt/"><span>Does Apple Watch track sleep debt? (And how to see yours)</span><small>Apple Watch sleep</small></a></li>
+<li><a href="/guides/apple-watch-sleep-graph-explained/"><span>Apple Watch sleep graph explained: stages, gaps and views</span><small>Apple Watch sleep</small></a></li>
+<li><a href="/guides/how-to-calculate-social-jet-lag/"><span>How to calculate social jet lag from your own sleep data</span><small>Bedtime culture</small></a></li>
+<li><a href="/guides/sleep-consistency-apps/"><span>Sleep consistency apps: what each one actually measures</span><small>Apple Watch sleep</small></a></li>
+          </ul>
+        </section>
+      </article>
+    </main>
+
+    <footer class="sitefoot">
+      <nav class="sitefoot-guides" aria-label="New guides">
+        <p>New guides</p>
+        <ul>
+          <li><a href="/guides/sleep-debt-calculator/">Sleep debt calculator for your Apple Watch sleep data</a></li>
+          <li><a href="/guides/apple-watch-alarm-after-8-hours-of-sleep/">Can Apple Watch wake you after 8 hours of sleep?</a></li>
+          <li><a href="/guides/apple-watch-sleep-animal/">Is there a Samsung-style sleep animal on Apple Watch?</a></li>
+          <li><a href="/guides/gamified-fitness-apps/">Gamified fitness apps people actually stick with, by game type</a></li>
+          <li><a href="/guides/how-to-get-100-sleep-score-apple-watch/">How to get a 100 Sleep Score on Apple Watch</a></li>
+          <li><a href="/guides/apple-sleep-score-always-high/">Why your Apple Watch Sleep Score is always high</a></li>
+        </ul>
+      </nav>
+      <div class="sitefoot-inner">
+        <a href="/guides/">Guides</a>
+        <a href="/guides/how-we-write/">How we write guides</a>
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Service</a>
+        <a href="/health-data-notice.html">Consumer Health Data Privacy Notice</a>
+        <a href="/support.html">Support</a>
+        <span class="spacer"></span>
+        <span>Nularo by Sidewndr Studios</span>
+      </div>
+    </footer>
+    <div class="sticky-cta" id="sticky-cta" hidden>
+      <img src="/img/creature-glowing.webp" alt="" width="40" height="40" />
+      <span>Nularo turns your Apple Health data into a creature that judges you.</span>
+      <a class="store-btn store-btn--small" href="https://apps.apple.com/us/app/nularo/id6792171696" data-cta="sticky">Get it</a>
+    </div>
+    <script>
+      (function () {
+        var bar = document.getElementById("sticky-cta");
+        function onScroll() {
+          var h = document.documentElement;
+          var p = h.scrollTop / Math.max(1, h.scrollHeight - h.clientHeight);
+          bar.hidden = p < 0.18;
+        }
+        window.addEventListener("scroll", onScroll, { passive: true });
+      })();
+    </script>
+  </body>
+</html>

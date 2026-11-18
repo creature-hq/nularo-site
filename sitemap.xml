@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://nularo.com/</loc><lastmod>2026-11-17</lastmod></url>
-  <url><loc>https://nularo.com/guides/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://nularo.com/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://nularo.com/guides/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://nularo.com/guides/how-we-write/</loc></url>
   <url><loc>https://nularo.com/support.html</loc></url>
   <url><loc>https://nularo.com/privacy.html</loc></url>
@@ -40,4 +40,5 @@
   <url><loc>https://nularo.com/guides/how-to-get-100-sleep-score-apple-watch/</loc><lastmod>2026-11-16</lastmod></url>
   <url><loc>https://nularo.com/guides/apple-watch-alarm-after-8-hours-of-sleep/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://nularo.com/guides/apple-watch-sleep-animal/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://nularo.com/guides/sleep-debt-calculator/</loc><lastmod>2026-11-18</lastmod></url>
 </urlset>
