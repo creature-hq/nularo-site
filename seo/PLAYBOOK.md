@@ -139,7 +139,7 @@ from both data and real people:
       that phrase; consider retargeting the item to the closest phrase in its
       `suggestions` instead). If the keyword is not in `backlog_demand`
       (it is checked 40 at a time), use it but say so in the log.
-      Items with `"source": "bing-demand-2026-11-18"` (priorities 1-12) already
+      Items with `"source": "bing-demand-2026-11-18"` (priorities 1-20) already
       have measured demand in `seo/demand.json`: take them first, in order,
       without the autocomplete check. Their `angle` says what the page must do.
    c. **Top up the backlog.** When fewer than 30 todo items are left, add
