@@ -1,0 +1,29 @@
+# Measures search volume (Bing US, last 90 days) for every keyword the guide
+# writer might pick, so no guide gets written for a phrase nobody searches.
+# Writes seo/demand.json and seo/bing-queries.json. Free Bing Webmaster API,
+# key in the BING_API_KEY secret. Runs before the morning writer (12:00 UTC).
+name: Bing keyword demand
+
+on:
+  schedule:
+    - cron: "30 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Bing demand
+        env:
+          BING_API_KEY: ${{ secrets.BING_API_KEY }}
+        run: python3 tools/bing_demand.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add seo/demand.json seo/demand-queue.json seo/bing-queries.json 2>/dev/null || git add seo/demand.json seo/demand-queue.json
+          git diff --cached --quiet || (git commit -m "Update Bing keyword demand" && git pull --rebase -q && git push)

@@ -35,11 +35,24 @@ shows 20+ impressions for that exact query (rule a). Trending (t) and Reddit
 (r) picks must pass this test too: a Reddit theme that is C becomes a FAQ entry
 or a new section in an existing B guide, never a new guide.
 
-Then check demand in `seo/demand.json` (Bing US searches over 3 months for
-~270 candidates, pulled 2026-11-18 from Bing Webmaster Tools Keyword Research;
-Google volume is roughly 10 to 20 times Bing). Prefer the highest-demand A/B
-keyword that no guide covers yet. A keyword with 0 on Bing AND not exact in
-`seo/keywords-latest.json` autocomplete has no proven demand: skip it.
+**Search volume is a hard gate (founder's rule, 2026-11-18: "make sure the
+articles you write have search volume behind them").** `seo/demand.json`
+`us_3mo` holds Bing US searches over the last 3 months per keyword (Google
+is roughly 10 to 20 times Bing). A daily Action (`bing-demand.yml`, Bing
+Webmaster API) keeps it fresh for the backlog, the autocomplete candidates and
+anything in `seo/demand-queue.json`, and lists new phrases with real volume
+under `discovered`.
+- The guide's target `keyword` (or the head term the page is built to rank
+  for, named in the log) must have `us_3mo` of at least 10. No exceptions for
+  t or r picks: a hot Reddit thread with no measured search demand is not a
+  guide.
+- Prefer the highest-demand A/B keyword no guide covers yet. Check
+  `discovered` too: a high-volume phrase there that passes the download test
+  beats a lower one in the backlog (add it to the backlog when you use it).
+- If the keyword you want has never been measured, append it to
+  `seo/demand-queue.json` (a JSON list of strings), pick a measured one today,
+  and the Action will measure yours by tomorrow.
+- In `seo/log.md`, write the target's `us_3mo` number on every line.
 
 **Conversion rules for every guide (the reason we write them):**
 - The `tldr` always ends with one honest sentence on what Nularo does for this
