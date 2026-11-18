@@ -37,9 +37,11 @@
   "nularo_fit": 5,
   "angle": "For Apple Watch owners who want Whoop-style recovery/strain without a strap or membership: Bevel, Athlytic, Training Today, Gentler Streak, Nularo. Check each current App Store price. Nularo early: Sleep/Stress/Energy scores from Apple Health.",
   "priority": 3,
-  "status": "todo",
+  "status": "done",
   "source": "bing-demand-2026-11-18",
-  "download_test": "A"
+  "download_test": "A",
+  "done": "2026-11-18",
+  "slug": "whoop-alternative-apple-watch"
  },
  {
   "keyword": "habitica alternatives",
@@ -2469,7 +2471,9 @@
   "nularo_fit": 3,
   "angle": "INFERENCE: Whoop-style apps for Apple Watch (Bevel, Athlytic, Gentler Streak, Nularo) by feature: recovery, strain, age.",
   "priority": 117,
-  "status": "todo"
+  "status": "done",
+  "done": "2026-11-18",
+  "slug": "whoop-alternative-apple-watch"
  },
  {
   "keyword": "revenge bedtime procrastination adhd reddit",
