@@ -2695,5 +2695,26 @@
     "priority": 123,
     "status": "todo",
     "source": "reddit"
+  },
+  {
+    "keyword": "how to fix sleep schedule",
+    "cluster": "bedtime-culture",
+    "intent": "how-to",
+    "evidence": "VERIFIED: how to fix sleep schedule 183, sleep schedule 491 [Bing US 3-month searches in seo/demand.json (2026-11-18)]; reddit-latest 2026-11-19 'sleep schedule' theme across 3+ r/sleep threads ('how do i fix my sleep schedule', 'How to fix severely ... sleep schedule', 'how messed up is my sleep schedule? (and how do i fix it)')",
+    "serp_top": [
+      "thesleepdoctor.com",
+      "health.clevelandclinic.org",
+      "healthline.com",
+      "risescience.com",
+      "mattress-brand blogs"
+    ],
+    "difficulty": "INFERENCE: high for the head term (Cleveland Clinic, Healthline); the iPhone/Apple Watch setup angle is what the SERP lacks",
+    "nularo_fit": 4,
+    "angle": "CDC's one rule (same bed and wake time every day, weekends included; screens off 30 min before bed), then the free Apple setup that enforces it: one seven-day Health schedule with alarm, Wind Down/Sleep Focus, Next-only edits for one-off nights; Nularo morning verdict, Bedtime Pledge and bedtime consistency in Creature Age.",
+    "priority": 124,
+    "status": "done",
+    "done": "2026-11-19",
+    "slug": "how-to-fix-sleep-schedule",
+    "source": "reddit"
   }
 ]
