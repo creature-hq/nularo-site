@@ -1,10 +1,266 @@
 {
-  "pulled": "2026-11-18",
+  "pulled": "2026-11-19",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
     {
+      "keyword": "biological age calculator",
+      "priority": 2,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 10,
+      "suggestions": [
+        "biological age calculator",
+        "biological age calculator free",
+        "biological age calculator yale",
+        "biological age calculator based on blood test",
+        "biological age calculator online",
+        "biological age calculator nhs",
+        "biological age calculator online free",
+        "biological age calculator app"
+      ]
+    },
+    {
+      "keyword": "habitica alternatives",
+      "priority": 4,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 6,
+      "suggestions": [
+        "habitica alternatives",
+        "habitica free alternatives",
+        "best habitica alternatives",
+        "apps like habitica",
+        "is habitica free",
+        "games like habitica"
+      ]
+    },
+    {
+      "keyword": "how to track sleep on apple watch",
+      "priority": 5,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 10,
+      "suggestions": [
+        "how to track sleep on apple watch",
+        "how to track sleep on apple watch 11",
+        "how to track sleep on apple watch se",
+        "how to track sleep on apple watch series 3",
+        "how to track sleep on apple watch series 12",
+        "how to track sleep on apple watch ultra 2",
+        "how to track sleep on apple watch ultra 4",
+        "how to track sleep on apple watch ultra"
+      ]
+    },
+    {
+      "keyword": "sleep cycle app alternatives",
+      "priority": 6,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 6,
+      "suggestions": [
+        "sleep cycle app alternatives",
+        "sleep cycle app alternative reddit",
+        "sleep cycle app free alternative",
+        "sleep cycle alternative ios",
+        "sleep cycle free alternative",
+        "apps like sleep cycle"
+      ]
+    },
+    {
+      "keyword": "pokemon sleep alternative",
+      "priority": 7,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 4,
+      "suggestions": [
+        "pokemon sleep alternative",
+        "is it better to paralyze or sleep pokemon",
+        "what is the best sleep move in pokemon",
+        "can you paralyze and sleep a pokemon"
+      ]
+    },
+    {
+      "keyword": "rise app alternative",
+      "priority": 8,
+      "exact_in_autocomplete": false,
+      "rank": null,
+      "suggestion_count": 10,
+      "suggestions": [
+        "rise app alternatives",
+        "rise app alternatives free",
+        "rise app alternatives reddit",
+        "rise sleep app alternative",
+        "rise app free alternative reddit",
+        "rise guide app alternative",
+        "rise science app alternative",
+        "grow alternative app"
+      ]
+    },
+    {
+      "keyword": "revenge bedtime procrastination",
+      "priority": 9,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 10,
+      "suggestions": [
+        "revenge bedtime procrastination",
+        "revenge bedtime procrastination adhd",
+        "revenge bedtime procrastination reddit",
+        "revenge bedtime procrastination chinese",
+        "revenge bedtime procrastination japanese",
+        "revenge bedtime procrastination how to fix",
+        "revenge bedtime procrastination meaning",
+        "revenge bedtime procrastination japanese word"
+      ]
+    },
+    {
+      "keyword": "bevel app review",
+      "priority": 10,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 10,
+      "suggestions": [
+        "bevel app review",
+        "bevel app review reddit",
+        "bevel app review garmin",
+        "bevel app review apple watch",
+        "bevel app review 2025",
+        "bevel app review 2026",
+        "bevel app review vs whoop",
+        "bevel ios review"
+      ]
+    },
+    {
+      "keyword": "sleep calculator",
+      "priority": 11,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 10,
+      "suggestions": [
+        "sleep calculator",
+        "sleep calculator by age",
+        "sleep calculator cycle",
+        "sleep calculator for women",
+        "sleep calculator hours",
+        "sleep calculator for kids",
+        "sleep calculator by age and gender",
+        "sleep calculator app"
+      ]
+    },
+    {
+      "keyword": "autosleep alternatives",
+      "priority": 12,
+      "exact_in_autocomplete": false,
+      "rank": null,
+      "suggestion_count": 0,
+      "suggestions": []
+    },
+    {
+      "keyword": "widgetable alternatives",
+      "priority": 13,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 1,
+      "suggestions": [
+        "widgetable alternatives"
+      ]
+    },
+    {
+      "keyword": "fabulous app alternatives",
+      "priority": 14,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 4,
+      "suggestions": [
+        "fabulous app alternatives",
+        "fabulous app alternative reddit",
+        "fabulous app alternative free",
+        "apps like fabulous but free"
+      ]
+    },
+    {
+      "keyword": "bed rotting",
+      "priority": 15,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 10,
+      "suggestions": [
+        "bed rotting",
+        "bed rotting meaning",
+        "bed rotting meme",
+        "bed rotting depression",
+        "bed rotting reddit",
+        "bed rotting room",
+        "bed rotting symptoms",
+        "bed rotting gif"
+      ]
+    },
+    {
+      "keyword": "habit tracker that tracks itself",
+      "priority": 16,
+      "exact_in_autocomplete": false,
+      "rank": null,
+      "suggestion_count": 0,
+      "suggestions": []
+    },
+    {
+      "keyword": "best sleep app for apple watch",
+      "priority": 17,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 10,
+      "suggestions": [
+        "best sleep app for apple watch",
+        "best sleep app for apple watch 2026",
+        "best sleep app for apple watch reddit",
+        "best sleep app for apple watch se",
+        "best sleep app for apple watch 2025",
+        "best sleep app for apple watch ultra 3",
+        "best sleep app for apple watch ultra",
+        "best sleep app for apple watch 11"
+      ]
+    },
+    {
+      "keyword": "apps like pou",
+      "priority": 18,
+      "exact_in_autocomplete": false,
+      "rank": null,
+      "suggestion_count": 0,
+      "suggestions": []
+    },
+    {
+      "keyword": "how much sleep do i need",
+      "priority": 19,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 10,
+      "suggestions": [
+        "how much sleep do i need",
+        "how much sleep do i need calculator",
+        "how much sleep do i need for muscle growth",
+        "how much sleep do i need to lose weight",
+        "how much sleep do i need a night",
+        "how much sleep do i need quiz",
+        "how much sleep do i need when pregnant",
+        "how much sleep do i need to grow taller"
+      ]
+    },
+    {
+      "keyword": "streaks app alternatives",
+      "priority": 20,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 4,
+      "suggestions": [
+        "streaks app alternatives",
+        "streaks app alternative reddit",
+        "apps similar to line",
+        "how to use streaks app"
+      ]
+    },
+    {
       "keyword": "sleep regularity score",
-      "priority": 67,
+      "priority": 87,
       "exact_in_autocomplete": true,
       "rank": 1,
       "suggestion_count": 2,
@@ -15,7 +271,7 @@
     },
     {
       "keyword": "apple watch app that tells your mood",
-      "priority": 71,
+      "priority": 91,
       "exact_in_autocomplete": true,
       "rank": 1,
       "suggestion_count": 5,
@@ -29,7 +285,7 @@
     },
     {
       "keyword": "whoop age alternative",
-      "priority": 72,
+      "priority": 92,
       "exact_in_autocomplete": true,
       "rank": 1,
       "suggestion_count": 5,
@@ -42,21 +298,8 @@
       ]
     },
     {
-      "keyword": "pokemon sleep alternative",
-      "priority": 73,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 4,
-      "suggestions": [
-        "pokemon sleep alternative",
-        "is it better to paralyze or sleep pokemon",
-        "what is the best sleep move in pokemon",
-        "can you paralyze and sleep a pokemon"
-      ]
-    },
-    {
       "keyword": "gen z sleepmaxxing",
-      "priority": 74,
+      "priority": 94,
       "exact_in_autocomplete": true,
       "rank": 1,
       "suggestion_count": 4,
@@ -69,7 +312,7 @@
     },
     {
       "keyword": "bed rotting app",
-      "priority": 75,
+      "priority": 95,
       "exact_in_autocomplete": true,
       "rank": 1,
       "suggestion_count": 3,
@@ -81,7 +324,7 @@
     },
     {
       "keyword": "best sleep debt app",
-      "priority": 77,
+      "priority": 97,
       "exact_in_autocomplete": true,
       "rank": 1,
       "suggestion_count": 6,
@@ -96,7 +339,7 @@
     },
     {
       "keyword": "tamagotchi style app for apple watch",
-      "priority": 78,
+      "priority": 98,
       "exact_in_autocomplete": false,
       "rank": null,
       "suggestion_count": 0,
@@ -104,7 +347,7 @@
     },
     {
       "keyword": "mostly core sleep apple watch",
-      "priority": 79,
+      "priority": 99,
       "exact_in_autocomplete": true,
       "rank": 1,
       "suggestion_count": 6,
@@ -119,7 +362,7 @@
     },
     {
       "keyword": "readiness score apple watch series 10",
-      "priority": 80,
+      "priority": 100,
       "exact_in_autocomplete": true,
       "rank": 1,
       "suggestion_count": 5,
@@ -133,7 +376,7 @@
     },
     {
       "keyword": "apple health age vs whoop age",
-      "priority": 81,
+      "priority": 101,
       "exact_in_autocomplete": false,
       "rank": null,
       "suggestion_count": 0,
@@ -141,7 +384,7 @@
     },
     {
       "keyword": "pace of aging apple watch",
-      "priority": 82,
+      "priority": 102,
       "exact_in_autocomplete": true,
       "rank": 1,
       "suggestion_count": 3,
@@ -152,19 +395,8 @@
       ]
     },
     {
-      "keyword": "bevel alternatives apple watch",
-      "priority": 83,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 2,
-      "suggestions": [
-        "bevel alternatives apple watch",
-        "alternative apple watch faces"
-      ]
-    },
-    {
       "keyword": "adhd sleep tracker",
-      "priority": 84,
+      "priority": 104,
       "exact_in_autocomplete": true,
       "rank": 1,
       "suggestion_count": 8,
@@ -181,7 +413,7 @@
     },
     {
       "keyword": "why does gen z sleep so late",
-      "priority": 85,
+      "priority": 105,
       "exact_in_autocomplete": true,
       "rank": 1,
       "suggestion_count": 3,
@@ -193,7 +425,7 @@
     },
     {
       "keyword": "readiness score apple watch series 11",
-      "priority": 86,
+      "priority": 106,
       "exact_in_autocomplete": true,
       "rank": 1,
       "suggestion_count": 5,
@@ -207,7 +439,7 @@
     },
     {
       "keyword": "does apple watch track stress",
-      "priority": 87,
+      "priority": 107,
       "exact_in_autocomplete": true,
       "rank": 1,
       "suggestion_count": 10,
@@ -224,7 +456,7 @@
     },
     {
       "keyword": "apple health age",
-      "priority": 88,
+      "priority": 108,
       "exact_in_autocomplete": true,
       "rank": 1,
       "suggestion_count": 10,
@@ -240,22 +472,8 @@
       ]
     },
     {
-      "keyword": "revenge bedtime procrastination app",
-      "priority": 89,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 5,
-      "suggestions": [
-        "revenge bedtime procrastination app",
-        "how to get rid of revenge bedtime procrastination",
-        "how to stop revenge bedtime procrastination",
-        "how to help revenge bedtime procrastination",
-        "revenge bedtime procrastination definition"
-      ]
-    },
-    {
       "keyword": "adhd gamify life app",
-      "priority": 90,
+      "priority": 110,
       "exact_in_autocomplete": false,
       "rank": null,
       "suggestion_count": 0,
@@ -263,7 +481,7 @@
     },
     {
       "keyword": "how to share apple watch data with friends",
-      "priority": 92,
+      "priority": 112,
       "exact_in_autocomplete": true,
       "rank": 1,
       "suggestion_count": 1,
@@ -273,7 +491,7 @@
     },
     {
       "keyword": "sleepmaxxing reddit",
-      "priority": 93,
+      "priority": 113,
       "exact_in_autocomplete": true,
       "rank": 1,
       "suggestion_count": 1,
@@ -283,7 +501,7 @@
     },
     {
       "keyword": "sleep score apple watch vs oura",
-      "priority": 95,
+      "priority": 115,
       "exact_in_autocomplete": true,
       "rank": 2,
       "suggestion_count": 5,
@@ -297,7 +515,7 @@
     },
     {
       "keyword": "hrv apple watch meaning",
-      "priority": 96,
+      "priority": 116,
       "exact_in_autocomplete": true,
       "rank": 1,
       "suggestion_count": 4,
@@ -309,25 +527,8 @@
       ]
     },
     {
-      "keyword": "apple watch app that is like whoop",
-      "priority": 97,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 8,
-      "suggestions": [
-        "apple watch app that is like whoop",
-        "apple watch app that works like whoop",
-        "best apple watch app like whoop",
-        "apple watch recovery app like whoop",
-        "apple watch health app like whoop",
-        "apple watch app to make it like whoop",
-        "does whoop have an apple watch app",
-        "can you use whoop app with apple watch"
-      ]
-    },
-    {
       "keyword": "revenge bedtime procrastination adhd reddit",
-      "priority": 98,
+      "priority": 118,
       "exact_in_autocomplete": false,
       "rank": null,
       "suggestion_count": 5,
@@ -338,58 +539,6 @@
         "what is revenge bedtime procrastination",
         "how to get rid of revenge bedtime procrastination"
       ]
-    },
-    {
-      "keyword": "sleepmaxxing routine",
-      "priority": 99,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 1,
-      "suggestions": [
-        "sleepmaxxing routine"
-      ]
-    },
-    {
-      "keyword": "pokemon sleep without apple watch",
-      "priority": 100,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 10,
-      "suggestions": [
-        "pokemon sleep without apple watch",
-        "pokemon sleep no apple watch",
-        "pokemon sleep apple watch",
-        "pokemon sleep apple watch face",
-        "pokemon sleep apple watch app",
-        "pokemon sleep apple watch reddit",
-        "pokemon sleep apple watch not working",
-        "pokemon sleep apple watch se"
-      ]
-    },
-    {
-      "keyword": "is apple watch sleep score accurate",
-      "priority": 101,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 10,
-      "suggestions": [
-        "is apple watch sleep score accurate",
-        "is apple watch sleep score accurate reddit",
-        "is apple watch sleep score reliable",
-        "is apple watch 11 sleep score accurate",
-        "apple watch sleep score is not accurate",
-        "which sleep score is more accurate - garmin or apple watch",
-        "how accurate is my apple watch sleep score",
-        "is apple watch sleep accurate"
-      ]
-    },
-    {
-      "keyword": "apple watch daytime heart rate trend",
-      "priority": 103,
-      "exact_in_autocomplete": false,
-      "rank": null,
-      "suggestion_count": 0,
-      "suggestions": []
     }
   ],
   "new_candidates": [
@@ -414,12 +563,6 @@
     {
       "phrase": "is there a tamagotchi app",
       "cluster": "health-pets",
-      "seen": 3,
-      "best_rank": 2
-    },
-    {
-      "phrase": "finch app review",
-      "cluster": "alternatives",
       "seen": 3,
       "best_rank": 2
     },
@@ -749,6 +892,12 @@
     },
     {
       "phrase": "best apple watch pet app",
+      "cluster": "health-pets",
+      "seen": 2,
+      "best_rank": 3
+    },
+    {
+      "phrase": "apple health benefits for dogs",
       "cluster": "health-pets",
       "seen": 2,
       "best_rank": 3
