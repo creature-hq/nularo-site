@@ -57,9 +57,11 @@
     "nularo_fit": 4,
     "angle": "Gamified habit apps for people who quit Habitica because manual ticking got old: Finch, Forest, Streaks, Habitvs, Nularo (tracks sleep and movement automatically). Fair to Habitica's strengths.",
     "priority": 4,
-    "status": "todo",
+    "status": "done",
     "source": "bing-demand-2026-11-18",
-    "download_test": "A"
+    "download_test": "A",
+    "done": "2026-11-20",
+    "slug": "habitica-alternatives"
   },
   {
     "keyword": "how to track sleep on apple watch",
