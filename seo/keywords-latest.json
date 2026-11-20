@@ -1,37 +1,17 @@
 {
-  "pulled": "2026-11-19",
+  "pulled": "2026-11-20",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "biological age calculator",
-      "priority": 2,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 10,
-      "suggestions": [
-        "biological age calculator",
-        "biological age calculator free",
-        "biological age calculator yale",
-        "biological age calculator based on blood test",
-        "biological age calculator online",
-        "biological age calculator nhs",
-        "biological age calculator online free",
-        "biological age calculator app"
-      ]
-    },
     {
       "keyword": "habitica alternatives",
       "priority": 4,
       "exact_in_autocomplete": true,
       "rank": 1,
-      "suggestion_count": 6,
+      "suggestion_count": 3,
       "suggestions": [
         "habitica alternatives",
         "habitica free alternatives",
-        "best habitica alternatives",
-        "apps like habitica",
-        "is habitica free",
-        "games like habitica"
+        "best habitica alternatives"
       ]
     },
     {
@@ -538,6 +518,16 @@
         "define revenge bedtime procrastination",
         "what is revenge bedtime procrastination",
         "how to get rid of revenge bedtime procrastination"
+      ]
+    },
+    {
+      "keyword": "sleepmaxxing routine",
+      "priority": 119,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 1,
+      "suggestions": [
+        "sleepmaxxing routine"
       ]
     }
   ],
