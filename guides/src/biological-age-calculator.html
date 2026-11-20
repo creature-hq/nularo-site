@@ -1,0 +1,148 @@
+<!--meta
+{
+  "title": "Biological age calculator from your Apple Health habits",
+  "seo_title": "Biological Age Calculator (Free, Math Shown, No Sign-Up)",
+  "description": "A free habit-based age calculator using sleep, bedtime consistency, steps and exercise minutes from Apple Health. Every rule shown, and why it is not a lab test.",
+  "keyword": "biological age calculator",
+  "cluster": "body-age",
+  "published": "2026-11-20",
+  "updated": "2026-11-20",
+  "tldr": "No free online calculator can measure biological age. Lab methods use blood tests (Levine's PhenoAge uses nine blood markers) or DNA methylation (epigenetic clocks). What a calculator can do is turn your habits into an age-style number. The one below uses four inputs from the Health app: average sleep (Browse, Sleep, Sleep), how much your bedtime varies, daily steps and weekly Exercise minutes (Browse, Activity), each scored against a public-health guideline, with every rule shown. Nularo's Creature Age does a similar habit sum for you every week from Apple Health, with no typing.",
+  "howto": [
+    "Open Health on iPhone, tap Browse, Sleep, then Sleep again. Tap the week tab and tap each night to read Time Asleep and when sleep started.",
+    "Tap Browse, then Activity, and open Steps and Exercise Minutes. Use the week tab to read a typical week.",
+    "Type your age, average sleep, bedtime spread, daily steps and weekly exercise minutes into the calculator.",
+    "Read the habit age and the per-habit breakdown. The habit with the most years added is the one furthest from its guideline."
+  ],
+  "cta": "age",
+  "hero": "Want this number every week without typing? Nularo's creature ages with your Apple Health habits.",
+  "faq": [
+    {"q": "Is there an accurate free biological age calculator?", "a": "Not in the sense of measuring how your body is aging. Free calculators either score a questionnaire, like the one here, or plug blood test results into a published formula such as PhenoAge. Only the second rests on a peer-reviewed model, and it still needs lab work. Epigenetic clocks need a blood or saliva sample sent to a lab."},
+    {"q": "How is biological age calculated?", "a": "It depends on the method. PhenoAge combines nine blood markers, such as albumin, glucose and C-reactive protein, with your age in a formula fitted to mortality data. Epigenetic clocks use DNA methylation at specific sites in your genome. Habit calculators add or subtract years when your habits are above or below a guideline, using weights the author chose."},
+    {"q": "Can my Apple Watch tell me my biological age?", "a": "Not yet. Apple announced Health Age for a redesigned Health app in September 2026, but it is not in a public release yet. Today the closest built-in figure is Cardio Fitness (Browse, Heart, Cardio Fitness), which rates your VO2 max against ranges for your age and sex."},
+    {"q": "Why does my habit age differ from other calculators?", "a": "Every calculator picks its own inputs, cut-offs and number of years per answer. One may count smoking and diet, another only sleep and steps. Compare a calculator with itself over time, not with a different one. And if a result worries you, talk to a doctor rather than a calculator."},
+    {"q": "Does Nularo calculate biological age?", "a": "No. Nularo's Creature Age is a rules-based, for-fun number recalculated weekly from sleep duration, bedtime consistency, steps, active minutes, resting heart rate and HRV in Apple Health. It shows which habit added years. It is not a biological age test and not medical."}
+  ],
+  "related": ["biological-age-apps-apple-watch", "how-to-see-apple-health-age", "apple-watch-fitness-age", "sleep-debt-calculator"]
+}
+-->
+<p class="lede">You typed your age into three "biological age calculators" and got three different answers, from a quiz that asked how much broccoli you eat. Here is one that uses the numbers your iPhone and Apple Watch already recorded, shows every rule it applies, and is upfront about what it cannot measure.</p>
+
+<h2>Work out your habit age</h2>
+<p>Fill in five numbers. The next section shows where each one lives in the Health app. Each habit is compared with a public-health guideline and moves the result up or down by a fixed amount, shown in the breakdown. Nothing you type leaves this page.</p>
+<form class="calc" id="ba-calc" onsubmit="return false">
+  <div class="calc-row">
+    <label for="ba-age">Your age (years)</label>
+    <input id="ba-age" type="text" inputmode="numeric" placeholder="35" autocomplete="off" />
+  </div>
+  <div class="calc-row">
+    <label for="ba-sleep">Average sleep a night (hours, e.g. 6.75 or 6:45)</label>
+    <input id="ba-sleep" type="text" inputmode="decimal" placeholder="7:00" autocomplete="off" />
+  </div>
+  <div class="calc-row">
+    <label for="ba-bed">Gap between your earliest and latest bedtime in a typical week (minutes)</label>
+    <input id="ba-bed" type="text" inputmode="numeric" placeholder="60" autocomplete="off" />
+  </div>
+  <div class="calc-row">
+    <label for="ba-steps">Average steps a day</label>
+    <input id="ba-steps" type="text" inputmode="numeric" placeholder="7000" autocomplete="off" />
+  </div>
+  <div class="calc-row">
+    <label for="ba-ex">Exercise minutes a week (moderate or harder)</label>
+    <input id="ba-ex" type="text" inputmode="numeric" placeholder="120" autocomplete="off" />
+  </div>
+  <div class="calc-buttons">
+    <button type="button" id="ba-example">Fill in the example</button>
+    <button type="button" id="ba-clear">Clear</button>
+  </div>
+  <div class="calc-out" id="ba-out" aria-live="polite">Fill in all five numbers to see your habit age.</div>
+</form>
+<script>
+(function () {
+  var ids = ["age", "sleep", "bed", "steps", "ex"], out = document.getElementById("ba-out");
+  function el(k) { return document.getElementById("ba-" + k); }
+  function num(s) {
+    s = (s || "").trim().replace(/,/g, "");
+    if (!s) return null;
+    var m = s.match(/^(\d{1,2})\s*[:h]\s*(\d{1,2})$/);
+    if (m) return +m[2] < 60 ? +m[1] + m[2] / 60 : NaN;
+    return /^\d+(\.\d+)?$/.test(s) ? parseFloat(s) : NaN;
+  }
+  function yrs(v) { return (v > 0 ? "+" : v < 0 ? "&minus;" : "") + Math.abs(v).toFixed(1) + " yr"; }
+  function calc() {
+    var v = {}, bad = false, miss = false;
+    ids.forEach(function (k) { var x = num(el(k).value); if (x === null) miss = true; else if (isNaN(x)) bad = true; v[k] = x; });
+    if (bad) { out.textContent = "One box has something this calculator cannot read. Use plain numbers, and 6:45 or 6.75 for sleep."; return; }
+    if (miss) { out.textContent = "Fill in all five numbers to see your habit age."; return; }
+    if (v.age < 18 || v.age > 110) { out.textContent = "This calculator uses adult guidelines, so it needs an age between 18 and 110."; return; }
+    if (v.sleep > 16) { out.textContent = "Check the sleep box: it should be your average hours a night, such as 7 or 7:15."; return; }
+    var s = v.sleep < 6 ? 1 : v.sleep < 7 ? 0.5 : v.sleep <= 9 ? -0.5 : 0;
+    var b = v.bed <= 30 ? -0.5 : v.bed <= 60 ? 0 : v.bed <= 120 ? 0.5 : 1;
+    var top = v.age >= 60 ? 6000 : 8000;
+    var st = v.steps >= top ? -0.5 : v.steps >= 6000 ? 0 : v.steps >= 4000 ? 0.5 : 1;
+    var e = v.ex >= 150 ? -0.5 : v.ex >= 75 ? 0 : 1;
+    var total = s + b + st + e, ha = v.age + total;
+    out.innerHTML = "<strong>Habit age: " + (Math.round(ha * 10) / 10) + " (" + (total === 0 ? "same as your age" : yrs(total) + " vs your age") + ")</strong><br>" +
+      "Sleep: " + yrs(s) + " &middot; Bedtime consistency: " + yrs(b) + " &middot; Steps: " + yrs(st) + " &middot; Exercise: " + yrs(e) +
+      "<br><small>A for-fun summary of four habits against guidelines, not a measure of how your body is aging. Range: 2 years under to 4 years over your age.</small>";
+  }
+  document.getElementById("ba-example").onclick = function () {
+    [["age", "38"], ["sleep", "6:40"], ["bed", "95"], ["steps", "8400"], ["ex", "110"]].forEach(function (p) { el(p[0]).value = p[1]; });
+    calc();
+  };
+  document.getElementById("ba-clear").onclick = function () { ids.forEach(function (k) { el(k).value = ""; }); calc(); };
+  document.getElementById("ba-calc").addEventListener("input", calc);
+})();
+</script>
+<p>The calculator runs entirely in your browser. No account, nothing saved, nothing sent.</p>
+
+<h2>Where to find each number in Apple Health</h2>
+<p><strong>Average sleep.</strong> Open Health on iPhone, tap Browse, tap Sleep, then tap Sleep again. Tap the week tab at the top and tap each night's column for its Time Asleep. Add up the nights you have and divide by how many there are. Skip nights with no data instead of counting them as zero. On Apple Watch, the Sleep app shows Time Asleep for the last 14 days if you turn the Digital Crown. Our <a href="/guides/sleep-debt-calculator/">sleep debt calculator</a> uses the same nightly figures.</p>
+<p><strong>Bedtime spread.</strong> On the same week view, each night's column shows when sleep started. Find the earliest and latest start in the week and count the minutes between them. A week of 11:00 pm to 12:35 am is 95 minutes. This is a rough stand-in for the consistency measures that sleep apps score; <a href="/guides/sleep-consistency-apps/">sleep consistency apps</a> compares how they each do it.</p>
+<p><strong>Steps.</strong> Tap Browse, then Activity, then Steps, and use the week tab. iPhone counts steps on its own, so this works without a watch, though only while the phone is in your pocket.</p>
+<p><strong>Exercise minutes.</strong> Tap Browse, then Activity, then Exercise Minutes. These come from Apple Watch, which counts minutes of brisk activity. Add up a typical week. No watch? Estimate the minutes of brisk walking or harder exercise you do.</p>
+
+<h2>The rules, shown</h2>
+<p>Each habit adds or subtracts years from your actual age. The guideline behind each cut-off is public. The size of each step (half a year, one year) is our own round number, chosen to be readable. It is not taken from a study, and no study says a short night costs you exactly a year.</p>
+<div class="table-scroll">
+<table>
+  <thead><tr><th>Habit</th><th>Takes off 0.5 yr</th><th>No change</th><th>Adds years</th><th>Guideline behind it</th></tr></thead>
+  <tbody>
+    <tr><td>Average sleep</td><td>7 to 9 h</td><td>over 9 h</td><td>6 to 7 h: +0.5; under 6 h: +1</td><td>CDC: 7 or more hours for adults 18 to 60</td></tr>
+    <tr><td>Bedtime spread</td><td>30 min or less</td><td>31 to 60 min</td><td>61 to 120 min: +0.5; over 120 min: +1</td><td>Sleep regularity research (Windred and others, 2024)</td></tr>
+    <tr><td>Steps a day</td><td>8,000+ (6,000+ if 60 or older)</td><td>6,000 to 7,999</td><td>4,000 to 5,999: +0.5; under 4,000: +1</td><td>Paluch and others, 2022 (15 cohorts)</td></tr>
+    <tr><td>Exercise a week</td><td>150 min+</td><td>75 to 149 min</td><td>under 75 min: +1</td><td>CDC: 150 minutes of moderate activity a week</td></tr>
+  </tbody>
+</table>
+</div>
+<p><strong>The example</strong> (the button fills it in): a 38-year-old sleeping 6 h 40 min (+0.5), with a 95-minute bedtime spread (+0.5), 8,400 steps (&minus;0.5) and 110 exercise minutes a week (0). Total: +0.5. Habit age 38.5. The breakdown says what the single number hides: the steps are fine, the bedtime is the problem.</p>
+<p>Why these cut-offs. The CDC lists 7 or more hours of sleep for adults 18 to 60, and 150 minutes a week of moderate-intensity activity (or 75 of vigorous). Sleep over 9 hours is scored neutral, because the guideline sets a floor, not a target above it. For steps, a 2022 meta-analysis of 15 cohorts in The Lancet Public Health by Paluch and colleagues found the risk of death kept falling with more steps up to 6,000 to 8,000 a day in adults 60 and older, and 8,000 to 10,000 in younger adults, which is why the top tier starts at 6,000 after 60. For bedtime, a 2024 UK Biobank study by Windred and colleagues in the journal SLEEP found sleep regularity was a stronger predictor of mortality than sleep duration. Both studies show associations, not cause.</p>
+
+<h2>What a real biological age test measures</h2>
+<p>Search results mix three very different things under one name.</p>
+<ul>
+  <li><strong>Questionnaire calculators</strong> (like this one, and most of what ranks) add and subtract years for answers about sleep, exercise, smoking or diet. The weights are the author's. They are useful as a habit summary and nothing more.</li>
+  <li><strong>Blood-based formulas.</strong> PhenoAge, published by Morgan Levine and colleagues in the journal Aging in 2018, combines nine routine blood markers (albumin, creatinine, glucose, C-reactive protein, lymphocyte percentage, mean cell volume, red cell distribution width, alkaline phosphatase and white blood cell count) with your age. The formula was fitted to mortality data from the US National Health and Nutrition Examination Survey (NHANES III, about 9,900 adults). It needs lab results you cannot get from a watch.</li>
+  <li><strong>Epigenetic clocks</strong> estimate age from DNA methylation, chemical marks at specific sites in your genome, measured in a blood or saliva sample. The National Institute on Aging describes epigenetic age as an estimate of biological age based on those changes.</li>
+</ul>
+<p>Watch-based ages sit between the first and the others: they use measured data instead of guesses, but the weights are still the app's. Our comparison of <a href="/guides/biological-age-apps-apple-watch/">biological age apps for Apple Watch</a> covers Whoop Age, Bevel's Biological Age and others. Apple's own Health Age is announced but not out yet; <a href="/guides/how-to-see-apple-health-age/">how to see Apple Health Age</a> tracks where it stands. The closest free number today is Cardio Fitness (Browse, Heart, Cardio Fitness), which rates VO2 max against your age and sex, and <a href="/guides/apple-watch-fitness-age/">fitness age on Apple Watch</a> shows how to read an age off it.</p>
+<p>None of these numbers is a diagnosis. If a result worries you, talk to a doctor.</p>
+
+<h2>Where Nularo fits</h2>
+<p>Full disclosure: Nularo is our app. Its Creature Age is the automatic version of the calculator above, with two more inputs. It reads Apple Health (read-only) and recalculates every week from sleep duration (anchored at 7h30 a night), bedtime consistency, steps (8,000 a day), active minutes (30 a day), resting heart rate and HRV. There is nothing to type. The Age tab breaks down which habit added the years, so you see that it was the drifting bedtime and not the step count.</p>
+<!-- shot:age-tab -->
+<p>Its weights are not the ones in this page's table, so the two numbers will not match. A good stretch can make the creature up to 1.5 years younger than you, and the number stays hidden until there are 7 days of data. Like the calculator, it is a rules-based, for-fun number built from public-health guidelines, not a biological age test and not medical.</p>
+<p>The honest limitations: it is iPhone only, and without an Apple Watch there is far less sleep and heart data, so the number gets thinner. It judges, it does not coach. And it is a subscription after onboarding: $39.99 a year with a 3-day free trial, or $9.99 a month. If you only want the number once, the calculator above is free. If HRV is the input you are unsure about, <a href="/guides/apple-watch-hrv-always-low/">why Apple Watch HRV looks low</a> explains how the watch measures it.</p>
+<!-- cta:age -->
+
+<h2>Sources</h2>
+<ul>
+  <li><a href="https://support.apple.com/guide/iphone/view-your-sleep-history-iph72b370881/ios" rel="noopener">Apple Support: View your sleep history in Health on iPhone</a></li>
+  <li><a href="https://support.apple.com/guide/iphone/view-your-health-data-iphe3d379c32/ios" rel="noopener">Apple Support: View your data in Health on iPhone</a></li>
+  <li><a href="https://www.cdc.gov/sleep/about/index.html" rel="noopener">CDC: About Sleep (recommended hours by age)</a></li>
+  <li><a href="https://www.cdc.gov/physical-activity-basics/guidelines/adults.html" rel="noopener">CDC: Adult Activity, an overview</a></li>
+  <li><a href="https://doaj.org/article/c3639c468b4348958202e52793ab979d" rel="noopener">Paluch and others (2022), Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts, The Lancet Public Health</a></li>
+  <li><a href="https://doi.org/10.1093/sleep/zsad253" rel="noopener">Windred and others (2024), Sleep regularity is a stronger predictor of mortality risk than sleep duration, SLEEP</a></li>
+  <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5940111/" rel="noopener">Levine and others (2018), An epigenetic biomarker of aging for lifespan and healthspan, Aging (PhenoAge)</a></li>
+  <li><a href="https://www.nia.nih.gov/news/epigenetic-age-estimated-changes-dna-methylation-predicts-mortality" rel="noopener">National Institute on Aging: Epigenetic age estimated by changes in DNA methylation</a></li>
+</ul>

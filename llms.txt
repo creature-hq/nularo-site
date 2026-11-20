@@ -4,6 +4,7 @@
 
 ## Guides
 
+- [Biological age calculator from your Apple Health habits](https://nularo.com/guides/biological-age-calculator/): A free habit-based age calculator using sleep, bedtime consistency, steps and exercise minutes from Apple Health. Every rule shown, and why it is not a lab test.
 - [Finch app review: how it works, what is free, who it suits](https://nularo.com/guides/finch-app-review/): Finch is free, rated 4.9 from 777K ratings and fully manual: no Apple Health, no Apple Watch app. What Plus costs ($9.99/mo or $69.99/yr) and who it suits.
 - [How to fix your sleep schedule with iPhone and Apple Watch](https://nularo.com/guides/how-to-fix-sleep-schedule/): The CDC's rule is one bedtime and wake time every day, weekends included. How to make your iPhone and Apple Watch enforce it, and check it is working.
 - [Sleep debt calculator for your Apple Watch sleep data](https://nularo.com/guides/sleep-debt-calculator/): A free sleep debt calculator for 7 or 14 nights. Type in Time Asleep from Apple Health, see your debt two ways, and why apps give different numbers.

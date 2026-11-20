@@ -25,9 +25,11 @@
     "nularo_fit": 5,
     "angle": "Free tool page: a plain-JS rules-based 'habit age' estimate from sleep hours, bedtime consistency, steps, active minutes (inputs typed by the reader, nothing sent anywhere), clearly labelled for fun and not a medical test, math shown and sourced to public-health guidelines. Explain why real biological age tests (epigenetic clocks) differ. Then Nularo: Creature Age does this automatically every week from Apple Health.",
     "priority": 2,
-    "status": "todo",
+    "status": "done",
     "source": "bing-demand-2026-11-18",
-    "download_test": "B"
+    "download_test": "B",
+    "done": "2026-11-20",
+    "slug": "biological-age-calculator"
   },
   {
     "keyword": "whoop alternative for apple watch",
