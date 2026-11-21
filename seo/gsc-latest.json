@@ -1,22 +1,22 @@
 {
-  "pulled": "2026-11-20",
+  "pulled": "2026-11-21",
   "range": [
-    "2026-10-21",
-    "2026-11-18"
+    "2026-10-22",
+    "2026-11-19"
   ],
   "totals": {
-    "impressions": 298,
+    "impressions": 326,
     "clicks": 8,
-    "queries": 41
+    "queries": 45
   },
   "opportunities": [
     {
       "query": "reddit \u00b7 r/finch alternatives",
       "page": "https://nularo.com/guides/finch-alternatives/",
-      "impressions": 5,
+      "impressions": 7,
       "clicks": 0,
       "ctr": 0,
-      "position": 4,
+      "position": 4.9,
       "action": "rewrite title/description or deepen the section"
     },
     {
@@ -32,9 +32,9 @@
   "pages": [
     {
       "page": "https://nularo.com/guides/self-care-tamagotchi-apps/",
-      "impressions": 56,
+      "impressions": 57,
       "clicks": 3,
-      "position": 8.8
+      "position": 8.9
     },
     {
       "page": "https://nularo.com/",
@@ -44,9 +44,9 @@
     },
     {
       "page": "https://nularo.com/guides/apple-watch-time-in-bed/",
-      "impressions": 14,
+      "impressions": 21,
       "clicks": 1,
-      "position": 5.6
+      "position": 5.8
     },
     {
       "page": "https://nularo.com/guides/apps-that-rate-your-sleep/",
@@ -56,27 +56,27 @@
     },
     {
       "page": "https://nularo.com/guides/sleep-app-for-night-shift-workers/",
-      "impressions": 41,
+      "impressions": 43,
       "clicks": 0,
-      "position": 6.9
+      "position": 7.3
     },
     {
       "page": "https://nularo.com/guides/apple-watch-stress-app-free/",
-      "impressions": 29,
+      "impressions": 35,
       "clicks": 0,
-      "position": 25.4
+      "position": 22.4
     },
     {
       "page": "https://nularo.com/guides/apps-that-roast-you/",
-      "impressions": 26,
+      "impressions": 27,
       "clicks": 0,
-      "position": 21.4
+      "position": 20.7
     },
     {
       "page": "https://nularo.com/guides/finch-alternatives/",
-      "impressions": 19,
+      "impressions": 22,
       "clicks": 0,
-      "position": 32.4
+      "position": 30.6
     },
     {
       "page": "https://nularo.com/guides/apple-watch-sleep-graph-explained/",
@@ -85,16 +85,16 @@
       "position": 23
     },
     {
+      "page": "https://nularo.com/guides/virtual-pet-apps-apple-health/",
+      "impressions": 12,
+      "clicks": 0,
+      "position": 6.6
+    },
+    {
       "page": "https://nularo.com/guides/gamified-fitness-apps/",
       "impressions": 11,
       "clicks": 0,
       "position": 56.1
-    },
-    {
-      "page": "https://nularo.com/guides/virtual-pet-apps-apple-health/",
-      "impressions": 11,
-      "clicks": 0,
-      "position": 7.1
     },
     {
       "page": "https://nularo.com/guides/",
@@ -109,6 +109,18 @@
       "position": 6.6
     },
     {
+      "page": "https://nularo.com/guides/bevel-alternative-free/",
+      "impressions": 7,
+      "clicks": 0,
+      "position": 24.1
+    },
+    {
+      "page": "https://nularo.com/guides/sleepmaxxing-apps/",
+      "impressions": 7,
+      "clicks": 0,
+      "position": 7.3
+    },
+    {
       "page": "https://nularo.com/guides/accountability-buddy-app-free/",
       "impressions": 6,
       "clicks": 0,
@@ -116,15 +128,9 @@
     },
     {
       "page": "https://nularo.com/guides/apple-sleep-score-vs-autosleep/",
-      "impressions": 5,
+      "impressions": 6,
       "clicks": 0,
-      "position": 7
-    },
-    {
-      "page": "https://nularo.com/guides/sleepmaxxing-apps/",
-      "impressions": 5,
-      "clicks": 0,
-      "position": 8.4
+      "position": 6
     },
     {
       "page": "https://nularo.com/terms.html",
@@ -137,12 +143,6 @@
       "impressions": 3,
       "clicks": 0,
       "position": 45.7
-    },
-    {
-      "page": "https://nularo.com/guides/bevel-alternative-free/",
-      "impressions": 3,
-      "clicks": 0,
-      "position": 26
     },
     {
       "page": "https://nularo.com/health-data-notice.html",
@@ -161,9 +161,9 @@
     {
       "query": "reddit \u00b7 r/finch alternatives",
       "page": "https://nularo.com/guides/finch-alternatives/",
-      "impressions": 5,
+      "impressions": 7,
       "clicks": 0,
-      "position": 4
+      "position": 4.9
     },
     {
       "query": "self care tamagotchi app",
@@ -192,6 +192,13 @@
       "impressions": 3,
       "clicks": 0,
       "position": 51.3
+    },
+    {
+      "query": "sleepmaxxing app",
+      "page": "https://nularo.com/guides/sleepmaxxing-apps/",
+      "impressions": 3,
+      "clicks": 0,
+      "position": 9
     },
     {
       "query": "apple health app sleep analysis",
@@ -227,13 +234,6 @@
       "impressions": 2,
       "clicks": 0,
       "position": 66.5
-    },
-    {
-      "query": "sleepmaxxing app",
-      "page": "https://nularo.com/guides/sleepmaxxing-apps/",
-      "impressions": 2,
-      "clicks": 0,
-      "position": 9.5
     },
     {
       "query": "accountability partner app",
@@ -320,6 +320,13 @@
       "position": 54
     },
     {
+      "query": "finch alternative",
+      "page": "https://nularo.com/guides/finch-alternatives/",
+      "impressions": 1,
+      "clicks": 0,
+      "position": 43
+    },
+    {
       "query": "free accountability apps for couples",
       "page": "https://nularo.com/guides/accountability-buddy-app-free/",
       "impressions": 1,
@@ -376,11 +383,25 @@
       "position": 51
     },
     {
+      "query": "how much is bevel",
+      "page": "https://nularo.com/guides/bevel-alternative-free/",
+      "impressions": 1,
+      "clicks": 0,
+      "position": 43
+    },
+    {
       "query": "ik wil gratis",
       "page": "https://nularo.com/guides/apple-watch-stress-app-free/",
       "impressions": 1,
       "clicks": 0,
       "position": 12
+    },
+    {
+      "query": "is bevel free",
+      "page": "https://nularo.com/guides/bevel-alternative-free/",
+      "impressions": 1,
+      "clicks": 0,
+      "position": 34
     },
     {
       "query": "link for free",
@@ -395,6 +416,13 @@
       "impressions": 1,
       "clicks": 0,
       "position": 58
+    },
+    {
+      "query": "overnight app",
+      "page": "https://nularo.com/guides/sleep-app-for-night-shift-workers/",
+      "impressions": 1,
+      "clicks": 0,
+      "position": 24
     },
     {
       "query": "roast apps",
@@ -449,8 +477,9 @@
   "index": [
     {
       "url": "https://nularo.com/guides/",
-      "verdict": "ERROR",
-      "coverage": "HTTP Error 503: Service Unavailable"
+      "verdict": "PASS",
+      "coverage": "Submitted and indexed",
+      "last_crawl": "2026-11-14T21:32:54Z"
     },
     {
       "url": "https://nularo.com/guides/how-we-write/",
@@ -466,8 +495,9 @@
     },
     {
       "url": "https://nularo.com/guides/apple-watch-sleep-debt/",
-      "verdict": "ERROR",
-      "coverage": "HTTP Error 503: Service Unavailable"
+      "verdict": "NEUTRAL",
+      "coverage": "Crawled - currently not indexed",
+      "last_crawl": "2026-10-20T07:21:44Z"
     },
     {
       "url": "https://nularo.com/guides/biological-age-apps-apple-watch/",
@@ -501,8 +531,9 @@
     },
     {
       "url": "https://nularo.com/guides/apps-that-roast-you/",
-      "verdict": "ERROR",
-      "coverage": "HTTP Error 503: Service Unavailable"
+      "verdict": "PASS",
+      "coverage": "Submitted and indexed",
+      "last_crawl": "2026-11-15T04:09:02Z"
     },
     {
       "url": "https://nularo.com/guides/self-care-tamagotchi-apps/",
@@ -524,8 +555,9 @@
     },
     {
       "url": "https://nularo.com/guides/apps-that-rate-your-sleep/",
-      "verdict": "ERROR",
-      "coverage": "HTTP Error 503: Service Unavailable"
+      "verdict": "PASS",
+      "coverage": "Submitted and indexed",
+      "last_crawl": "2026-11-14T20:48:18Z"
     },
     {
       "url": "https://nularo.com/guides/sleep-consistency-apps/",
@@ -589,8 +621,9 @@
     },
     {
       "url": "https://nularo.com/guides/does-apple-watch-resting-heart-rate-include-sleep/",
-      "verdict": "ERROR",
-      "coverage": "HTTP Error 503: Service Unavailable"
+      "verdict": "NEUTRAL",
+      "coverage": "URL is unknown to Google",
+      "last_crawl": null
     },
     {
       "url": "https://nularo.com/guides/pengu-app-alternatives/",
@@ -654,8 +687,9 @@
     },
     {
       "url": "https://nularo.com/guides/sleep-debt-calculator/",
-      "verdict": "ERROR",
-      "coverage": "HTTP Error 503: Service Unavailable"
+      "verdict": "PASS",
+      "coverage": "Submitted and indexed",
+      "last_crawl": "2026-11-18T18:27:40Z"
     },
     {
       "url": "https://nularo.com/guides/whoop-alternative-apple-watch/",
@@ -677,6 +711,18 @@
     },
     {
       "url": "https://nularo.com/guides/biological-age-calculator/",
+      "verdict": "PASS",
+      "coverage": "Submitted and indexed",
+      "last_crawl": "2026-11-20T16:27:58Z"
+    },
+    {
+      "url": "https://nularo.com/guides/habitica-alternatives/",
+      "verdict": "NEUTRAL",
+      "coverage": "Discovered - currently not indexed",
+      "last_crawl": null
+    },
+    {
+      "url": "https://nularo.com/guides/how-to-track-sleep-on-apple-watch/",
       "verdict": "NEUTRAL",
       "coverage": "Discovered - currently not indexed",
       "last_crawl": null

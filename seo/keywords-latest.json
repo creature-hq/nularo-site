@@ -1,36 +1,7 @@
 {
-  "pulled": "2026-11-20",
+  "pulled": "2026-11-21",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "habitica alternatives",
-      "priority": 4,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 3,
-      "suggestions": [
-        "habitica alternatives",
-        "habitica free alternatives",
-        "best habitica alternatives"
-      ]
-    },
-    {
-      "keyword": "how to track sleep on apple watch",
-      "priority": 5,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 10,
-      "suggestions": [
-        "how to track sleep on apple watch",
-        "how to track sleep on apple watch 11",
-        "how to track sleep on apple watch se",
-        "how to track sleep on apple watch series 3",
-        "how to track sleep on apple watch series 12",
-        "how to track sleep on apple watch ultra 2",
-        "how to track sleep on apple watch ultra 4",
-        "how to track sleep on apple watch ultra"
-      ]
-    },
     {
       "keyword": "sleep cycle app alternatives",
       "priority": 6,
@@ -166,8 +137,8 @@
       "suggestion_count": 10,
       "suggestions": [
         "bed rotting",
-        "bed rotting meaning",
         "bed rotting meme",
+        "bed rotting definition",
         "bed rotting depression",
         "bed rotting reddit",
         "bed rotting room",
@@ -528,6 +499,40 @@
       "suggestion_count": 1,
       "suggestions": [
         "sleepmaxxing routine"
+      ]
+    },
+    {
+      "keyword": "pokemon sleep without apple watch",
+      "priority": 120,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 10,
+      "suggestions": [
+        "pokemon sleep without apple watch",
+        "pokemon sleep no apple watch",
+        "pokemon sleep apple watch",
+        "pokemon sleep apple watch face",
+        "pokemon sleep apple watch app",
+        "pokemon sleep apple watch reddit",
+        "pokemon sleep apple watch not working",
+        "pokemon sleep apple watch se"
+      ]
+    },
+    {
+      "keyword": "is apple watch sleep score accurate",
+      "priority": 121,
+      "exact_in_autocomplete": true,
+      "rank": 1,
+      "suggestion_count": 10,
+      "suggestions": [
+        "is apple watch sleep score accurate",
+        "is apple watch sleep score accurate reddit",
+        "is apple watch sleep score reliable",
+        "is apple watch 11 sleep score accurate",
+        "apple watch sleep score is not accurate",
+        "which sleep score is more accurate - garmin or apple watch",
+        "how accurate is my apple watch sleep score",
+        "is apple watch sleep accurate"
       ]
     }
   ],
