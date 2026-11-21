@@ -89,9 +89,11 @@
     "nularo_fit": 4,
     "angle": "Sleep Cycle alternatives for iPhone + Apple Watch owners (mic-based vs watch-based tracking): AutoSleep, Pillow, Rise, Apple's own Sleep, Nularo. Check current prices.",
     "priority": 6,
-    "status": "todo",
+    "status": "done",
     "source": "bing-demand-2026-11-18",
-    "download_test": "A"
+    "download_test": "A",
+    "done": "2026-11-21",
+    "slug": "sleep-cycle-app-alternatives"
   },
   {
     "keyword": "pokemon sleep alternative",

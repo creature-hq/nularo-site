@@ -5,6 +5,7 @@
 ## Guides
 
 - [How to track sleep on Apple Watch (and fix a blank night)](https://nularo.com/guides/how-to-track-sleep-on-apple-watch/): Turn on Sleep Tracking in the Watch app, charge to 30%, wear it at least an hour. Exact steps for iPhone and watch, where the data shows up, why a night is blank.
+- [Sleep Cycle alternatives for iPhone and Apple Watch owners](https://nularo.com/guides/sleep-cycle-app-alternatives/): Sleep Cycle listens from your nightstand. If you wear an Apple Watch, AutoSleep ($9.99 once), Pillow, Rise, Apple's free Sleep app and Nularo use it instead.
 - [Biological age calculator from your Apple Health habits](https://nularo.com/guides/biological-age-calculator/): A free habit-based age calculator using sleep, bedtime consistency, steps and exercise minutes from Apple Health. Every rule shown, and why it is not a lab test.
 - [Habitica alternatives for iPhone, sorted by why you quit](https://nularo.com/guides/habitica-alternatives/): Quit Habitica because ticking boxes got old, the damage stressed you, or you outgrew the pixels? 8 iPhone alternatives with current App Store prices.
 - [Finch app review: how it works, what is free, who it suits](https://nularo.com/guides/finch-app-review/): Finch is free, rated 4.9 from 777K ratings and fully manual: no Apple Health, no Apple Watch app. What Plus costs ($9.99/mo or $69.99/yr) and who it suits.
