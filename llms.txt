@@ -4,6 +4,7 @@
 
 ## Guides
 
+- [How to track sleep on Apple Watch (and fix a blank night)](https://nularo.com/guides/how-to-track-sleep-on-apple-watch/): Turn on Sleep Tracking in the Watch app, charge to 30%, wear it at least an hour. Exact steps for iPhone and watch, where the data shows up, why a night is blank.
 - [Biological age calculator from your Apple Health habits](https://nularo.com/guides/biological-age-calculator/): A free habit-based age calculator using sleep, bedtime consistency, steps and exercise minutes from Apple Health. Every rule shown, and why it is not a lab test.
 - [Habitica alternatives for iPhone, sorted by why you quit](https://nularo.com/guides/habitica-alternatives/): Quit Habitica because ticking boxes got old, the damage stressed you, or you outgrew the pixels? 8 iPhone alternatives with current App Store prices.
 - [Finch app review: how it works, what is free, who it suits](https://nularo.com/guides/finch-app-review/): Finch is free, rated 4.9 from 777K ratings and fully manual: no Apple Health, no Apple Watch app. What Plus costs ($9.99/mo or $69.99/yr) and who it suits.
@@ -34,7 +35,7 @@
 - [Apps that rate your sleep: how each one grades a night](https://nularo.com/guides/apps-that-rate-your-sleep/): Apple Watch already scores every night out of 100. How Apple, AutoSleep, Bevel, Sleep Cycle and SleepScore grade sleep, and why their scores disagree.
 - [Sleep apps for night shift workers on iPhone and Apple Watch](https://nularo.com/guides/sleep-app-for-night-shift-workers/): Apple Watch tracks daytime sleep on night shifts if you give it a daytime schedule. Set one for work days and one for days off, plus shift-work apps.
 - [Why is my Apple Watch HRV always low? (What the number means)](https://nularo.com/guides/apple-watch-hrv-always-low/): Apple Watch reports HRV as SDNN from spot readings, so it is not on the same scale as Whoop or Oura. Compare it with your own trend, not other people's.
-- [Tamagotchi apps for self care: which pets forgive a bad week](https://nularo.com/guides/self-care-tamagotchi-apps/): Finch, Kinder World, Quabble, Urso, Pengu, Palli and Nularo compared by what feeds the pet, what happens when you skip a day, and what it costs.
+- [Tamagotchi apps for self care: which pets forgive a bad week](https://nularo.com/guides/self-care-tamagotchi-apps/): The best self care Tamagotchi app depends on what feeds the pet. Finch, Kinder World, Quabble, Urso, Pengu, Palli and Nularo compared, with prices.
 - [Apps that roast you, sorted by what they roast](https://nularo.com/guides/apps-that-roast-you/): Most roast apps take a selfie and sell a weekly subscription. These roast what you actually did instead: your music, your runs, your weather, your sleep.
 - [Gamified sleep tracker apps: rewards vs consequences](https://nularo.com/guides/gamified-sleep-tracker-apps/): Pokémon Sleep, SleepTown and Nularo turn sleep into a game in different ways. What each one measures, what it rewards, and how Apple Watch fits in.
 - [Does Apple Watch have a Body Battery? (The closest equivalents)](https://nularo.com/guides/apple-watch-body-battery/): No. Body Battery is Garmin's. Apple Watch Series 12 and Ultra 4 get a 0-10 Readiness score, and apps like Bevel and Athlytic add a battery-style gauge.

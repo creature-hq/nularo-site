@@ -73,9 +73,11 @@
     "nularo_fit": 4,
     "angle": "Exact current watchOS/iOS steps (Sleep Focus, schedule, Track Sleep with Apple Watch, charging), checked against support.apple.com, plus where to read the data in Health. Then: what to do with the data, Nularo's morning verdict. High volume, Apple ranks too, so be the clearest and most current.",
     "priority": 5,
-    "status": "todo",
+    "status": "done",
     "source": "bing-demand-2026-11-18",
-    "download_test": "B"
+    "download_test": "B",
+    "done": "2026-11-21",
+    "slug": "how-to-track-sleep-on-apple-watch"
   },
   {
     "keyword": "sleep cycle app alternatives",
