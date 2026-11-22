@@ -105,9 +105,11 @@
     "nularo_fit": 4,
     "angle": "Cute 'sleep makes your creature happy' apps for people who like Pokemon Sleep but want Apple Watch data or no phone-on-pillow: Nularo, Pokemon Sleep itself (fair), others verified. Answer 'does Pokemon Sleep work with Apple Watch' in an H2 (verify).",
     "priority": 7,
-    "status": "todo",
+    "status": "done",
     "source": "bing-demand-2026-11-18",
-    "download_test": "A"
+    "download_test": "A",
+    "done": "2026-11-22",
+    "slug": "pokemon-sleep-alternatives"
   },
   {
     "keyword": "rise app alternative",
