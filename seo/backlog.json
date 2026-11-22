@@ -135,9 +135,11 @@
     "nularo_fit": 4,
     "angle": "What it is (cite the original research), why it happens, non-medical ways people break it, then apps: Nularo's Bedtime Pledge and morning verdict. No medical advice. Replaces the old 'revenge bedtime procrastination app' item.",
     "priority": 9,
-    "status": "todo",
+    "status": "done",
     "source": "bing-demand-2026-11-18",
-    "download_test": "B"
+    "download_test": "B",
+    "done": "2026-11-22",
+    "slug": "revenge-bedtime-procrastination"
   },
   {
     "keyword": "bevel app review",
