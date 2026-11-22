@@ -1,35 +1,7 @@
 {
-  "pulled": "2026-11-21",
+  "pulled": "2026-11-22",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "sleep cycle app alternatives",
-      "priority": 6,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 6,
-      "suggestions": [
-        "sleep cycle app alternatives",
-        "sleep cycle app alternative reddit",
-        "sleep cycle app free alternative",
-        "sleep cycle alternative ios",
-        "sleep cycle free alternative",
-        "apps like sleep cycle"
-      ]
-    },
-    {
-      "keyword": "pokemon sleep alternative",
-      "priority": 7,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 4,
-      "suggestions": [
-        "pokemon sleep alternative",
-        "is it better to paralyze or sleep pokemon",
-        "what is the best sleep move in pokemon",
-        "can you paralyze and sleep a pokemon"
-      ]
-    },
     {
       "keyword": "rise app alternative",
       "priority": 8,
@@ -137,8 +109,8 @@
       "suggestion_count": 10,
       "suggestions": [
         "bed rotting",
+        "bed rotting meaning",
         "bed rotting meme",
-        "bed rotting definition",
         "bed rotting depression",
         "bed rotting reddit",
         "bed rotting room",
@@ -534,6 +506,14 @@
         "how accurate is my apple watch sleep score",
         "is apple watch sleep accurate"
       ]
+    },
+    {
+      "keyword": "apple watch daytime heart rate trend",
+      "priority": 123,
+      "exact_in_autocomplete": false,
+      "rank": null,
+      "suggestion_count": 0,
+      "suggestions": []
     }
   ],
   "new_candidates": [
