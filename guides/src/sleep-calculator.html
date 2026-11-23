@@ -1,0 +1,139 @@
+<!--meta
+{
+  "title": "Sleep calculator: when to go to bed and when to wake up",
+  "seo_title": "Sleep Calculator: Bedtime and Wake-Up Times (Free)",
+  "description": "Free sleep calculator: enter a wake-up time or a bedtime and get times based on 90-minute cycles, then check them against your Apple Watch.",
+  "keyword": "sleep calculator",
+  "cluster": "watch-sleep",
+  "published": "2026-11-23",
+  "updated": "2026-11-23",
+  "tldr": "Count back from your wake-up time in 90-minute sleep cycles, then add about 15 minutes to fall asleep. For a 7:00 AM alarm that gives bedtimes of 9:45 PM (six cycles, 9 hours), 11:15 PM (five, 7.5 hours) or 12:45 AM (four, 6 hours). Treat 90 minutes as an average: Cleveland Clinic puts one cycle at about 90 to 120 minutes. The CDC recommends 7 or more hours for adults, so five cycles is the usual floor. Nularo then checks the plan against your Apple Health sleep each morning, with no typing.",
+  "hero": "The calculator plans the night. Nularo tells you the next morning how it actually went.",
+  "howto": [
+    "Choose 'I need to wake up at' or 'I am going to bed at' in the calculator and enter the time.",
+    "Leave the fall-asleep time at 15 minutes and the cycle at 90 minutes, or change them to match you.",
+    "Pick a time that gives at least five cycles (7.5 hours of sleep) if you are an adult aiming for the CDC's 7 or more hours.",
+    "Set it as your schedule: in Health on iPhone, tap Browse, Sleep, Sleep, then Full Schedule & Options, and drag the bedtime and wake-up icons. For tonight only, tap Edit under Your Schedule instead.",
+    "The next morning, open Health, tap Browse, Sleep and compare the night's Time Asleep with what you planned."
+  ],
+  "cta": "sleep",
+  "faq": [
+    {"q": "What time should I go to bed if I wake up at 6 AM?", "a": "With 90-minute cycles and 15 minutes to fall asleep, the bedtimes are 8:45 PM (six cycles, 9 hours of sleep), 10:15 PM (five cycles, 7.5 hours) or 11:45 PM (four cycles, 6 hours). The CDC recommends 7 or more hours for adults aged 18 to 60, so 10:15 PM is the latest of the three that meets it."},
+    {"q": "Is the 90-minute sleep cycle real?", "a": "Sleep does run in cycles of non-REM and REM sleep, several a night, and the NICHD says you first enter REM about 90 minutes after you fall asleep. But cycles are not all the same length. Cleveland Clinic gives about 90 to 120 minutes per cycle, so a calculator's exact minute is a rule of thumb, not a measurement."},
+    {"q": "How many sleep cycles do I need?", "a": "Cleveland Clinic says most people go through four or five cycles in a full eight hours. Five 90-minute cycles is 7.5 hours, which sits inside the CDC's 7 or more hours for adults. Four cycles is 6 hours, under that recommendation."},
+    {"q": "Can Apple Watch wake me at the end of a sleep cycle?", "a": "Apple's built-in Wake Up alarm rings at a set clock time. Some third-party apps offer a smart alarm instead; Sleep Cycle's App Store listing, for example, says its Smart Alarm wakes you during your lightest sleep phase."},
+    {"q": "Does Nularo have a sleep calculator?", "a": "No. Nularo does not suggest a bedtime or set an alarm. It reads your sleep from Apple Health each morning, sends a verdict judged against your own 14-day baseline, and keeps a running 7-day sleep debt. It is iPhone only and a subscription: $39.99 a year with a 3-day free trial, or $9.99 a month."}
+  ],
+  "related": ["sleep-debt-calculator", "how-to-fix-sleep-schedule", "apple-watch-alarm-after-8-hours-of-sleep", "apple-watch-sleep-graph-explained"]
+}
+-->
+<p class="lede">The alarm is set for 7:00 tomorrow and you are doing sleep math in your head: if you fall asleep by midnight, that is seven hours, unless it takes you half an hour, in which case... The calculator below does that sum, cycles included. Then this page shows you how to check tomorrow whether the plan survived contact with your actual night.</p>
+
+<h2>Work out your bedtime or wake-up time</h2>
+<p>Pick a direction, type a time, and the calculator lists times that land at the end of a whole sleep cycle. The defaults are the ones most sleep calculators use: 90-minute cycles and 15 minutes to fall asleep. Change either if you know you are different. Nothing you type leaves this page.</p>
+<form class="calc" id="sc-calc" onsubmit="return false">
+  <div class="calc-row">
+    <span class="calc-label">I want to</span>
+    <label class="calc-choice"><input type="radio" name="sc-mode" value="wake" checked /> wake up at</label>
+    <label class="calc-choice"><input type="radio" name="sc-mode" value="bed" /> go to bed at</label>
+  </div>
+  <div class="calc-row">
+    <label for="sc-time" id="sc-time-label">Wake-up time</label>
+    <input id="sc-time" type="time" value="07:00" />
+  </div>
+  <div class="calc-row">
+    <label for="sc-latency">Minutes to fall asleep</label>
+    <input id="sc-latency" type="number" min="0" max="120" step="1" value="15" inputmode="numeric" />
+  </div>
+  <div class="calc-row">
+    <label for="sc-cycle">Minutes per cycle</label>
+    <input id="sc-cycle" type="number" min="60" max="150" step="1" value="90" inputmode="numeric" />
+  </div>
+  <div class="calc-buttons">
+    <button type="button" id="sc-now">I am going to bed now</button>
+  </div>
+  <div class="calc-out" id="sc-out" aria-live="polite">Enter a time to see your options.</div>
+</form>
+<script>
+(function () {
+  var t = document.getElementById("sc-time"), lat = document.getElementById("sc-latency"), cyc = document.getElementById("sc-cycle");
+  var out = document.getElementById("sc-out"), lab = document.getElementById("sc-time-label");
+  function mode() { return document.querySelector('input[name="sc-mode"]:checked').value; }
+  function clock(min) {
+    min = ((Math.round(min) % 1440) + 1440) % 1440;
+    var h = Math.floor(min / 60), m = min % 60, ap = h < 12 ? "AM" : "PM", h12 = h % 12 || 12;
+    return h12 + ":" + (m < 10 ? "0" : "") + m + " " + ap;
+  }
+  function dur(min) { var h = Math.floor(min / 60), m = min % 60; return h + " h" + (m ? " " + m + " min" : ""); }
+  function calc() {
+    lab.textContent = mode() === "wake" ? "Wake-up time" : "Bedtime";
+    var v = (t.value || "").match(/^(\d{2}):(\d{2})/), L = parseInt(lat.value, 10), C = parseInt(cyc.value, 10);
+    if (!v) { out.textContent = "Enter a time to see your options."; return; }
+    if (isNaN(L) || L < 0 || L > 120) { out.textContent = "Minutes to fall asleep should be between 0 and 120."; return; }
+    if (isNaN(C) || C < 60 || C > 150) { out.textContent = "Minutes per cycle should be between 60 and 150."; return; }
+    var base = +v[1] * 60 + +v[2], rows = [], counts = [6, 5, 4, 3];
+    counts.forEach(function (n) {
+      var sleep = n * C, when = mode() === "wake" ? base - sleep - L : base + L + sleep;
+      var note = sleep >= 420 ? "" : " <small>(under the CDC's 7 hours for adults)</small>";
+      rows.push("<li><strong>" + clock(when) + "</strong>: " + n + " cycles, " + dur(sleep) + " asleep" + note + "</li>");
+    });
+    out.innerHTML = (mode() === "wake" ? "To wake up at " + clock(base) + ", go to bed at:" : "Going to bed at " + clock(base) + ", wake up at:") +
+      "<ul>" + rows.join("") + "</ul><small>" + (mode() === "wake" ? "Bedtime = wake-up time minus cycles minus " : "Wake-up time = bedtime plus ") + L + " min to fall asleep" + (mode() === "wake" ? "" : " plus cycles") + ". One cycle = " + C + " min.</small>";
+  }
+  document.getElementById("sc-now").onclick = function () {
+    var d = new Date(), h = d.getHours(), m = d.getMinutes();
+    document.querySelector('input[name="sc-mode"][value="bed"]').checked = true;
+    t.value = (h < 10 ? "0" : "") + h + ":" + (m < 10 ? "0" : "") + m;
+    calc();
+  };
+  document.getElementById("sc-calc").addEventListener("input", calc);
+  document.getElementById("sc-calc").addEventListener("change", calc);
+  calc();
+})();
+</script>
+<p>The calculator runs in your browser. No account, nothing stored, nothing sent.</p>
+
+<h2>The math, and how far to trust it</h2>
+<p>Every sleep calculator does the same sum. Going backwards from a wake-up time: <em>bedtime = wake-up time minus (cycles times cycle length) minus time to fall asleep</em>. For a 7:00 AM alarm with the defaults:</p>
+<div class="table-scroll">
+<table>
+  <thead><tr><th>Cycles</th><th>Time asleep</th><th>Bedtime for 7:00 AM</th><th>Bedtime for 6:00 AM</th></tr></thead>
+  <tbody>
+    <tr><td>6</td><td>9 h</td><td>9:45 PM</td><td>8:45 PM</td></tr>
+    <tr><td>5</td><td>7 h 30 min</td><td>11:15 PM</td><td>10:15 PM</td></tr>
+    <tr><td>4</td><td>6 h</td><td>12:45 AM</td><td>11:45 PM</td></tr>
+  </tbody>
+</table>
+</div>
+<p>The cycle part is real. The NICHD describes sleep as a loop through non-REM stages 1, 2 and 3 and then REM sleep, repeated several times a night, and says you first enter REM about 90 minutes after you fall asleep. It also says the cycles change shape as the night goes on: long stretches of deep sleep early, more REM later, and near the end almost all stage 1, stage 2 and REM.</p>
+<p>The exact minute is not. Cleveland Clinic says one cycle normally takes about 90 to 120 minutes, and that most people go through four or five in a full eight hours. A 30-minute spread per cycle adds up fast: over five cycles, the "end of a cycle" could be anywhere in a window more than two hours wide. Your time to fall asleep moves around from night to night too. So use the result as a sensible target, not a promise that you will wake at a light moment.</p>
+<p>Two rules carry more weight than the cycle count. The first is total sleep: the CDC recommends 7 or more hours a night for adults aged 18 to 60, 7 to 9 hours from 61 to 64, and 8 to 10 hours for teens aged 13 to 17. Four cycles is only 6 hours, which is why the calculator flags it. The second is consistency: the CDC's first tip for better sleep is going to bed and getting up at the same time every day, weekends included. A five-cycle bedtime you keep every night beats a perfect one you hit twice a week. If your bedtime has drifted, <a href="/guides/how-to-fix-sleep-schedule/">how to fix your sleep schedule</a> covers the one-schedule setup.</p>
+
+<h2>Put the time into your iPhone and Apple Watch</h2>
+<p>A bedtime on a web page is easy to ignore. A schedule on your phone starts Sleep Focus and rings an alarm. To make it your regular schedule, open Health on iPhone, tap Browse, tap Sleep, then tap Sleep again. Scroll to Your Schedule, tap <strong>Full Schedule &amp; Options</strong>, tap Edit on a schedule (or Add Schedule), and drag the bedtime and wake-up icons to the times you picked. Under Additional Details, <strong>Sleep Goal</strong> is the hours you want to spend asleep, and Apple says the slider turns orange if a schedule does not meet it.</p>
+<p>For one late night, do not touch the full schedule. On the same Sleep screen, tap Edit under Your Schedule, drag the slider and tap Done. Apple says these Next Wake Up Only changes apply to the following day only, and your normal schedule comes back after.</p>
+<p>Apple's Wake Up alarm rings at the clock time you set; it does not look for the end of a cycle. If you want that, it takes a third-party app. Sleep Cycle's App Store listing says its Smart Alarm wakes you during your lightest sleep phase, and our <a href="/guides/sleep-cycle-app-alternatives/">Sleep Cycle alternatives</a> guide compares others. If what you really want is an alarm that waits until you have slept a set number of hours, that is a different feature, covered in <a href="/guides/apple-watch-alarm-after-8-hours-of-sleep/">whether Apple Watch can wake you after 8 hours of sleep</a>.</p>
+
+<h2>Check the plan against what your watch recorded</h2>
+<p>This is the step every calculator skips. You planned 7 hours 30 minutes. What did you get? If you wear an Apple Watch to bed with sleep tracking on (setup is in <a href="/guides/how-to-track-sleep-on-apple-watch/">how to track sleep on Apple Watch</a>), the answer is already in your phone.</p>
+<ul>
+  <li><strong>Time Asleep.</strong> In Health, tap Browse, then Sleep. Each night's bar shows when you were asleep, and the figure to compare with your plan is Time Asleep. On the watch, open the Sleep app and turn the Digital Crown: Apple says it shows Time Asleep, sleep stages and sleep duration for the last 14 days.</li>
+  <li><strong>Awake time.</strong> Your plan assumed you slept straight through. The Awake segments on the stage chart are the time it did not count. <a href="/guides/apple-watch-sleep-graph-explained/">The Apple Watch sleep graph explained</a> shows how to read them.</li>
+  <li><strong>The week, not the night.</strong> Tap W on the chart. If most nights land well short of the plan, the shortfall adds up, and the <a href="/guides/sleep-debt-calculator/">sleep debt calculator</a> turns a week of Time Asleep figures into one number.</li>
+</ul>
+<p>If the gap between plan and reality is big night after night, the honest answer is that a calculator cannot tell you why. If you are struggling to sleep or always tired, talk to a doctor.</p>
+
+<h2>Where Nularo fits</h2>
+<p>Full disclosure: Nularo is our app, and it is not a calculator or an alarm. It does the morning-after part of this page for you. It reads your sleep from Apple Health (read-only), and each morning a creature delivers a verdict on the night in one of four moods (glowing, fine-but-judgy, wrecked or suspicious), judged against your own 14-day baseline rather than a generic 8 hours. The Overview tab keeps a running 7-day sleep debt next to last night's bedtime and wake time, so a plan that keeps slipping shows up without any typing.</p>
+<!-- shot:overview -->
+<p>In the evening there is a Bedtime Pledge, so the bedtime you picked above becomes a promise the creature remembers, and bedtime consistency is one of the habits in its weekly Creature Age.</p>
+<p>The honest limitation: Nularo does not suggest a bedtime, set an alarm or coach you; it judges. It reports the morning after, not in real time. It is iPhone only and needs a watch on at night for good sleep data. It is a subscription after onboarding: $39.99 a year with a 3-day free trial, or $9.99 a month. The calculator above stays free.</p>
+<!-- cta:sleep -->
+
+<h2>Sources</h2>
+<ul>
+  <li><a href="https://support.apple.com/en-us/108906" rel="noopener">Apple Support: Track your sleep on Apple Watch and use Sleep on iPhone</a></li>
+  <li><a href="https://www.cdc.gov/sleep/about/index.html" rel="noopener">CDC: About Sleep (recommended hours by age, tips for better sleep)</a></li>
+  <li><a href="https://www.nichd.nih.gov/health/topics/sleep/conditioninfo/what-happens" rel="noopener">NICHD (NIH): What happens during sleep?</a></li>
+  <li><a href="https://my.clevelandclinic.org/health/body/12148-sleep-basics" rel="noopener">Cleveland Clinic: Sleep basics (cycle length)</a></li>
+</ul>

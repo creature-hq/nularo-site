@@ -167,9 +167,11 @@
     "nularo_fit": 3,
     "angle": "Tool page: bedtime/wake-time calculator (90-minute cycles labelled as a rule of thumb, sources), plus how much sleep adults need per CDC/AASM. Competitive (big calculator sites), so the angle is 'and then check it against what your Apple Watch actually recorded', with Nularo for the automatic version. Also target \"bedtime calculator\" (73) on the same page.",
     "priority": 11,
-    "status": "todo",
+    "status": "done",
     "source": "bing-demand-2026-11-18",
-    "download_test": "B"
+    "download_test": "B",
+    "done": "2026-11-23",
+    "slug": "sleep-calculator"
   },
   {
     "keyword": "autosleep alternatives",

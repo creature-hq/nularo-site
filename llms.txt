@@ -5,6 +5,7 @@
 ## Guides
 
 - [Rise sleep app alternatives for iPhone and Apple Watch](https://nularo.com/guides/rise-app-alternatives/): Rise costs $69.99 a year after a 1-week trial. Athlytic ($29.99/yr), Sleep Ledger (free core), AutoSleep ($9.99 once) and Nularo also track sleep debt.
+- [Sleep calculator: when to go to bed and when to wake up](https://nularo.com/guides/sleep-calculator/): Free sleep calculator: enter a wake-up time or a bedtime and get times based on 90-minute cycles, then check them against your Apple Watch.
 - [Pokémon Sleep alternatives for iPhone and Apple Watch](https://nularo.com/guides/pokemon-sleep-alternatives/): Apps like Pokémon Sleep for iPhone: SleepTown ($1.99), Sleepagotchi, Habitvs and Nularo, plus how to play Pokémon Sleep from an Apple Watch instead.
 - [Revenge bedtime procrastination: what it is and how to catch it](https://nularo.com/guides/revenge-bedtime-procrastination/): Revenge bedtime procrastination is staying up late on purpose to win back free time. What the research says, and how to see it in your iPhone data.
 - [How to track sleep on Apple Watch (and fix a blank night)](https://nularo.com/guides/how-to-track-sleep-on-apple-watch/): Turn on Sleep Tracking in the Watch app, charge to 30%, wear it at least an hour. Exact steps for iPhone and watch, where the data shows up, why a night is blank.
