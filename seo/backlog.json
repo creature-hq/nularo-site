@@ -121,9 +121,11 @@
     "nularo_fit": 4,
     "angle": "Rise Science alternatives: what Rise does (sleep debt, energy schedule), its price, and cheaper or different options including Nularo's sleep debt + morning verdict.",
     "priority": 8,
-    "status": "todo",
+    "status": "done",
     "source": "bing-demand-2026-11-18",
-    "download_test": "A"
+    "download_test": "A",
+    "done": "2026-11-23",
+    "slug": "rise-app-alternatives"
   },
   {
     "keyword": "revenge bedtime procrastination",
