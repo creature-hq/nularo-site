@@ -1,41 +1,7 @@
 {
-  "pulled": "2026-11-22",
+  "pulled": "2026-11-23",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "rise app alternative",
-      "priority": 8,
-      "exact_in_autocomplete": false,
-      "rank": null,
-      "suggestion_count": 10,
-      "suggestions": [
-        "rise app alternatives",
-        "rise app alternatives free",
-        "rise app alternatives reddit",
-        "rise sleep app alternative",
-        "rise app free alternative reddit",
-        "rise guide app alternative",
-        "rise science app alternative",
-        "grow alternative app"
-      ]
-    },
-    {
-      "keyword": "revenge bedtime procrastination",
-      "priority": 9,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 10,
-      "suggestions": [
-        "revenge bedtime procrastination",
-        "revenge bedtime procrastination adhd",
-        "revenge bedtime procrastination reddit",
-        "revenge bedtime procrastination chinese",
-        "revenge bedtime procrastination japanese",
-        "revenge bedtime procrastination how to fix",
-        "revenge bedtime procrastination meaning",
-        "revenge bedtime procrastination japanese word"
-      ]
-    },
     {
       "keyword": "bevel app review",
       "priority": 10,
@@ -66,8 +32,8 @@
         "sleep calculator for women",
         "sleep calculator hours",
         "sleep calculator for kids",
-        "sleep calculator by age and gender",
-        "sleep calculator app"
+        "sleep calculator app",
+        "sleep calculator by age and gender"
       ]
     },
     {
@@ -386,8 +352,8 @@
       "suggestions": [
         "apple health age",
         "apple health age feature",
-        "apple health age test",
         "apple health age score",
+        "apple health age test",
         "apple health age where to find",
         "apple health age release date",
         "apple health age calculator",
@@ -487,7 +453,7 @@
         "pokemon sleep apple watch app",
         "pokemon sleep apple watch reddit",
         "pokemon sleep apple watch not working",
-        "pokemon sleep apple watch se"
+        "apple watch se pokemon sleep"
       ]
     },
     {
