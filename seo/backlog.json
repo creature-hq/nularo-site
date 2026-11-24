@@ -153,9 +153,11 @@
     "nularo_fit": 4,
     "angle": "Honest review: what Bevel does, what is free vs Bevel Pro (check price), who it suits; link to bevel-alternative-free; Nularo as the playful option.",
     "priority": 10,
-    "status": "todo",
+    "status": "done",
     "source": "bing-demand-2026-11-18",
-    "download_test": "A"
+    "download_test": "A",
+    "date": "2026-11-24",
+    "guide": "bevel-app-review"
   },
   {
     "keyword": "sleep calculator",

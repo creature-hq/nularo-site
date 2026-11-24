@@ -4,6 +4,7 @@
 
 ## Guides
 
+- [Bevel app review: what is free, what Pro costs, who it suits](https://nularo.com/guides/bevel-app-review/): Bevel's Recovery, Sleep, Strain and Stress scores are free. Pro is $14.99/mo or $99.99/yr for the AI coach, Biological Age, Health Records and, since 3.3, weather.
 - [Rise sleep app alternatives for iPhone and Apple Watch](https://nularo.com/guides/rise-app-alternatives/): Rise costs $69.99 a year after a 1-week trial. Athlytic ($29.99/yr), Sleep Ledger (free core), AutoSleep ($9.99 once) and Nularo also track sleep debt.
 - [Sleep calculator: when to go to bed and when to wake up](https://nularo.com/guides/sleep-calculator/): Free sleep calculator: enter a wake-up time or a bedtime and get times based on 90-minute cycles, then check them against your Apple Watch.
 - [Pokémon Sleep alternatives for iPhone and Apple Watch](https://nularo.com/guides/pokemon-sleep-alternatives/): Apps like Pokémon Sleep for iPhone: SleepTown ($1.99), Sleepagotchi, Habitvs and Nularo, plus how to play Pokémon Sleep from an Apple Watch instead.
