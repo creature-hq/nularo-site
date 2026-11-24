@@ -1,41 +1,7 @@
 {
-  "pulled": "2026-11-23",
+  "pulled": "2026-11-24",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "bevel app review",
-      "priority": 10,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 10,
-      "suggestions": [
-        "bevel app review",
-        "bevel app review reddit",
-        "bevel app review garmin",
-        "bevel app review apple watch",
-        "bevel app review 2025",
-        "bevel app review 2026",
-        "bevel app review vs whoop",
-        "bevel ios review"
-      ]
-    },
-    {
-      "keyword": "sleep calculator",
-      "priority": 11,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 10,
-      "suggestions": [
-        "sleep calculator",
-        "sleep calculator by age",
-        "sleep calculator cycle",
-        "sleep calculator for women",
-        "sleep calculator hours",
-        "sleep calculator for kids",
-        "sleep calculator app",
-        "sleep calculator by age and gender"
-      ]
-    },
     {
       "keyword": "autosleep alternatives",
       "priority": 12,
@@ -317,12 +283,11 @@
       "priority": 106,
       "exact_in_autocomplete": true,
       "rank": 1,
-      "suggestion_count": 5,
+      "suggestion_count": 4,
       "suggestions": [
         "readiness score apple watch series 11",
         "does apple watch series 11 have readiness score",
         "will apple watch series 11 get readiness score",
-        "will apple watch series 11 have readiness score",
         "apple watch readiness score"
       ]
     },
@@ -340,7 +305,7 @@
         "does apple watch track stress and sleep",
         "does apple watch track stress like garmin",
         "does apple watch track stress like whoop",
-        "do apple watches track stress levels"
+        "does apple watch track stress reddit"
       ]
     },
     {
@@ -352,8 +317,8 @@
       "suggestions": [
         "apple health age",
         "apple health age feature",
-        "apple health age score",
         "apple health age test",
+        "apple health age score",
         "apple health age where to find",
         "apple health age release date",
         "apple health age calculator",
@@ -442,18 +407,18 @@
     {
       "keyword": "pokemon sleep without apple watch",
       "priority": 120,
-      "exact_in_autocomplete": true,
-      "rank": 1,
+      "exact_in_autocomplete": false,
+      "rank": null,
       "suggestion_count": 10,
       "suggestions": [
-        "pokemon sleep without apple watch",
         "pokemon sleep no apple watch",
         "pokemon sleep apple watch",
         "pokemon sleep apple watch face",
         "pokemon sleep apple watch app",
         "pokemon sleep apple watch reddit",
         "pokemon sleep apple watch not working",
-        "apple watch se pokemon sleep"
+        "apple watch se pokemon sleep",
+        "pokemon sleep apple watch wallpaper"
       ]
     },
     {
@@ -469,7 +434,7 @@
         "is apple watch 11 sleep score accurate",
         "apple watch sleep score is not accurate",
         "which sleep score is more accurate - garmin or apple watch",
-        "how accurate is my apple watch sleep score",
+        "how accurate is your apple watch sleep score",
         "is apple watch sleep accurate"
       ]
     },
@@ -490,12 +455,6 @@
       "best_rank": 1
     },
     {
-      "phrase": "apple health age limit",
-      "cluster": "body-age",
-      "seen": 4,
-      "best_rank": 2
-    },
-    {
       "phrase": "finch app alternative reddit",
       "cluster": "alternatives",
       "seen": 4,
@@ -504,6 +463,12 @@
     {
       "phrase": "is there a tamagotchi app",
       "cluster": "health-pets",
+      "seen": 3,
+      "best_rank": 2
+    },
+    {
+      "phrase": "apple health age limit",
+      "cluster": "body-age",
       "seen": 3,
       "best_rank": 2
     },
