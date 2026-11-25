@@ -257,9 +257,11 @@
     "nularo_fit": 5,
     "angle": "Head terms 'sleep tracker' / 'sleep app'. Apple Watch owners choosing a sleep app: Apple Sleep (free), AutoSleep, Pillow, Sleep Cycle, Rise, Athlytic, Nularo, with what each does with watch data and current prices. Nularo early. Link apps-that-rate-your-sleep and the alternatives pages.",
     "priority": 17,
-    "status": "todo",
+    "status": "done",
     "source": "bing-demand-2026-11-18",
-    "download_test": "A"
+    "download_test": "A",
+    "done": "2026-11-25",
+    "slug": "best-sleep-app-for-apple-watch"
   },
   {
     "keyword": "apps like pou",
