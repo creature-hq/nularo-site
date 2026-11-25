@@ -1,5 +1,5 @@
 {
-  "pulled": "2026-11-24",
+  "pulled": "2026-11-25",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
     {
@@ -51,14 +51,6 @@
       ]
     },
     {
-      "keyword": "habit tracker that tracks itself",
-      "priority": 16,
-      "exact_in_autocomplete": false,
-      "rank": null,
-      "suggestion_count": 0,
-      "suggestions": []
-    },
-    {
       "keyword": "best sleep app for apple watch",
       "priority": 17,
       "exact_in_autocomplete": true,
@@ -74,14 +66,6 @@
         "best sleep app for apple watch ultra",
         "best sleep app for apple watch 11"
       ]
-    },
-    {
-      "keyword": "apps like pou",
-      "priority": 18,
-      "exact_in_autocomplete": false,
-      "rank": null,
-      "suggestion_count": 0,
-      "suggestions": []
     },
     {
       "keyword": "how much sleep do i need",
