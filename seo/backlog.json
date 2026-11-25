@@ -241,9 +241,11 @@
     "nularo_fit": 5,
     "angle": "Head term is 'habit tracker app'. For people tired of ticking boxes: habit trackers that fill themselves in from Apple Health (steps, sleep, workouts) vs manual ones (Streaks, HabitKit, Habitica, Finch; verify prices). Nularo early as the zero-input option for sleep and movement habits, honest that it does not track arbitrary habits.",
     "priority": 16,
-    "status": "todo",
+    "status": "done",
     "source": "bing-demand-2026-11-18",
-    "download_test": "A"
+    "download_test": "A",
+    "done": "2026-11-25",
+    "slug": "habit-tracker-app-apple-health"
   },
   {
     "keyword": "best sleep app for apple watch",
