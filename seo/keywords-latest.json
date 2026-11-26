@@ -1,5 +1,5 @@
 {
-  "pulled": "2026-11-25",
+  "pulled": "2026-11-26",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
     {
@@ -34,40 +34,6 @@
       ]
     },
     {
-      "keyword": "bed rotting",
-      "priority": 15,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 10,
-      "suggestions": [
-        "bed rotting",
-        "bed rotting meaning",
-        "bed rotting meme",
-        "bed rotting depression",
-        "bed rotting reddit",
-        "bed rotting room",
-        "bed rotting symptoms",
-        "bed rotting gif"
-      ]
-    },
-    {
-      "keyword": "best sleep app for apple watch",
-      "priority": 17,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 10,
-      "suggestions": [
-        "best sleep app for apple watch",
-        "best sleep app for apple watch 2026",
-        "best sleep app for apple watch reddit",
-        "best sleep app for apple watch se",
-        "best sleep app for apple watch 2025",
-        "best sleep app for apple watch ultra 3",
-        "best sleep app for apple watch ultra",
-        "best sleep app for apple watch 11"
-      ]
-    },
-    {
       "keyword": "how much sleep do i need",
       "priority": 19,
       "exact_in_autocomplete": true,
@@ -76,11 +42,11 @@
       "suggestions": [
         "how much sleep do i need",
         "how much sleep do i need calculator",
-        "how much sleep do i need for muscle growth",
         "how much sleep do i need to lose weight",
         "how much sleep do i need a night",
         "how much sleep do i need quiz",
-        "how much sleep do i need when pregnant",
+        "how much sleep do i need for muscle growth",
+        "how much sleep do i need pregnant",
         "how much sleep do i need to grow taller"
       ]
     },
@@ -301,9 +267,9 @@
       "suggestions": [
         "apple health age",
         "apple health age feature",
+        "apple health age where to find",
         "apple health age test",
         "apple health age score",
-        "apple health age where to find",
         "apple health age release date",
         "apple health age calculator",
         "apple health age reddit"
@@ -457,6 +423,12 @@
       "best_rank": 2
     },
     {
+      "phrase": "does sleep cycle app work for couples",
+      "cluster": "together-and-who",
+      "seen": 3,
+      "best_rank": 2
+    },
+    {
       "phrase": "does apple watch have resting heart rate",
       "cluster": "recovery-scores",
       "seen": 3,
@@ -471,6 +443,12 @@
     {
       "phrase": "apple watch sleep score",
       "cluster": "watch-sleep",
+      "seen": 3,
+      "best_rank": 4
+    },
+    {
+      "phrase": "revenge bedtime procrastination definition",
+      "cluster": "bedtime-culture",
       "seen": 3,
       "best_rank": 4
     },
@@ -505,12 +483,6 @@
       "best_rank": 1
     },
     {
-      "phrase": "tamagotchi app for apple watch",
-      "cluster": "health-pets",
-      "seen": 2,
-      "best_rank": 1
-    },
-    {
       "phrase": "gamified habit app reddit",
       "cluster": "health-pets",
       "seen": 2,
@@ -529,13 +501,13 @@
       "best_rank": 1
     },
     {
-      "phrase": "sleep score apple watch app",
+      "phrase": "sleep score apple watch reddit",
       "cluster": "watch-sleep",
       "seen": 2,
       "best_rank": 1
     },
     {
-      "phrase": "sleep score apple watch reddit",
+      "phrase": "sleep score apple watch app",
       "cluster": "watch-sleep",
       "seen": 2,
       "best_rank": 1
@@ -595,7 +567,7 @@
       "best_rank": 1
     },
     {
-      "phrase": "readiness score apple watch reddit",
+      "phrase": "readiness score apple watch where to find",
       "cluster": "recovery-scores",
       "seen": 2,
       "best_rank": 1
@@ -625,7 +597,19 @@
       "best_rank": 1
     },
     {
+      "phrase": "finch app vs fabulous app",
+      "cluster": "alternatives",
+      "seen": 2,
+      "best_rank": 1
+    },
+    {
       "phrase": "finch alternative app",
+      "cluster": "alternatives",
+      "seen": 2,
+      "best_rank": 1
+    },
+    {
+      "phrase": "bevel app apple watch",
       "cluster": "alternatives",
       "seen": 2,
       "best_rank": 1
@@ -645,12 +629,6 @@
     {
       "phrase": "habitica vs finch",
       "cluster": "alternatives",
-      "seen": 2,
-      "best_rank": 1
-    },
-    {
-      "phrase": "revenge bedtime procrastination reddit",
-      "cluster": "bedtime-culture",
       "seen": 2,
       "best_rank": 1
     },
@@ -727,7 +705,7 @@
       "best_rank": 2
     },
     {
-      "phrase": "finch app vs fabulous app",
+      "phrase": "finch app reddit review",
       "cluster": "alternatives",
       "seen": 2,
       "best_rank": 2
@@ -776,18 +754,6 @@
     },
     {
       "phrase": "apple watch petite wrist",
-      "cluster": "health-pets",
-      "seen": 2,
-      "best_rank": 3
-    },
-    {
-      "phrase": "best apple watch pet app",
-      "cluster": "health-pets",
-      "seen": 2,
-      "best_rank": 3
-    },
-    {
-      "phrase": "apple health benefits for dogs",
       "cluster": "health-pets",
       "seen": 2,
       "best_rank": 3
