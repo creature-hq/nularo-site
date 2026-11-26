@@ -227,9 +227,11 @@
     "nularo_fit": 3,
     "angle": "What the bed rotting trend is (cite reporting, no medical claims), what it does and does not show up as in Apple Health (time in bed vs asleep, steps), and Nularo's morning verdict as the honest mirror. Keep it fun, not preachy.",
     "priority": 15,
-    "status": "todo",
+    "status": "done",
     "source": "bing-demand-2026-11-18",
-    "download_test": "B"
+    "download_test": "B",
+    "done": "2026-11-26",
+    "slug": "bed-rotting"
   },
   {
     "keyword": "habit tracker that tracks itself",
