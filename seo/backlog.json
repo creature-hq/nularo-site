@@ -2746,5 +2746,26 @@
     "done": "2026-11-19",
     "slug": "how-to-fix-sleep-schedule",
     "source": "reddit"
+  },
+  {
+    "keyword": "whoop subscription",
+    "cluster": "alternatives",
+    "intent": "app hunting (cost, renew or cancel)",
+    "evidence": "VERIFIED: whoop subscription 213, whoop app 288, whoop 34371 [Bing US 3-month searches in seo/demand.json (2026-11-18)]; reddit-latest 2026-11-26 Black Friday renewal theme across 3 titles ('Renewing at Black Friday price every year', 'WHOOP Black Friday membership renewal or extension?', 'Is that it for Black Friday?')",
+    "serp_top": [
+      "ww2.whoop.com",
+      "techcrunch.com",
+      "t3.com",
+      "techradar.com",
+      "engadget.com"
+    ],
+    "difficulty": "INFERENCE: medium; SERP is old launch news and press, no page puts price, renewal, pause, refund, export and the Apple Watch route together",
+    "nularo_fit": 3,
+    "angle": "Price table, auto-renew and 30-day reminder, trial conversion, Black Friday facts WHOOP confirmed, cancel/pause/refund/export steps, then the Apple Watch route with Nularo by the middle.",
+    "priority": 125,
+    "status": "done",
+    "done": "2026-11-27",
+    "slug": "whoop-subscription",
+    "source": "trending"
   }
 ]
