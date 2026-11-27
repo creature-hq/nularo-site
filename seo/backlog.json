@@ -185,9 +185,11 @@
     "nularo_fit": 3,
     "angle": "AutoSleep alternatives for people who find it too dense: Apple's own Sleep, Pillow, Sleep Cycle, Athlytic, Nularo. Link apple-sleep-score-vs-autosleep.",
     "priority": 12,
-    "status": "todo",
+    "status": "done",
     "source": "bing-demand-2026-11-18",
-    "download_test": "A"
+    "download_test": "A",
+    "done": "2026-11-27",
+    "slug": "autosleep-alternatives"
   },
   {
     "keyword": "widgetable alternatives",
