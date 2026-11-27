@@ -1,15 +1,7 @@
 {
-  "pulled": "2026-11-26",
+  "pulled": "2026-11-27",
   "source": "Google Autocomplete (US, English)",
   "backlog_demand": [
-    {
-      "keyword": "autosleep alternatives",
-      "priority": 12,
-      "exact_in_autocomplete": false,
-      "rank": null,
-      "suggestion_count": 0,
-      "suggestions": []
-    },
     {
       "keyword": "widgetable alternatives",
       "priority": 13,
@@ -18,19 +10,6 @@
       "suggestion_count": 1,
       "suggestions": [
         "widgetable alternatives"
-      ]
-    },
-    {
-      "keyword": "fabulous app alternatives",
-      "priority": 14,
-      "exact_in_autocomplete": true,
-      "rank": 1,
-      "suggestion_count": 4,
-      "suggestions": [
-        "fabulous app alternatives",
-        "fabulous app alternative reddit",
-        "fabulous app alternative free",
-        "apps like fabulous but free"
       ]
     },
     {
@@ -705,12 +684,6 @@
       "best_rank": 2
     },
     {
-      "phrase": "finch app reddit review",
-      "cluster": "alternatives",
-      "seen": 2,
-      "best_rank": 2
-    },
-    {
       "phrase": "athlytic app review",
       "cluster": "alternatives",
       "seen": 2,
@@ -754,6 +727,12 @@
     },
     {
       "phrase": "apple watch petite wrist",
+      "cluster": "health-pets",
+      "seen": 2,
+      "best_rank": 3
+    },
+    {
+      "phrase": "best apple watch pet app",
       "cluster": "health-pets",
       "seen": 2,
       "best_rank": 3
