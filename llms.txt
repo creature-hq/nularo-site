@@ -4,6 +4,7 @@
 
 ## Guides
 
+- [How much sleep do I need? And how to check you get it](https://nularo.com/guides/how-much-sleep-do-i-need/): Adults 18 to 60 need 7 or more hours a night, teens 8 to 10. The full CDC table by age, and how to check your real Time Asleep on Apple Watch.
 - [AutoSleep alternatives for Apple Watch, sorted by why you left](https://nularo.com/guides/autosleep-alternatives/): Too many rings, or Apple's free Sleep Score is enough? 8 AutoSleep alternatives with November 2026 prices, and how to switch without duplicate nights.
 - [WHOOP subscription: what it costs, renewals and how to cancel](https://nularo.com/guides/whoop-subscription/): WHOOP is $199, $239 or $359 a year, paid upfront and auto-renewed. How renewal, pausing, cancelling and refunds work, and the cheaper Apple Watch route.
 - [Bed rotting: what it is, and what it looks like in your data](https://nularo.com/guides/bed-rotting/): Bed rotting means spending a day in bed scrolling or watching TV. What the 2025 sleep survey found, and how a bed rot day shows up in Apple Health.
@@ -37,7 +38,7 @@
 - [Does Apple Watch resting heart rate include sleep?](https://nularo.com/guides/does-apple-watch-resting-heart-rate-include-sleep/): No. Apple Watch resting heart rate leaves out readings taken while you sleep, so it runs higher than the overnight number Oura, Whoop or Garmin show.
 - [Does Apple Watch track HRV during sleep? How to see your night HRV](https://nularo.com/guides/apple-watch-hrv-during-sleep/): Yes, but most watches take only a few HRV readings a night. Series 12 and Ultra 4 sample far more often and show overnight HRV in Vitals.
 - [Does Apple Watch have a recovery score? Three things called recovery](https://nularo.com/guides/does-apple-watch-have-recovery-score/): Only Series 12 and Ultra 4 get one: Readiness, a 0-10 score. Every watch since watchOS 9 has Cardio Recovery, which is a heart rate drop, not a score.
-- [Apple Sleep Score vs AutoSleep: what each one grades](https://nularo.com/guides/apple-sleep-score-vs-autosleep/): Apple's free Sleep Score grades duration, bedtime and interruptions. AutoSleep's $9.99 Sleep Rating grades you against goals you set. Which to keep.
+- [Apple Sleep Score vs AutoSleep: what each one grades](https://nularo.com/guides/apple-sleep-score-vs-autosleep/): AutoSleep vs Apple Sleep: Apple's free Sleep Score grades duration, bedtime and interruptions; AutoSleep ($9.99) grades you against your own goals.
 - [Apple Watch sleep graph explained: stages, gaps and views](https://nularo.com/guides/apple-watch-sleep-graph-explained/): How to read the Apple Watch sleep graph in Health: what Awake, REM, Core and Deep mean, why the night steps up and down, and which parts to trust.
 - [Apple Watch time in bed: why it is missing or shorter than sleep](https://nularo.com/guides/apple-watch-time-in-bed/): Apple stopped recording Time in Bed on watchOS 11 and iOS 18. Here is why old nights can show less time in bed than asleep, and what to check instead.
 - [Free Bevel alternatives: what you can replace without paying](https://nularo.com/guides/bevel-alternative-free/): Bevel's tracking is still free. Pro ($99.99/yr) adds AI, Biological Age and Health Records, and Apple or cheaper apps cover most of that for free.

@@ -295,9 +295,11 @@
     "nularo_fit": 4,
     "angle": "CDC/AASM guidance by age (cite, no medical advice), how to compare it with what your Apple Watch recorded (Health > Sleep), and sleep debt when you fall short. Nularo for the automatic version. Link sleep-debt-calculator and the sleep calculator page.",
     "priority": 19,
-    "status": "todo",
+    "status": "done",
     "source": "bing-demand-2026-11-18",
-    "download_test": "B"
+    "download_test": "B",
+    "done": "2026-11-28",
+    "slug": "how-much-sleep-do-i-need"
   },
   {
     "keyword": "streaks app alternatives",
